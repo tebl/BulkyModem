@@ -21,7 +21,7 @@ AR Path="/637E1867" Ref="U?"  Part="2"
 AR Path="/6379233A/637E1867" Ref="U2"  Part="2" 
 F 0 "U2" H 8825 3217 50  0000 C CNN
 F 1 "74HCT04" H 8825 3126 50  0000 C CNN
-F 2 "" H 8825 2900 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 8825 2900 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 8825 2900 50  0001 C CNN
 	2    8825 2900
 	-1   0    0    1   
@@ -34,7 +34,7 @@ AR Path="/637E186D" Ref="U?"  Part="4"
 AR Path="/6379233A/637E186D" Ref="U2"  Part="4" 
 F 0 "U2" H 8425 4842 50  0000 C CNN
 F 1 "74HCT04" H 8425 4751 50  0000 C CNN
-F 2 "" H 8425 4525 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 8425 4525 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 8425 4525 50  0001 C CNN
 	4    8425 4525
 	1    0    0    -1  
@@ -47,7 +47,7 @@ AR Path="/637E1873" Ref="U?"  Part="5"
 AR Path="/6379233A/637E1873" Ref="U2"  Part="5" 
 F 0 "U2" H 8450 5467 50  0000 C CNN
 F 1 "74HCT04" H 8450 5376 50  0000 C CNN
-F 2 "" H 8450 5150 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 8450 5150 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 8450 5150 50  0001 C CNN
 	5    8450 5150
 	1    0    0    -1  
@@ -149,7 +149,7 @@ AR Path="/637E18BF" Ref="U?"  Part="3"
 AR Path="/6379233A/637E18BF" Ref="U2"  Part="3" 
 F 0 "U2" H 8825 3842 50  0000 C CNN
 F 1 "74HCT04" H 8825 3751 50  0000 C CNN
-F 2 "" H 8825 3525 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 8825 3525 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 8825 3525 50  0001 C CNN
 	3    8825 3525
 	-1   0    0    1   
@@ -162,7 +162,7 @@ AR Path="/637E18C5" Ref="JP?"  Part="1"
 AR Path="/6379233A/637E18C5" Ref="JP8"  Part="1" 
 F 0 "JP8" V 8004 3168 50  0000 L CNN
 F 1 "INV_TX" V 8095 3168 50  0000 L CNN
-F 2 "" H 8050 3100 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm" H 8050 3100 50  0001 C CNN
 F 3 "~" H 8050 3100 50  0001 C CNN
 	1    8050 3100
 	0    1    1    0   
@@ -183,7 +183,7 @@ AR Path="/637E18CF" Ref="JP?"  Part="1"
 AR Path="/6379233A/637E18CF" Ref="JP9"  Part="1" 
 F 0 "JP9" V 8004 3793 50  0000 L CNN
 F 1 "INV_RTS" V 8095 3793 50  0000 L CNN
-F 2 "" H 8050 3725 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm" H 8050 3725 50  0001 C CNN
 F 3 "~" H 8050 3725 50  0001 C CNN
 	1    8050 3725
 	0    1    1    0   
@@ -264,7 +264,7 @@ AR Path="/637E18FB" Ref="JP?"  Part="1"
 AR Path="/6379233A/637E18FB" Ref="JP5"  Part="1" 
 F 0 "JP5" H 3750 4450 50  0000 C CNN
 F 1 "CTS_SEL" H 3750 4529 50  0000 C CNN
-F 2 "" H 3750 4325 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm" H 3750 4325 50  0001 C CNN
 F 3 "~" H 3750 4325 50  0001 C CNN
 	1    3750 4325
 	-1   0    0    1   
@@ -277,7 +277,7 @@ AR Path="/637E1901" Ref="JP?"  Part="1"
 AR Path="/6379233A/637E1901" Ref="JP6"  Part="1" 
 F 0 "JP6" H 4300 4050 50  0000 C CNN
 F 1 "RTS_SEL" H 4300 4175 50  0000 C CNN
-F 2 "" H 4300 3925 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm" H 4300 3925 50  0001 C CNN
 F 3 "~" H 4300 3925 50  0001 C CNN
 	1    4300 3925
 	-1   0    0    1   
@@ -290,7 +290,7 @@ AR Path="/637E190D" Ref="JP?"  Part="1"
 AR Path="/6379233A/637E190D" Ref="JP4"  Part="1" 
 F 0 "JP4" H 3200 3838 50  0000 C CNN
 F 1 "TxD_SEL" H 3200 3929 50  0000 C CNN
-F 2 "" H 3200 3725 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm" H 3200 3725 50  0001 C CNN
 F 3 "~" H 3200 3725 50  0001 C CNN
 	1    3200 3725
 	-1   0    0    1   
@@ -347,7 +347,7 @@ AR Path="/637E192F" Ref="JP?"  Part="1"
 AR Path="/6379233A/637E192F" Ref="JP11"  Part="1" 
 F 0 "JP11" V 9271 5017 50  0000 L CNN
 F 1 "INV_CTS" V 9180 5017 50  0000 L CNN
-F 2 "" H 9225 4950 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm" H 9225 4950 50  0001 C CNN
 F 3 "~" H 9225 4950 50  0001 C CNN
 	1    9225 4950
 	0    -1   -1   0   
@@ -360,7 +360,7 @@ AR Path="/637E1935" Ref="JP?"  Part="1"
 AR Path="/6379233A/637E1935" Ref="JP10"  Part="1" 
 F 0 "JP10" V 9246 4392 50  0000 L CNN
 F 1 "INV_RX" V 9155 4392 50  0000 L CNN
-F 2 "" H 9200 4325 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm" H 9200 4325 50  0001 C CNN
 F 3 "~" H 9200 4325 50  0001 C CNN
 	1    9200 4325
 	0    -1   -1   0   
@@ -373,7 +373,7 @@ AR Path="/637EF808" Ref="J?"  Part="1"
 AR Path="/6379233A/637EF808" Ref="J2"  Part="1" 
 F 0 "J2" H 1913 2417 50  0000 C CNN
 F 1 "DCE" H 1913 2326 50  0000 C CNN
-F 2 "" H 1925 1725 50  0001 C CNN
+F 2 "RND_DSUB:DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm" H 1925 1725 50  0001 C CNN
 F 3 " ~" H 1925 1725 50  0001 C CNN
 	1    1925 1725
 	-1   0    0    -1  
@@ -443,7 +443,7 @@ AR Path="/637E1907" Ref="JP?"  Part="1"
 AR Path="/6379233A/637E1907" Ref="JP3"  Part="1" 
 F 0 "JP3" H 2650 4250 50  0000 C CNN
 F 1 "RxD_SEL" H 2650 4329 50  0000 C CNN
-F 2 "" H 2650 4125 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm" H 2650 4125 50  0001 C CNN
 F 3 "~" H 2650 4125 50  0001 C CNN
 	1    2650 4125
 	-1   0    0    1   
@@ -470,7 +470,7 @@ U 1 1 63E8A978
 P 7275 2875
 F 0 "C5" H 7363 2921 50  0000 L CNN
 F 1 "1uF" H 7363 2830 50  0000 L CNN
-F 2 "" H 7275 2875 50  0001 C CNN
+F 2 "BulkyModem:CP_Radial_D4.0mm_P2.00mm_Custom" H 7275 2875 50  0001 C CNN
 F 3 "~" H 7275 2875 50  0001 C CNN
 	1    7275 2875
 	1    0    0    -1  
@@ -481,7 +481,7 @@ U 1 1 63E8F2C2
 P 5325 2875
 F 0 "C3" H 5413 2921 50  0000 L CNN
 F 1 "1uF" H 5413 2830 50  0000 L CNN
-F 2 "" H 5325 2875 50  0001 C CNN
+F 2 "BulkyModem:CP_Radial_D4.0mm_P2.00mm_Custom" H 5325 2875 50  0001 C CNN
 F 3 "~" H 5325 2875 50  0001 C CNN
 	1    5325 2875
 	1    0    0    -1  
@@ -503,7 +503,7 @@ U 1 1 63E92639
 P 5325 4750
 F 0 "C4" H 5237 4704 50  0000 R CNN
 F 1 "1uF" H 5237 4795 50  0000 R CNN
-F 2 "" H 5325 4750 50  0001 C CNN
+F 2 "BulkyModem:CP_Radial_D4.0mm_P2.00mm_Custom" H 5325 4750 50  0001 C CNN
 F 3 "~" H 5325 4750 50  0001 C CNN
 	1    5325 4750
 	-1   0    0    1   

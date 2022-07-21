@@ -3,4 +3,7 @@
   (lib (name Jumper)(type KiCad)(uri ${KISYSMOD}/Jumper.pretty)(options "")(descr ""))
   (lib (name artwork)(type KiCad)(uri $KIPRJMOD/../common/modules/artwork.pretty)(options "")(descr ""))
   (lib (name BulkyModem)(type KiCad)(uri $KIPRJMOD/../common/modules/BulkyModem.pretty)(options "")(descr ""))
+  (lib (name RND_DSUB)(type KiCad)(uri $KIPRJMOD/../common/modules/RND_DSUB.pretty)(options "")(descr ""))
+  (lib (name HK19F-DC)(type KiCad)(uri $KIPRJMOD/../common/modules/HK19F-DC.pretty)(options "")(descr ""))
+  (lib (name resistor)(type KiCad)(uri $KIPRJMOD/../common/modules/resistor.pretty)(options "")(descr ""))
 )

@@ -21,7 +21,7 @@ AR Path="/63D96462" Ref="K?"  Part="1"
 AR Path="/63D786E4/63D96462" Ref="K1"  Part="1" 
 F 0 "K1" H 8150 3700 50  0000 L CNN
 F 1 "HK19F-DC" H 8150 3600 50  0000 L CNN
-F 2 "" H 8075 3775 50  0001 C CNN
+F 2 "HK19F-DC:HK19F-DC" H 8075 3775 50  0001 C CNN
 F 3 "" H 8075 3775 50  0001 C CNN
 	1    7225 3650
 	1    0    0    -1  
@@ -49,7 +49,7 @@ AR Path="/63D96470" Ref="D?"  Part="1"
 AR Path="/63D786E4/63D96470" Ref="D1"  Part="1" 
 F 0 "D1" V 6800 3400 50  0000 L CNN
 F 1 "1n4148" V 6875 3300 50  0000 L CNN
-F 2 "" H 6875 3650 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6875 3650 50  0001 C CNN
 F 3 "~" H 6875 3650 50  0001 C CNN
 	1    6875 3650
 	0    1    1    0   
@@ -76,7 +76,7 @@ AR Path="/63D9647F" Ref="JP?"  Part="1"
 AR Path="/63D786E4/63D9647F" Ref="JP2"  Part="1" 
 F 0 "JP2" H 7725 3361 31  0000 C CNN
 F 1 "BYPASS" H 7725 3299 31  0000 C CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm" H 7725 3200 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 7725 3200 50  0001 C CNN
 F 3 "~" H 7725 3200 50  0001 C CNN
 	1    7725 3200
 	1    0    0    -1  
@@ -131,7 +131,7 @@ AR Path="/63D9649A" Ref="JP?"  Part="1"
 AR Path="/63D786E4/63D9649A" Ref="JP1"  Part="1" 
 F 0 "JP1" V 7275 4650 50  0000 R CNN
 F 1 "PWR_SW" V 7200 4725 50  0000 R CNN
-F 2 "" H 7225 4375 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 7225 4375 50  0001 C CNN
 F 3 "~" H 7225 4375 50  0001 C CNN
 	1    7225 4375
 	0    -1   -1   0   
@@ -319,7 +319,7 @@ AR Path="/63DAB4C4" Ref="U?"  Part="7"
 AR Path="/63D786E4/63DAB4C4" Ref="U2"  Part="7" 
 F 0 "U2" H 4875 4075 50  0000 C CNN
 F 1 "74HCT04" H 4875 3975 50  0000 C CNN
-F 2 "" H 4875 4025 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 4875 4025 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 4875 4025 50  0001 C CNN
 	7    4875 4025
 	1    0    0    -1  

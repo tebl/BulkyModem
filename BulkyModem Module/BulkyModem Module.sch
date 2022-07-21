@@ -64,7 +64,7 @@ U 1 1 62E1BEF8
 P 8425 3800
 F 0 "A1" H 8425 4887 60  0000 C CNN
 F 1 "NodeMCU_v3" H 8425 4781 60  0000 C CNN
-F 2 "" H 7825 2950 60  0000 C CNN
+F 2 "" H 7825 2950 60  0001 C CNN
 F 3 "" H 7825 2950 60  0000 C CNN
 	1    8425 3800
 	1    0    0    -1  
@@ -167,7 +167,7 @@ Text GLabel 9450 4300 2    50   Output ~ 0
 ESP_TX
 Wire Wire Line
 	9225 4300 9450 4300
-Text GLabel 10375 4200 2    50   Input ~ 0
+Text GLabel 10450 4200 2    50   Input ~ 0
 ESP_RX
 $Comp
 L 74xx:74HCT244 U1
@@ -175,7 +175,7 @@ U 1 1 62F8565C
 P 4125 4950
 F 0 "U1" H 3875 5600 50  0000 C CNN
 F 1 "74HCT244" H 4350 5600 50  0000 C CNN
-F 2 "" H 4125 4950 50  0001 C CNN
+F 2 "Package_DIP:DIP-20_W7.62mm_Socket_LongPads" H 4125 4950 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT244.pdf" H 4125 4950 50  0001 C CNN
 	1    4125 4950
 	1    0    0    -1  
@@ -204,34 +204,22 @@ F 3 "" H 4125 5825 50  0001 C CNN
 $EndComp
 $Comp
 L 74xx:74HCT04 U2
-U 1 1 62F91C25
-P 6125 7225
-F 0 "U2" H 6125 7542 50  0000 C CNN
-F 1 "74HCT04" H 6125 7451 50  0000 C CNN
-F 2 "" H 6125 7225 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 6125 7225 50  0001 C CNN
-	1    6125 7225
-	0    -1   -1   0   
-$EndComp
-$Comp
-L 74xx:74HCT04 U2
 U 6 1 62F95922
 P 6650 7225
 F 0 "U2" H 6650 7542 50  0000 C CNN
 F 1 "74HCT04" H 6650 7451 50  0000 C CNN
-F 2 "" H 6650 7225 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 6650 7225 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 6650 7225 50  0001 C CNN
 	6    6650 7225
 	0    -1   -1   0   
 $EndComp
-Text GLabel 10375 3200 2    50   Input ~ 0
+Text GLabel 10450 3200 2    50   Input ~ 0
 ESP_CTS
 Text GLabel 9450 3300 2    50   Output ~ 0
 ESP_RTS
 Wire Wire Line
 	9225 3300 9450 3300
 NoConn ~ 6650 6925
-NoConn ~ 6125 6925
 $Sheet
 S 1325 750  1025 700 
 U 6379233A
@@ -327,21 +315,9 @@ Wire Wire Line
 Wire Wire Line
 	2525 5150 3625 5150
 Wire Wire Line
-	4625 4750 5350 4750
-Wire Wire Line
-	4625 4650 4700 4650
-Wire Wire Line
-	4700 4650 4700 5150
+	4625 4750 4700 4750
 Wire Wire Line
 	4625 5150 4700 5150
-Connection ~ 4700 4650
-Wire Wire Line
-	4775 5050 4775 4650
-Connection ~ 4775 4650
-Wire Wire Line
-	4775 4650 5350 4650
-Wire Wire Line
-	4700 4650 4775 4650
 Wire Wire Line
 	4625 5050 4775 5050
 Entry Wire Line
@@ -407,8 +383,8 @@ P 10225 3200
 AR Path="/6390AE73/63E1B523" Ref="R?"  Part="1" 
 AR Path="/63E1B523" Ref="R19"  Part="1" 
 F 0 "R19" V 10018 3200 50  0000 C CNN
-F 1 "470" V 10109 3200 50  0000 C CNN
-F 2 "" V 10155 3200 50  0001 C CNN
+F 1 "1k" V 10109 3200 50  0000 C CNN
+F 2 "resistor:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 10155 3200 50  0001 C CNN
 F 3 "~" H 10225 3200 50  0001 C CNN
 	1    10225 3200
 	0    1    1    0   
@@ -420,8 +396,8 @@ P 10225 4200
 AR Path="/6390AE73/63E1D8A2" Ref="R?"  Part="1" 
 AR Path="/63E1D8A2" Ref="R20"  Part="1" 
 F 0 "R20" V 10018 4200 50  0000 C CNN
-F 1 "470" V 10109 4200 50  0000 C CNN
-F 2 "" V 10155 4200 50  0001 C CNN
+F 1 "1k" V 10109 4200 50  0000 C CNN
+F 2 "resistor:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 10155 4200 50  0001 C CNN
 F 3 "~" H 10225 4200 50  0001 C CNN
 	1    10225 4200
 	0    1    1    0   
@@ -433,8 +409,8 @@ P 10000 3425
 AR Path="/6390AE73/63E1DF8E" Ref="R?"  Part="1" 
 AR Path="/63E1DF8E" Ref="R17"  Part="1" 
 F 0 "R17" H 9930 3379 50  0000 R CNN
-F 1 "1k" H 9930 3470 50  0000 R CNN
-F 2 "" V 9930 3425 50  0001 C CNN
+F 1 "2k" H 9930 3470 50  0000 R CNN
+F 2 "resistor:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 9930 3425 50  0001 C CNN
 F 3 "~" H 10000 3425 50  0001 C CNN
 	1    10000 3425
 	-1   0    0    1   
@@ -450,8 +426,8 @@ P 10000 4425
 AR Path="/6390AE73/63E2105A" Ref="R?"  Part="1" 
 AR Path="/63E2105A" Ref="R18"  Part="1" 
 F 0 "R18" H 9930 4379 50  0000 R CNN
-F 1 "1k" H 9930 4470 50  0000 R CNN
-F 2 "" V 9930 4425 50  0001 C CNN
+F 1 "2k" H 9930 4470 50  0000 R CNN
+F 2 "resistor:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 9930 4425 50  0001 C CNN
 F 3 "~" H 10000 4425 50  0001 C CNN
 	1    10000 4425
 	-1   0    0    1   
@@ -489,88 +465,7 @@ F 3 "" H 10000 4575 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3475 5750 3475 5825
-$Comp
-L Device:Jumper_NO_Small JP12
-U 1 1 63E334A2
-P 3475 5650
-AR Path="/63E334A2" Ref="JP12"  Part="1" 
-AR Path="/63D786E4/63E334A2" Ref="JP?"  Part="1" 
-F 0 "JP12" V 3525 5600 50  0000 R CNN
-F 1 "C64_EN" V 3450 5600 50  0000 R CNN
-F 2 "" H 3475 5650 50  0001 C CNN
-F 3 "~" H 3475 5650 50  0001 C CNN
-	1    3475 5650
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	3300 5750 3300 5825
-$Comp
-L Device:Jumper_NO_Small JP7
-U 1 1 63E3925D
-P 3300 5650
-AR Path="/63E3925D" Ref="JP7"  Part="1" 
-AR Path="/63D786E4/63E3925D" Ref="JP?"  Part="1" 
-F 0 "JP7" V 3350 5850 50  0000 R CNN
-F 1 "232_EN" V 3275 6000 50  0000 R CNN
-F 2 "" H 3300 5650 50  0001 C CNN
-F 3 "~" H 3300 5650 50  0001 C CNN
-	1    3300 5650
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR04
-U 1 1 63E3349C
-P 3475 5825
-AR Path="/63E3349C" Ref="#PWR04"  Part="1" 
-AR Path="/63D786E4/63E3349C" Ref="#PWR?"  Part="1" 
-F 0 "#PWR04" H 3475 5575 50  0001 C CNN
-F 1 "GND" H 3480 5652 50  0000 C CNN
-F 2 "" H 3475 5825 50  0001 C CNN
-F 3 "" H 3475 5825 50  0001 C CNN
-	1    3475 5825
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR02
-U 1 1 63E39257
-P 3300 5825
-AR Path="/63E39257" Ref="#PWR02"  Part="1" 
-AR Path="/63D786E4/63E39257" Ref="#PWR?"  Part="1" 
-F 0 "#PWR02" H 3300 5575 50  0001 C CNN
-F 1 "GND" H 3305 5652 50  0000 C CNN
-F 2 "" H 3300 5825 50  0001 C CNN
-F 3 "" H 3300 5825 50  0001 C CNN
-	1    3300 5825
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
 	4125 5825 4125 5750
-Wire Wire Line
-	3300 5550 3300 5350
-Wire Wire Line
-	3300 5350 3625 5350
-Wire Wire Line
-	3225 5350 3300 5350
-Connection ~ 3300 5350
-Wire Wire Line
-	3225 5450 3475 5450
-Wire Wire Line
-	3475 5450 3475 5550
-Connection ~ 3475 5450
-Wire Wire Line
-	3475 5450 3625 5450
-$Comp
-L power:GND #PWR0137
-U 1 1 63E5BB2D
-P 6125 7525
-F 0 "#PWR0137" H 6125 7275 50  0001 C CNN
-F 1 "GND" H 6130 7352 50  0000 C CNN
-F 2 "" H 6125 7525 50  0001 C CNN
-F 3 "" H 6125 7525 50  0001 C CNN
-	1    6125 7525
-	-1   0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR0138
 U 1 1 63E5C8FB
@@ -592,4 +487,35 @@ Wire Wire Line
 	4625 4450 5725 4450
 Text Notes 2650 6350 0    50   ~ 0
 JP7/JP12 is only intended as a way of\nenabling *one* of the two modes when\na front panel has not been installed.
+Wire Wire Line
+	4625 4650 4775 4650
+Wire Wire Line
+	4700 5150 4700 4750
+Connection ~ 4700 4750
+Wire Wire Line
+	4700 4750 5350 4750
+Wire Wire Line
+	4775 5050 4775 4650
+Connection ~ 4775 4650
+Wire Wire Line
+	4775 4650 5350 4650
+Wire Bus Line
+	2425 3825 5825 3825
+Wire Bus Line
+	700  3825 2425 3825
+Connection ~ 2425 3825
+Wire Wire Line
+	3225 5450 3625 5450
+Wire Wire Line
+	3225 5350 3625 5350
+Wire Wire Line
+	10450 4200 10375 4200
+Wire Wire Line
+	10375 3200 10450 3200
+Wire Bus Line
+	2425 3825 2425 5250
+Wire Bus Line
+	5825 3825 5825 4850
+Wire Bus Line
+	700  1050 700  3825
 $EndSCHEMATC
