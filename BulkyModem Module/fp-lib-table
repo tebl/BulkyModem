@@ -6,4 +6,5 @@
   (lib (name RND_DSUB)(type KiCad)(uri $KIPRJMOD/../common/modules/RND_DSUB.pretty)(options "")(descr ""))
   (lib (name HK19F-DC)(type KiCad)(uri $KIPRJMOD/../common/modules/HK19F-DC.pretty)(options "")(descr ""))
   (lib (name resistor)(type KiCad)(uri $KIPRJMOD/../common/modules/resistor.pretty)(options "")(descr ""))
+  (lib (name nodemcu_v3)(type KiCad)(uri $KIPRJMOD/../common/modules/nodemcu_v3.pretty)(options "")(descr ""))
 )
