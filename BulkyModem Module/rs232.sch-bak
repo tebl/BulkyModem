@@ -378,7 +378,6 @@ F 3 " ~" H 1300 2925 50  0001 C CNN
 	1    1300 2925
 	-1   0    0    -1  
 $EndComp
-NoConn ~ 1600 3225
 Wire Wire Line
 	1600 3325 1675 3325
 Wire Wire Line
@@ -508,43 +507,43 @@ C2-C5 must be electrolytic 1uF when using\nolder or cheaper MAX232 variants, the
 $Comp
 L 74xx:74HCT04 U?
 U 6 1 62E77668
-P 8200 1775
+P 8200 1575
 AR Path="/62E77668" Ref="U?"  Part="6" 
 AR Path="/6379233A/62E77668" Ref="U2"  Part="6" 
-F 0 "U2" H 8200 2092 50  0000 C CNN
-F 1 "74HCT04" H 8200 2001 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 8200 1775 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 8200 1775 50  0001 C CNN
-	6    8200 1775
+F 0 "U2" H 8200 1892 50  0000 C CNN
+F 1 "74HCT04" H 8200 1801 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 8200 1575 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 8200 1575 50  0001 C CNN
+	6    8200 1575
 	-1   0    0    1   
 $EndComp
 $Comp
 L BulkyModem:Swap_Output JP?
 U 1 1 62E8FE3C
-P 7425 1975
+P 7425 1775
 AR Path="/62E8FE3C" Ref="JP?"  Part="1" 
 AR Path="/6379233A/62E8FE3C" Ref="JP12"  Part="1" 
-F 0 "JP12" V 7379 2043 50  0000 L CNN
-F 1 "INV_DCD" V 7470 2043 50  0000 L CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm" H 7425 1975 50  0001 C CNN
-F 3 "~" H 7425 1975 50  0001 C CNN
-	1    7425 1975
+F 0 "JP12" V 7379 1843 50  0000 L CNN
+F 1 "INV_DCD" V 7470 1843 50  0000 L CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm" H 7425 1775 50  0001 C CNN
+F 3 "~" H 7425 1775 50  0001 C CNN
+	1    7425 1775
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	7425 2175 8575 2175
+	7425 1975 8575 1975
 Wire Wire Line
-	7425 1775 7900 1775
-Wire Wire Line
-	8575 2175 8575 1975
-Wire Wire Line
-	8575 1775 8500 1775
-Wire Wire Line
-	8575 1975 8800 1975
-Connection ~ 8575 1975
+	7425 1575 7900 1575
 Wire Wire Line
 	8575 1975 8575 1775
-Text HLabel 8800 1975 2    50   Input ~ 0
+Wire Wire Line
+	8575 1575 8500 1575
+Wire Wire Line
+	8575 1775 8800 1775
+Connection ~ 8575 1775
+Wire Wire Line
+	8575 1775 8575 1575
+Text HLabel 8800 1775 2    50   Input ~ 0
 232_DCD
 Text Label 4275 1975 0    50   ~ 0
 SER_DCD
@@ -679,9 +678,6 @@ F 3 "~" H 4700 3000 50  0001 C CNN
 	1    4700 3000
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	6475 1975 7275 1975
-NoConn ~ 4875 2175
 NoConn ~ 6475 2375
 NoConn ~ 6475 2575
 Wire Wire Line
@@ -706,20 +702,6 @@ Wire Wire Line
 	2025 2525 2025 2275
 Wire Wire Line
 	2025 1975 4875 1975
-$Comp
-L Jumper:SolderJumper_2_Open JP?
-U 1 1 62FE8A7C
-P 2250 2275
-AR Path="/62FE8A7C" Ref="JP?"  Part="1" 
-AR Path="/63D786E4/62FE8A7C" Ref="JP?"  Part="1" 
-AR Path="/6379233A/62FE8A7C" Ref="JP13"  Part="1" 
-F 0 "JP13" H 2250 2436 31  0000 C CNN
-F 1 "NO_DCD" H 2250 2374 31  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 2250 2275 50  0001 C CNN
-F 3 "~" H 2250 2275 50  0001 C CNN
-	1    2250 2275
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2100 2275 2025 2275
 Connection ~ 2025 2275
@@ -734,12 +716,81 @@ Wire Wire Line
 Connection ~ 1675 2625
 Wire Wire Line
 	4700 1775 4875 1775
-Text Notes 2500 2275 0    50   ~ 0
-This should be linked if DCD is not available,\nessentially when skipping the installation of\nMAX232 at U4.
+Text Notes 2525 2350 0    50   ~ 0
+This should be linked when skipping the\ninstallation of MAX232 at U4.
 Wire Wire Line
-	6475 2175 6550 2175
+	6475 1975 7075 1975
 Wire Wire Line
-	6550 2175 6550 3150
+	7075 1975 7075 1775
 Wire Wire Line
-	6550 3150 5675 3150
+	7075 1775 7275 1775
+Wire Wire Line
+	7075 2175 7075 2375
+Wire Wire Line
+	6475 2175 7075 2175
+$Comp
+L 74xx:74HCT04 U?
+U 1 1 6333079C
+P 8200 2175
+AR Path="/6333079C" Ref="U?"  Part="6" 
+AR Path="/6379233A/6333079C" Ref="U5"  Part="1" 
+F 0 "U5" H 8200 2492 50  0000 C CNN
+F 1 "74HCT04" H 8200 2401 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 8200 2175 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 8200 2175 50  0001 C CNN
+	1    8200 2175
+	-1   0    0    1   
+$EndComp
+$Comp
+L BulkyModem:Swap_Output JP?
+U 1 1 633307A2
+P 7425 2375
+AR Path="/633307A2" Ref="JP?"  Part="1" 
+AR Path="/6379233A/633307A2" Ref="JP14"  Part="1" 
+F 0 "JP14" V 7379 2443 50  0000 L CNN
+F 1 "INV_RI" V 7470 2443 50  0000 L CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm" H 7425 2375 50  0001 C CNN
+F 3 "~" H 7425 2375 50  0001 C CNN
+	1    7425 2375
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7425 2575 8575 2575
+Wire Wire Line
+	7425 2175 7900 2175
+Wire Wire Line
+	8575 2575 8575 2375
+Wire Wire Line
+	8575 2175 8500 2175
+Wire Wire Line
+	8575 2375 8800 2375
+Connection ~ 8575 2375
+Wire Wire Line
+	8575 2375 8575 2175
+Text HLabel 8800 2375 2    50   Input ~ 0
+232_RI
+Wire Wire Line
+	7275 2375 7075 2375
+Wire Wire Line
+	1600 3225 4250 3225
+Wire Wire Line
+	4250 3225 4250 2175
+Wire Wire Line
+	4250 2175 4875 2175
+Text Label 4275 2175 0    50   ~ 0
+SER_RI
+$Comp
+L Jumper:SolderJumper_2_Open JP?
+U 1 1 62FE8A7C
+P 2250 2275
+AR Path="/62FE8A7C" Ref="JP?"  Part="1" 
+AR Path="/63D786E4/62FE8A7C" Ref="JP?"  Part="1" 
+AR Path="/6379233A/62FE8A7C" Ref="JP13"  Part="1" 
+F 0 "JP13" H 2250 2436 31  0000 C CNN
+F 1 "BYPASS" H 2250 2374 31  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 2250 2275 50  0001 C CNN
+F 3 "~" H 2250 2275 50  0001 C CNN
+	1    2250 2275
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

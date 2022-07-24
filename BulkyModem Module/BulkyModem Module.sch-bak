@@ -127,7 +127,6 @@ NoConn ~ 7050 4125
 NoConn ~ 8650 3925
 NoConn ~ 8650 3825
 NoConn ~ 8650 3725
-NoConn ~ 8650 3625
 NoConn ~ 8650 3225
 NoConn ~ 8650 2925
 Wire Wire Line
@@ -207,15 +206,16 @@ ESP_RTS
 Wire Wire Line
 	8650 3125 8875 3125
 $Sheet
-S 1925 1800 1025 700 
+S 1925 1575 1025 825 
 U 6379233A
 F0 "RS-232" 50
 F1 "rs232.sch" 50
-F2 "232_TX" I L 1925 2000 50 
-F3 "232_RX" O L 1925 2100 50 
-F4 "232_CTS" O L 1925 2300 50 
-F5 "232_RTS" I L 1925 2200 50 
-F6 "232_DCD" I L 1925 2400 50 
+F2 "232_TX" I L 1925 1775 50 
+F3 "232_RX" O L 1925 1875 50 
+F4 "232_CTS" O L 1925 2075 50 
+F5 "232_RTS" I L 1925 1975 50 
+F6 "232_DCD" I L 1925 2175 50 
+F7 "232_RI" I L 1925 2275 50 
 $EndSheet
 $Sheet
 S 3050 6225 1025 700 
@@ -239,29 +239,29 @@ Connection ~ 2425 3600
 Wire Wire Line
 	2425 3600 2500 3600
 Wire Wire Line
-	1925 2000 1400 2000
+	1925 1775 1400 1775
 Wire Wire Line
-	1400 2100 1925 2100
+	1400 1875 1925 1875
 Wire Wire Line
-	1925 2200 1400 2200
+	1925 1975 1400 1975
 Wire Wire Line
-	1400 2300 1925 2300
-Text Label 1425 2000 0    50   ~ 0
+	1400 2075 1925 2075
+Text Label 1425 1775 0    50   ~ 0
 232_TX
-Text Label 1425 2100 0    50   ~ 0
+Text Label 1425 1875 0    50   ~ 0
 232_RX
-Text Label 1425 2200 0    50   ~ 0
+Text Label 1425 1975 0    50   ~ 0
 232_RTS
-Text Label 1425 2300 0    50   ~ 0
+Text Label 1425 2075 0    50   ~ 0
 232_CTS
 Entry Wire Line
-	1400 2000 1300 2100
+	1400 1775 1300 1875
 Entry Wire Line
-	1400 2100 1300 2200
+	1400 1875 1300 1975
 Entry Wire Line
-	1400 2200 1300 2300
+	1400 1975 1300 2075
 Entry Wire Line
-	1400 2300 1300 2400
+	1400 2075 1300 2175
 Text Label 4000 3600 2    50   ~ 0
 232_TX
 Entry Wire Line
@@ -320,40 +320,41 @@ Entry Wire Line
 Entry Wire Line
 	4700 3900 4600 4000
 $Sheet
-S 3050 1800 1025 700 
+S 3050 1575 1025 825 
 U 63AD1846
 F0 "C64 UserPort" 50
 F1 "c64_userport.sch" 50
-F2 "C64_CTS" O R 4075 2300 50 
-F3 "C64_RX" O R 4075 2100 50 
-F4 "C64_TX" I R 4075 2000 50 
-F5 "C64_RTS" I R 4075 2200 50 
-F6 "C64_DCD" I R 4075 2400 50 
+F2 "C64_CTS" O R 4075 2075 50 
+F3 "C64_RX" O R 4075 1875 50 
+F4 "C64_TX" I R 4075 1775 50 
+F5 "C64_RTS" I R 4075 1975 50 
+F6 "C64_DCD" I R 4075 2175 50 
+F7 "C64_RI" I R 4075 2275 50 
 $EndSheet
 Wire Wire Line
-	4075 2000 4600 2000
+	4075 1775 4600 1775
 Wire Wire Line
-	4600 2100 4075 2100
+	4600 1875 4075 1875
 Wire Wire Line
-	4075 2200 4600 2200
+	4075 1975 4600 1975
 Wire Wire Line
-	4600 2300 4075 2300
-Text Label 4575 2000 2    50   ~ 0
+	4600 2075 4075 2075
+Text Label 4575 1775 2    50   ~ 0
 C64_TX
-Text Label 4575 2100 2    50   ~ 0
+Text Label 4575 1875 2    50   ~ 0
 C64_RX
-Text Label 4575 2200 2    50   ~ 0
+Text Label 4575 1975 2    50   ~ 0
 C64_RTS
-Text Label 4575 2300 2    50   ~ 0
+Text Label 4575 2075 2    50   ~ 0
 C64_CTS
 Entry Wire Line
-	4600 2000 4700 2100
+	4600 1775 4700 1875
 Entry Wire Line
-	4600 2100 4700 2200
+	4600 1875 4700 1975
 Entry Wire Line
-	4600 2200 4700 2300
+	4600 1975 4700 2075
 Entry Wire Line
-	4600 2300 4700 2400
+	4600 2075 4700 2175
 $Sheet
 S 1925 6225 1025 700 
 U 63D786E4
@@ -540,16 +541,28 @@ Text GLabel 8875 3325 2    50   Output ~ 0
 ESP_DCD
 Wire Wire Line
 	8650 3325 8875 3325
-Text GLabel 1850 2400 0    50   Input ~ 0
+Text GLabel 1850 2175 0    50   Input ~ 0
 ESP_DCD
 Wire Wire Line
-	1850 2400 1925 2400
-Text GLabel 4150 2400 2    50   Input ~ 0
+	1850 2175 1925 2175
+Text GLabel 4150 2175 2    50   Input ~ 0
 ESP_DCD
 Wire Wire Line
-	4150 2400 4075 2400
+	4150 2175 4075 2175
 Text Notes 1725 2900 0    50   ~ 0
-Note that the DCD signal is shared between the two, something I'll\n"probably" get away with since they are only outgoing signals. The\n232 side will get buffered by the inverter used.
+Note that the DCD/RI signal is shared between the two, something I'll\n"probably" get away with since they are only outgoing signals. The\n232 side will get buffered by the inverter used.
+Text GLabel 1850 2275 0    50   Input ~ 0
+ESP_RI
+Wire Wire Line
+	1850 2275 1925 2275
+Text GLabel 4150 2275 2    50   Input ~ 0
+ESP_RI
+Wire Wire Line
+	4150 2275 4075 2275
+Text GLabel 8875 3625 2    50   Output ~ 0
+ESP_RI
+Wire Wire Line
+	8650 3625 8875 3625
 Wire Bus Line
 	4700 1425 4700 4000
 Wire Bus Line

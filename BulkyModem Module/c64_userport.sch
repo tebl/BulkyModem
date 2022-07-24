@@ -27,7 +27,7 @@ U 1 1 62DCEDED
 P 5900 3900
 F 0 "J5" H 5912 4325 50  0000 C CNN
 F 1 "C64_Modem_IDC" H 5912 4234 50  0000 C CNN
-F 2 "BulkyModem:C64_Adapter_IDC" H 5925 3575 50  0001 C CNN
+F 2 "BulkyModem:UserPort_Adapter_IDC" H 5925 3575 50  0001 C CNN
 F 3 "" H 5925 3575 50  0001 C CNN
 	1    5900 3900
 	1    0    0    -1  
@@ -37,13 +37,8 @@ Wire Wire Line
 Wire Wire Line
 	6450 3700 6450 3800
 Wire Wire Line
-	6450 4000 6375 4000
-Connection ~ 6450 4000
-Wire Wire Line
 	6375 3900 6450 3900
 Connection ~ 6450 3900
-Wire Wire Line
-	6450 3900 6450 4000
 Wire Wire Line
 	6375 3800 6450 3800
 Connection ~ 6450 3800
@@ -52,12 +47,12 @@ Wire Wire Line
 $Comp
 L power:GND #PWR0139
 U 1 1 62DD102B
-P 6450 4175
-F 0 "#PWR0139" H 6450 3925 50  0001 C CNN
-F 1 "GND" H 6455 4002 50  0000 C CNN
-F 2 "" H 6450 4175 50  0001 C CNN
-F 3 "" H 6450 4175 50  0001 C CNN
-	1    6450 4175
+P 6450 4450
+F 0 "#PWR0139" H 6450 4200 50  0001 C CNN
+F 1 "GND" H 6455 4277 50  0000 C CNN
+F 2 "" H 6450 4450 50  0001 C CNN
+F 3 "" H 6450 4450 50  0001 C CNN
+	1    6450 4450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -85,10 +80,34 @@ Wire Wire Line
 	5375 4000 5450 4000
 Wire Wire Line
 	5375 4100 5450 4100
-Text HLabel 6525 4100 2    50   Input ~ 0
+Text HLabel 5375 4200 0    50   Input ~ 0
 C64_DCD
+Text HLabel 5375 4300 0    50   Input ~ 0
+C64_RI
 Wire Wire Line
-	6450 4000 6450 4175
+	5375 4200 5450 4200
 Wire Wire Line
-	6375 4100 6525 4100
+	5450 4300 5375 4300
+Wire Wire Line
+	6450 3900 6450 4000
+Wire Wire Line
+	6375 4000 6450 4000
+Connection ~ 6450 4000
+Wire Wire Line
+	6450 4000 6450 4100
+Wire Wire Line
+	6450 4100 6375 4100
+Connection ~ 6450 4100
+Wire Wire Line
+	6450 4100 6450 4200
+Wire Wire Line
+	6375 4200 6450 4200
+Connection ~ 6450 4200
+Wire Wire Line
+	6450 4200 6450 4300
+Wire Wire Line
+	6450 4300 6375 4300
+Connection ~ 6450 4300
+Wire Wire Line
+	6450 4300 6450 4450
 $EndSCHEMATC
