@@ -105,7 +105,7 @@ U 1 1 62D951D5
 P 7550 3775
 F 0 "J3" H 7562 4200 50  0000 C CNN
 F 1 "C64_Modem_IDC" H 7562 4109 50  0000 C CNN
-F 2 "BulkyModem:C64_Adapter_IDC" H 7575 3450 50  0001 C CNN
+F 2 "BulkyModem:UserPort_Adapter_IDC" H 7575 3450 50  0001 C CNN
 F 3 "" H 7575 3450 50  0001 C CNN
 	1    7550 3775
 	1    0    0    -1  
@@ -122,12 +122,12 @@ Wire Wire Line
 $Comp
 L power:GND #PWR0102
 U 1 1 62D9791D
-P 8175 4125
-F 0 "#PWR0102" H 8175 3875 50  0001 C CNN
-F 1 "GND" H 8180 3952 50  0000 C CNN
-F 2 "" H 8175 4125 50  0001 C CNN
-F 3 "" H 8175 4125 50  0001 C CNN
-	1    8175 4125
+P 8175 4325
+F 0 "#PWR0102" H 8175 4075 50  0001 C CNN
+F 1 "GND" H 8180 4152 50  0000 C CNN
+F 2 "" H 8175 4325 50  0001 C CNN
+F 3 "" H 8175 4325 50  0001 C CNN
+	1    8175 4325
 	1    0    0    -1  
 $EndComp
 Text GLabel 6325 3675 0    50   Output ~ 0
@@ -172,7 +172,6 @@ Wire Wire Line
 Wire Wire Line
 	4025 4075 4250 4075
 NoConn ~ 4250 3675
-NoConn ~ 4250 3775
 NoConn ~ 4250 3975
 NoConn ~ 5550 4075
 NoConn ~ 5550 3975
@@ -189,18 +188,16 @@ Wire Wire Line
 Wire Wire Line
 	6900 3975 7100 3975
 Wire Wire Line
-	6900 4175 6975 4175
-Wire Wire Line
-	6975 4175 6975 4250
+	6900 4275 6975 4275
 $Comp
 L power:GND #PWR0103
 U 1 1 62DCE03D
-P 6975 4325
-F 0 "#PWR0103" H 6975 4075 50  0001 C CNN
-F 1 "GND" H 6980 4152 50  0000 C CNN
-F 2 "" H 6975 4325 50  0001 C CNN
-F 3 "" H 6975 4325 50  0001 C CNN
-	1    6975 4325
+P 6975 4425
+F 0 "#PWR0103" H 6975 4175 50  0001 C CNN
+F 1 "GND" H 6980 4252 50  0000 C CNN
+F 2 "" H 6975 4425 50  0001 C CNN
+F 3 "" H 6975 4425 50  0001 C CNN
+	1    6975 4425
 	1    0    0    -1  
 $EndComp
 Text GLabel 4025 3875 0    50   Input ~ 0
@@ -212,14 +209,11 @@ DCD
 Wire Wire Line
 	6325 4075 6400 4075
 Wire Wire Line
-	6400 4175 6325 4175
+	6400 4275 6325 4275
 Wire Wire Line
-	6325 4175 6325 4250
+	6325 4275 6325 4350
 Wire Wire Line
-	6325 4250 6975 4250
-Connection ~ 6975 4250
-Wire Wire Line
-	6975 4325 6975 4250
+	6325 4350 6975 4350
 Wire Wire Line
 	6400 3575 6325 3575
 Wire Wire Line
@@ -228,7 +222,7 @@ Wire Wire Line
 	6325 3500 6975 3500
 Wire Wire Line
 	6975 3500 6975 3575
-Text Notes 6275 4675 0    50   ~ 0
+Text Notes 6075 4475 0    50   ~ 0
 Connect DCD to RTS?
 Text GLabel 5800 3675 2    50   Input ~ 0
 RX
@@ -260,22 +254,16 @@ Wire Wire Line
 	6225 3500 6325 3500
 Connection ~ 6325 3500
 $Comp
-L Connector_Generic:Conn_02x07_Odd_Even J2
+L Connector_Generic:Conn_02x08_Odd_Even J2
 U 1 1 62DBC4D4
 P 6600 3875
 F 0 "J2" H 6650 4392 50  0000 C CNN
 F 1 "Temporary" H 6650 4301 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x07_P2.54mm_Vertical" H 6600 3875 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical" H 6600 3875 50  0001 C CNN
 F 3 "~" H 6600 3875 50  0001 C CNN
 	1    6600 3875
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6900 4075 8100 4075
-Wire Wire Line
-	8100 4075 8100 3975
-Wire Wire Line
-	8100 3975 8025 3975
 Wire Wire Line
 	8025 3875 8175 3875
 Wire Wire Line
@@ -285,5 +273,37 @@ Wire Wire Line
 Wire Wire Line
 	8025 3675 8175 3675
 Wire Wire Line
-	8175 3875 8175 4125
+	6900 4075 7100 4075
+Wire Wire Line
+	6975 4350 6975 4425
+Wire Wire Line
+	6975 4275 6975 4350
+Connection ~ 6975 4350
+Wire Wire Line
+	7100 4175 6900 4175
+Text GLabel 6325 4175 0    50   Output ~ 0
+RI
+Wire Wire Line
+	6325 4175 6400 4175
+Text GLabel 4025 3775 0    50   Input ~ 0
+RI
+Wire Wire Line
+	4250 3775 4025 3775
+Wire Wire Line
+	8175 3875 8175 3975
+Wire Wire Line
+	8025 4175 8175 4175
+Connection ~ 8175 4175
+Wire Wire Line
+	8175 4175 8175 4325
+Wire Wire Line
+	8025 4075 8175 4075
+Connection ~ 8175 4075
+Wire Wire Line
+	8175 4075 8175 4175
+Wire Wire Line
+	8025 3975 8175 3975
+Connection ~ 8175 3975
+Wire Wire Line
+	8175 3975 8175 4075
 $EndSCHEMATC
