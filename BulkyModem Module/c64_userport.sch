@@ -37,15 +37,8 @@ Wire Wire Line
 Wire Wire Line
 	6450 3700 6450 3800
 Wire Wire Line
-	6375 4100 6450 4100
-Connection ~ 6450 4100
-Wire Wire Line
-	6450 4100 6450 4175
-Wire Wire Line
 	6450 4000 6375 4000
 Connection ~ 6450 4000
-Wire Wire Line
-	6450 4000 6450 4100
 Wire Wire Line
 	6375 3900 6450 3900
 Connection ~ 6450 3900
@@ -92,4 +85,10 @@ Wire Wire Line
 	5375 4000 5450 4000
 Wire Wire Line
 	5375 4100 5450 4100
+Text HLabel 6525 4100 2    50   Input ~ 0
+C64_DCD
+Wire Wire Line
+	6450 4000 6450 4175
+Wire Wire Line
+	6375 4100 6525 4100
 $EndSCHEMATC

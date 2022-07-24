@@ -1,4 +1,4 @@
-update=23.07.2022 01:43:17
+update=24.07.2022 01:45:18
 version=1
 last_client=kicad
 [general]
@@ -15,7 +15,7 @@ LibDir=
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=BulkyMIDI-32 Extras.net
+LastNetListRead=BulkyModem Module.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0

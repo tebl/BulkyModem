@@ -111,38 +111,23 @@ F 3 "" H 7575 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8025 3575 8100 3575
+	8175 3575 8175 3675
+Connection ~ 8175 3875
+Connection ~ 8175 3775
 Wire Wire Line
-	8100 3575 8100 3675
+	8175 3775 8175 3875
+Connection ~ 8175 3675
 Wire Wire Line
-	8025 3975 8100 3975
-Connection ~ 8100 3975
-Wire Wire Line
-	8100 3975 8100 4050
-Wire Wire Line
-	8025 3875 8100 3875
-Connection ~ 8100 3875
-Wire Wire Line
-	8100 3875 8100 3975
-Wire Wire Line
-	8025 3775 8100 3775
-Connection ~ 8100 3775
-Wire Wire Line
-	8100 3775 8100 3875
-Wire Wire Line
-	8025 3675 8100 3675
-Connection ~ 8100 3675
-Wire Wire Line
-	8100 3675 8100 3775
+	8175 3675 8175 3775
 $Comp
 L power:GND #PWR0102
 U 1 1 62D9791D
-P 8100 4050
-F 0 "#PWR0102" H 8100 3800 50  0001 C CNN
-F 1 "GND" H 8105 3877 50  0000 C CNN
-F 2 "" H 8100 4050 50  0001 C CNN
-F 3 "" H 8100 4050 50  0001 C CNN
-	1    8100 4050
+P 8175 4125
+F 0 "#PWR0102" H 8175 3875 50  0001 C CNN
+F 1 "GND" H 8180 3952 50  0000 C CNN
+F 2 "" H 8175 4125 50  0001 C CNN
+F 3 "" H 8175 4125 50  0001 C CNN
+	1    8175 4125
 	1    0    0    -1  
 $EndComp
 Text GLabel 6325 3675 0    50   Output ~ 0
@@ -193,17 +178,6 @@ NoConn ~ 5550 4075
 NoConn ~ 5550 3975
 NoConn ~ 5550 3575
 NoConn ~ 5550 3475
-$Comp
-L Connector_Generic:Conn_02x07_Odd_Even J2
-U 1 1 62DBC4D4
-P 6600 3875
-F 0 "J2" H 6650 4392 50  0000 C CNN
-F 1 "Temporary" H 6650 4301 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x07_P2.54mm_Vertical" H 6600 3875 50  0001 C CNN
-F 3 "~" H 6600 3875 50  0001 C CNN
-	1    6600 3875
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6900 3575 6975 3575
 Wire Wire Line
@@ -235,7 +209,6 @@ Wire Wire Line
 	4025 3875 4250 3875
 Text GLabel 6325 4075 0    50   Output ~ 0
 DCD
-NoConn ~ 6900 4075
 Wire Wire Line
 	6325 4075 6400 4075
 Wire Wire Line
@@ -286,4 +259,31 @@ Wire Wire Line
 Wire Wire Line
 	6225 3500 6325 3500
 Connection ~ 6325 3500
+$Comp
+L Connector_Generic:Conn_02x07_Odd_Even J2
+U 1 1 62DBC4D4
+P 6600 3875
+F 0 "J2" H 6650 4392 50  0000 C CNN
+F 1 "Temporary" H 6650 4301 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x07_P2.54mm_Vertical" H 6600 3875 50  0001 C CNN
+F 3 "~" H 6600 3875 50  0001 C CNN
+	1    6600 3875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 4075 8100 4075
+Wire Wire Line
+	8100 4075 8100 3975
+Wire Wire Line
+	8100 3975 8025 3975
+Wire Wire Line
+	8025 3875 8175 3875
+Wire Wire Line
+	8025 3775 8175 3775
+Wire Wire Line
+	8025 3575 8175 3575
+Wire Wire Line
+	8025 3675 8175 3675
+Wire Wire Line
+	8175 3875 8175 4125
 $EndSCHEMATC

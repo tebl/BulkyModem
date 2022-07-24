@@ -168,169 +168,238 @@ Wire Wire Line
 $Comp
 L barrel_jack:barrel_9v J?
 U 1 1 63DAB478
-P 3050 4025
+P 1375 4000
 AR Path="/63DAB478" Ref="J?"  Part="1" 
 AR Path="/63D786E4/63DAB478" Ref="J1"  Part="1" 
-F 0 "J1" H 3129 4350 50  0000 C CNN
-F 1 "DC IN" H 3129 4259 50  0000 C CNN
-F 2 "Connectors:BARREL_JACK" H 3100 3985 50  0001 C CNN
-F 3 "~" H 3100 3985 50  0001 C CNN
-	1    3050 4025
+F 0 "J1" H 1454 4325 50  0000 C CNN
+F 1 "DC IN" H 1454 4234 50  0000 C CNN
+F 2 "BulkyModem:BARREL_JACK" H 1425 3960 50  0001 C CNN
+F 3 "~" H 1425 3960 50  0001 C CNN
+	1    1375 4000
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 63DAB47E
-P 3725 4675
+P 2050 4650
 AR Path="/63DAB47E" Ref="#PWR?"  Part="1" 
 AR Path="/63D786E4/63DAB47E" Ref="#PWR0108"  Part="1" 
-F 0 "#PWR0108" H 3725 4425 50  0001 C CNN
-F 1 "GND" H 3730 4502 50  0000 C CNN
-F 2 "" H 3725 4675 50  0001 C CNN
-F 3 "" H 3725 4675 50  0001 C CNN
-	1    3725 4675
+F 0 "#PWR0108" H 2050 4400 50  0001 C CNN
+F 1 "GND" H 2055 4477 50  0000 C CNN
+F 2 "" H 2050 4650 50  0001 C CNN
+F 3 "" H 2050 4650 50  0001 C CNN
+	1    2050 4650
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C?
 U 1 1 63DAB484
-P 4275 4025
+P 4825 4000
 AR Path="/63DAB484" Ref="C?"  Part="1" 
 AR Path="/63D786E4/63DAB484" Ref="C6"  Part="1" 
-F 0 "C6" H 4367 4071 50  0000 L CNN
-F 1 "100nF" H 4367 3980 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 4275 4025 50  0001 C CNN
-F 3 "~" H 4275 4025 50  0001 C CNN
-	1    4275 4025
+F 0 "C6" H 4917 4046 50  0000 L CNN
+F 1 "100nF" H 4917 3955 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 4825 4000 50  0001 C CNN
+F 3 "~" H 4825 4000 50  0001 C CNN
+	1    4825 4000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3350 3925 3425 3925
+	1675 3900 1750 3900
 Wire Wire Line
-	3350 4125 3425 4125
+	1675 4100 1750 4100
 $Comp
 L Device:CP1 C?
 U 1 1 63DAB48C
-P 3725 4025
+P 2050 4000
 AR Path="/63DAB48C" Ref="C?"  Part="1" 
 AR Path="/63D786E4/63DAB48C" Ref="C1"  Part="1" 
-F 0 "C1" H 3840 4071 50  0000 L CNN
-F 1 "470uF" H 3840 3980 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 3725 4025 50  0001 C CNN
-F 3 "~" H 3725 4025 50  0001 C CNN
-	1    3725 4025
+F 0 "C1" H 2165 4046 50  0000 L CNN
+F 1 "470uF" H 2165 3955 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 2050 4000 50  0001 C CNN
+F 3 "~" H 2050 4000 50  0001 C CNN
+	1    2050 4000
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+5V #PWR?
 U 1 1 63DAB492
-P 4275 3375
+P 3975 3350
 AR Path="/63DAB492" Ref="#PWR?"  Part="1" 
 AR Path="/63D786E4/63DAB492" Ref="#PWR0110"  Part="1" 
-F 0 "#PWR0110" H 4275 3225 50  0001 C CNN
-F 1 "+5V" H 4275 3515 50  0000 C CNN
-F 2 "" H 4275 3375 50  0000 C CNN
-F 3 "" H 4275 3375 50  0000 C CNN
-	1    4275 3375
+F 0 "#PWR0110" H 3975 3200 50  0001 C CNN
+F 1 "+5V" H 3975 3490 50  0000 C CNN
+F 2 "" H 3975 3350 50  0000 C CNN
+F 3 "" H 3975 3350 50  0000 C CNN
+	1    3975 3350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4875 4600 4875 4525
+	5375 4575 5375 4500
 $Comp
 L power:GND #PWR?
 U 1 1 63DAB499
-P 4875 4675
+P 5375 4650
 AR Path="/63DAB499" Ref="#PWR?"  Part="1" 
 AR Path="/63D786E4/63DAB499" Ref="#PWR0133"  Part="1" 
-F 0 "#PWR0133" H 4875 4425 50  0001 C CNN
-F 1 "GND" H 4880 4502 50  0000 C CNN
-F 2 "" H 4875 4675 50  0001 C CNN
-F 3 "" H 4875 4675 50  0001 C CNN
-	1    4875 4675
+F 0 "#PWR0133" H 5375 4400 50  0001 C CNN
+F 1 "GND" H 5380 4477 50  0000 C CNN
+F 2 "" H 5375 4650 50  0001 C CNN
+F 3 "" H 5375 4650 50  0001 C CNN
+	1    5375 4650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4275 4125 4275 4600
+	4825 4100 4825 4575
 Wire Wire Line
-	4275 3450 4275 3925
+	4825 3425 4825 3900
 Wire Wire Line
-	4875 3450 4875 3525
+	5375 3425 5375 3500
 Wire Wire Line
-	4275 3375 4275 3450
-Connection ~ 4275 3450
+	3975 3350 3975 3425
 Wire Wire Line
-	3350 4025 3425 4025
+	1675 4000 1750 4000
 Wire Wire Line
-	3425 4025 3425 4125
-Connection ~ 3425 4125
+	1750 4000 1750 4100
+Connection ~ 1750 4100
 Wire Wire Line
-	3725 3375 3725 3450
+	2050 3350 2050 3425
 Wire Wire Line
-	3725 3450 3425 3450
-Connection ~ 3725 3450
+	2050 3425 1750 3425
+Connection ~ 2050 3425
 Wire Wire Line
-	3425 3450 3425 3925
+	1750 3425 1750 3900
 Wire Wire Line
-	3725 3450 3725 3875
+	2050 3425 2050 3850
 Wire Wire Line
-	3725 4600 3425 4600
-Connection ~ 3725 4600
+	2050 4575 1750 4575
+Connection ~ 2050 4575
 Wire Wire Line
-	3725 4600 3725 4675
+	2050 4575 2050 4650
 Wire Wire Line
-	3425 4125 3425 4600
+	1750 4100 1750 4575
 Wire Wire Line
-	3725 4175 3725 4600
+	2050 4150 2050 4575
 $Comp
 L BulkyModem:DC_5V SYM?
 U 1 1 63DAB4B1
-P 3125 3525
+P 1450 3500
 AR Path="/63DAB4B1" Ref="SYM?"  Part="1" 
 AR Path="/63D786E4/63DAB4B1" Ref="SYM1"  Part="1" 
-F 0 "SYM1" H 3125 3746 50  0001 C CNN
-F 1 "DC_5V" H 3125 3654 50  0000 C CNN
-F 2 "BulkyMIDI-32:PWR_Specification" H 3000 3625 50  0001 C CNN
-F 3 "" H 3000 3625 50  0001 C CNN
-	1    3125 3525
+F 0 "SYM1" H 1450 3721 50  0001 C CNN
+F 1 "DC_5V" H 1450 3629 50  0000 C CNN
+F 2 "BulkyModem:PWR_Specification" H 1325 3600 50  0001 C CNN
+F 3 "" H 1325 3600 50  0001 C CNN
+	1    1450 3500
 	1    0    0    -1  
 $EndComp
 Text Notes 2725 2725 0    50   ~ 0
 Power input and decoupling
-Wire Wire Line
-	4275 4600 4875 4600
 $Comp
 L barrel_jack:VIN #PWR?
 U 1 1 63DAB4BE
-P 3725 3375
+P 2050 3350
 AR Path="/63DAB4BE" Ref="#PWR?"  Part="1" 
 AR Path="/63D786E4/63DAB4BE" Ref="#PWR0134"  Part="1" 
-F 0 "#PWR0134" H 3725 3225 50  0001 C CNN
-F 1 "VIN" H 3742 3548 50  0000 C CNN
-F 2 "" H 3725 3375 50  0001 C CNN
-F 3 "" H 3725 3375 50  0001 C CNN
-	1    3725 3375
+F 0 "#PWR0134" H 2050 3200 50  0001 C CNN
+F 1 "VIN" H 2067 3523 50  0000 C CNN
+F 2 "" H 2050 3350 50  0001 C CNN
+F 3 "" H 2050 3350 50  0001 C CNN
+	1    2050 3350
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xx:74HCT04 U?
 U 7 1 63DAB4C4
-P 4875 4025
+P 5375 4000
 AR Path="/63DAB4C4" Ref="U?"  Part="7" 
 AR Path="/63D786E4/63DAB4C4" Ref="U2"  Part="7" 
-F 0 "U2" H 4875 4075 50  0000 C CNN
-F 1 "74HCT04" H 4875 3975 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 4875 4025 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 4875 4025 50  0001 C CNN
-	7    4875 4025
+F 0 "U2" H 5375 4050 50  0000 C CNN
+F 1 "74HCT04" H 5375 3950 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 5375 4000 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 5375 4000 50  0001 C CNN
+	7    5375 4000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4875 3450 4275 3450
+	5375 3425 4825 3425
 Wire Wire Line
-	4875 4675 4875 4600
-Connection ~ 4875 4600
+	5375 4650 5375 4575
+Connection ~ 5375 4575
 Text Notes 6325 2725 0    50   ~ 0
 Power switch uses a relay to provide power to the rest\nof the circuitry beyond the power section itself. This\nbypasses the kind of dodgy switches, as well as making\nan exciting clicking sound. Solder in the bypass jumper\nto skip installing relay, but you'll need to unplug the\ncable to turn it off.
 Wire Notes Line
 	5825 1725 5825 5550
+$Comp
+L BulkyModem:Conn_Power J4
+U 1 1 62DFBB40
+P 2800 3950
+F 0 "J4" H 3103 3946 50  0000 L CNN
+F 1 "Conn_Power" H 3103 3855 50  0000 L CNN
+F 2 "BulkyModem:Conn_Power" H 2800 3950 50  0001 C CNN
+F 3 "~" H 2800 3950 50  0001 C CNN
+	1    2800 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 3425 2525 3425
+Wire Wire Line
+	2525 3425 2525 3950
+Wire Wire Line
+	2525 3950 2600 3950
+Wire Wire Line
+	2600 4050 2525 4050
+Wire Wire Line
+	2525 4050 2525 4575
+Wire Wire Line
+	2525 4575 2050 4575
+$Comp
+L Device:C_Small C?
+U 1 1 6319B9B5
+P 4400 4000
+AR Path="/6319B9B5" Ref="C?"  Part="1" 
+AR Path="/63D786E4/6319B9B5" Ref="C18"  Part="1" 
+F 0 "C18" H 4492 4046 50  0000 L CNN
+F 1 "100nF" H 4492 3955 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 4400 4000 50  0001 C CNN
+F 3 "~" H 4400 4000 50  0001 C CNN
+	1    4400 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 4100 4400 4575
+Wire Wire Line
+	4400 3425 4400 3900
+$Comp
+L Device:C_Small C?
+U 1 1 6319CE6C
+P 3975 4000
+AR Path="/6319CE6C" Ref="C?"  Part="1" 
+AR Path="/63D786E4/6319CE6C" Ref="C17"  Part="1" 
+F 0 "C17" H 4067 4046 50  0000 L CNN
+F 1 "100nF" H 4067 3955 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 3975 4000 50  0001 C CNN
+F 3 "~" H 3975 4000 50  0001 C CNN
+	1    3975 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3975 4100 3975 4575
+Wire Wire Line
+	3975 3425 3975 3900
+Connection ~ 4825 3425
+Connection ~ 4825 4575
+Wire Wire Line
+	4825 4575 5375 4575
+Connection ~ 4400 3425
+Wire Wire Line
+	4400 3425 3975 3425
+Wire Wire Line
+	3975 4575 4400 4575
+Connection ~ 4400 4575
+Wire Wire Line
+	4400 4575 4825 4575
+Connection ~ 3975 3425
+Wire Wire Line
+	4400 3425 4825 3425
 $EndSCHEMATC

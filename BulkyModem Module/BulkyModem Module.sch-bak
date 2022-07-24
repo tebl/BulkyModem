@@ -200,24 +200,12 @@ F 3 "" H 3000 4975 50  0001 C CNN
 	1    3000 4975
 	-1   0    0    -1  
 $EndComp
-$Comp
-L 74xx:74HCT04 U2
-U 6 1 62F95922
-P 6650 7225
-F 0 "U2" H 6650 7542 50  0000 C CNN
-F 1 "74HCT04" H 6650 7451 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 6650 7225 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 6650 7225 50  0001 C CNN
-	6    6650 7225
-	0    -1   -1   0   
-$EndComp
 Text GLabel 9875 3025 2    50   Input ~ 0
 ESP_CTS
 Text GLabel 8875 3125 2    50   Output ~ 0
 ESP_RTS
 Wire Wire Line
 	8650 3125 8875 3125
-NoConn ~ 6650 6925
 $Sheet
 S 1925 1800 1025 700 
 U 6379233A
@@ -227,9 +215,10 @@ F2 "232_TX" I L 1925 2000 50
 F3 "232_RX" O L 1925 2100 50 
 F4 "232_CTS" O L 1925 2300 50 
 F5 "232_RTS" I L 1925 2200 50 
+F6 "232_DCD" I L 1925 2400 50 
 $EndSheet
 $Sheet
-S 3050 6425 1025 700 
+S 3050 6225 1025 700 
 U 6390AE73
 F0 "Front panel" 50
 F1 "front_panel.sch" 50
@@ -339,6 +328,7 @@ F2 "C64_CTS" O R 4075 2300 50
 F3 "C64_RX" O R 4075 2100 50 
 F4 "C64_TX" I R 4075 2000 50 
 F5 "C64_RTS" I R 4075 2200 50 
+F6 "C64_DCD" I R 4075 2400 50 
 $EndSheet
 Wire Wire Line
 	4075 2000 4600 2000
@@ -365,7 +355,7 @@ Entry Wire Line
 Entry Wire Line
 	4600 2300 4700 2400
 $Sheet
-S 1925 6425 1025 700 
+S 1925 6225 1025 700 
 U 63D786E4
 F0 "Power" 50
 F1 "power.sch" 50
@@ -461,17 +451,6 @@ F 3 "" H 9425 4400 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3000 4975 3000 4900
-$Comp
-L power:GND #PWR0138
-U 1 1 63E5C8FB
-P 6650 7525
-F 0 "#PWR0138" H 6650 7275 50  0001 C CNN
-F 1 "GND" H 6655 7352 50  0000 C CNN
-F 2 "" H 6650 7525 50  0001 C CNN
-F 3 "" H 6650 7525 50  0001 C CNN
-	1    6650 7525
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	3500 4000 4600 4000
 Wire Wire Line
@@ -480,8 +459,6 @@ Wire Wire Line
 	3500 3700 4600 3700
 Wire Wire Line
 	3500 3600 4600 3600
-Text Notes 1525 5500 0    50   ~ 0
-JP7/JP12 is only intended as a way of\nenabling *one* of the two modes when\na front panel has not been installed.
 Wire Wire Line
 	3500 3800 3650 3800
 Wire Wire Line
@@ -551,13 +528,28 @@ Wire Wire Line
 Connection ~ 6600 3725
 Wire Wire Line
 	6600 3725 7050 3725
-NoConn ~ 8650 3325
 Wire Wire Line
 	8650 3025 9425 3025
 Text Notes 5325 3400 0    50   ~ 0
 SK/IO6 isn't defined anywhere by\nZimodem, I'm just adding it case\nI need it later with the necessary\nfirmware changes to support it.
 Wire Bus Line
 	1300 1425 4700 1425
+Text Notes 1300 4925 0    50   ~ 0
+MODE_232 and MODE_C64 signals\nare controlled by the front panel\ncircuitry.
+Text GLabel 8875 3325 2    50   Output ~ 0
+ESP_DCD
+Wire Wire Line
+	8650 3325 8875 3325
+Text GLabel 1850 2400 0    50   Input ~ 0
+ESP_DCD
+Wire Wire Line
+	1850 2400 1925 2400
+Text GLabel 4150 2400 2    50   Input ~ 0
+ESP_DCD
+Wire Wire Line
+	4150 2400 4075 2400
+Text Notes 1725 2900 0    50   ~ 0
+Note that the DCD signal is shared between the two, something I'll\n"probably" get away with since they are only outgoing signals. The\n232 side will get buffered by the inverter used.
 Wire Bus Line
 	4700 1425 4700 4000
 Wire Bus Line
