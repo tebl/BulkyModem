@@ -444,97 +444,30 @@ Wire Wire Line
 	4425 5475 3975 5475
 $Comp
 L 74xx:74HCT04 U?
-U 2 1 63272A2C
-P 2650 7000
-AR Path="/63272A2C" Ref="U?"  Part="1" 
-AR Path="/6390AE73/63272A2C" Ref="U?"  Part="1" 
-AR Path="/63D786E4/63272A2C" Ref="U5"  Part="2" 
-F 0 "U5" H 2650 7317 50  0000 C CNN
-F 1 "74HCT04" H 2650 7226 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 2650 7000 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 2650 7000 50  0001 C CNN
-	2    2650 7000
-	0    -1   -1   0   
-$EndComp
-$Comp
-L 74xx:74HCT04 U?
-U 3 1 6327322F
-P 3150 7000
-AR Path="/6327322F" Ref="U?"  Part="1" 
-AR Path="/6390AE73/6327322F" Ref="U?"  Part="1" 
-AR Path="/63D786E4/6327322F" Ref="U5"  Part="3" 
-F 0 "U5" H 3150 7317 50  0000 C CNN
-F 1 "74HCT04" H 3150 7226 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 3150 7000 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 3150 7000 50  0001 C CNN
-	3    3150 7000
-	0    -1   -1   0   
-$EndComp
-$Comp
-L 74xx:74HCT04 U?
-U 5 1 632737F0
-P 4150 7000
-AR Path="/632737F0" Ref="U?"  Part="1" 
-AR Path="/6390AE73/632737F0" Ref="U?"  Part="1" 
-AR Path="/63D786E4/632737F0" Ref="U5"  Part="5" 
-F 0 "U5" H 4150 7317 50  0000 C CNN
-F 1 "74HCT04" H 4150 7226 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 4150 7000 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 4150 7000 50  0001 C CNN
-	5    4150 7000
-	0    -1   -1   0   
-$EndComp
-$Comp
-L 74xx:74HCT04 U?
-U 4 1 63273F9D
-P 3650 7000
-AR Path="/63273F9D" Ref="U?"  Part="1" 
-AR Path="/6390AE73/63273F9D" Ref="U?"  Part="1" 
-AR Path="/63D786E4/63273F9D" Ref="U5"  Part="4" 
-F 0 "U5" H 3650 7317 50  0000 C CNN
-F 1 "74HCT04" H 3650 7226 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 3650 7000 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 3650 7000 50  0001 C CNN
-	4    3650 7000
-	0    -1   -1   0   
-$EndComp
-$Comp
-L 74xx:74HCT04 U?
 U 6 1 63275CC3
-P 4650 7000
+P 6650 7050
 AR Path="/63275CC3" Ref="U?"  Part="1" 
 AR Path="/6390AE73/63275CC3" Ref="U?"  Part="1" 
 AR Path="/63D786E4/63275CC3" Ref="U5"  Part="6" 
-F 0 "U5" H 4650 7317 50  0000 C CNN
-F 1 "74HCT04" H 4650 7226 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 4650 7000 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 4650 7000 50  0001 C CNN
-	6    4650 7000
+F 0 "U5" H 6650 7367 50  0000 C CNN
+F 1 "74HCT04" H 6650 7276 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 6650 7050 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 6650 7050 50  0001 C CNN
+	6    6650 7050
 	0    -1   -1   0   
 $EndComp
-NoConn ~ 2650 6700
-NoConn ~ 3150 6700
-NoConn ~ 3650 6700
-NoConn ~ 4150 6700
-NoConn ~ 4650 6700
-Wire Wire Line
-	4650 7300 4650 7375
-Wire Wire Line
-	4650 7375 4150 7375
-Wire Wire Line
-	4650 7375 4650 7450
-Connection ~ 4650 7375
+NoConn ~ 6650 6750
 $Comp
 L power:GND #PWR?
 U 1 1 632A80BC
-P 4650 7450
+P 6650 7500
 AR Path="/632A80BC" Ref="#PWR?"  Part="1" 
 AR Path="/63D786E4/632A80BC" Ref="#PWR0105"  Part="1" 
-F 0 "#PWR0105" H 4650 7200 50  0001 C CNN
-F 1 "GND" H 4655 7277 50  0000 C CNN
-F 2 "" H 4650 7450 50  0001 C CNN
-F 3 "" H 4650 7450 50  0001 C CNN
-	1    4650 7450
+F 0 "#PWR0105" H 6650 7250 50  0001 C CNN
+F 1 "GND" H 6655 7327 50  0000 C CNN
+F 2 "" H 6650 7500 50  0001 C CNN
+F 3 "" H 6650 7500 50  0001 C CNN
+	1    6650 7500
 	1    0    0    -1  
 $EndComp
 Connection ~ 4425 5475
@@ -561,20 +494,5 @@ Wire Wire Line
 	1725 4325 2150 4325
 Connection ~ 1725 4325
 Wire Wire Line
-	2650 7300 2650 7375
-Wire Wire Line
-	3150 7300 3150 7375
-Connection ~ 3150 7375
-Wire Wire Line
-	3150 7375 2650 7375
-Wire Wire Line
-	3650 7300 3650 7375
-Connection ~ 3650 7375
-Wire Wire Line
-	3650 7375 3150 7375
-Wire Wire Line
-	4150 7300 4150 7375
-Connection ~ 4150 7375
-Wire Wire Line
-	4150 7375 3650 7375
+	6650 7350 6650 7500
 $EndSCHEMATC
