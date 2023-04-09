@@ -5,4 +5,9 @@ D Commodore 64 User Port
 F ~
 $ENDCMP
 #
+$CMP C64_User_Port_Serial
+D Commodore 64 User Port
+F ~
+$ENDCMP
+#
 #End Doc Library
