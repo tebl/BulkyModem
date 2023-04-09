@@ -67,7 +67,6 @@ Wire Wire Line
 	7525 3200 7525 3275
 Wire Wire Line
 	8125 3125 8125 3200
-Connection ~ 8125 3200
 $Comp
 L Jumper:SolderJumper_2_Open JP?
 U 1 1 63D9647F
@@ -168,14 +167,14 @@ Wire Wire Line
 $Comp
 L barrel_jack:barrel_9v J?
 U 1 1 63DAB478
-P 2750 2575
+P 2375 2575
 AR Path="/63DAB478" Ref="J?"  Part="1" 
 AR Path="/63D786E4/63DAB478" Ref="J1"  Part="1" 
-F 0 "J1" H 2829 2900 50  0000 C CNN
-F 1 "DC IN" H 2829 2809 50  0000 C CNN
-F 2 "BulkyModem:BARREL_JACK" H 2800 2535 50  0001 C CNN
-F 3 "~" H 2800 2535 50  0001 C CNN
-	1    2750 2575
+F 0 "J1" H 2454 2900 50  0000 C CNN
+F 1 "DC IN" H 2454 2809 50  0000 C CNN
+F 2 "BulkyModem:BARREL_JACK" H 2425 2535 50  0001 C CNN
+F 3 "~" H 2425 2535 50  0001 C CNN
+	1    2375 2575
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -205,9 +204,9 @@ F 3 "~" H 3425 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3050 2475 3125 2475
+	2675 2475 2750 2475
 Wire Wire Line
-	3050 2675 3125 2675
+	2675 2675 2750 2675
 $Comp
 L Device:CP1 C?
 U 1 1 63DAB48C
@@ -224,14 +223,14 @@ $EndComp
 $Comp
 L power:+5V #PWR?
 U 1 1 63DAB492
-P 1725 4250
+P 1300 4250
 AR Path="/63DAB492" Ref="#PWR?"  Part="1" 
 AR Path="/63D786E4/63DAB492" Ref="#PWR0110"  Part="1" 
-F 0 "#PWR0110" H 1725 4100 50  0001 C CNN
-F 1 "+5V" H 1725 4390 50  0000 C CNN
-F 2 "" H 1725 4250 50  0000 C CNN
-F 3 "" H 1725 4250 50  0000 C CNN
-	1    1725 4250
+F 0 "#PWR0110" H 1300 4100 50  0001 C CNN
+F 1 "+5V" H 1300 4390 50  0000 C CNN
+F 2 "" H 1300 4250 50  0000 C CNN
+F 3 "" H 1300 4250 50  0000 C CNN
+	1    1300 4250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -239,14 +238,14 @@ Wire Wire Line
 $Comp
 L power:GND #PWR?
 U 1 1 63DAB499
-P 4425 5550
+P 4875 5550
 AR Path="/63DAB499" Ref="#PWR?"  Part="1" 
 AR Path="/63D786E4/63DAB499" Ref="#PWR0133"  Part="1" 
-F 0 "#PWR0133" H 4425 5300 50  0001 C CNN
-F 1 "GND" H 4430 5377 50  0000 C CNN
-F 2 "" H 4425 5550 50  0001 C CNN
-F 3 "" H 4425 5550 50  0001 C CNN
-	1    4425 5550
+F 0 "#PWR0133" H 4875 5300 50  0001 C CNN
+F 1 "GND" H 4880 5377 50  0000 C CNN
+F 2 "" H 4875 5550 50  0001 C CNN
+F 3 "" H 4875 5550 50  0001 C CNN
+	1    4875 5550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -256,14 +255,9 @@ Wire Wire Line
 Wire Wire Line
 	3975 4325 3975 4400
 Wire Wire Line
-	1725 4250 1725 4325
+	2675 2575 2750 2575
 Wire Wire Line
-	3050 2575 3125 2575
-Wire Wire Line
-	3125 2575 3125 2675
-Connection ~ 3125 2675
-Wire Wire Line
-	3425 1925 3425 2000
+	3125 1925 3125 2000
 Connection ~ 3425 2000
 Wire Wire Line
 	3125 2000 3125 2475
@@ -275,20 +269,18 @@ Connection ~ 3425 3150
 Wire Wire Line
 	3425 3150 3425 3225
 Wire Wire Line
-	3125 2675 3125 3150
-Wire Wire Line
 	3425 2725 3425 3150
 $Comp
 L BulkyModem:DC_5V SYM?
 U 1 1 63DAB4B1
-P 2825 2075
+P 2450 2075
 AR Path="/63DAB4B1" Ref="SYM?"  Part="1" 
 AR Path="/63D786E4/63DAB4B1" Ref="SYM1"  Part="1" 
-F 0 "SYM1" H 2825 2296 50  0001 C CNN
-F 1 "DC_5V" H 2825 2204 50  0000 C CNN
-F 2 "BulkyModem:PWR_Specification" H 2700 2175 50  0001 C CNN
-F 3 "" H 2700 2175 50  0001 C CNN
-	1    2825 2075
+F 0 "SYM1" H 2450 2296 50  0001 C CNN
+F 1 "DC_5V" H 2450 2204 50  0000 C CNN
+F 2 "BulkyModem:PWR_Specification" H 2325 2175 50  0001 C CNN
+F 3 "" H 2325 2175 50  0001 C CNN
+	1    2450 2075
 	1    0    0    -1  
 $EndComp
 Text Notes 2700 1250 0    50   ~ 0
@@ -296,14 +288,14 @@ Power input and decoupling
 $Comp
 L barrel_jack:VIN #PWR?
 U 1 1 63DAB4BE
-P 3425 1925
+P 3125 1925
 AR Path="/63DAB4BE" Ref="#PWR?"  Part="1" 
 AR Path="/63D786E4/63DAB4BE" Ref="#PWR0134"  Part="1" 
-F 0 "#PWR0134" H 3425 1775 50  0001 C CNN
-F 1 "VIN" H 3442 2098 50  0000 C CNN
-F 2 "" H 3425 1925 50  0001 C CNN
-F 3 "" H 3425 1925 50  0001 C CNN
-	1    3425 1925
+F 0 "#PWR0134" H 3125 1775 50  0001 C CNN
+F 1 "VIN" H 3142 2098 50  0000 C CNN
+F 2 "" H 3125 1925 50  0001 C CNN
+F 3 "" H 3125 1925 50  0001 C CNN
+	1    3125 1925
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -322,7 +314,7 @@ $EndComp
 Wire Wire Line
 	3975 4325 3425 4325
 Wire Wire Line
-	4425 5550 4425 5475
+	4875 5550 4875 5475
 Connection ~ 3975 5475
 Text Notes 6325 2725 0    50   ~ 0
 Power switch uses a relay to provide power to the rest\nof the circuitry beyond the power section itself. This\nbypasses the kind of dodgy switches, as well as making\nan exciting clicking sound. Solder in the bypass jumper\nto skip installing relay, but you'll need to unplug the\ncable to turn it off.
@@ -415,7 +407,7 @@ Wire Wire Line
 Wire Wire Line
 	3825 3150 3425 3150
 Wire Wire Line
-	3425 2000 3900 2000
+	3425 2000 3825 2000
 Wire Wire Line
 	3125 2000 3425 2000
 Wire Wire Line
@@ -470,7 +462,6 @@ F 3 "" H 6650 7500 50  0001 C CNN
 	1    6650 7500
 	1    0    0    -1  
 $EndComp
-Connection ~ 4425 5475
 $Comp
 L Device:C_Small C?
 U 1 1 632DE4DB
@@ -492,7 +483,159 @@ Wire Wire Line
 	1725 5475 2150 5475
 Wire Wire Line
 	1725 4325 2150 4325
-Connection ~ 1725 4325
 Wire Wire Line
-	6650 7350 6650 7500
+	6650 7350 6650 7425
+$Comp
+L Diode:1N5819 D11
+U 1 1 644AC11F
+P 2900 2475
+F 0 "D11" H 2900 2258 50  0000 C CNN
+F 1 "1N5819" H 2900 2349 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 2900 2300 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88525/1n5817.pdf" H 2900 2475 50  0001 C CNN
+	1    2900 2475
+	-1   0    0    1   
+$EndComp
+Connection ~ 8125 3200
+Wire Wire Line
+	3125 2475 3050 2475
+Wire Wire Line
+	2750 2675 2750 2575
+Wire Wire Line
+	2750 2675 3125 2675
+Connection ~ 2750 2675
+Wire Wire Line
+	3125 2675 3125 3150
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 64522A66
+P 3825 1925
+F 0 "#FLG0101" H 3825 2000 50  0001 C CNN
+F 1 "PWR_FLAG" H 3825 2098 50  0000 C CNN
+F 2 "" H 3825 1925 50  0001 C CNN
+F 3 "~" H 3825 1925 50  0001 C CNN
+	1    3825 1925
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3825 1925 3825 2000
+Connection ~ 3825 2000
+Wire Wire Line
+	3825 2000 3900 2000
+Connection ~ 3125 2000
+$Comp
+L 74xx:74LS32 U6
+U 5 1 64571FD8
+P 4875 4900
+F 0 "U6" H 4875 4950 50  0000 C CNN
+F 1 "74HCT32" H 4875 4850 50  0000 C CNN
+F 2 "" H 4875 4900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 4875 4900 50  0001 C CNN
+	5    4875 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4425 4325 4875 4325
+Wire Wire Line
+	4875 4325 4875 4400
+Connection ~ 4425 4325
+Wire Wire Line
+	4875 5475 4425 5475
+Connection ~ 4425 5475
+Wire Wire Line
+	4875 5400 4875 5475
+Connection ~ 4875 5475
+$Comp
+L 74xx:74LS32 U6
+U 2 1 64584572
+P 4950 7050
+F 0 "U6" H 4950 7375 50  0000 C CNN
+F 1 "74HCT32" H 4950 7284 50  0000 C CNN
+F 2 "" H 4950 7050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 4950 7050 50  0001 C CNN
+	2    4950 7050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 74xx:74LS32 U6
+U 3 1 6458571D
+P 5525 7050
+F 0 "U6" H 5525 7375 50  0000 C CNN
+F 1 "74HCT32" H 5525 7284 50  0000 C CNN
+F 2 "" H 5525 7050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 5525 7050 50  0001 C CNN
+	3    5525 7050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 74xx:74LS32 U6
+U 4 1 6458699B
+P 6100 7050
+F 0 "U6" H 6100 7375 50  0000 C CNN
+F 1 "74HCT32" H 6100 7284 50  0000 C CNN
+F 2 "" H 6100 7050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 6100 7050 50  0001 C CNN
+	4    6100 7050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6650 7425 6200 7425
+Wire Wire Line
+	4850 7425 4850 7350
+Connection ~ 6650 7425
+Wire Wire Line
+	6650 7425 6650 7500
+Wire Wire Line
+	5050 7350 5050 7425
+Connection ~ 5050 7425
+Wire Wire Line
+	5050 7425 4850 7425
+Wire Wire Line
+	5425 7350 5425 7425
+Connection ~ 5425 7425
+Wire Wire Line
+	5425 7425 5050 7425
+Wire Wire Line
+	5625 7350 5625 7425
+Connection ~ 5625 7425
+Wire Wire Line
+	5625 7425 5425 7425
+Wire Wire Line
+	6000 7350 6000 7425
+Connection ~ 6000 7425
+Wire Wire Line
+	6000 7425 5625 7425
+Wire Wire Line
+	6200 7350 6200 7425
+Connection ~ 6200 7425
+Wire Wire Line
+	6200 7425 6000 7425
+NoConn ~ 4950 6750
+NoConn ~ 5525 6750
+NoConn ~ 6100 6750
+$Comp
+L Device:C_Small C?
+U 1 1 64802B72
+P 1300 4900
+AR Path="/64802B72" Ref="C?"  Part="1" 
+AR Path="/63D786E4/64802B72" Ref="C8"  Part="1" 
+F 0 "C8" H 1392 4946 50  0000 L CNN
+F 1 "100nF" H 1392 4855 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 1300 4900 50  0001 C CNN
+F 3 "~" H 1300 4900 50  0001 C CNN
+	1    1300 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 5000 1300 5475
+Wire Wire Line
+	1300 5475 1725 5475
+Wire Wire Line
+	1300 4250 1300 4325
+Wire Wire Line
+	1725 4325 1300 4325
+Connection ~ 1725 4325
+Connection ~ 1300 4325
+Wire Wire Line
+	1300 4325 1300 4800
 $EndSCHEMATC

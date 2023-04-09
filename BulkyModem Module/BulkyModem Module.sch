@@ -126,7 +126,6 @@ NoConn ~ 6850 4125
 NoConn ~ 8450 3925
 NoConn ~ 8450 3825
 NoConn ~ 8450 3725
-NoConn ~ 8450 3225
 NoConn ~ 8450 2925
 Wire Wire Line
 	6850 3925 6700 3925
@@ -159,12 +158,8 @@ Wire Wire Line
 	6550 2100 6550 4325
 Wire Wire Line
 	6550 4325 6850 4325
-Text GLabel 8675 4125 2    50   Output ~ 0
+Text GLabel 10075 5050 2    50   Output ~ 0
 ESP_TX
-Wire Wire Line
-	8450 4125 8675 4125
-Text GLabel 9775 4025 2    50   Input ~ 0
-ESP_RX
 $Comp
 L 74xx:74HCT244 U1
 U 1 1 62F8565C
@@ -198,9 +193,7 @@ F 3 "" H 2425 4975 50  0001 C CNN
 	1    2425 4975
 	-1   0    0    -1  
 $EndComp
-Text GLabel 9775 3025 2    50   Input ~ 0
-ESP_CTS
-Text GLabel 8850 3125 2    50   Output ~ 0
+Text GLabel 9000 3125 2    50   Output ~ 0
 ESP_RTS
 $Sheet
 S 1350 1575 1025 825 
@@ -362,89 +355,6 @@ Text GLabel 3650 3900 2    50   Output ~ 0
 ESP_CTS
 Text GLabel 3650 3800 2    50   Output ~ 0
 ESP_RX
-$Comp
-L Device:R R?
-U 1 1 63E1B523
-P 9550 3025
-AR Path="/6390AE73/63E1B523" Ref="R?"  Part="1" 
-AR Path="/63E1B523" Ref="R19"  Part="1" 
-F 0 "R19" V 9343 3025 50  0000 C CNN
-F 1 "1k" V 9434 3025 50  0000 C CNN
-F 2 "resistor:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 9480 3025 50  0001 C CNN
-F 3 "~" H 9550 3025 50  0001 C CNN
-	1    9550 3025
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 63E1D8A2
-P 9550 4025
-AR Path="/6390AE73/63E1D8A2" Ref="R?"  Part="1" 
-AR Path="/63E1D8A2" Ref="R20"  Part="1" 
-F 0 "R20" V 9343 4025 50  0000 C CNN
-F 1 "1k" V 9434 4025 50  0000 C CNN
-F 2 "resistor:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 9480 4025 50  0001 C CNN
-F 3 "~" H 9550 4025 50  0001 C CNN
-	1    9550 4025
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 63E1DF8E
-P 9325 3250
-AR Path="/6390AE73/63E1DF8E" Ref="R?"  Part="1" 
-AR Path="/63E1DF8E" Ref="R17"  Part="1" 
-F 0 "R17" H 9255 3204 50  0000 R CNN
-F 1 "2k" H 9255 3295 50  0000 R CNN
-F 2 "resistor:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 9255 3250 50  0001 C CNN
-F 3 "~" H 9325 3250 50  0001 C CNN
-	1    9325 3250
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	9325 3100 9325 3025
-Wire Wire Line
-	9325 3025 9400 3025
-$Comp
-L Device:R R?
-U 1 1 63E2105A
-P 9325 4250
-AR Path="/6390AE73/63E2105A" Ref="R?"  Part="1" 
-AR Path="/63E2105A" Ref="R18"  Part="1" 
-F 0 "R18" H 9255 4204 50  0000 R CNN
-F 1 "2k" H 9255 4295 50  0000 R CNN
-F 2 "resistor:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 9255 4250 50  0001 C CNN
-F 3 "~" H 9325 4250 50  0001 C CNN
-	1    9325 4250
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	9325 4100 9325 4025
-Wire Wire Line
-	9325 4025 9400 4025
-Connection ~ 9325 4025
-$Comp
-L power:GND #PWR0135
-U 1 1 63E25FF5
-P 9325 3400
-F 0 "#PWR0135" H 9325 3150 50  0001 C CNN
-F 1 "GND" H 9330 3227 50  0000 C CNN
-F 2 "" H 9325 3400 50  0001 C CNN
-F 3 "" H 9325 3400 50  0001 C CNN
-	1    9325 3400
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0136
-U 1 1 63E26F24
-P 9325 4400
-F 0 "#PWR0136" H 9325 4150 50  0001 C CNN
-F 1 "GND" H 9330 4227 50  0000 C CNN
-F 2 "" H 9325 4400 50  0001 C CNN
-F 3 "" H 9325 4400 50  0001 C CNN
-	1    9325 4400
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2425 4975 2425 4900
 Wire Wire Line
@@ -471,69 +381,12 @@ Wire Wire Line
 	1525 4600 1925 4600
 Wire Wire Line
 	1525 4500 1925 4500
-Wire Wire Line
-	9775 4025 9700 4025
-Wire Wire Line
-	9700 3025 9775 3025
-Text GLabel 5950 3725 0    50   Input ~ 0
-MODE_C64
-Connection ~ 9325 3025
-$Comp
-L Device:R R?
-U 1 1 62F58556
-P 6175 3725
-AR Path="/6390AE73/62F58556" Ref="R?"  Part="1" 
-AR Path="/62F58556" Ref="R23"  Part="1" 
-F 0 "R23" V 5968 3725 50  0000 C CNN
-F 1 "1k" V 6059 3725 50  0000 C CNN
-F 2 "resistor:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6105 3725 50  0001 C CNN
-F 3 "~" H 6175 3725 50  0001 C CNN
-	1    6175 3725
-	0    -1   1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 62F5855C
-P 6400 3950
-AR Path="/6390AE73/62F5855C" Ref="R?"  Part="1" 
-AR Path="/62F5855C" Ref="R22"  Part="1" 
-F 0 "R22" H 6330 3904 50  0000 R CNN
-F 1 "2k" H 6330 3995 50  0000 R CNN
-F 2 "resistor:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6330 3950 50  0001 C CNN
-F 3 "~" H 6400 3950 50  0001 C CNN
-	1    6400 3950
-	1    0    0    1   
-$EndComp
-Wire Wire Line
-	6400 3800 6400 3725
-Wire Wire Line
-	6400 3725 6325 3725
-$Comp
-L power:GND #PWR05
-U 1 1 62F58564
-P 6400 4100
-F 0 "#PWR05" H 6400 3850 50  0001 C CNN
-F 1 "GND" H 6405 3927 50  0000 C CNN
-F 2 "" H 6400 4100 50  0001 C CNN
-F 3 "" H 6400 4100 50  0001 C CNN
-	1    6400 4100
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	6025 3725 5950 3725
-Connection ~ 6400 3725
-Wire Wire Line
-	6400 3725 6850 3725
-Text Notes 4800 4150 0    50   ~ 0
-SK/IO6 isn't defined anywhere by\nZimodem, I'm just adding it case\nI need it later with the necessary\nfirmware changes to support it.
 Wire Bus Line
 	725  1425 4125 1425
 Text Notes 725  4925 0    50   ~ 0
 MODE_232 and MODE_C64 signals\nare controlled by the front panel\ncircuitry.
-Text GLabel 10125 1575 2    50   Output ~ 0
+Text GLabel 9000 3325 2    50   Output ~ 0
 ESP_DCD
-Wire Wire Line
-	8450 3325 8675 3325
 Text GLabel 1275 2175 0    50   Input ~ 0
 ESP_DCD
 Wire Wire Line
@@ -550,90 +403,194 @@ Text GLabel 3575 2275 2    50   Input ~ 0
 ESP_RI
 Wire Wire Line
 	3575 2275 3500 2275
-Text GLabel 10125 2100 2    50   Output ~ 0
+Text GLabel 9000 3625 2    50   Output ~ 0
 ESP_RI
-$Comp
-L 74xx:74HCT04 U5
-U 2 1 62E07EFB
-P 9150 1575
-AR Path="/62E07EFB" Ref="U5"  Part="2" 
-AR Path="/6390AE73/62E07EFB" Ref="U?"  Part="1" 
-AR Path="/63D786E4/62E07EFB" Ref="U?"  Part="2" 
-F 0 "U5" H 9150 1892 50  0000 C CNN
-F 1 "74HCT04" H 9150 1801 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 9150 1575 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 9150 1575 50  0001 C CNN
-	2    9150 1575
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74HCT04 U5
-U 3 1 62E07F01
-P 9750 1575
-AR Path="/62E07F01" Ref="U5"  Part="3" 
-AR Path="/6390AE73/62E07F01" Ref="U?"  Part="1" 
-AR Path="/63D786E4/62E07F01" Ref="U?"  Part="3" 
-F 0 "U5" H 9750 1892 50  0000 C CNN
-F 1 "74HCT04" H 9750 1801 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 9750 1575 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 9750 1575 50  0001 C CNN
-	3    9750 1575
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74HCT04 U5
-U 4 1 62E07F07
-P 9750 2100
-AR Path="/62E07F07" Ref="U5"  Part="4" 
-AR Path="/6390AE73/62E07F07" Ref="U?"  Part="1" 
-AR Path="/63D786E4/62E07F07" Ref="U?"  Part="5" 
-F 0 "U5" H 9750 2417 50  0000 C CNN
-F 1 "74HCT04" H 9750 2326 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 9750 2100 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 9750 2100 50  0001 C CNN
-	4    9750 2100
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74HCT04 U5
-U 5 1 62E07F0D
-P 9150 2100
-AR Path="/62E07F0D" Ref="U5"  Part="5" 
-AR Path="/6390AE73/62E07F0D" Ref="U?"  Part="1" 
-AR Path="/63D786E4/62E07F0D" Ref="U?"  Part="4" 
-F 0 "U5" H 9150 2417 50  0000 C CNN
-F 1 "74HCT04" H 9150 2326 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 9150 2100 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 9150 2100 50  0001 C CNN
-	5    9150 2100
-	1    0    0    -1  
-$EndComp
 Text GLabel 3575 2175 2    50   Input ~ 0
 ESP_DCD
+$Comp
+L 74xx:74LS32 U?
+U 1 1 64593DC3
+P 9625 5050
+AR Path="/63D786E4/64593DC3" Ref="U?"  Part="1" 
+AR Path="/64593DC3" Ref="U6"  Part="1" 
+F 0 "U6" H 9625 5375 50  0000 C CNN
+F 1 "74HCT32" H 9625 5284 50  0000 C CNN
+F 2 "" H 9625 5050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 9625 5050 50  0001 C CNN
+	1    9625 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L BulkyModem:Swap_Output JP15
+U 1 1 645ED505
+P 8850 4950
+AR Path="/645ED505" Ref="JP15"  Part="1" 
+AR Path="/6379233A/645ED505" Ref="JP?"  Part="1" 
+F 0 "JP15" V 9000 4875 50  0000 R CNN
+F 1 "TX_FILTER" V 8925 4875 50  0000 R CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm" H 8850 4950 50  0001 C CNN
+F 3 "~" H 8850 4950 50  0001 C CNN
+	1    8850 4950
+	0    -1   -1   0   
+$EndComp
 Wire Wire Line
-	8675 3325 8675 1575
+	8450 4125 8750 4125
+$Comp
+L power:GND #PWR010
+U 1 1 6462A6AE
+P 8850 5150
+F 0 "#PWR010" H 8850 4900 50  0001 C CNN
+F 1 "GND" H 8855 4977 50  0000 C CNN
+F 2 "" H 8850 5150 50  0001 C CNN
+F 3 "" H 8850 5150 50  0001 C CNN
+	1    8850 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP16
+U 1 1 64639D0A
+P 9600 5525
+AR Path="/64639D0A" Ref="JP16"  Part="1" 
+AR Path="/63D786E4/64639D0A" Ref="JP?"  Part="1" 
+AR Path="/6379233A/64639D0A" Ref="JP?"  Part="1" 
+F 0 "JP16" H 9600 5686 31  0000 C CNN
+F 1 "BYPASS" H 9600 5624 31  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 9600 5525 50  0001 C CNN
+F 3 "~" H 9600 5525 50  0001 C CNN
+	1    9600 5525
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	8450 3025 9325 3025
+	10075 5050 10000 5050
 Wire Wire Line
-	8450 4025 9325 4025
+	9925 5050 10000 5050
+Connection ~ 10000 5050
 Wire Wire Line
-	8450 3125 8850 3125
+	8750 4125 8750 5525
 Wire Wire Line
-	8450 3625 8750 3625
+	9000 4950 9325 4950
 Wire Wire Line
-	8750 3625 8750 2100
+	8850 3225 8850 4750
 Wire Wire Line
-	8750 2100 8850 2100
+	8450 3225 8850 3225
 Wire Wire Line
-	8675 1575 8850 1575
+	8750 5525 9250 5525
 Wire Wire Line
-	10050 2100 10125 2100
+	9750 5525 10000 5525
 Wire Wire Line
-	10050 1575 10125 1575
+	10000 5050 10000 5525
+Wire Wire Line
+	9325 5150 9250 5150
+Wire Wire Line
+	9250 5150 9250 5525
+Connection ~ 9250 5525
+Wire Wire Line
+	9250 5525 9450 5525
+Wire Wire Line
+	10000 3025 10075 3025
+Wire Wire Line
+	10075 4025 10000 4025
+$Comp
+L power:GND #PWR0136
+U 1 1 63E26F24
+P 9625 4400
+F 0 "#PWR0136" H 9625 4150 50  0001 C CNN
+F 1 "GND" H 9630 4227 50  0000 C CNN
+F 2 "" H 9625 4400 50  0001 C CNN
+F 3 "" H 9625 4400 50  0001 C CNN
+	1    9625 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0135
+U 1 1 63E25FF5
+P 9625 3400
+F 0 "#PWR0135" H 9625 3150 50  0001 C CNN
+F 1 "GND" H 9630 3227 50  0000 C CNN
+F 2 "" H 9625 3400 50  0001 C CNN
+F 3 "" H 9625 3400 50  0001 C CNN
+	1    9625 3400
+	1    0    0    -1  
+$EndComp
+Connection ~ 9625 4025
+Wire Wire Line
+	9625 4025 9700 4025
+Wire Wire Line
+	9625 4100 9625 4025
+$Comp
+L Device:R R?
+U 1 1 63E2105A
+P 9625 4250
+AR Path="/6390AE73/63E2105A" Ref="R?"  Part="1" 
+AR Path="/63E2105A" Ref="R18"  Part="1" 
+F 0 "R18" H 9555 4204 50  0000 R CNN
+F 1 "2k" H 9555 4295 50  0000 R CNN
+F 2 "resistor:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 9555 4250 50  0001 C CNN
+F 3 "~" H 9625 4250 50  0001 C CNN
+	1    9625 4250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9625 3025 9700 3025
+Wire Wire Line
+	9625 3100 9625 3025
+$Comp
+L Device:R R?
+U 1 1 63E1DF8E
+P 9625 3250
+AR Path="/6390AE73/63E1DF8E" Ref="R?"  Part="1" 
+AR Path="/63E1DF8E" Ref="R17"  Part="1" 
+F 0 "R17" H 9555 3204 50  0000 R CNN
+F 1 "2k" H 9555 3295 50  0000 R CNN
+F 2 "resistor:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 9555 3250 50  0001 C CNN
+F 3 "~" H 9625 3250 50  0001 C CNN
+	1    9625 3250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 63E1D8A2
+P 9850 4025
+AR Path="/6390AE73/63E1D8A2" Ref="R?"  Part="1" 
+AR Path="/63E1D8A2" Ref="R20"  Part="1" 
+F 0 "R20" V 9643 4025 50  0000 C CNN
+F 1 "1k" V 9734 4025 50  0000 C CNN
+F 2 "resistor:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 9780 4025 50  0001 C CNN
+F 3 "~" H 9850 4025 50  0001 C CNN
+	1    9850 4025
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 63E1B523
+P 9850 3025
+AR Path="/6390AE73/63E1B523" Ref="R?"  Part="1" 
+AR Path="/63E1B523" Ref="R19"  Part="1" 
+F 0 "R19" V 9643 3025 50  0000 C CNN
+F 1 "1k" V 9734 3025 50  0000 C CNN
+F 2 "resistor:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 9780 3025 50  0001 C CNN
+F 3 "~" H 9850 3025 50  0001 C CNN
+	1    9850 3025
+	0    1    1    0   
+$EndComp
+Text GLabel 10075 3025 2    50   Input ~ 0
+ESP_CTS
+Text GLabel 10075 4025 2    50   Input ~ 0
+ESP_RX
+Wire Wire Line
+	8450 3025 9625 3025
+Connection ~ 9625 3025
+Wire Wire Line
+	8450 4025 9625 4025
+Wire Wire Line
+	8450 3125 9000 3125
+NoConn ~ 6850 3725
+Wire Wire Line
+	8450 3625 9000 3625
+Wire Wire Line
+	8450 3325 9000 3325
 Wire Bus Line
 	4125 1425 4125 4000
 Wire Bus Line
 	725  1425 725  4400
-Text Notes 8825 1175 0    50   ~ 0
-Probably don't need to buffer these\nsignals, but I had the gates so why\nnot use them.
 $EndSCHEMATC
