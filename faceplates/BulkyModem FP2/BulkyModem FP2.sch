@@ -4,12 +4,12 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "BulkyModem Front Plate (FP1)"
+Title "BulkyModem Front Plate (FP2)"
 Date ""
 Rev "A"
 Comp ""
-Comment1 ""
-Comment2 "Labels are the ports as seen by the modem, see FP2 or FP3 for something that doesn't require quite as much in the way of mental mapping."
+Comment1 "https://support.usr.com/support/3453c/3453c-ug/viewing_leds.html"
+Comment2 "Labels on the front should approximate those seen on USRobotics-modems, manual at:"
 Comment3 ""
 Comment4 "A cosmetic plate to go on the front of the device."
 $EndDescr
