@@ -590,6 +590,8 @@ Text Label 4950 3300 1    50   ~ 0
 LED_RI
 Wire Wire Line
 	4950 3325 4950 2850
+NoConn ~ 9025 2725
+NoConn ~ 9025 4025
 Wire Bus Line
 	4100 3425 8075 3425
 Wire Bus Line

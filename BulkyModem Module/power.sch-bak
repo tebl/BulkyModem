@@ -29,18 +29,16 @@ $EndComp
 $Comp
 L power:+5V #PWR?
 U 1 1 63D96468
-P 8125 3125
+P 8125 2975
 AR Path="/63D96468" Ref="#PWR?"  Part="1" 
 AR Path="/63D786E4/63D96468" Ref="#PWR0101"  Part="1" 
-F 0 "#PWR0101" H 8125 2975 50  0001 C CNN
-F 1 "+5V" H 8125 3300 50  0000 C CNN
-F 2 "" H 8125 3125 50  0001 C CNN
-F 3 "" H 8125 3125 50  0001 C CNN
-	1    8125 3125
+F 0 "#PWR0101" H 8125 2825 50  0001 C CNN
+F 1 "+5V" H 8125 3150 50  0000 C CNN
+F 2 "" H 8125 2975 50  0001 C CNN
+F 3 "" H 8125 2975 50  0001 C CNN
+	1    8125 2975
 	1    0    0    -1  
 $EndComp
-NoConn ~ 7725 3275
-NoConn ~ 7725 4025
 $Comp
 L Device:D D?
 U 1 1 63D96470
@@ -55,49 +53,43 @@ F 3 "~" H 6875 3650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	7225 3200 7000 3200
-Connection ~ 7225 3200
-Connection ~ 7000 3200
+	7225 3050 7000 3050
+Connection ~ 7225 3050
+Connection ~ 7000 3050
 Wire Wire Line
-	7225 3200 7225 3275
+	7225 3050 7525 3050
+Connection ~ 7525 3050
 Wire Wire Line
-	7225 3200 7525 3200
-Connection ~ 7525 3200
-Wire Wire Line
-	7525 3200 7525 3275
-Wire Wire Line
-	8125 3125 8125 3200
+	8125 2975 8125 3050
 $Comp
 L Jumper:SolderJumper_2_Open JP?
 U 1 1 63D9647F
-P 7725 3200
+P 7725 3050
 AR Path="/63D9647F" Ref="JP?"  Part="1" 
 AR Path="/63D786E4/63D9647F" Ref="JP2"  Part="1" 
-F 0 "JP2" H 7725 3361 31  0000 C CNN
-F 1 "BYPASS" H 7725 3299 31  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 7725 3200 50  0001 C CNN
-F 3 "~" H 7725 3200 50  0001 C CNN
-	1    7725 3200
+F 0 "JP2" H 7725 3211 31  0000 C CNN
+F 1 "BYPASS" H 7725 3149 31  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 7725 3050 50  0001 C CNN
+F 3 "~" H 7725 3050 50  0001 C CNN
+	1    7725 3050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7525 3200 7575 3200
+	7525 3050 7575 3050
 Wire Wire Line
-	7875 3200 7925 3200
-Connection ~ 7925 3200
-Wire Wire Line
-	7925 3200 7925 3275
+	7875 3050 7925 3050
+Connection ~ 7925 3050
 $Comp
 L barrel_jack:VIN #PWR?
 U 1 1 63D96489
-P 6875 3125
+P 6875 2975
 AR Path="/63D96489" Ref="#PWR?"  Part="1" 
 AR Path="/63D786E4/63D96489" Ref="#PWR0103"  Part="1" 
-F 0 "#PWR0103" H 6875 2975 50  0001 C CNN
-F 1 "VIN" H 6892 3298 50  0000 C CNN
-F 2 "" H 6875 3125 50  0001 C CNN
-F 3 "" H 6875 3125 50  0001 C CNN
-	1    6875 3125
+F 0 "#PWR0103" H 6875 2825 50  0001 C CNN
+F 1 "VIN" H 6892 3148 50  0000 C CNN
+F 2 "" H 6875 2975 50  0001 C CNN
+F 3 "" H 6875 2975 50  0001 C CNN
+	1    6875 2975
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -136,26 +128,20 @@ F 3 "~" H 7225 4375 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	7925 3200 8125 3200
-Wire Wire Line
-	8125 3200 8125 4100
+	7925 3050 8125 3050
 Wire Wire Line
 	8125 4100 7925 4100
 Wire Wire Line
 	7925 4100 7925 4025
 Wire Wire Line
-	7000 3200 7000 4100
-Wire Wire Line
 	7225 4025 7225 4200
 Wire Wire Line
 	7000 4100 7525 4100
 Wire Wire Line
-	6875 3125 6875 3200
-Connection ~ 6875 3200
+	6875 2975 6875 3050
+Connection ~ 6875 3050
 Wire Wire Line
-	7000 3200 6875 3200
-Wire Wire Line
-	6875 3200 6875 3500
+	7000 3050 6875 3050
 Wire Wire Line
 	6875 3800 6875 4200
 Wire Wire Line
@@ -164,19 +150,6 @@ Text GLabel 7350 4275 3    50   Input ~ 0
 PWR_EN
 Wire Wire Line
 	7350 4200 7350 4275
-$Comp
-L barrel_jack:barrel_9v J?
-U 1 1 63DAB478
-P 2375 2575
-AR Path="/63DAB478" Ref="J?"  Part="1" 
-AR Path="/63D786E4/63DAB478" Ref="J1"  Part="1" 
-F 0 "J1" H 2454 2900 50  0000 C CNN
-F 1 "DC IN" H 2454 2809 50  0000 C CNN
-F 2 "BulkyModem:BARREL_JACK" H 2425 2535 50  0001 C CNN
-F 3 "~" H 2425 2535 50  0001 C CNN
-	1    2375 2575
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 63DAB47E
@@ -203,10 +176,6 @@ F 3 "~" H 3425 4900 50  0001 C CNN
 	1    3425 4900
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2675 2475 2750 2475
-Wire Wire Line
-	2675 2675 2750 2675
 $Comp
 L Device:CP1 C?
 U 1 1 63DAB48C
@@ -255,49 +224,14 @@ Wire Wire Line
 Wire Wire Line
 	3975 4325 3975 4400
 Wire Wire Line
-	2675 2575 2750 2575
-Wire Wire Line
-	3125 1925 3125 2000
-Connection ~ 3425 2000
-Wire Wire Line
-	3125 2000 3125 2475
-Wire Wire Line
 	3425 2000 3425 2425
-Wire Wire Line
-	3425 3150 3125 3150
 Connection ~ 3425 3150
 Wire Wire Line
 	3425 3150 3425 3225
 Wire Wire Line
 	3425 2725 3425 3150
-$Comp
-L BulkyModem:DC_5V SYM?
-U 1 1 63DAB4B1
-P 2450 2075
-AR Path="/63DAB4B1" Ref="SYM?"  Part="1" 
-AR Path="/63D786E4/63DAB4B1" Ref="SYM1"  Part="1" 
-F 0 "SYM1" H 2450 2296 50  0001 C CNN
-F 1 "DC_5V" H 2450 2204 50  0000 C CNN
-F 2 "BulkyModem:PWR_Specification" H 2325 2175 50  0001 C CNN
-F 3 "" H 2325 2175 50  0001 C CNN
-	1    2450 2075
-	1    0    0    -1  
-$EndComp
 Text Notes 2700 1250 0    50   ~ 0
 Power input and decoupling
-$Comp
-L barrel_jack:VIN #PWR?
-U 1 1 63DAB4BE
-P 3125 1925
-AR Path="/63DAB4BE" Ref="#PWR?"  Part="1" 
-AR Path="/63D786E4/63DAB4BE" Ref="#PWR0134"  Part="1" 
-F 0 "#PWR0134" H 3125 1775 50  0001 C CNN
-F 1 "VIN" H 3142 2098 50  0000 C CNN
-F 2 "" H 3125 1925 50  0001 C CNN
-F 3 "" H 3125 1925 50  0001 C CNN
-	1    3125 1925
-	1    0    0    -1  
-$EndComp
 $Comp
 L 74xx:74HCT04 U?
 U 7 1 63DAB4C4
@@ -320,19 +254,6 @@ Text Notes 6325 2725 0    50   ~ 0
 Power switch uses a relay to provide power to the rest\nof the circuitry beyond the power section itself. This\nbypasses the kind of dodgy switches, as well as making\nan exciting clicking sound. Solder in the bypass jumper\nto skip installing relay, but you'll need to unplug the\ncable to turn it off.
 Wire Notes Line
 	5825 1725 5825 5550
-$Comp
-L BulkyModem:Conn_Power J4
-U 1 1 62DFBB40
-P 4100 2000
-F 0 "J4" H 4403 1996 50  0000 L CNN
-F 1 "Conn_Power" H 4403 1905 50  0000 L CNN
-F 2 "BulkyModem:Conn_Power" H 4100 2000 50  0001 C CNN
-F 3 "~" H 4100 2000 50  0001 C CNN
-	1    4100 2000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3900 2100 3825 2100
 $Comp
 L Device:C_Small C?
 U 1 1 6319B9B5
@@ -404,14 +325,6 @@ Wire Wire Line
 Connection ~ 2575 5475
 Wire Wire Line
 	2150 4325 2575 4325
-Wire Wire Line
-	3825 3150 3425 3150
-Wire Wire Line
-	3425 2000 3825 2000
-Wire Wire Line
-	3125 2000 3425 2000
-Wire Wire Line
-	3825 2100 3825 3150
 $Comp
 L 74xx:74HCT04 U?
 U 7 1 63263AE9
@@ -485,51 +398,27 @@ Wire Wire Line
 	1725 4325 2150 4325
 Wire Wire Line
 	6650 7350 6650 7425
-$Comp
-L Diode:1N5819 D11
-U 1 1 644AC11F
-P 2900 2475
-F 0 "D11" H 2900 2258 50  0000 C CNN
-F 1 "1N5819" H 2900 2349 50  0000 C CNN
-F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 2900 2300 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/88525/1n5817.pdf" H 2900 2475 50  0001 C CNN
-	1    2900 2475
-	-1   0    0    1   
-$EndComp
-Connection ~ 8125 3200
-Wire Wire Line
-	3125 2475 3050 2475
-Wire Wire Line
-	2750 2675 2750 2575
-Wire Wire Line
-	2750 2675 3125 2675
-Connection ~ 2750 2675
-Wire Wire Line
-	3125 2675 3125 3150
+Connection ~ 8125 3050
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 64522A66
-P 3825 1925
-F 0 "#FLG0101" H 3825 2000 50  0001 C CNN
-F 1 "PWR_FLAG" H 3825 2098 50  0000 C CNN
-F 2 "" H 3825 1925 50  0001 C CNN
-F 3 "~" H 3825 1925 50  0001 C CNN
-	1    3825 1925
+P 3425 1925
+F 0 "#FLG0101" H 3425 2000 50  0001 C CNN
+F 1 "PWR_FLAG" H 3425 2098 50  0001 C CNN
+F 2 "" H 3425 1925 50  0001 C CNN
+F 3 "~" H 3425 1925 50  0001 C CNN
+	1    3425 1925
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3825 1925 3825 2000
-Connection ~ 3825 2000
-Wire Wire Line
-	3825 2000 3900 2000
-Connection ~ 3125 2000
+	3425 1925 3425 2000
 $Comp
 L 74xx:74LS32 U6
 U 5 1 64571FD8
 P 4875 4900
 F 0 "U6" H 4875 4950 50  0000 C CNN
 F 1 "74HCT32" H 4875 4850 50  0000 C CNN
-F 2 "" H 4875 4900 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 4875 4900 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 4875 4900 50  0001 C CNN
 	5    4875 4900
 	1    0    0    -1  
@@ -551,7 +440,7 @@ U 2 1 64584572
 P 4950 7050
 F 0 "U6" H 4950 7375 50  0000 C CNN
 F 1 "74HCT32" H 4950 7284 50  0000 C CNN
-F 2 "" H 4950 7050 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 4950 7050 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 4950 7050 50  0001 C CNN
 	2    4950 7050
 	0    -1   -1   0   
@@ -562,7 +451,7 @@ U 3 1 6458571D
 P 5525 7050
 F 0 "U6" H 5525 7375 50  0000 C CNN
 F 1 "74HCT32" H 5525 7284 50  0000 C CNN
-F 2 "" H 5525 7050 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 5525 7050 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 5525 7050 50  0001 C CNN
 	3    5525 7050
 	0    -1   -1   0   
@@ -573,7 +462,7 @@ U 4 1 6458699B
 P 6100 7050
 F 0 "U6" H 6100 7375 50  0000 C CNN
 F 1 "74HCT32" H 6100 7284 50  0000 C CNN
-F 2 "" H 6100 7050 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 6100 7050 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 6100 7050 50  0001 C CNN
 	4    6100 7050
 	0    -1   -1   0   
@@ -638,4 +527,145 @@ Connection ~ 1725 4325
 Connection ~ 1300 4325
 Wire Wire Line
 	1300 4325 1300 4800
+Connection ~ 3125 2000
+Wire Wire Line
+	3125 2675 3125 3150
+Connection ~ 2750 2675
+Wire Wire Line
+	2750 2675 3125 2675
+Wire Wire Line
+	2750 2675 2750 2575
+Wire Wire Line
+	3125 2475 3050 2475
+$Comp
+L Diode:1N5819 D11
+U 1 1 644AC11F
+P 2900 2475
+F 0 "D11" H 2900 2258 50  0000 C CNN
+F 1 "1N5819" H 2900 2349 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 2900 2300 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88525/1n5817.pdf" H 2900 2475 50  0001 C CNN
+	1    2900 2475
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3125 2000 3425 2000
+$Comp
+L barrel_jack:VIN #PWR?
+U 1 1 63DAB4BE
+P 3125 1925
+AR Path="/63DAB4BE" Ref="#PWR?"  Part="1" 
+AR Path="/63D786E4/63DAB4BE" Ref="#PWR0134"  Part="1" 
+F 0 "#PWR0134" H 3125 1775 50  0001 C CNN
+F 1 "VIN" H 3142 2098 50  0000 C CNN
+F 2 "" H 3125 1925 50  0001 C CNN
+F 3 "" H 3125 1925 50  0001 C CNN
+	1    3125 1925
+	1    0    0    -1  
+$EndComp
+$Comp
+L BulkyModem:DC_5V SYM?
+U 1 1 63DAB4B1
+P 2450 2075
+AR Path="/63DAB4B1" Ref="SYM?"  Part="1" 
+AR Path="/63D786E4/63DAB4B1" Ref="SYM1"  Part="1" 
+F 0 "SYM1" H 2450 2296 50  0001 C CNN
+F 1 "DC_5V" H 2450 2204 50  0000 C CNN
+F 2 "BulkyModem:PWR_Specification" H 2325 2175 50  0001 C CNN
+F 3 "" H 2325 2175 50  0001 C CNN
+	1    2450 2075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3425 3150 3125 3150
+Wire Wire Line
+	3125 2000 3125 2475
+Wire Wire Line
+	3125 1925 3125 2000
+Wire Wire Line
+	2675 2575 2750 2575
+Wire Wire Line
+	2675 2675 2750 2675
+Wire Wire Line
+	2675 2475 2750 2475
+$Comp
+L barrel_jack:barrel_9v J?
+U 1 1 63DAB478
+P 2375 2575
+AR Path="/63DAB478" Ref="J?"  Part="1" 
+AR Path="/63D786E4/63DAB478" Ref="J1"  Part="1" 
+F 0 "J1" H 2454 2900 50  0000 C CNN
+F 1 "DC IN" H 2454 2809 50  0000 C CNN
+F 2 "BulkyModem:BARREL_JACK" H 2425 2535 50  0001 C CNN
+F 3 "~" H 2425 2535 50  0001 C CNN
+	1    2375 2575
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 64A820CC
+P 7725 5000
+AR Path="/64A820CC" Ref="#PWR?"  Part="1" 
+AR Path="/6390AE73/64A820CC" Ref="#PWR?"  Part="1" 
+AR Path="/63D786E4/64A820CC" Ref="#PWR05"  Part="1" 
+F 0 "#PWR05" H 7725 4750 50  0001 C CNN
+F 1 "GND" H 7730 4827 50  0000 C CNN
+F 2 "" H 7725 5000 50  0001 C CNN
+F 3 "" H 7725 5000 50  0001 C CNN
+	1    7725 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 64A820D2
+P 7725 4850
+AR Path="/64A820D2" Ref="R?"  Part="1" 
+AR Path="/6390AE73/64A820D2" Ref="R?"  Part="1" 
+AR Path="/63D786E4/64A820D2" Ref="R1"  Part="1" 
+F 0 "R1" V 7518 4850 50  0000 C CNN
+F 1 "2k2" V 7609 4850 50  0000 C CNN
+F 2 "resistor:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7655 4850 50  0001 C CNN
+F 3 "~" H 7725 4850 50  0001 C CNN
+	1    7725 4850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 64A820D8
+P 7725 4475
+AR Path="/64A820D8" Ref="D?"  Part="1" 
+AR Path="/6390AE73/64A820D8" Ref="D?"  Part="1" 
+AR Path="/63D786E4/64A820D8" Ref="D12"  Part="1" 
+F 0 "D12" H 7718 4220 50  0000 C CNN
+F 1 "STANDBY" H 7718 4311 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 7725 4475 50  0001 C CNN
+F 3 "~" H 7725 4475 50  0001 C CNN
+	1    7725 4475
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7725 4700 7725 4625
+Wire Wire Line
+	6875 3050 6875 3500
+Wire Wire Line
+	7225 3050 7225 3275
+Wire Wire Line
+	7525 3050 7525 3275
+Wire Wire Line
+	7925 3050 7925 3275
+Wire Wire Line
+	7000 3050 7000 4100
+Wire Wire Line
+	8125 3050 8125 4100
+Text GLabel 8225 4200 2    50   Output ~ 0
+VSB
+Wire Wire Line
+	7725 4200 8225 4200
+Connection ~ 3425 2000
+Wire Wire Line
+	7725 4200 7725 4025
+NoConn ~ 7725 3275
+Wire Wire Line
+	7725 4325 7725 4200
+Connection ~ 7725 4200
 $EndSCHEMATC

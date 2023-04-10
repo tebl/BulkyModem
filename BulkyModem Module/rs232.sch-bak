@@ -223,7 +223,7 @@ Wire Wire Line
 	1675 2625 1600 2625
 Text Notes 1850 6150 0    50   ~ 0
 Jumpers allow the pins to be swapped, this should\naccount for differences in the cables used. Connecting\nthe device using a standard DB9 male to female cable,\nall of these should be set to pins 1-2.
-Text Notes 9375 6175 0    50   ~ 0
+Text Notes 9375 6300 0    50   ~ 0
 Zimodem firmware compiled for ESP8266\ninverts signals, assuming the device\nconnected is a Commodore 64. To support\nboth we need to invert some of the signals\nback again.\n\nWhen in doubt, link all of these across\npins 1-2.
 Wire Wire Line
 	2575 4775 2575 2725

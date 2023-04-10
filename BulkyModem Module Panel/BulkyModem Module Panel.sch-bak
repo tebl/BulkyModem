@@ -590,8 +590,37 @@ Text Label 4950 3300 1    50   ~ 0
 LED_RI
 Wire Wire Line
 	4950 3325 4950 2850
+Text GLabel 8775 4025 0    50   Output ~ 0
+VSB
+Wire Wire Line
+	8775 4025 9025 4025
+Text Label 8400 2725 0    50   ~ 0
+LED_STB
+Entry Wire Line
+	8375 2725 8275 2825
+Wire Wire Line
+	8375 2725 9025 2725
+Entry Wire Line
+	7450 3425 7350 3325
+$Comp
+L Device:LED D3
+U 1 1 64354950
+P 7350 2700
+F 0 "D3" V 7389 2582 50  0000 R CNN
+F 1 "STB" V 7298 2582 50  0000 R CNN
+F 2 "LED_THT:LED_D5.0mm" H 7350 2700 50  0001 C CNN
+F 3 "~" H 7350 2700 50  0001 C CNN
+	1    7350 2700
+	0    -1   -1   0   
+$EndComp
+Text Label 7350 3300 1    50   ~ 0
+LED_STB
+Wire Wire Line
+	7350 3325 7350 2850
 Wire Bus Line
 	4100 3425 8075 3425
 Wire Bus Line
 	8275 2725 8275 3625
+Text GLabel 7350 2550 1    50   Input ~ 0
+VSB
 $EndSCHEMATC
