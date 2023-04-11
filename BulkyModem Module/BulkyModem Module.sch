@@ -576,10 +576,6 @@ Wire Wire Line
 	8450 3625 9000 3625
 Wire Wire Line
 	8450 3325 9000 3325
-Wire Bus Line
-	4125 1425 4125 4000
-Wire Bus Line
-	725  1425 725  4400
 $Comp
 L BulkyModem:Swap_Output JP15
 U 1 1 645ED505
@@ -593,4 +589,8 @@ F 3 "~" H 8850 4950 50  0001 C CNN
 	1    8850 4950
 	0    -1   -1   0   
 $EndComp
+Wire Bus Line
+	4125 1425 4125 4000
+Wire Bus Line
+	725  1425 725  4400
 $EndSCHEMATC

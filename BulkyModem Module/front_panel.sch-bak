@@ -33,7 +33,7 @@ P 3000 3300
 AR Path="/63B6F359" Ref="R?"  Part="1" 
 AR Path="/6390AE73/63B6F359" Ref="R4"  Part="1" 
 F 0 "R4" V 2793 3300 50  0000 C CNN
-F 1 "2k2" V 2884 3300 50  0000 C CNN
+F 1 "2k2*" V 2884 3300 50  0000 C CNN
 F 2 "resistor:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2930 3300 50  0001 C CNN
 F 3 "~" H 3000 3300 50  0001 C CNN
 	1    3000 3300
@@ -773,7 +773,7 @@ AR Path="/64BB4F1E" Ref="R?"  Part="1"
 AR Path="/6390AE73/64BB4F1E" Ref="R3"  Part="1" 
 AR Path="/63D786E4/64BB4F1E" Ref="R?"  Part="1" 
 F 0 "R3" V 1868 3300 50  0000 C CNN
-F 1 "2k2" V 1959 3300 50  0000 C CNN
+F 1 "2k2*" V 1959 3300 50  0000 C CNN
 F 2 "resistor:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2005 3300 50  0001 C CNN
 F 3 "~" H 2075 3300 50  0001 C CNN
 	1    2075 3300
@@ -827,4 +827,6 @@ Wire Bus Line
 	1425 4375 6900 4375
 Wire Bus Line
 	6800 1250 6800 2150
+Text Notes 1800 3950 0    50   ~ 0
+* These resistors may have functionally\nbeen replace on the front panel.
 $EndSCHEMATC

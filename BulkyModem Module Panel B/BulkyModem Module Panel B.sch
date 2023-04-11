@@ -1,0 +1,677 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "BulkyModem (Panel)"
+Date ""
+Rev "A"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 "Front panel for mounting LEDs horizontally, designed for slotting into the main module."
+$EndDescr
+$Comp
+L BulkyModem:Module_Panel J1
+U 1 1 62825997
+P 9225 3425
+F 0 "J1" H 9175 4625 50  0000 L CNN
+F 1 "Front Panel" H 9175 4550 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x21_P2.54mm_Horizontal" H 9225 3425 50  0001 C CNN
+F 3 "~" H 9225 3425 50  0001 C CNN
+	1    9225 3425
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8925 2525 8925 4325
+$Comp
+L power:GND #PWR0101
+U 1 1 6282785A
+P 8925 4600
+F 0 "#PWR0101" H 8925 4350 50  0001 C CNN
+F 1 "GND" H 8930 4427 50  0000 C CNN
+F 2 "" H 8925 4600 50  0001 C CNN
+F 3 "" H 8925 4600 50  0001 C CNN
+	1    8925 4600
+	1    0    0    -1  
+$EndComp
+Connection ~ 8925 4325
+Wire Wire Line
+	8850 4425 8850 2425
+Wire Wire Line
+	8850 2425 8950 2425
+Wire Wire Line
+	8850 2425 8850 2350
+Connection ~ 8850 2425
+$Comp
+L power:VCC #PWR0102
+U 1 1 62828DC5
+P 8850 2350
+F 0 "#PWR0102" H 8850 2200 50  0001 C CNN
+F 1 "VCC" H 8865 2523 50  0000 C CNN
+F 2 "" H 8850 2350 50  0001 C CNN
+F 3 "" H 8850 2350 50  0001 C CNN
+	1    8850 2350
+	1    0    0    -1  
+$EndComp
+Text Label 8400 2925 0    50   ~ 0
+LED_RX
+Text Label 8400 2825 0    50   ~ 0
+LED_TX
+Text Label 8400 3125 0    50   ~ 0
+LED_CTS
+Text Label 8400 3025 0    50   ~ 0
+LED_RTS
+Text Label 8400 3425 0    50   ~ 0
+LED_RS232
+Text Label 8400 3525 0    50   ~ 0
+LED_C64
+Entry Wire Line
+	8375 2825 8275 2925
+Entry Wire Line
+	8375 2925 8275 3025
+Entry Wire Line
+	8375 3025 8275 3125
+Entry Wire Line
+	8375 3125 8275 3225
+Entry Wire Line
+	8375 3425 8275 3525
+Entry Wire Line
+	8375 3525 8275 3625
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 628346CB
+P 8950 2425
+F 0 "#FLG0101" H 8950 2500 50  0001 C CNN
+F 1 "PWR_FLAG" H 8950 2598 50  0001 C CNN
+F 2 "" H 8950 2425 50  0001 C CNN
+F 3 "~" H 8950 2425 50  0001 C CNN
+	1    8950 2425
+	1    0    0    -1  
+$EndComp
+Connection ~ 8950 2425
+Wire Wire Line
+	8950 2425 9025 2425
+Wire Wire Line
+	8925 2525 9025 2525
+Wire Wire Line
+	8925 4325 9025 4325
+Wire Wire Line
+	8850 4425 9025 4425
+Entry Wire Line
+	4100 3425 4000 3325
+$Comp
+L Device:LED D10
+U 1 1 62876713
+P 4000 2700
+F 0 "D10" V 4039 2582 50  0000 R CNN
+F 1 "C64" V 3948 2582 50  0000 R CNN
+F 2 "LED_THT:LED_D5.0mm" H 4000 2700 50  0001 C CNN
+F 3 "~" H 4000 2700 50  0001 C CNN
+	1    4000 2700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:VCC #PWR0103
+U 1 1 62876719
+P 4000 2550
+F 0 "#PWR0103" H 4000 2400 50  0001 C CNN
+F 1 "VCC" H 4015 2723 50  0000 C CNN
+F 2 "" H 4000 2550 50  0001 C CNN
+F 3 "" H 4000 2550 50  0001 C CNN
+	1    4000 2550
+	1    0    0    -1  
+$EndComp
+Entry Wire Line
+	4500 3425 4400 3325
+$Comp
+L Device:LED D11
+U 1 1 62876721
+P 4400 2700
+F 0 "D11" V 4439 2582 50  0000 R CNN
+F 1 "RS-232" V 4348 2582 50  0000 R CNN
+F 2 "LED_THT:LED_D5.0mm" H 4400 2700 50  0001 C CNN
+F 3 "~" H 4400 2700 50  0001 C CNN
+	1    4400 2700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:VCC #PWR0104
+U 1 1 62876727
+P 4400 2550
+F 0 "#PWR0104" H 4400 2400 50  0001 C CNN
+F 1 "VCC" H 4415 2723 50  0000 C CNN
+F 2 "" H 4400 2550 50  0001 C CNN
+F 3 "" H 4400 2550 50  0001 C CNN
+	1    4400 2550
+	1    0    0    -1  
+$EndComp
+Entry Wire Line
+	6250 3425 6150 3325
+$Comp
+L power:VCC #PWR0105
+U 1 1 62876735
+P 6150 2550
+F 0 "#PWR0105" H 6150 2400 50  0001 C CNN
+F 1 "VCC" H 6165 2723 50  0000 C CNN
+F 2 "" H 6150 2550 50  0001 C CNN
+F 3 "" H 6150 2550 50  0001 C CNN
+	1    6150 2550
+	1    0    0    -1  
+$EndComp
+Entry Wire Line
+	5850 3425 5750 3325
+$Comp
+L Device:LED D13
+U 1 1 6287673D
+P 5750 2700
+F 0 "D13" V 5789 2582 50  0000 R CNN
+F 1 "CTS" V 5698 2582 50  0000 R CNN
+F 2 "LED_THT:LED_D5.0mm" H 5750 2700 50  0001 C CNN
+F 3 "~" H 5750 2700 50  0001 C CNN
+	1    5750 2700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:VCC #PWR0106
+U 1 1 62876743
+P 5750 2550
+F 0 "#PWR0106" H 5750 2400 50  0001 C CNN
+F 1 "VCC" H 5765 2723 50  0000 C CNN
+F 2 "" H 5750 2550 50  0001 C CNN
+F 3 "" H 5750 2550 50  0001 C CNN
+	1    5750 2550
+	1    0    0    -1  
+$EndComp
+Entry Wire Line
+	7050 3425 6950 3325
+$Comp
+L Device:LED D14
+U 1 1 6287674B
+P 6950 2700
+F 0 "D14" V 6989 2582 50  0000 R CNN
+F 1 "TX" V 6898 2582 50  0000 R CNN
+F 2 "LED_THT:LED_D5.0mm" H 6950 2700 50  0001 C CNN
+F 3 "~" H 6950 2700 50  0001 C CNN
+	1    6950 2700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:VCC #PWR0107
+U 1 1 62876751
+P 6950 2550
+F 0 "#PWR0107" H 6950 2400 50  0001 C CNN
+F 1 "VCC" H 6965 2723 50  0000 C CNN
+F 2 "" H 6950 2550 50  0001 C CNN
+F 3 "" H 6950 2550 50  0001 C CNN
+	1    6950 2550
+	1    0    0    -1  
+$EndComp
+Entry Wire Line
+	6650 3425 6550 3325
+$Comp
+L Device:LED D15
+U 1 1 62876759
+P 6550 2700
+F 0 "D15" V 6589 2582 50  0000 R CNN
+F 1 "RX" V 6498 2582 50  0000 R CNN
+F 2 "LED_THT:LED_D5.0mm" H 6550 2700 50  0001 C CNN
+F 3 "~" H 6550 2700 50  0001 C CNN
+	1    6550 2700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:VCC #PWR0108
+U 1 1 6287675F
+P 6550 2550
+F 0 "#PWR0108" H 6550 2400 50  0001 C CNN
+F 1 "VCC" H 6565 2723 50  0000 C CNN
+F 2 "" H 6550 2550 50  0001 C CNN
+F 3 "" H 6550 2550 50  0001 C CNN
+	1    6550 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 628CF525
+P 8925 4525
+F 0 "#FLG0102" H 8925 4600 50  0001 C CNN
+F 1 "PWR_FLAG" V 8925 4652 50  0001 L CNN
+F 2 "" H 8925 4525 50  0001 C CNN
+F 3 "~" H 8925 4525 50  0001 C CNN
+	1    8925 4525
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8925 4325 8925 4525
+Wire Wire Line
+	8925 4525 8925 4600
+Connection ~ 8925 4525
+$Comp
+L mounting:Mounting_Pin M1
+U 1 1 6282631C
+P 10725 575
+F 0 "M1" H 10725 675 50  0001 C CNN
+F 1 "Mounting_Pin" H 10725 500 50  0001 C CNN
+F 2 "mounting:M3_pin" H 10725 575 50  0001 C CNN
+F 3 "~" H 10725 575 50  0001 C CNN
+	1    10725 575 
+	1    0    0    -1  
+$EndComp
+$Comp
+L mounting:Mounting_Pin M2
+U 1 1 62826824
+P 10850 575
+F 0 "M2" H 10850 675 50  0001 C CNN
+F 1 "Mounting_Pin" H 10850 500 50  0001 C CNN
+F 2 "mounting:M3_pin" H 10850 575 50  0001 C CNN
+F 3 "~" H 10850 575 50  0001 C CNN
+	1    10850 575 
+	1    0    0    -1  
+$EndComp
+$Comp
+L mounting:Mounting_Pin M3
+U 1 1 62826D8F
+P 10975 575
+F 0 "M3" H 10975 675 50  0001 C CNN
+F 1 "Mounting_Pin" H 10975 500 50  0001 C CNN
+F 2 "mounting:M3_pin" H 10975 575 50  0001 C CNN
+F 3 "~" H 10975 575 50  0001 C CNN
+	1    10975 575 
+	1    0    0    -1  
+$EndComp
+$Comp
+L mounting:Mounting_Pin M4
+U 1 1 62827110
+P 11100 575
+F 0 "M4" H 11100 675 50  0001 C CNN
+F 1 "Mounting_Pin" H 11100 500 50  0001 C CNN
+F 2 "mounting:M3_pin" H 11100 575 50  0001 C CNN
+F 3 "~" H 11100 575 50  0001 C CNN
+	1    11100 575 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0111
+U 1 1 6282AADA
+P 11100 875
+F 0 "#PWR0111" H 11100 625 50  0001 C CNN
+F 1 "GND" H 11105 702 50  0000 C CNN
+F 2 "" H 11100 875 50  0001 C CNN
+F 3 "" H 11100 875 50  0001 C CNN
+	1    11100 875 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10725 725  10725 800 
+Wire Wire Line
+	10725 800  10850 800 
+Wire Wire Line
+	11100 800  11100 725 
+Wire Wire Line
+	10850 725  10850 800 
+Connection ~ 10850 800 
+Wire Wire Line
+	10850 800  10975 800 
+Wire Wire Line
+	10975 725  10975 800 
+Connection ~ 10975 800 
+Wire Wire Line
+	10975 800  11100 800 
+Wire Wire Line
+	11100 800  11100 875 
+Connection ~ 11100 800 
+Text GLabel 8775 4125 0    50   Input ~ 0
+SW_MODE
+Text GLabel 8775 4225 0    50   Input ~ 0
+SW_PWR
+Wire Wire Line
+	8375 2825 9025 2825
+Wire Wire Line
+	8375 2925 9025 2925
+Wire Wire Line
+	8375 3025 9025 3025
+Wire Wire Line
+	8375 3125 9025 3125
+Wire Wire Line
+	8375 3425 9025 3425
+Wire Wire Line
+	8375 3525 9025 3525
+Wire Wire Line
+	8775 4125 9025 4125
+Wire Wire Line
+	9025 4225 8775 4225
+Text Label 6550 3300 1    50   ~ 0
+LED_RX
+Text Label 6950 3300 1    50   ~ 0
+LED_TX
+Text Label 5750 3300 1    50   ~ 0
+LED_CTS
+Text Label 6150 3300 1    50   ~ 0
+LED_RTS
+Text Label 4400 3300 1    50   ~ 0
+LED_RS232
+Text Label 4000 3300 1    50   ~ 0
+LED_C64
+Wire Wire Line
+	4000 2850 4000 3325
+Wire Wire Line
+	4400 2850 4400 3325
+Wire Wire Line
+	6150 2850 6150 3325
+Wire Wire Line
+	5750 3325 5750 2850
+Wire Wire Line
+	6950 2850 6950 3325
+Wire Wire Line
+	6550 3325 6550 2850
+Entry Bus Bus
+	8175 2825 8275 2725
+Entry Bus Bus
+	8075 3425 8175 3325
+Wire Bus Line
+	8175 3325 8175 2825
+$Comp
+L Switch:SW_DPDT_x2 SW1
+U 1 1 62E3B89C
+P 5650 4600
+F 0 "SW1" H 5650 4885 50  0000 C CNN
+F 1 "MODE" H 5650 4794 50  0000 C CNN
+F 2 "6pin_switch:dpdt_switch_black" H 5650 4600 50  0001 C CNN
+F 3 "~" H 5650 4600 50  0001 C CNN
+	1    5650 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_DPDT_x2 SW1
+U 2 1 62E3C504
+P 5650 5250
+F 0 "SW1" H 5650 5535 50  0000 C CNN
+F 1 "MODE" H 5650 5444 50  0000 C CNN
+F 2 "6pin_switch:dpdt_switch_black" H 5650 5250 50  0001 C CNN
+F 3 "~" H 5650 5250 50  0001 C CNN
+	2    5650 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_DPDT_x2 SW2
+U 1 1 62E3F52F
+P 3000 4575
+F 0 "SW2" H 3000 4860 50  0000 C CNN
+F 1 "POW" H 3000 4769 50  0000 C CNN
+F 2 "6pin_switch:dpdt_switch_black" H 3000 4575 50  0001 C CNN
+F 3 "~" H 3000 4575 50  0001 C CNN
+	1    3000 4575
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_DPDT_x2 SW2
+U 2 1 62E3FA35
+P 3000 5225
+F 0 "SW2" H 3000 5510 50  0000 C CNN
+F 1 "POW" H 3000 5419 50  0000 C CNN
+F 2 "6pin_switch:dpdt_switch_black" H 3000 5225 50  0001 C CNN
+F 3 "~" H 3000 5225 50  0001 C CNN
+	2    3000 5225
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D12
+U 1 1 6287672F
+P 6150 2700
+F 0 "D12" V 6189 2582 50  0000 R CNN
+F 1 "RTS" V 6098 2582 50  0000 R CNN
+F 2 "LED_THT:LED_D5.0mm" H 6150 2700 50  0001 C CNN
+F 3 "~" H 6150 2700 50  0001 C CNN
+	1    6150 2700
+	0    -1   -1   0   
+$EndComp
+Text GLabel 2650 4575 0    50   Output ~ 0
+SW_PWR
+NoConn ~ 3200 4475
+$Comp
+L power:GND #PWR0112
+U 1 1 62E61DCC
+P 3275 5400
+F 0 "#PWR0112" H 3275 5150 50  0001 C CNN
+F 1 "GND" H 3280 5227 50  0000 C CNN
+F 2 "" H 3275 5400 50  0001 C CNN
+F 3 "" H 3275 5400 50  0001 C CNN
+	1    3275 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 5325 3275 5325
+Wire Wire Line
+	3275 5325 3275 5400
+NoConn ~ 3200 5125
+Text GLabel 5375 4600 0    50   Output ~ 0
+SW_MODE
+Wire Wire Line
+	5375 4600 5450 4600
+NoConn ~ 5850 4500
+$Comp
+L power:GND #PWR0113
+U 1 1 62E7FC92
+P 5925 4775
+F 0 "#PWR0113" H 5925 4525 50  0001 C CNN
+F 1 "GND" H 5930 4602 50  0000 C CNN
+F 2 "" H 5925 4775 50  0001 C CNN
+F 3 "" H 5925 4775 50  0001 C CNN
+	1    5925 4775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5850 4700 5925 4700
+Wire Wire Line
+	5925 4700 5925 4775
+NoConn ~ 5450 5250
+NoConn ~ 5850 5150
+NoConn ~ 5850 5350
+Text Notes 4850 5900 0    50   ~ 0
+SW_MODE relies on a pull-up resistor\non the main module to ensure a reliable\nvalue when not properly engaged.
+Wire Wire Line
+	2650 4575 2725 4575
+Wire Wire Line
+	2725 4575 2725 5225
+Wire Wire Line
+	2725 5225 2800 5225
+Connection ~ 2725 4575
+Wire Wire Line
+	2725 4575 2800 4575
+Wire Wire Line
+	3275 5325 3275 4675
+Wire Wire Line
+	3275 4675 3200 4675
+Connection ~ 3275 5325
+Text Notes 2150 5900 0    50   ~ 0
+I don't know how reliable these are when used as\npower switches, so the load is distributed through\nboth of them to offset this.
+Text Label 8400 3225 0    50   ~ 0
+LED_DCD
+Entry Wire Line
+	8375 3225 8275 3325
+Wire Wire Line
+	8375 3225 9025 3225
+Entry Wire Line
+	5450 3425 5350 3325
+$Comp
+L Device:LED D1
+U 1 1 62E0C4F3
+P 5350 2700
+F 0 "D1" V 5389 2582 50  0000 R CNN
+F 1 "DCD" V 5298 2582 50  0000 R CNN
+F 2 "LED_THT:LED_D5.0mm" H 5350 2700 50  0001 C CNN
+F 3 "~" H 5350 2700 50  0001 C CNN
+	1    5350 2700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:VCC #PWR01
+U 1 1 62E0C4F9
+P 5350 2550
+F 0 "#PWR01" H 5350 2400 50  0001 C CNN
+F 1 "VCC" H 5365 2723 50  0000 C CNN
+F 2 "" H 5350 2550 50  0001 C CNN
+F 3 "" H 5350 2550 50  0001 C CNN
+	1    5350 2550
+	1    0    0    -1  
+$EndComp
+Text Label 5350 3300 1    50   ~ 0
+LED_DCD
+Wire Wire Line
+	5350 3325 5350 2850
+Text Label 8400 3325 0    50   ~ 0
+LED_RI
+Entry Wire Line
+	8375 3325 8275 3425
+Wire Wire Line
+	8375 3325 9025 3325
+Entry Wire Line
+	5050 3425 4950 3325
+$Comp
+L Device:LED D2
+U 1 1 62E152EA
+P 4950 2700
+F 0 "D2" V 4989 2582 50  0000 R CNN
+F 1 "RI" V 4898 2582 50  0000 R CNN
+F 2 "LED_THT:LED_D5.0mm" H 4950 2700 50  0001 C CNN
+F 3 "~" H 4950 2700 50  0001 C CNN
+	1    4950 2700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:VCC #PWR0114
+U 1 1 62E152F0
+P 4950 2550
+F 0 "#PWR0114" H 4950 2400 50  0001 C CNN
+F 1 "VCC" H 4965 2723 50  0000 C CNN
+F 2 "" H 4950 2550 50  0001 C CNN
+F 3 "" H 4950 2550 50  0001 C CNN
+	1    4950 2550
+	1    0    0    -1  
+$EndComp
+Text Label 4950 3300 1    50   ~ 0
+LED_RI
+Wire Wire Line
+	4950 3325 4950 2850
+NoConn ~ 9025 2725
+$Comp
+L Device:LED_RGBC D17
+U 1 1 6434C68B
+P 2800 3325
+F 0 "D17" V 2846 2995 50  0000 R CNN
+F 1 "LED_RGBC" V 2755 2995 50  0000 R CNN
+F 2 "LED_THT:LED_D5.0mm-4_RGB_Wide_Pins" H 2800 3275 50  0001 C CNN
+F 3 "~" H 2800 3275 50  0001 C CNN
+	1    2800 3325
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0109
+U 1 1 6434DD71
+P 2800 3525
+F 0 "#PWR0109" H 2800 3275 50  0001 C CNN
+F 1 "GND" H 2805 3352 50  0000 C CNN
+F 2 "" H 2800 3525 50  0001 C CNN
+F 3 "" H 2800 3525 50  0001 C CNN
+	1    2800 3525
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0110
+U 1 1 6434F366
+P 2475 2150
+F 0 "#PWR0110" H 2475 2000 50  0001 C CNN
+F 1 "VCC" H 2490 2323 50  0000 C CNN
+F 2 "" H 2475 2150 50  0001 C CNN
+F 3 "" H 2475 2150 50  0001 C CNN
+	1    2475 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 6435023D
+P 2475 2825
+F 0 "R1" H 2405 2871 50  0000 R CNN
+F 1 "3k3" H 2405 2780 50  0000 R CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2405 2825 50  0001 C CNN
+F 3 "~" H 2475 2825 50  0001 C CNN
+	1    2475 2825
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 64356877
+P 2925 2825
+F 0 "R2" H 2995 2871 50  0000 L CNN
+F 1 "2k2" H 2995 2780 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2855 2825 50  0001 C CNN
+F 3 "~" H 2925 2825 50  0001 C CNN
+	1    2925 2825
+	1    0    0    -1  
+$EndComp
+Text GLabel 8775 4025 0    50   Output ~ 0
+VSB
+Wire Wire Line
+	8775 4025 9025 4025
+Text GLabel 2925 2150 1    50   Input ~ 0
+VSB
+$Comp
+L Diode:1N4148 D3
+U 1 1 64362EF7
+P 2475 2375
+F 0 "D3" V 2525 2475 50  0000 L CNN
+F 1 "1N4148" V 2450 2475 50  0000 L CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2475 2200 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2475 2375 50  0001 C CNN
+	1    2475 2375
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 3000 3125
+$Comp
+L Diode:1N4148 D4
+U 1 1 64378683
+P 2700 2600
+F 0 "D4" H 2700 2817 50  0000 C CNN
+F 1 "1N4148" H 2700 2726 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2700 2425 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2700 2600 50  0001 C CNN
+	1    2700 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2475 2150 2475 2225
+Wire Wire Line
+	2925 2150 2925 2600
+Wire Wire Line
+	2925 2600 2850 2600
+Wire Wire Line
+	2475 2525 2475 2600
+Wire Wire Line
+	2475 2600 2550 2600
+Wire Wire Line
+	2475 2675 2475 2600
+Connection ~ 2475 2600
+Wire Wire Line
+	2925 2600 2925 2675
+Connection ~ 2925 2600
+Wire Wire Line
+	2925 2975 2925 3050
+Wire Wire Line
+	2925 3050 2800 3050
+Wire Wire Line
+	2475 2975 2475 3050
+Wire Wire Line
+	2475 3050 2600 3050
+Wire Wire Line
+	2600 3050 2600 3125
+Wire Wire Line
+	2800 3050 2800 3125
+NoConn ~ 9025 2625
+Wire Bus Line
+	4100 3425 8075 3425
+Wire Bus Line
+	8275 2725 8275 3625
+$EndSCHEMATC

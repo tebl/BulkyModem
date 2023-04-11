@@ -6,6 +6,7 @@
 *.bck
 *.kicad_pcb-bak
 *.zip
+*.sch-bak
 
 # Netlist files (exported from Eeschema)
 *.net
@@ -16,6 +17,8 @@
 resources/
 BulkyModem Module/export/
 BulkyModem Module Panel/export/
+BulkyModem Module Panel B/export/
 BulkyModem UserPort Adapter/export/
 faceplates/BulkyModem FA1/export/
 faceplates/BulkyModem FP1/export/
+faceplates/BulkyModem FP2/export/

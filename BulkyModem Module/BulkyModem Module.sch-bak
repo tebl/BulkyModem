@@ -420,19 +420,6 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 9625 5050 50  0001 C CNN
 	1    9625 5050
 	1    0    0    -1  
 $EndComp
-$Comp
-L BulkyModem:Swap_Output JP15
-U 1 1 645ED505
-P 8850 4950
-AR Path="/645ED505" Ref="JP15"  Part="1" 
-AR Path="/6379233A/645ED505" Ref="JP?"  Part="1" 
-F 0 "JP15" V 9000 4875 50  0000 R CNN
-F 1 "TX_MOD" V 8925 4875 50  0000 R CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm" H 8850 4950 50  0001 C CNN
-F 3 "~" H 8850 4950 50  0001 C CNN
-	1    8850 4950
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	8450 4125 8750 4125
 $Comp
@@ -589,6 +576,19 @@ Wire Wire Line
 	8450 3625 9000 3625
 Wire Wire Line
 	8450 3325 9000 3325
+$Comp
+L BulkyModem:Swap_Output JP15
+U 1 1 645ED505
+P 8850 4950
+AR Path="/645ED505" Ref="JP15"  Part="1" 
+AR Path="/6379233A/645ED505" Ref="JP?"  Part="1" 
+F 0 "JP15" V 9000 4875 50  0000 R CNN
+F 1 "TX_FILTER" V 8925 4875 50  0000 R CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm" H 8850 4950 50  0001 C CNN
+F 3 "~" H 8850 4950 50  0001 C CNN
+	1    8850 4950
+	0    -1   -1   0   
+$EndComp
 Wire Bus Line
 	4125 1425 4125 4000
 Wire Bus Line
