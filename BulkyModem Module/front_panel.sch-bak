@@ -10,7 +10,7 @@ Rev ""
 Comp ""
 Comment1 ""
 Comment2 ""
-Comment3 ""
+Comment3 "LED resistor values are suggested safe values, but need to be adjusted for LEDs used."
 Comment4 "Front panel connector as well as circuitry for switches and LEDs."
 $EndDescr
 $Comp

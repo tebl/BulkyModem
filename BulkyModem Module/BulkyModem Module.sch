@@ -62,7 +62,7 @@ L nodemcu_v3:NodeMCU_v3 A1
 U 1 1 62E1BEF8
 P 7650 3625
 F 0 "A1" H 7650 4712 60  0000 C CNN
-F 1 "NodeMCU_v3" H 7650 4606 60  0000 C CNN
+F 1 "NodeMCU (v3)" H 7650 4606 60  0000 C CNN
 F 2 "nodemcu_v3:NodeMCU-LoLinV3" H 7050 2775 60  0001 C CNN
 F 3 "" H 7050 2775 60  0000 C CNN
 	1    7650 3625
@@ -394,7 +394,7 @@ Wire Wire Line
 Wire Wire Line
 	3575 2175 3500 2175
 Text Notes 1150 2900 0    50   ~ 0
-Note that the DCD/RI signal is shared between the two, something I'll\n"probably" get away with since they are only outgoing signals. The\n232 side will get buffered by the inverter used.
+Note that the DCD/RI signal is shared between the two, something I'll\n"probably" get away with since they are only outgoing signals. The\n232 side will get buffered by the inverter used. You are not supposed\nto connect it to two computers at once anyway.
 Text GLabel 1275 2275 0    50   Input ~ 0
 ESP_RI
 Wire Wire Line

@@ -245,7 +245,7 @@ U 1 1 642FE4A1
 P 5425 3650
 F 0 "JP1" H 5425 3855 50  0000 C CNN
 F 1 "UP9600" H 5425 3764 50  0000 C CNN
-F 2 "solder_bridge:bridge" H 5425 3650 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5425 3650 50  0001 C CNN
 F 3 "~" H 5425 3650 50  0001 C CNN
 	1    5425 3650
 	1    0    0    -1  
@@ -260,7 +260,7 @@ U 1 1 64311086
 P 5425 3850
 F 0 "JP2" H 5425 3725 50  0000 C CNN
 F 1 "UP9600" H 5425 3650 50  0000 C CNN
-F 2 "solder_bridge:bridge" H 5425 3850 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5425 3850 50  0001 C CNN
 F 3 "~" H 5425 3850 50  0001 C CNN
 	1    5425 3850
 	1    0    0    -1  

@@ -1,4 +1,4 @@
-19058701642835630
+19060381249606918
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -330,6 +330,13 @@ rotary encoder
 21
 BulkyModem
 PWR_Specification
+Barrel connector polarity indicator
+barrel polarity
+0
+0
+0
+BulkyModem
+PWR_Specification_Single
 Barrel connector polarity indicator
 barrel polarity
 0

@@ -394,7 +394,7 @@ Wire Wire Line
 Wire Wire Line
 	3575 2175 3500 2175
 Text Notes 1150 2900 0    50   ~ 0
-Note that the DCD/RI signal is shared between the two, something I'll\n"probably" get away with since they are only outgoing signals. The\n232 side will get buffered by the inverter used.
+Note that the DCD/RI signal is shared between the two, something I'll\n"probably" get away with since they are only outgoing signals. The\n232 side will get buffered by the inverter used. You are not supposed\nto connect it to two computers at once anyway.
 Text GLabel 1275 2275 0    50   Input ~ 0
 ESP_RI
 Wire Wire Line
