@@ -520,28 +520,30 @@ X B 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# barrel_jack_VIN
+# Switch_SW_Push
 #
-DEF barrel_jack_VIN #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "barrel_jack_VIN" 0 150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
+DEF Switch_SW_Push SW 0 40 N N 1 F N
+F0 "SW" 50 100 50 H V L CNN
+F1 "Switch_SW_Push" 0 -60 50 H V C CNN
+F2 "" 0 200 50 H I C CNN
+F3 "" 0 200 50 H I C CNN
 DRAW
-C 0 75 25 0 1 0 N
-P 2 0 1 0 0 0 0 50 N
-X VIN 1 0 0 0 U 50 50 1 1 W N
+C -80 0 20 0 1 0 N
+C 80 0 20 0 1 0 N
+P 2 0 1 0 0 50 0 120 N
+P 2 0 1 0 100 50 -100 50 N
+X 1 1 -200 0 100 R 50 50 0 1 P
+X 2 2 200 0 100 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# barrel_jack_barrel_9v
+# barrel_jack_Jack-DC
 #
-DEF barrel_jack_barrel_9v J 0 40 Y Y 1 F N
+DEF barrel_jack_Jack-DC J 0 40 Y Y 1 F N
 F0 "J" 0 210 50 H V C CNN
-F1 "barrel_jack_barrel_9v" 0 -175 50 H V C CNN
+F1 "barrel_jack_Jack-DC" 0 -175 50 H V C CNN
 F2 "" 50 -40 50 H I C CNN
 F3 "" 50 -40 50 H I C CNN
-ALIAS Jack-DC
 DRAW
 A -130 100 25 901 -901 0 1 10 F -130 125 -130 75
 A -130 100 25 901 -901 0 1 10 N -130 125 -130 75
@@ -553,6 +555,20 @@ P 6 0 1 10 -150 -100 -100 -100 -50 -50 0 -100 100 -100 200 -100 N
 X ~ 1 300 100 100 L 50 50 1 1 w
 X ~ 2 300 -100 100 L 50 50 1 1 w
 X ~ 3 300 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# barrel_jack_VIN
+#
+DEF barrel_jack_VIN #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "barrel_jack_VIN" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 75 25 0 1 0 N
+P 2 0 1 0 0 0 0 50 N
+X VIN 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
@@ -673,12 +689,23 @@ C -525 -825 35 1 1 0 F
 C -200 -800 35 1 1 0 N
 C 525 -825 35 1 1 0 F
 C 525 825 35 1 1 0 F
+T 0 300 700 50 0 0 0 (16) Normal 0 C C
 T 0 0 500 50 0 0 0 ESP8266 Normal 0 C C
 T 0 200 -700 31 0 0 0 FLASH Normal 0 C C
 T 0 -200 -700 31 0 0 0 RST Normal 0 C C
+T 0 300 400 50 0 1 1 (00) Normal 0 C C
+T 0 300 -500 50 0 1 1 (01) Normal 0 C C
+T 0 300 300 50 0 1 1 (02) Normal 0 C C
+T 0 300 -400 50 0 1 1 (03) Normal 0 C C
+T 0 300 500 50 0 1 1 (04) Normal 0 C C
+T 0 300 600 50 0 1 1 (05) Normal 0 C C
+T 0 300 -100 50 0 1 1 (12) Normal 0 C C
+T 0 300 -200 50 0 1 1 (13) Normal 0 C C
+T 0 300 0 50 0 1 1 (14) Normal 0 C C
+T 0 300 -300 50 0 1 1 (15) Normal 0 C C
 S 125 -725 275 -875 0 0 0 N
 S -600 -900 600 900 0 1 0 f
-S -350 875 350 150 0 1 0 N
+S -200 875 200 250 0 1 0 N
 S -75 -825 75 -975 0 1 0 F
 S -275 -725 -125 -875 1 1 0 N
 X A0 1 -800 700 200 R 50 50 1 1 I

@@ -436,28 +436,6 @@ Wire Wire Line
 Connection ~ 4875 5475
 $Comp
 L 74xx:74LS32 U6
-U 2 1 64584572
-P 4950 7050
-F 0 "U6" H 4950 7375 50  0000 C CNN
-F 1 "74HCT32" H 4950 7284 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 4950 7050 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 4950 7050 50  0001 C CNN
-	2    4950 7050
-	0    -1   -1   0   
-$EndComp
-$Comp
-L 74xx:74LS32 U6
-U 3 1 6458571D
-P 5525 7050
-F 0 "U6" H 5525 7375 50  0000 C CNN
-F 1 "74HCT32" H 5525 7284 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 5525 7050 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 5525 7050 50  0001 C CNN
-	3    5525 7050
-	0    -1   -1   0   
-$EndComp
-$Comp
-L 74xx:74LS32 U6
 U 4 1 6458699B
 P 6100 7050
 F 0 "U6" H 6100 7375 50  0000 C CNN
@@ -469,38 +447,16 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 6100 7050 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6650 7425 6200 7425
-Wire Wire Line
-	4850 7425 4850 7350
 Connection ~ 6650 7425
 Wire Wire Line
 	6650 7425 6650 7500
 Wire Wire Line
-	5050 7350 5050 7425
-Connection ~ 5050 7425
-Wire Wire Line
-	5050 7425 4850 7425
-Wire Wire Line
-	5425 7350 5425 7425
-Connection ~ 5425 7425
-Wire Wire Line
-	5425 7425 5050 7425
-Wire Wire Line
-	5625 7350 5625 7425
-Connection ~ 5625 7425
-Wire Wire Line
-	5625 7425 5425 7425
-Wire Wire Line
 	6000 7350 6000 7425
-Connection ~ 6000 7425
-Wire Wire Line
-	6000 7425 5625 7425
 Wire Wire Line
 	6200 7350 6200 7425
 Connection ~ 6200 7425
 Wire Wire Line
 	6200 7425 6000 7425
-NoConn ~ 4950 6750
-NoConn ~ 5525 6750
 NoConn ~ 6100 6750
 $Comp
 L Device:C_Small C?
@@ -589,7 +545,7 @@ Wire Wire Line
 Wire Wire Line
 	2675 2475 2750 2475
 $Comp
-L barrel_jack:barrel_9v J?
+L barrel_jack:Jack-DC J?
 U 1 1 63DAB478
 P 2375 2575
 AR Path="/63DAB478" Ref="J?"  Part="1" 

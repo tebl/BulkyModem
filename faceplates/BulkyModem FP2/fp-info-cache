@@ -1,4 +1,4 @@
-19077276038554153
+19053904478546265
 6pin_switch
 6pin tactile switch
 
@@ -321,6 +321,62 @@ battery CR-3032 coin cell vertical
 0
 2
 2
+BulkyModem
+BARREL_JACK
+DC Barrel Jack
+Power Jack
+0
+3
+3
+BulkyModem
+CP_Radial_D4.0mm_P2.00mm_Custom
+CP, Radial series, Radial, pin pitch=2.00mm, , diameter=4mm, Electrolytic Capacitor
+CP Radial series Radial pin pitch 2.00mm  diameter 4mm Electrolytic Capacitor
+0
+3
+2
+BulkyModem
+Conn_Power
+Through hole straight pin header, 1x02, 2.54mm pitch, single row
+Through hole pin header THT 1x02 2.54mm single row
+0
+2
+2
+BulkyModem
+Module_Panel
+Alps rotary encoder, EC12E... with switch, vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
+rotary encoder
+0
+21
+21
+BulkyModem
+PWR_Specification
+Barrel connector polarity indicator
+barrel polarity
+0
+0
+0
+BulkyModem
+PWR_Specification_Single
+Barrel connector polarity indicator
+barrel polarity
+0
+0
+0
+BulkyModem
+SW_Tactile_SPST_Angled_PTS645Vx39-2LFS_Underside
+tactile switch SPST right angle, PTS645VL39-2 LFS
+tactile switch SPST angled PTS645VL39-2 LFS C&K Button
+0
+4
+2
+BulkyModem
+UserPort_Adapter_IDC
+Through hole IDC box header, 2x08, 2.54mm pitch, DIN 41651 / IEC 60603-13, double rows, https://docs.google.com/spreadsheets/d/16SsEcesNF15N3Lb4niX7dcUr-NY5_MFPQhobNuNppn4/edit#gid=0
+Through hole vertical IDC box header THT 2x08 2.54mm double row
+0
+16
+16
 Button_Switch_Keyboard
 SW_Cherry_MX_1.00u_PCB
 Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
@@ -76257,160 +76313,6 @@ Resistor Radial_Power series Radial pin pitch 7.37mm 10W length 16.1mm width 9mm
 0
 2
 2
-RetroPanel
-3641AH
-4 digit 7 segment green LED, http://www.kingbright.com/attachments/file/psearch/000/00/00/CA56-12CGKWA(Ver.9A).pdf
-4 digit 7 segment green LED
-0
-12
-12
-RetroPanel
-B.Pad_pin
-module 1 pin (ou trou mecanique de percage)
-DEV
-0
-1
-1
-RetroPanel
-BMP280-5V
-Through hole straight pin header, 1x04, 2.54mm pitch, single row
-Through hole pin header THT 1x04 2.54mm single row
-0
-4
-4
-RetroPanel
-CP_Radial_D4.0mm_P2.00mm_Custom
-CP, Radial series, Radial, pin pitch=2.00mm, , diameter=4mm, Electrolytic Capacitor
-CP Radial series Radial pin pitch 2.00mm  diameter 4mm Electrolytic Capacitor
-0
-3
-2
-RetroPanel
-DS3231_ZS-042
-Through hole straight pin header, 1x04, 2.54mm pitch, single row
-Through hole pin header THT 1x04 2.54mm single row
-0
-4
-4
-RetroPanel
-F.Pad_pin
-module 1 pin (ou trou mecanique de percage)
-DEV
-0
-1
-1
-RetroPanel
-IDC-RS-232-Female
-Through hole IDC box header, 2x05, 2.54mm pitch, DIN 41651 / IEC 60603-13, double rows, https://docs.google.com/spreadsheets/d/16SsEcesNF15N3Lb4niX7dcUr-NY5_MFPQhobNuNppn4/edit#gid=0
-Through hole vertical IDC box header THT 2x05 2.54mm double row
-0
-10
-10
-RetroPanel
-Module_Panel
-Alps rotary encoder, EC12E... with switch, vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
-rotary encoder
-0
-30
-30
-RetroPanel
-Molex_KK-254_1x04_P2.54mm_Horizontal
-Molex KK-254 Interconnect System, old/engineering part number: AE-6410-02A example for new part number: 22-27-2021, 2 Pins (http://www.molex.com/pdm_docs/sd/022272021_sd.pdf), generated with kicad-footprint-generator
-connector Molex KK-254 side entry
-0
-4
-4
-RetroPanel
-PSU_Wire
-solder Pin_ diameter 1.3mm, hole diameter 1.3mm, length 11.0mm
-solder Pin_ pressfit
-0
-1
-1
-RetroPanel
-Pad_pin
-module 1 pin (ou trou mecanique de percage)
-DEV
-0
-2
-1
-RetroPanel
-PinHeader_1x02_P2.54mm_Vertical
-Through hole straight pin header, 1x02, 2.54mm pitch, single row
-Through hole pin header THT 1x02 2.54mm single row
-0
-2
-2
-RetroPanel
-PinHeader_1x04_P2.54mm_Vertical
-Through hole straight pin header, 1x04, 2.54mm pitch, single row
-Through hole pin header THT 1x04 2.54mm single row
-0
-4
-4
-RetroPanel
-icon_extra
-
-
-0
-0
-0
-RetroPanel
-icon_hdd
-
-
-0
-0
-0
-RetroPanel
-icon_power
-
-
-0
-0
-0
-RetroPanel
-icon_reset
-
-
-0
-0
-0
-RetroPanel
-icon_running
-
-
-0
-0
-0
-RetroPanel
-icon_slow
-
-
-0
-0
-0
-RetroPanel
-icon_turbo
-
-
-0
-0
-0
-RetroPanel
-logo
-
-
-0
-0
-0
-RetroPanel
-logo_small
-
-
-0
-0
-0
 Rotary_Encoder
 RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm
 Alps rotary encoder, EC12E... with switch, vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
@@ -83201,6 +83103,27 @@ varistor SIOV
 0
 2
 2
+artwork
+BulkyModem
+
+
+0
+0
+0
+artwork
+BulkyModem_robotics
+
+
+0
+0
+0
+artwork
+BulkyModem_small
+
+
+0
+0
+0
 mounting
 M2
 module 1 pin (ou trou mecanique de percage)
@@ -83216,28 +83139,7 @@ DEV
 0
 0
 mounting
-M3_adjustable
-module 1 pin (ou trou mecanique de percage)
-DEV
-0
-1
-1
-mounting
-M3_big
-module 1 pin (ou trou mecanique de percage)
-DEV
-0
-1
-1
-mounting
 M3_pin
-module 1 pin (ou trou mecanique de percage)
-DEV
-0
-1
-1
-mounting
-M3_pin_wide
 module 1 pin (ou trou mecanique de percage)
 DEV
 0

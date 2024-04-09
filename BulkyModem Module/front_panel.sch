@@ -74,7 +74,7 @@ L Device:R R10
 U 1 1 63BA56FF
 P 1600 5275
 F 0 "R10" V 1393 5275 50  0000 C CNN
-F 1 "1k" V 1484 5275 50  0000 C CNN
+F 1 "2k2" V 1484 5275 50  0000 C CNN
 F 2 "resistor:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1530 5275 50  0001 C CNN
 F 3 "~" H 1600 5275 50  0001 C CNN
 	1    1600 5275
@@ -135,7 +135,7 @@ L Device:R R8
 U 1 1 63BDC3E2
 P 2525 5275
 F 0 "R8" V 2318 5275 50  0000 C CNN
-F 1 "1k" V 2409 5275 50  0000 C CNN
+F 1 "2k2" V 2409 5275 50  0000 C CNN
 F 2 "resistor:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2455 5275 50  0001 C CNN
 F 3 "~" H 2525 5275 50  0001 C CNN
 	1    2525 5275
@@ -185,7 +185,7 @@ L Device:R R12
 U 1 1 63BEF4DA
 P 4375 5275
 F 0 "R12" V 4168 5275 50  0000 C CNN
-F 1 "1k" V 4259 5275 50  0000 C CNN
+F 1 "2k2" V 4259 5275 50  0000 C CNN
 F 2 "resistor:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4305 5275 50  0001 C CNN
 F 3 "~" H 4375 5275 50  0001 C CNN
 	1    4375 5275
@@ -235,7 +235,7 @@ L Device:R R14
 U 1 1 63BFFFD0
 P 3450 5275
 F 0 "R14" V 3243 5275 50  0000 C CNN
-F 1 "1k" V 3334 5275 50  0000 C CNN
+F 1 "2k2" V 3334 5275 50  0000 C CNN
 F 2 "resistor:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3380 5275 50  0001 C CNN
 F 3 "~" H 3450 5275 50  0001 C CNN
 	1    3450 5275
@@ -530,8 +530,8 @@ L 74xx:74HCT04 U?
 U 1 1 62E71FB4
 P 8950 1750
 AR Path="/62E71FB4" Ref="U?"  Part="1" 
-AR Path="/6390AE73/62E71FB4" Ref="U2"  Part="1" 
-F 0 "U2" H 8950 2067 50  0000 C CNN
+AR Path="/6390AE73/62E71FB4" Ref="U5"  Part="1" 
+F 0 "U5" H 8950 2067 50  0000 C CNN
 F 1 "74HCT04" H 8950 1976 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 8950 1750 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 8950 1750 50  0001 C CNN
@@ -588,7 +588,7 @@ L Device:R R25
 U 1 1 630B3F29
 P 5300 5275
 F 0 "R25" V 5093 5275 50  0000 C CNN
-F 1 "1k" V 5184 5275 50  0000 C CNN
+F 1 "2k2" V 5184 5275 50  0000 C CNN
 F 2 "resistor:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5230 5275 50  0001 C CNN
 F 3 "~" H 5300 5275 50  0001 C CNN
 	1    5300 5275
@@ -646,7 +646,7 @@ L Device:R R2
 U 1 1 634B1666
 P 6225 5275
 F 0 "R2" V 6018 5275 50  0000 C CNN
-F 1 "1k" V 6109 5275 50  0000 C CNN
+F 1 "2k2" V 6109 5275 50  0000 C CNN
 F 2 "resistor:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6155 5275 50  0001 C CNN
 F 3 "~" H 6225 5275 50  0001 C CNN
 	1    6225 5275
@@ -821,12 +821,12 @@ Text GLabel 6250 2750 2    50   Input ~ 0
 VSB
 Wire Wire Line
 	6250 2750 6025 2750
+Text Notes 1800 3950 0    50   ~ 0
+* These resistors may have functionally\nbeen replace on the front panel.
 Wire Bus Line
 	1425 2400 4475 2400
 Wire Bus Line
 	1425 4375 6900 4375
 Wire Bus Line
 	6800 1250 6800 2150
-Text Notes 1800 3950 0    50   ~ 0
-* These resistors may have functionally\nbeen replace on the front panel.
 $EndSCHEMATC

@@ -16,12 +16,6 @@ D Power symbol creates a global label with name "LINE"
 K power-flag
 $ENDCMP
 #
-$CMP barrel_9v
-D DC Barrel Jack
-K DC power barrel jack connector
-F ~
-$ENDCMP
-#
 $CMP reverse_protect
 D Diode
 K diode

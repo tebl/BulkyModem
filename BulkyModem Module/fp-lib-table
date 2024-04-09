@@ -7,4 +7,5 @@
   (lib (name HK19F-DC)(type KiCad)(uri $KIPRJMOD/../common/modules/HK19F-DC.pretty)(options "")(descr ""))
   (lib (name resistor)(type KiCad)(uri $KIPRJMOD/../common/modules/resistor.pretty)(options "")(descr ""))
   (lib (name nodemcu_v3)(type KiCad)(uri $KIPRJMOD/../common/modules/nodemcu_v3.pretty)(options "")(descr ""))
+  (lib (name switch_cutout)(type KiCad)(uri $KIPRJMOD/../common/modules/switch_cutout.pretty)(options "")(descr ""))
 )

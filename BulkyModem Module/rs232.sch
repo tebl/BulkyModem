@@ -545,8 +545,8 @@ L 74xx:74HCT04 U?
 U 1 1 6333079C
 P 8200 2175
 AR Path="/6333079C" Ref="U?"  Part="6" 
-AR Path="/6379233A/6333079C" Ref="U5"  Part="1" 
-F 0 "U5" H 8200 2492 50  0000 C CNN
+AR Path="/6379233A/6333079C" Ref="U2"  Part="1" 
+F 0 "U2" H 8200 2492 50  0000 C CNN
 F 1 "74HCT04" H 8200 2401 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 8200 2175 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 8200 2175 50  0001 C CNN

@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 27)
+    (drawings 30)
     (tracks 0)
     (zones 0)
     (modules 6)
@@ -397,6 +397,13 @@
       (net 1 GND) (solder_mask_margin 0.8))
   )
 
+  (gr_text WayWayWay (at 169.74 133.159) (layer B.SilkS) (tstamp 6614A7D0)
+    (effects (font (size 0.9 0.9) (thickness 0.1)) (justify mirror))
+  )
+  (gr_text JLCJLCJLCJLC (at 112.59 133.159) (layer F.Fab) (tstamp 6614A7CF)
+    (effects (font (size 0.9 0.9) (thickness 0.1)) (justify mirror))
+  )
+  (gr_line (start 91.09 138.174) (end 191.09 138.174) (layer Edge.Cuts) (width 0.05) (tstamp 6614F802))
   (gr_circle (center 166.998 122.595) (end 170.098 122.595) (layer Edge.Cuts) (width 0.05) (tstamp 62DF2951))
   (gr_text MODE (at 166.998 118.531) (layer F.SilkS) (tstamp 64337615)
     (effects (font (size 1 1) (thickness 0.15)))
@@ -414,7 +421,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (gr_circle (center 142.995 122.595) (end 144.895 122.595) (layer Edge.Cuts) (width 0.05) (tstamp 62DF2951))
-  (gr_text AA (at 142.995 119.674) (layer F.SilkS) (tstamp 62DF2950)
+  (gr_text RI (at 142.995 119.674) (layer F.SilkS) (tstamp 62DF2950)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (gr_circle (center 136.01 122.595) (end 137.91 122.595) (layer Edge.Cuts) (width 0.05) (tstamp 62DF2951))
@@ -441,13 +448,13 @@
   (gr_text PWR (at 99.815 119.674) (layer F.SilkS) (tstamp 62DF2950)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text "BulkyModem\nFront Panel FP2 (rev. A)\ngithub.com/tebl" (at 94.1 122.849 270) (layer B.SilkS) (tstamp 6286D3C9)
+  (gr_text "BulkyModem\nFront Panel FP2 (rev. B)\ngithub.com/tebl" (at 94.1 122.849 270) (layer B.SilkS) (tstamp 6286D3C9)
     (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
   )
   (gr_line (start 91.09 110.974) (end 191.09 110.974) (layer Edge.Cuts) (width 0.05) (tstamp 6282E71D))
-  (gr_line (start 91.09 134.174) (end 191.09 134.174) (layer Edge.Cuts) (width 0.05) (tstamp 6282E1A2))
-  (gr_line (start 91.09 110.974) (end 91.09 134.174) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start 191.09 134.174) (end 191.09 110.974) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 91.09 134.174) (end 191.09 134.174) (layer Dwgs.User) (width 0.05) (tstamp 6282E1A2))
+  (gr_line (start 91.09 110.974) (end 91.09 138.174) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 191.09 138.174) (end 191.09 110.974) (layer Edge.Cuts) (width 0.05))
 
   (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 0) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
@@ -460,7 +467,7 @@
     )
     (filled_polygon
       (pts
-        (xy 190.43 133.514) (xy 91.75 133.514) (xy 91.75 130.768609) (xy 98.424997 130.768609) (xy 98.611073 131.109766)
+        (xy 190.43 137.514) (xy 91.75 137.514) (xy 91.75 130.768609) (xy 98.424997 130.768609) (xy 98.611073 131.109766)
         (xy 99.028409 131.325513) (xy 99.479815 131.455696) (xy 99.947946 131.495313) (xy 100.414811 131.442842) (xy 100.862468 131.300297)
         (xy 101.218927 131.109766) (xy 101.405003 130.768609) (xy 180.774997 130.768609) (xy 180.961073 131.109766) (xy 181.378409 131.325513)
         (xy 181.829815 131.455696) (xy 182.297946 131.495313) (xy 182.764811 131.442842) (xy 183.212468 131.300297) (xy 183.568927 131.109766)
