@@ -11,7 +11,7 @@ Comp ""
 Comment1 ""
 Comment2 ""
 Comment3 ""
-Comment4 "UserPort adapter for connecting to the BulkyModem via a 2x5 pin IDC cable."
+Comment4 "UserPort adapter for connecting to the BulkyModem via a 2x8-pin IDC cable."
 $EndDescr
 $Comp
 L c64_user_port:C64_User_Port_Serial J1
@@ -267,6 +267,6 @@ F 3 "~" H 5425 3850 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5575 3850 5650 3850
-Text Notes 5275 4425 0    50   ~ 0
-UP9600 is not compatible with burst mode disk drives\nconnected to Commodore 128, as UP9600 uses the HW\ntimers for serial.
+Text Notes 5275 4500 0    50   ~ 0
+UP9600 is not compatible with burst mode disk drives\nconnected to Commodore 128. This is due to UP9600\nusing HW-timers that are needed for other things on\nthe 128.
 $EndSCHEMATC
