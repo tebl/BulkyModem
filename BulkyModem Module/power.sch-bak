@@ -347,20 +347,6 @@ Wire Wire Line
 	4425 5400 4425 5475
 Wire Wire Line
 	4425 5475 3975 5475
-$Comp
-L 74xx:74HCT04 U?
-U 6 1 63275CC3
-P 6650 7050
-AR Path="/63275CC3" Ref="U?"  Part="1" 
-AR Path="/6390AE73/63275CC3" Ref="U?"  Part="1" 
-AR Path="/63D786E4/63275CC3" Ref="U5"  Part="6" 
-F 0 "U5" H 6650 7367 50  0000 C CNN
-F 1 "74HCT04" H 6650 7276 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 6650 7050 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 6650 7050 50  0001 C CNN
-	6    6650 7050
-	0    -1   -1   0   
-$EndComp
 NoConn ~ 6650 6750
 $Comp
 L power:GND #PWR?

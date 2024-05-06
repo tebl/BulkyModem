@@ -1,4 +1,5 @@
 (sym_lib_table
   (lib (name mounting)(type Legacy)(uri $KIPRJMOD/../common/library/mounting.lib)(options "")(descr ""))
   (lib (name BulkyModem)(type Legacy)(uri $KIPRJMOD/../common/library/BulkyModem.lib)(options "")(descr ""))
+  (lib (name led_rgbc)(type Legacy)(uri D:/ownCloud/Documents/Projects/BulkyRadio/common/library/led_rgbc.lib)(options "")(descr ""))
 )

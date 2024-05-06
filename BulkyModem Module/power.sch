@@ -348,31 +348,16 @@ Wire Wire Line
 Wire Wire Line
 	4425 5475 3975 5475
 $Comp
-L 74xx:74HCT04 U?
-U 6 1 63275CC3
-P 6650 7050
-AR Path="/63275CC3" Ref="U?"  Part="1" 
-AR Path="/6390AE73/63275CC3" Ref="U?"  Part="1" 
-AR Path="/63D786E4/63275CC3" Ref="U5"  Part="6" 
-F 0 "U5" H 6650 7367 50  0000 C CNN
-F 1 "74HCT04" H 6650 7276 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 6650 7050 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 6650 7050 50  0001 C CNN
-	6    6650 7050
-	0    -1   -1   0   
-$EndComp
-NoConn ~ 6650 6750
-$Comp
 L power:GND #PWR?
 U 1 1 632A80BC
-P 6650 7500
+P 6200 7500
 AR Path="/632A80BC" Ref="#PWR?"  Part="1" 
 AR Path="/63D786E4/632A80BC" Ref="#PWR0105"  Part="1" 
-F 0 "#PWR0105" H 6650 7250 50  0001 C CNN
-F 1 "GND" H 6655 7327 50  0000 C CNN
-F 2 "" H 6650 7500 50  0001 C CNN
-F 3 "" H 6650 7500 50  0001 C CNN
-	1    6650 7500
+F 0 "#PWR0105" H 6200 7250 50  0001 C CNN
+F 1 "GND" H 6205 7327 50  0000 C CNN
+F 2 "" H 6200 7500 50  0001 C CNN
+F 3 "" H 6200 7500 50  0001 C CNN
+	1    6200 7500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -396,8 +381,6 @@ Wire Wire Line
 	1725 5475 2150 5475
 Wire Wire Line
 	1725 4325 2150 4325
-Wire Wire Line
-	6650 7350 6650 7425
 Connection ~ 8125 3050
 $Comp
 L power:PWR_FLAG #FLG0101
@@ -446,10 +429,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 6100 7050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	6650 7425 6200 7425
-Connection ~ 6650 7425
-Wire Wire Line
-	6650 7425 6650 7500
+	6200 7425 6200 7500
 Wire Wire Line
 	6000 7350 6000 7425
 Wire Wire Line

@@ -7,7 +7,9 @@ While many of the options out there for purchase has been based on the article [
 
 - [1> Setting it up](#1-setting-it-up)
   - [1.1> Installing Zimodem](#11-installing-zimodem)
-  - [1.2> Plugging it in](#12-plugging-it-in)
+  - [1.2> Initial setup](#12-initial-setup)
+  - [1.3> Plugging it in](#13-plugging-it-in)
+  - [1.4> Finishing up](#14-finishing-up)
 
 ## 1.1> Installing Zimodem
 If you're familiar with building and installing sketches from the *Arduino IDE*, then that should make the instructions here feel very familiar though I do **caution** you to pay attention to the *details* along the way. There are some that will cause your build not to compile, or even fail to work even though the upload would *appear* to succeed - just not actually function!
@@ -73,7 +75,7 @@ It may take some getting used to, but it is very intuitive when you get into it.
 
 This gives you a listing of the relevant options, the following command is the part that is capitalized. So in order to configure *WiFi* you would send "*wifi*", then - once it responds with list of seen wireless networks you point one out using the digit in front of it. Note that the ESP8266 only supports 2.4 Ghz wireless networks, so those are the only ones that you'd see. Just follow the prompts and it should make sense.
 
-The *BulkyModem* uses flow control, and so from the configuration menu (*at+config* in case you already forgot) we would use the command *FLOW* and set it to *"rtscts"*. Except we can't do that here because the module itself can't use those signals, and if you were to enter it you would only lock yourself out until it is reset again. So don't do that yet. Instead just hit *enter* to exit out of the menu, send *y* to save your network details. For the rest you need to connect it up using something that supports the RTS/CTS. Ideally a [modern systems](https://github.com/tebl/BulkyModem/blob/main/documentation/getting_started_modern.md) connected to the modem via a USB to RS-232 adapter.
+The *BulkyModem* uses flow control, and so from the configuration menu (*at+config* in case you already forgot) we would use the command *FLOW* and set it to *"rtscts"*. Except we can't do that here because the module itself can't use those signals, and if you were to enter it you would only lock yourself out until it is reset again. So don't do that yet. Instead just hit *enter* to exit out of the menu, send *y* to save your network details. For the rest you need to connect it up using something that supports the RTS/CTS. Ideally a [modern systems](https://github.com/tebl/BulkyModem/blob/main/documentation/getting_started_modern.md) connected to the modem via a suitable *USB to RS-232*-adapter.
 
 ## 1.3> Plugging it in
 Your *BulkyModem* can be powered up using any good quality 5V DC center positive PSU with a 2.1mm x 5.5mm barrel connector, but note that while a USB-cable going to the ESP8266 may work - you won't get the joy of using the ON/OFF button. 
@@ -82,4 +84,5 @@ Your *BulkyModem* can be powered up using any good quality 5V DC center positive
 
 While I've been known to skimp on just about every component, I don't recommend going the cheap route when it comes to a good and reliable PSU - opting instead for "*reasonable*". The one I'm using is a *MEAN WELL GST25B05-P1J*, although I'm sure there are several suitable options available - it is one that I can recommend. At least as far as having worked for me.
 
+## 1.4> Finishing up
 Note however that before even considering plugging it up to any of your vintage computer equipment, you should try it out without anything else plugged into it - if it blows up, it's the only thing blowing up. If all goes well, then the next exciting step is the [getting started](https://github.com/tebl/BulkyModem/blob/main/documentation/getting_started.md) guide. While there is somewhat limited excitement to be had hooking it up to a modern system via an RS-232 adapter, it's where I recommend starting before even considering hooking things up to a vintage system. All that and more in the aforementioned [getting started](https://github.com/tebl/BulkyModem/blob/main/documentation/getting_started.md)-guide.

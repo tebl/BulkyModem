@@ -1,0 +1,2 @@
+# BulkyModem
+So how did the *BulkyModem* go from such a simple design that anyone could put together in an afternoon, to a rather bulky thing with a ton of buttons, LEDs and even a relay? It's called *feature creep*, and as always - I did it in a low-tech way. This isn't the thing that you build in order to just have something to connect to the Internet. This is the thing that noone will build for you because they wouldn't be able to make money off it. This is the thing you build because you want one blinking away next to your vintage computer.

@@ -491,14 +491,14 @@ Wire Bus Line
 	6900 1150 6900 4375
 Entry Bus Bus
 	6900 1150 6800 1250
-Text GLabel 6250 2850 2    50   Output ~ 0
+Text GLabel 10575 2050 2    50   Output ~ 0
 MODE_232
 Wire Wire Line
 	6175 1150 6175 3150
 Wire Wire Line
 	6250 2850 6025 2850
 Text GLabel 8325 1750 0    50   Input ~ 0
-MODE_232
+MODE_SEL
 $Comp
 L Device:R R21
 U 1 1 62E65646
@@ -571,9 +571,9 @@ F 3 "" H 8400 2025 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8400 1825 8400 1750
-Text GLabel 9250 1750 2    50   Output ~ 0
+Text GLabel 9400 2050 2    50   Output ~ 0
 MODE_C64
-Text Notes 8525 2350 0    50   ~ 0
+Text Notes 8400 2700 0    50   ~ 0
 JP7 is intended as a way of enabling\n*one* of the two modes when a front\npanel has not been installed, jumpering\nit will override the switches on the panel.
 Wire Wire Line
 	6025 1950 6700 1950
@@ -823,6 +823,37 @@ Wire Wire Line
 	6250 2750 6025 2750
 Text Notes 1800 3950 0    50   ~ 0
 * These resistors may have functionally\nbeen replace on the front panel.
+$Comp
+L 74xx:74HCT04 U?
+U 6 1 664EBB40
+P 10125 1750
+AR Path="/664EBB40" Ref="U?"  Part="1" 
+AR Path="/6390AE73/664EBB40" Ref="U5"  Part="6" 
+AR Path="/63D786E4/664EBB40" Ref="U?"  Part="6" 
+F 0 "U5" H 10125 2067 50  0000 C CNN
+F 1 "74HCT04" H 10125 1976 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 10125 1750 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 10125 1750 50  0001 C CNN
+	6    10125 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9250 1750 9325 1750
+Wire Wire Line
+	9325 1750 9325 2050
+Wire Wire Line
+	9325 2050 9400 2050
+Wire Wire Line
+	10500 1750 10425 1750
+Wire Wire Line
+	9825 1750 9325 1750
+Connection ~ 9325 1750
+Text GLabel 6250 2850 2    50   Output ~ 0
+MODE_SEL
+Wire Wire Line
+	10500 1750 10500 2050
+Wire Wire Line
+	10575 2050 10500 2050
 Wire Bus Line
 	1425 2400 4475 2400
 Wire Bus Line
