@@ -2116,9 +2116,10 @@
 				)
 			)
 		)
-		(symbol "mounting:Mounting"
+		(symbol "mounting:Mounting_Pin"
+			(pin_numbers hide)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2131,7 +2132,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "Mounting"
+			(property "Value" "Mounting_Pin"
 				(at 0 -1.905 0)
 				(effects
 					(font
@@ -2185,7 +2186,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Mounting_0_1"
+			(symbol "Mounting_Pin_0_1"
 				(circle
 					(center 0 0)
 					(radius 0.635)
@@ -2206,6 +2207,26 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+			)
+			(symbol "Mounting_Pin_1_1"
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -3387,6 +3408,12 @@
 		)
 	)
 	(junction
+		(at 274.32 21.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "048b284d-e143-4686-84ed-90531ca1f24d")
+	)
+	(junction
 		(at 224.79 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3435,6 +3462,12 @@
 		(uuid "66d7637e-55a6-4456-a4fc-7f925caa0b60")
 	)
 	(junction
+		(at 278.13 21.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8e8d1538-6572-4581-bc94-1e6496747f2e")
+	)
+	(junction
 		(at 78.74 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3451,6 +3484,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c464bcf4-4760-4802-b201-1d36e4380df3")
+	)
+	(junction
+		(at 281.94 21.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d34b8c75-3977-45a3-8adc-e24c6ee9427f")
 	)
 	(junction
 		(at 46.99 91.44)
@@ -3471,16 +3510,8 @@
 		(uuid "12b4ed63-d2da-4d0b-b605-5728be5819f9")
 	)
 	(no_connect
-		(at 190.5 72.39)
-		(uuid "15653160-94f8-4de1-a054-7b91f4588b2a")
-	)
-	(no_connect
 		(at 129.54 69.85)
 		(uuid "38475a94-05ed-473d-873d-00f14ef118ed")
-	)
-	(no_connect
-		(at 190.5 69.85)
-		(uuid "43752f8c-e302-4368-986b-c5f25094d680")
 	)
 	(no_connect
 		(at 129.54 62.23)
@@ -3752,6 +3783,16 @@
 	)
 	(wire
 		(pts
+			(xy 274.32 21.59) (xy 274.32 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15d2be74-2cf8-41cb-97a1-2bab74679e5a")
+	)
+	(wire
+		(pts
 			(xy 233.68 39.37) (xy 236.22 39.37)
 		)
 		(stroke
@@ -3892,7 +3933,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 69.85) (xy 190.5 69.85)
+			(xy 170.18 69.85) (xy 191.77 69.85)
 		)
 		(stroke
 			(width 0)
@@ -3919,6 +3960,16 @@
 			(type default)
 		)
 		(uuid "2b4f03e5-b0be-4e36-b822-3b6a8356b1e1")
+	)
+	(wire
+		(pts
+			(xy 270.51 19.05) (xy 270.51 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30e123db-d368-4dfa-b715-e509bed567c3")
 	)
 	(bus
 		(pts
@@ -4182,6 +4233,16 @@
 	)
 	(wire
 		(pts
+			(xy 274.32 21.59) (xy 278.13 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c3bae72-c218-403f-880f-00ce8fbedad4")
+	)
+	(wire
+		(pts
 			(xy 273.05 69.85) (xy 270.51 69.85)
 		)
 		(stroke
@@ -4249,6 +4310,16 @@
 			(type default)
 		)
 		(uuid "75b1685a-bb13-4177-9c1f-55c7f3645f81")
+	)
+	(wire
+		(pts
+			(xy 278.13 21.59) (xy 278.13 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78aeba06-1a3c-4076-b0a4-fae115a85ef3")
 	)
 	(wire
 		(pts
@@ -4392,6 +4463,16 @@
 	)
 	(wire
 		(pts
+			(xy 270.51 21.59) (xy 274.32 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "987ec2b9-8b26-48ce-8a33-af645569ec99")
+	)
+	(wire
+		(pts
 			(xy 170.18 80.01) (xy 177.8 80.01)
 		)
 		(stroke
@@ -4429,6 +4510,16 @@
 			(type default)
 		)
 		(uuid "a1b73fc2-4965-4a15-9bbe-4170812b6998")
+	)
+	(wire
+		(pts
+			(xy 281.94 19.05) (xy 281.94 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a215e0dd-f267-4d8c-bd2e-66e54e377891")
 	)
 	(wire
 		(pts
@@ -4560,6 +4651,16 @@
 		)
 		(uuid "c44bfeac-2de4-4943-b11e-5e57122e4bf9")
 	)
+	(wire
+		(pts
+			(xy 281.94 21.59) (xy 278.13 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca8e2861-4183-4470-aa0c-748694197368")
+	)
 	(bus
 		(pts
 			(xy 105.41 99.06) (xy 105.41 101.6)
@@ -4622,7 +4723,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 72.39) (xy 190.5 72.39)
+			(xy 170.18 72.39) (xy 191.77 72.39)
 		)
 		(stroke
 			(width 0)
@@ -4649,6 +4750,16 @@
 			(type default)
 		)
 		(uuid "deff92ce-2b6d-48b9-8413-086f6d728029")
+	)
+	(wire
+		(pts
+			(xy 281.94 21.59) (xy 281.94 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e10f52e4-32b5-4fa1-b1aa-b5f770b8f3dc")
 	)
 	(wire
 		(pts
@@ -4822,6 +4933,17 @@
 		)
 		(uuid "8054f28f-9a19-4b04-b1d2-29610f7ddca2")
 	)
+	(text "ESP_DSR"
+		(exclude_from_sim no)
+		(at 181.61 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b72df081-deba-434a-add6-1af6356eebf7")
+	)
 	(text "* Install R18 if noise is encountered,\notherwise leave unpopulated."
 		(exclude_from_sim no)
 		(at 224.79 90.17 0)
@@ -4843,6 +4965,17 @@
 			(justify left bottom)
 		)
 		(uuid "dfae9a66-e64d-4368-8ce9-a0c01b25edea")
+	)
+	(text "ESP_DTR"
+		(exclude_from_sim no)
+		(at 181.61 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ea6f7beb-75ca-482f-ac9e-d3275e39f5ab")
 	)
 	(text "Requires a firmware change in order\nto set GPIO0 low after boot. This in\norder to filter out data sent by ESP\nitself."
 		(exclude_from_sim no)
@@ -4987,17 +5120,6 @@
 		)
 		(uuid "a700a8ef-1442-4a06-90a0-8e27b0522303")
 	)
-	(label "ESP_DSR"
-		(at 181.61 72.39 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "acee00c8-6fda-4b35-b3d2-3dfc26fbff75")
-	)
 	(label "232_TX"
 		(at 21.59 44.45 0)
 		(fields_autoplaced yes)
@@ -5008,17 +5130,6 @@
 			(justify left bottom)
 		)
 		(uuid "ba66730b-2a42-475f-93d1-0296871f2926")
-	)
-	(label "ESP_DTR"
-		(at 181.61 69.85 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cce7d663-9479-4b28-8e5c-8671a72b3901")
 	)
 	(label "C64_RTS"
 		(at 101.6 49.53 180)
@@ -5275,6 +5386,26 @@
 			)
 		)
 	)
+	(global_label "AUDIO_TX"
+		(shape output)
+		(at 191.77 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a557f367-58a7-475e-b6b7-0a955b212c4b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 191.77 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "ESP_DCD"
 		(shape input)
 		(at 33.02 55.88 180)
@@ -5355,6 +5486,26 @@
 			)
 		)
 	)
+	(global_label "AUDIO_RX"
+		(shape input)
+		(at 191.77 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e350e7d5-455c-4841-bb67-8497afb2e3d0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 191.77 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "ESP_TX"
 		(shape output)
 		(at 236.22 132.08 0)
@@ -5396,8 +5547,8 @@
 		)
 	)
 	(symbol
-		(lib_id "mounting:Mounting")
-		(at 279.4 14.605 0)
+		(lib_id "mounting:Mounting_Pin")
+		(at 278.13 15.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5405,7 +5556,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e3b605a")
 		(property "Reference" "M3"
-			(at 279.4 12.065 0)
+			(at 278.13 12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5414,7 +5565,7 @@
 			)
 		)
 		(property "Value" "Mounting"
-			(at 279.4 16.51 0)
+			(at 278.13 17.145 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5422,8 +5573,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "mounting:M3"
-			(at 279.4 14.605 0)
+		(property "Footprint" "mounting:M3_pin"
+			(at 278.13 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5432,7 +5583,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 279.4 14.605 0)
+			(at 278.13 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5441,13 +5592,16 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01"
-			(at 279.4 14.605 0)
+			(at 278.13 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "1"
+			(uuid "48bc192f-28a4-4ffb-a2c8-fa48f8fef09b")
 		)
 		(instances
 			(project "BulkyModem Module"
@@ -5459,8 +5613,8 @@
 		)
 	)
 	(symbol
-		(lib_id "mounting:Mounting")
-		(at 282.575 14.605 0)
+		(lib_id "mounting:Mounting_Pin")
+		(at 281.94 15.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5468,7 +5622,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e3b6065")
 		(property "Reference" "M4"
-			(at 282.575 12.065 0)
+			(at 281.94 12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5477,7 +5631,7 @@
 			)
 		)
 		(property "Value" "Mounting"
-			(at 282.575 16.51 0)
+			(at 281.94 17.145 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5485,8 +5639,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "mounting:M3"
-			(at 282.575 14.605 0)
+		(property "Footprint" "mounting:M3_pin"
+			(at 281.94 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5495,7 +5649,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 282.575 14.605 0)
+			(at 281.94 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5504,13 +5658,16 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01"
-			(at 282.575 14.605 0)
+			(at 281.94 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "1"
+			(uuid "db41e122-5e70-446c-9ab4-dd9097c19c43")
 		)
 		(instances
 			(project "BulkyModem Module"
@@ -5522,8 +5679,8 @@
 		)
 	)
 	(symbol
-		(lib_id "mounting:Mounting")
-		(at 276.225 14.605 0)
+		(lib_id "mounting:Mounting_Pin")
+		(at 274.32 15.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5531,7 +5688,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000062d2ac13")
 		(property "Reference" "M2"
-			(at 276.225 12.065 0)
+			(at 274.32 12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5540,7 +5697,7 @@
 			)
 		)
 		(property "Value" "Mounting"
-			(at 276.225 16.51 0)
+			(at 274.32 17.145 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5548,8 +5705,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "mounting:M3"
-			(at 276.225 14.605 0)
+		(property "Footprint" "mounting:M3_pin"
+			(at 274.32 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5558,7 +5715,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 276.225 14.605 0)
+			(at 274.32 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5567,13 +5724,16 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01"
-			(at 276.225 14.605 0)
+			(at 274.32 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "1"
+			(uuid "c3ac28b3-02e5-420d-8f8d-cc26e787d23d")
 		)
 		(instances
 			(project "BulkyModem Module"
@@ -6182,8 +6342,8 @@
 		)
 	)
 	(symbol
-		(lib_id "mounting:Mounting")
-		(at 273.05 14.605 0)
+		(lib_id "mounting:Mounting_Pin")
+		(at 270.51 15.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6191,7 +6351,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000062fe4cba")
 		(property "Reference" "M1"
-			(at 273.05 12.065 0)
+			(at 270.51 12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6200,7 +6360,7 @@
 			)
 		)
 		(property "Value" "Mounting"
-			(at 273.05 16.51 0)
+			(at 270.51 17.145 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6208,8 +6368,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "mounting:M3"
-			(at 273.05 14.605 0)
+		(property "Footprint" "mounting:M3_pin"
+			(at 270.51 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6218,7 +6378,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 273.05 14.605 0)
+			(at 270.51 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6227,13 +6387,16 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01"
-			(at 273.05 14.605 0)
+			(at 270.51 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "1"
+			(uuid "631858ca-6aaf-4e9a-9aa7-5c48e31af7fe")
 		)
 		(instances
 			(project "BulkyModem Module"
@@ -7307,6 +7470,71 @@
 			)
 		)
 	)
+	(symbol
+		(lib_id "power:GND")
+		(at 281.94 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "712f1a3b-a15f-4d52-86ad-6a9bcc06bc9f")
+		(property "Reference" "#PWR011"
+			(at 281.94 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 282.067 28.5242 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 281.94 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 281.94 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 281.94 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7aefbc87-a8f7-40cd-a8b6-0ba881a8e755")
+		)
+		(instances
+			(project "BulkyModem Module"
+				(path "/cd9da885-84b5-47eb-b16d-d4099ea4358c"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(sheet
 		(at 34.29 40.64)
 		(size 26.67 20.32)
@@ -7417,7 +7645,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "00000000-0000-0000-0000-00006390ae73")
-		(property "Sheetname" "Front panel"
+		(property "Sheetname" "Front Panel"
 			(at 77.47 158.0384 0)
 			(effects
 				(font
@@ -7575,6 +7803,44 @@
 			(project "BulkyModem Module"
 				(path "/cd9da885-84b5-47eb-b16d-d4099ea4358c"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 106.68 158.75)
+		(size 26.67 17.78)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "26a15234-c982-43c6-ae7e-0577565be242")
+		(property "Sheetname" "Audio Panel"
+			(at 106.68 158.0384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "audio_panel.kicad_sch"
+			(at 106.68 177.1146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "BulkyModem Module"
+				(path "/cd9da885-84b5-47eb-b16d-d4099ea4358c"
+					(page "6")
 				)
 			)
 		)

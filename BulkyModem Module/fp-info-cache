@@ -1,4 +1,4 @@
-23354159476817404
+23355874514245294
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -356,6 +356,13 @@ battery CR-3032 coin cell vertical
 0
 2
 2
+BulkyModem
+AudioModule
+Through hole straight pin header, 1x03, 2.54mm pitch, single row
+Through hole pin header THT 1x03 2.54mm single row
+0
+7
+7
 BulkyModem
 BARREL_JACK
 DC Barrel Jack

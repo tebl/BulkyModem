@@ -880,7 +880,7 @@
 				)
 				(pin no_connect line
 					(at -5.08 -5.08 0)
-					(length 3.81) hide
+					(length 3.81)
 					(name "N.C."
 						(effects
 							(font
@@ -898,7 +898,7 @@
 				)
 				(pin no_connect line
 					(at -5.08 -7.62 0)
-					(length 3.81) hide
+					(length 3.81)
 					(name "N.C."
 						(effects
 							(font
@@ -916,7 +916,7 @@
 				)
 				(pin no_connect line
 					(at -5.08 -10.16 0)
-					(length 3.81) hide
+					(length 3.81)
 					(name "N.C."
 						(effects
 							(font
@@ -934,7 +934,7 @@
 				)
 				(pin no_connect line
 					(at -5.08 -12.7 0)
-					(length 3.81) hide
+					(length 3.81)
 					(name "N.C."
 						(effects
 							(font
@@ -4581,6 +4581,14 @@
 		)
 		(pin "15"
 			(uuid "49220d4a-3da7-451d-85bd-e82c474ebf9d")
+		)
+		(instances
+			(project "BulkyModem Module"
+				(path "/cd9da885-84b5-47eb-b16d-d4099ea4358c/00000000-0000-0000-0000-00006390ae73"
+					(reference "J3")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
