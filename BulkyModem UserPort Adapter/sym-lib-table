@@ -1,6 +1,7 @@
 (sym_lib_table
-  (lib (name c64_user_port)(type Legacy)(uri $KIPRJMOD/../common/library/c64_user_port.lib)(options "")(descr ""))
-  (lib (name mounting)(type Legacy)(uri $KIPRJMOD/../common/library/mounting.lib)(options "")(descr ""))
-  (lib (name c64_adapter_idc)(type Legacy)(uri ${KIPRJMOD}/../common/library/c64_adapter_idc.lib)(options "")(descr ""))
-  (lib (name solder_bridge)(type Legacy)(uri ${KIPRJMOD}/../common/library/solder_bridge.pretty)(options "")(descr ""))
+  (version 7)
+  (lib (name "c64_user_port")(type "KiCad")(uri "${KIPRJMOD}/../common/library/c64_user_port.kicad_sym")(options "")(descr ""))
+  (lib (name "mounting")(type "KiCad")(uri "${KIPRJMOD}/../common/library/mounting.kicad_sym")(options "")(descr ""))
+  (lib (name "c64_adapter_idc")(type "KiCad")(uri "${KIPRJMOD}/../common/library/c64_adapter_idc.kicad_sym")(options "")(descr ""))
+  (lib (name "barrel_jack")(type "KiCad")(uri "${KIPRJMOD}/../common/library/barrel_jack.kicad_sym")(options "")(descr ""))
 )
