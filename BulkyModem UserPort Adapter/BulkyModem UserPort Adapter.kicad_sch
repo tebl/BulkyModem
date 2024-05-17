@@ -6,6 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "BulkyModem (C64 UserPort Adapter)")
+		(rev "C")
 		(comment 4 "UserPort adapter for connecting to the BulkyModem via a 2x8-pin IDC cable.")
 	)
 	(lib_symbols
@@ -2478,6 +2479,12 @@
 		(uuid "97c6af91-81b0-4527-9414-6f4dab844d7f")
 	)
 	(junction
+		(at 129.54 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b90d3ac8-c9a9-4f69-8afb-8368a878e0ff")
+	)
+	(junction
 		(at 278.13 21.59)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2545,6 +2552,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 106.68) (xy 137.16 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "020abb47-4054-4540-9771-cbcf9843c351")
+	)
+	(wire
+		(pts
 			(xy 63.5 44.45) (xy 60.96 44.45)
 		)
 		(stroke
@@ -2575,6 +2592,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 121.92) (xy 137.16 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c136135-8af2-484d-bf59-371c7822a644")
+	)
+	(wire
+		(pts
 			(xy 67.31 52.07) (xy 60.96 52.07)
 		)
 		(stroke
@@ -2582,16 +2609,6 @@
 			(type default)
 		)
 		(uuid "11a36749-15bf-453b-8d2a-19261e5daf8b")
-	)
-	(wire
-		(pts
-			(xy 129.54 119.38) (xy 137.16 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12edf9d9-3c66-4cc2-84b1-453ae0a4e3d8")
 	)
 	(wire
 		(pts
@@ -2615,6 +2632,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 124.46) (xy 137.16 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1870e2fa-12fb-4b96-b183-b165229e9de8")
+	)
+	(wire
+		(pts
 			(xy 67.31 62.23) (xy 63.5 62.23)
 		)
 		(stroke
@@ -2635,6 +2662,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 119.38) (xy 137.16 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b76392e-2c6f-468c-9195-1d79a7e5b757")
+	)
+	(wire
+		(pts
 			(xy 63.5 44.45) (xy 67.31 44.45)
 		)
 		(stroke
@@ -2642,16 +2679,6 @@
 			(type default)
 		)
 		(uuid "1d166db4-e6d8-440c-a40f-bd211cfe4e38")
-	)
-	(wire
-		(pts
-			(xy 129.54 124.46) (xy 137.16 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20982974-004c-4f7f-bd7b-6dbaa051b792")
 	)
 	(wire
 		(pts
@@ -2775,6 +2802,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 109.22) (xy 137.16 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55155286-e4ee-4269-b810-388388aeb8cf")
+	)
+	(wire
+		(pts
 			(xy 241.3 48.26) (xy 241.3 50.8)
 		)
 		(stroke
@@ -2812,6 +2849,16 @@
 			(type default)
 		)
 		(uuid "59bf0ebf-dbcc-4738-a365-65a3450913f5")
+	)
+	(wire
+		(pts
+			(xy 125.73 129.54) (xy 129.54 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d3ed44e-4a9b-4063-b5db-e3d56de46b59")
 	)
 	(wire
 		(pts
@@ -2892,16 +2939,6 @@
 			(type default)
 		)
 		(uuid "72b0fd2a-5485-4bec-b9f5-a78a8d1bfaa6")
-	)
-	(wire
-		(pts
-			(xy 129.54 116.84) (xy 137.16 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73003876-7cc3-4e6b-81bb-7f4cd464fa0c")
 	)
 	(wire
 		(pts
@@ -3055,16 +3092,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 121.92) (xy 137.16 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9cb95bf1-31e4-4c7c-857e-4fa02f97f1a3")
-	)
-	(wire
-		(pts
 			(xy 237.49 55.88) (xy 241.3 55.88)
 		)
 		(stroke
@@ -3135,16 +3162,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 106.68) (xy 137.16 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bacad12c-bcaa-47fe-bbc6-faedb23fba0a")
-	)
-	(wire
-		(pts
 			(xy 237.49 45.72) (xy 241.3 45.72)
 		)
 		(stroke
@@ -3162,16 +3179,6 @@
 			(type default)
 		)
 		(uuid "bda8092d-a64c-4cb6-9c24-76958105c2e9")
-	)
-	(wire
-		(pts
-			(xy 129.54 109.22) (xy 137.16 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c008ff2b-46bb-4a6f-af05-42d4afb72ee4")
 	)
 	(wire
 		(pts
@@ -3235,6 +3242,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 116.84) (xy 137.16 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df36d29c-558b-4185-8286-841e13ae5add")
+	)
+	(wire
+		(pts
 			(xy 100.33 67.31) (xy 107.95 67.31)
 		)
 		(stroke
@@ -3272,6 +3289,16 @@
 			(type default)
 		)
 		(uuid "ebf286ce-3569-4c2b-a206-8366c8877e72")
+	)
+	(wire
+		(pts
+			(xy 129.54 129.54) (xy 129.54 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edae72af-bc93-4e1d-ac9f-8d5e168e325a")
 	)
 	(wire
 		(pts
@@ -3354,31 +3381,9 @@
 			)
 		)
 	)
-	(global_label "~{MODEM_UP}"
-		(shape input)
-		(at 129.54 129.54 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "15885914-5223-412e-9f2d-13f9eb2b7112")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.9886 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "C64_RXD"
 		(shape input)
-		(at 129.54 106.68 180)
+		(at 125.73 106.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3387,7 +3392,7 @@
 		)
 		(uuid "27100ba8-212f-4337-8fba-c3963c92cbd9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.54 106.68 0)
+			(at 125.73 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3418,7 +3423,7 @@
 	)
 	(global_label "MODEM_RI"
 		(shape input)
-		(at 129.54 124.46 180)
+		(at 125.73 124.46 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3427,7 +3432,7 @@
 		)
 		(uuid "2cfd0cf4-bdc6-4b77-8ff8-02b1c4b07a30")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.54 124.46 0)
+			(at 125.73 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3456,9 +3461,31 @@
 			)
 		)
 	)
+	(global_label "~{ADAPTER_EN}"
+		(shape input)
+		(at 125.73 129.54 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "617e3fdb-20b4-4cea-b620-c08281fdc5e0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.8481 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "MODEM_TXD"
 		(shape input)
-		(at 129.54 116.84 180)
+		(at 125.73 116.84 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3467,7 +3494,7 @@
 		)
 		(uuid "68ca569d-db8b-4749-9681-1b97b7dacfd1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.54 116.84 0)
+			(at 125.73 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3552,28 +3579,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "~{C64_UP}"
-		(shape input)
-		(at 129.54 132.08 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "88368b62-ac01-44d1-9d15-e4208ecb80d2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 119.9519 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -3720,7 +3725,7 @@
 	)
 	(global_label "MODEM_RTS"
 		(shape input)
-		(at 129.54 119.38 180)
+		(at 125.73 119.38 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3729,7 +3734,7 @@
 		)
 		(uuid "d255363e-829a-4de0-b2eb-2070ed64b562")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.54 119.38 0)
+			(at 125.73 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3800,7 +3805,7 @@
 	)
 	(global_label "C64_CTS"
 		(shape input)
-		(at 129.54 109.22 180)
+		(at 125.73 109.22 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3809,7 +3814,7 @@
 		)
 		(uuid "e7b4cbc1-07b6-44da-acd8-8092f18ab88f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.54 109.22 0)
+			(at 125.73 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3860,7 +3865,7 @@
 	)
 	(global_label "MODEM_DCD"
 		(shape input)
-		(at 129.54 121.92 180)
+		(at 125.73 121.92 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3869,7 +3874,7 @@
 		)
 		(uuid "fed7f661-e358-48d7-bef7-14e9b6c2ba1e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.54 121.92 0)
+			(at 125.73 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5173,7 +5178,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "84bc67ce-40dd-4f01-8688-02db081027e5")
-		(property "Sheetname" "Power"
+		(property "Sheetname" "Power & Control"
 			(at 38.1 161.8484 0)
 			(effects
 				(font
