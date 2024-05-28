@@ -607,7 +607,7 @@
 			)
 			(rectangle
 				(start -7.62 6.35)
-				(end 8.255 -13.97)
+				(end 8.89 -13.97)
 				(stroke
 					(width 0)
 					(type solid)
@@ -707,8 +707,8 @@
 				)
 			)
 			(rectangle
-				(start 8.255 -12.573)
-				(end 6.985 -12.827)
+				(start 8.89 -12.573)
+				(end 7.62 -12.827)
 				(stroke
 					(width 0.1524)
 					(type solid)
@@ -718,8 +718,8 @@
 				)
 			)
 			(rectangle
-				(start 8.255 -10.033)
-				(end 6.985 -10.287)
+				(start 8.89 -10.033)
+				(end 7.62 -10.287)
 				(stroke
 					(width 0.1524)
 					(type solid)
@@ -729,8 +729,8 @@
 				)
 			)
 			(rectangle
-				(start 8.255 -7.493)
-				(end 6.985 -7.747)
+				(start 8.89 -7.493)
+				(end 7.62 -7.747)
 				(stroke
 					(width 0.1524)
 					(type solid)
@@ -740,8 +740,8 @@
 				)
 			)
 			(rectangle
-				(start 8.255 -4.953)
-				(end 6.985 -5.207)
+				(start 8.89 -4.953)
+				(end 7.62 -5.207)
 				(stroke
 					(width 0.1524)
 					(type solid)
@@ -751,8 +751,8 @@
 				)
 			)
 			(rectangle
-				(start 8.255 -2.413)
-				(end 6.985 -2.667)
+				(start 8.89 -2.413)
+				(end 7.62 -2.667)
 				(stroke
 					(width 0.1524)
 					(type solid)
@@ -762,8 +762,8 @@
 				)
 			)
 			(rectangle
-				(start 8.255 0.127)
-				(end 6.985 -0.127)
+				(start 8.89 0.127)
+				(end 7.62 -0.127)
 				(stroke
 					(width 0.1524)
 					(type solid)
@@ -773,8 +773,8 @@
 				)
 			)
 			(rectangle
-				(start 8.255 2.667)
-				(end 6.985 2.413)
+				(start 8.89 2.667)
+				(end 7.62 2.413)
 				(stroke
 					(width 0.1524)
 					(type solid)
@@ -784,8 +784,8 @@
 				)
 			)
 			(rectangle
-				(start 8.255 5.207)
-				(end 6.985 4.953)
+				(start 8.89 5.207)
+				(end 7.62 4.953)
 				(stroke
 					(width 0.1524)
 					(type solid)
@@ -813,7 +813,7 @@
 				)
 			)
 			(pin passive line
-				(at 12.065 2.54 180)
+				(at 12.7 2.54 180)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -831,7 +831,7 @@
 				)
 			)
 			(pin passive line
-				(at 12.065 0 180)
+				(at 12.7 0 180)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -849,7 +849,7 @@
 				)
 			)
 			(pin passive line
-				(at 12.065 -2.54 180)
+				(at 12.7 -2.54 180)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -867,7 +867,7 @@
 				)
 			)
 			(pin passive line
-				(at 12.065 -5.08 180)
+				(at 12.7 -5.08 180)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -885,7 +885,7 @@
 				)
 			)
 			(pin passive line
-				(at 12.065 -7.62 180)
+				(at 12.7 -7.62 180)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -903,7 +903,7 @@
 				)
 			)
 			(pin passive line
-				(at 12.065 -10.16 180)
+				(at 12.7 -10.16 180)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -921,7 +921,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 12.065 -12.7 180)
+				(at 12.7 -12.7 180)
 				(length 3.81)
 				(name "N.C."
 					(effects
@@ -1065,7 +1065,7 @@
 				)
 			)
 			(pin power_in line
-				(at 12.065 5.08 180)
+				(at 12.7 5.08 180)
 				(length 3.81)
 				(name "GND"
 					(effects

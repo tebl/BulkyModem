@@ -1,0 +1,8 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "artwork")(type "KiCad")(uri "${KIPRJMOD}/../common/modules/artwork.pretty")(options "")(descr ""))
+  (lib (name "BulkyModem")(type "KiCad")(uri "${KIPRJMOD}/../common/modules/BulkyModem.pretty")(options "")(descr ""))
+  (lib (name "small_buzzer")(type "KiCad")(uri "${KIPRJMOD}/../common/modules/small_buzzer.pretty")(options "")(descr ""))
+  (lib (name "DFPlayer_Mini")(type "KiCad")(uri "${KIPRJMOD}/../common/modules/DFPlayer_Mini.pretty")(options "")(descr ""))
+  (lib (name "mounting")(type "KiCad")(uri "D:/ownCloud/Documents/Projects/BulkyModem/common/modules/mounting.pretty")(options "")(descr ""))
+)

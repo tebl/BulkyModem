@@ -173,28 +173,6 @@
 					)
 				)
 				(rectangle
-					(start 7.62 2.667)
-					(end 8.89 2.413)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 7.62 5.207)
-					(end 8.89 4.953)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
 					(start 8.89 -12.573)
 					(end 7.62 -12.827)
 					(stroke
@@ -252,6 +230,28 @@
 				(rectangle
 					(start 8.89 0.127)
 					(end 7.62 -0.127)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 8.89 2.667)
+					(end 7.62 2.413)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 8.89 5.207)
+					(end 7.62 4.953)
 					(stroke
 						(width 0.1524)
 						(type solid)

@@ -224,7 +224,7 @@
 				(pin output line
 					(at 22.86 -2.54 180)
 					(length 3.81)
-					(name "RX"
+					(name "AUDIO_TX"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -242,7 +242,7 @@
 				(pin input line
 					(at 22.86 0 180)
 					(length 3.81)
-					(name "TX"
+					(name "AUDIO_RX"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -257,7 +257,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 22.86 2.54 180)
 					(length 3.81)
 					(name "GND"
@@ -575,7 +575,7 @@
 		(uuid "f0ee3310-a6aa-433c-82a8-de1354d892ee")
 	)
 	(global_label "AUDIO_RX"
-		(shape input)
+		(shape output)
 		(at 167.64 101.6 0)
 		(effects
 			(font
@@ -595,7 +595,7 @@
 		)
 	)
 	(global_label "AUDIO_TX"
-		(shape output)
+		(shape input)
 		(at 167.64 99.06 0)
 		(effects
 			(font

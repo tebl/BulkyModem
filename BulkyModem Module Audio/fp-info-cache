@@ -1,4 +1,4 @@
-23359256480317598
+23366201433117594
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -53864,6 +53864,13 @@ SMD SMT ceramic resonator filter filter hand-soldering
 0
 3
 3
+DFPlayer_Mini
+DFPlayer_Mini
+
+
+0
+16
+16
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
@@ -56902,13 +56909,6 @@ Fuse Fuseholder TR5 Littelfuse/Wickmann No. 460 No560
 0
 2
 2
-HK19F-DC
-HK19F-DC
-
-
-0
-8
-8
 Heatsink
 Heatsink_35x26mm_1xFixation3mm_Fischer-SK486-35
 Heatsink, 35mm x 26mm, 1x Fixation 3mm, Fischer SK486-35
@@ -62383,6 +62383,153 @@ THT
 0
 4
 2
+Jumper
+SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm
+SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, bridged with 2 copper strips
+net tie solder jumper bridged
+0
+2
+2
+Jumper
+SolderJumper-2_P1.3mm_Bridged2Bar_RoundedPad1.0x1.5mm
+SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, bridged with 2 copper strips
+net tie solder jumper bridged
+0
+2
+2
+Jumper
+SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm
+SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, bridged with 1 copper strip
+net tie solder jumper bridged
+0
+2
+2
+Jumper
+SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm
+SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, bridged with 1 copper strip
+net tie solder jumper bridged
+0
+2
+2
+Jumper
+SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm
+SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, open
+solder jumper open
+0
+2
+2
+Jumper
+SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm
+SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, open
+solder jumper open
+0
+2
+2
+Jumper
+SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm
+SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open
+solder jumper open
+0
+2
+2
+Jumper
+SolderJumper-3_P1.3mm_Bridged2Bar12_Pad1.0x1.5mm
+SMD Solder 3-pad Jumper, 1x1.5mm Pads, 0.3mm gap, pads 1-2 Bridged2Bar with 2 copper strip
+net tie solder jumper bridged
+0
+3
+3
+Jumper
+SolderJumper-3_P1.3mm_Bridged2Bar12_Pad1.0x1.5mm_NumberLabels
+SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, pads 1-2 Bridged2Bar with 2 copper strip, labeled with numbers
+net tie solder jumper bridged
+0
+3
+3
+Jumper
+SolderJumper-3_P1.3mm_Bridged2Bar12_RoundedPad1.0x1.5mm
+SMD Solder 3-pad Jumper, 1x1.5mm rounded Pads, 0.3mm gap, pads 1-2 Bridged2Bar with 2 copper strip
+net tie solder jumper bridged
+0
+3
+3
+Jumper
+SolderJumper-3_P1.3mm_Bridged2Bar12_RoundedPad1.0x1.5mm_NumberLabels
+SMD Solder 3-pad Jumper, 1x1.5mm rounded Pads, 0.3mm gap, pads 1-2 Bridged2Bar with 2 copper strip, labeled with numbers
+net tie solder jumper bridged
+0
+3
+3
+Jumper
+SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm
+SMD Solder 3-pad Jumper, 1x1.5mm Pads, 0.3mm gap, pads 1-2 bridged with 1 copper strip
+net tie solder jumper bridged
+0
+3
+3
+Jumper
+SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm_NumberLabels
+SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, pads 1-2 bridged with 1 copper strip, labeled with numbers
+net tie solder jumper bridged
+0
+3
+3
+Jumper
+SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm
+SMD Solder 3-pad Jumper, 1x1.5mm rounded Pads, 0.3mm gap, pads 1-2 bridged with 1 copper strip
+net tie solder jumper bridged
+0
+3
+3
+Jumper
+SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels
+SMD Solder 3-pad Jumper, 1x1.5mm rounded Pads, 0.3mm gap, pads 1-2 bridged with 1 copper strip, labeled with numbers
+net tie solder jumper bridged
+0
+3
+3
+Jumper
+SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm
+SMD Solder 3-pad Jumper, 1x1.5mm Pads, 0.3mm gap, open
+solder jumper open
+0
+3
+3
+Jumper
+SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels
+SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, open, labeled with numbers
+solder jumper open
+0
+3
+3
+Jumper
+SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm
+SMD Solder 3-pad Jumper, 1x1.5mm rounded Pads, 0.3mm gap, open
+solder jumper open
+0
+3
+3
+Jumper
+SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels
+SMD Solder 3-pad Jumper, 1x1.5mm rounded Pads, 0.3mm gap, open, labeled with numbers
+solder jumper open
+0
+3
+3
+Jumper
+SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm
+SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open
+solder jumper open
+0
+5
+3
+Jumper
+SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm_NumberLabels
+SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open, labeled with numbers
+solder jumper open
+0
+5
+3
 LED_SMD
 LED-APA102-2020
 http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf
@@ -85364,48 +85511,6 @@ WiFi IEEE802.11 b/g/n
 0
 44
 44
-RND_DSUB
-DSUB-9_Female_Edge
-Straight DE-9 connector, the blue kind with metal shield removed (solder to pads).
-9-pin D-Sub connector straight vertical THT male pitch 2.77x2.84mm mounting holes distance 25mm
-0
-9
-9
-RND_DSUB
-DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm
-9-pin D-Sub connector, horizontal/angled (90 deg), THT-mount, female, pitch 2.77x2.84mm, pin-PCB-offset 7.699999999999999mm, distance of mounting holes 25mm, distance of mounting holes to PCB edge 9.12mm, see https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf
-9-pin D-Sub connector horizontal angled 90deg THT female pitch 2.77x2.84mm pin-PCB-offset 7.699999999999999mm mounting-holes-distance 25mm mounting-hole-offset 25mm
-0
-11
-10
-RND_DSUB
-DSUB-9_Male_Edge
-Straight DE-9 connector, the blue kind with metal shield removed (solder to pads).
-9-pin D-Sub connector straight vertical THT male pitch 2.77x2.84mm mounting holes distance 25mm
-0
-9
-9
-RND_DSUB
-DSUB-9_Male_Vertical_Pitch2.77x2.84mm
-9-pin D-Sub connector, straight/vertical, THT-mount, male, pitch 2.77x2.84mm, distance of mounting holes 25mm, see https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf
-9-pin D-Sub connector straight vertical THT male pitch 2.77x2.84mm mounting holes distance 25mm
-0
-9
-9
-RND_DSUB
-DSUB-15_Male_Horizontal_Pitch2.77x2.54mm_EdgePinOffset9.40mm
-15-pin D-Sub connector, horizontal/angled (90 deg), THT-mount, male, pitch 2.77x2.54mm, pin-PCB-offset 9.4mm, see http://docs-europe.electrocomponents.com/webdocs/1585/0900766b81585df2.pdf
-15-pin D-Sub connector horizontal angled 90deg THT male pitch 2.77x2.54mm pin-PCB-offset 9.4mm
-0
-15
-15
-RND_DSUB
-DSUB-15_Male_Vertical_Pitch2.77x2.84mm
-15-pin D-Sub connector, straight/vertical, THT-mount, male, pitch 2.77x2.84mm, distance of mounting holes 33.3mm, see https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf
-15-pin D-Sub connector straight vertical THT male pitch 2.77x2.84mm mounting holes distance 33.3mm
-0
-15
-15
 Relay_SMD
 Relay_2P2T_10x6mm_TE_IMxxG
 Signal Relay, 10x6mm, 2 Form C, Gull Wings, https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7F108-98001%7FZ.1%7Fpdf%7FEnglish%7FENG_DS_108-98001_Z.1.pdf
@@ -95339,13 +95444,6 @@ BulkyModem_small
 0
 0
 0
-dfplayer
-DFPlayer_Mini
-
-
-0
-16
-16
 mounting
 M2
 module 1 pin (ou trou mecanique de percage)
@@ -95367,87 +95465,10 @@ DEV
 0
 1
 1
-nodemcu_v3
-NodeMCU-LoLinV3
-
-
-0
-45
-30
-resistor
-R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
-Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf
-Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm
-0
-2
-2
-resistor
-R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
-Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf
-Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm
-0
-2
-2
-solder_bridge
-SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm
-SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, open
-solder jumper open
-0
-2
-2
-solder_bridge
-SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm
-SMD Solder 3-pad Jumper, 1x1.5mm rounded Pads, 0.3mm gap, open
-solder jumper open
-0
-3
-3
-solder_bridge
-bridge
-Through hole straight pin header, 1x02, 1.00mm pitch, single row
-Through hole pin header THT 1x02 1.00mm single row
-0
-2
-2
-solder_bridge
-bridge2
-Through hole straight pin header, 1x02, 1.00mm pitch, single row
-Through hole pin header THT 1x02 1.00mm single row
-0
-2
-2
-solder_bridge
-bridge_open
-Through hole straight pin header, 1x02, 1.00mm pitch, single row
-Through hole pin header THT 1x02 1.00mm single row
-0
-2
-2
-solder_bridge
-bridge_r
-Through hole straight pin header, 1x02, 1.00mm pitch, single row
-Through hole pin header THT 1x02 1.00mm single row
-0
-2
-2
-solder_bridge
-select
-Through hole straight pin header, 1x02, 1.00mm pitch, single row
-Through hole pin header THT 1x02 1.00mm single row
-0
-3
-3
-solder_bridge
-select2
-Through hole straight pin header, 1x02, 1.00mm pitch, single row
-Through hole pin header THT 1x02 1.00mm single row
-0
-3
-3
-switch_cutout
-SW_PUSH_6mm
-https://www.omron.com/ecb/products/pdf/en-b3f.pdf
-tact sw push 6mm
+small_buzzer
+Buzzer_12x9.5RM7.6
+Generic Buzzer, D12mm height 9.5mm with RM7.6mm
+buzzer
 0
 4
 2
