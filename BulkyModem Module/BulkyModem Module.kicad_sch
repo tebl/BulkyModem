@@ -4946,7 +4946,7 @@
 	)
 	(text "* Install R18 if noise is encountered,\notherwise leave unpopulated."
 		(exclude_from_sim no)
-		(at 224.79 90.17 0)
+		(at 214.63 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6550,7 +6550,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000063e2105a")
 		(property "Reference" "R18"
 			(at 220.345 92.075 0)

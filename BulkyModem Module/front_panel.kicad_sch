@@ -3182,9 +3182,9 @@
 		)
 		(uuid "fffa5142-296a-4e57-8f44-9c051fa44224")
 	)
-	(text "* These resistors may have functionally\nbeen replace on the front panel."
+	(text "* Resistors may have functionally\nbeen replaced on front panel B."
 		(exclude_from_sim no)
-		(at 45.72 100.33 0)
+		(at 48.26 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6619,7 +6619,7 @@
 				)
 			)
 		)
-		(property "Value" "2k2*"
+		(property "Value" "2k2"
 			(at 56.2864 83.82 90)
 			(effects
 				(font

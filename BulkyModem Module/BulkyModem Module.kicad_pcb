@@ -7465,14 +7465,15 @@
 			)
 		)
 		(property "Value" "2k2"
-			(at 6.35 0 0)
+			(at 4.445 -0.635 0)
 			(layer "F.SilkS")
 			(uuid "9d22d675-ea3e-449a-a6e0-877f1a2422a7")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.1)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "resistor:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
@@ -7737,14 +7738,15 @@
 			)
 		)
 		(property "Value" "2k2"
-			(at 6.35 0 0)
+			(at 4.445 -0.635 0)
 			(layer "F.SilkS")
 			(uuid "3d88528e-e922-4a87-a024-ab6c333ce984")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.1)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "resistor:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
@@ -8009,14 +8011,15 @@
 			)
 		)
 		(property "Value" "2k2"
-			(at 6.35 0 0)
+			(at 4.445 -0.635 0)
 			(layer "F.SilkS")
 			(uuid "14d2a684-c631-41f2-b48f-6df115b3b482")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.1)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "resistor:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
@@ -8281,14 +8284,15 @@
 			)
 		)
 		(property "Value" "2k2"
-			(at 6.35 0 0)
+			(at 4.445 -0.635 0)
 			(layer "F.SilkS")
 			(uuid "56b95048-bacc-4c4c-991d-546ded09d717")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.1)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "resistor:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
@@ -8553,14 +8557,15 @@
 			)
 		)
 		(property "Value" "2k2"
-			(at 6.35 0 90)
+			(at 8.255 0.635 90)
 			(layer "F.SilkS")
 			(uuid "8ed458b8-beb2-4eb1-bb82-664c271eeea6")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.1)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "resistor:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
@@ -8825,14 +8830,15 @@
 			)
 		)
 		(property "Value" "2k2"
-			(at 6.35 0 90)
+			(at 8.255 0.508 90)
 			(layer "F.SilkS")
 			(uuid "d1c493e9-20b2-4b29-b146-eb1855da7aa3")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.1)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "resistor:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
@@ -9371,6 +9377,7 @@
 		(property "Value" "10k*"
 			(at 3.81 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "6dbb492a-5673-4a15-a719-2b58e51f2ebe")
 			(effects
 				(font
@@ -9419,7 +9426,7 @@
 		(path "/00000000-0000-0000-0000-000063e2105a")
 		(sheetname "Root")
 		(sheetfile "BulkyModem Module.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(fp_line
 			(start 9.12 0)
 			(end 8.35 0)
@@ -17217,14 +17224,15 @@
 			)
 		)
 		(property "Value" "2k2"
-			(at 6.35 0 0)
+			(at 4.445 -0.635 0)
 			(layer "F.SilkS")
 			(uuid "753af8cd-ba30-412e-beb6-f8dd56cd9fe3")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.1)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "resistor:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
@@ -24336,7 +24344,7 @@
 				)
 			)
 		)
-		(property "Value" "C64_Modem_IDC"
+		(property "Value" "C64_Modem_OUT"
 			(at 1.27 23.88 90)
 			(layer "F.Fab")
 			(uuid "18fe4d5c-3035-4bd8-9824-353309bbb194")
@@ -24914,7 +24922,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R4"
-			(at 3.175 0 0)
+			(at 2.54 0 0)
 			(layer "F.SilkS")
 			(uuid "773d1f4b-4971-49ca-8b3f-7139f9a4d0e3")
 			(effects
@@ -24925,14 +24933,15 @@
 			)
 		)
 		(property "Value" "2k2*"
-			(at 6.35 0 90)
+			(at 8.255 0.635 90)
 			(layer "F.SilkS")
 			(uuid "8e872778-07fd-4d81-809c-2841fe961ff0")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.1)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "resistor:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
@@ -25436,14 +25445,15 @@
 			)
 		)
 		(property "Value" "2k2"
-			(at 6.35 0 90)
+			(at 8.255 0.635 90)
 			(layer "F.SilkS")
 			(uuid "891bbda3-ef27-4941-ad78-16dc24b2b245")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.1)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "resistor:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
@@ -26283,7 +26293,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R1"
-			(at 3.175 0 0)
+			(at 2.54 0 0)
 			(layer "F.SilkS")
 			(uuid "ca232f06-b193-421b-ac9e-ffe51dc07a70")
 			(effects
@@ -26294,14 +26304,15 @@
 			)
 		)
 		(property "Value" "2k2"
-			(at 6.35 0 90)
+			(at 8.255 0.635 90)
 			(layer "F.SilkS")
 			(uuid "6d95e3b0-f256-45dc-a24e-cb347a7a03f3")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.1)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "resistor:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
@@ -27961,7 +27972,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R3"
-			(at 6.985 0 0)
+			(at 7.62 0 0)
 			(layer "F.SilkS")
 			(uuid "4b956fac-671b-4292-927f-080220f355e0")
 			(effects
@@ -27971,15 +27982,16 @@
 				)
 			)
 		)
-		(property "Value" "2k2*"
-			(at 4.445 0 90)
+		(property "Value" "2k2"
+			(at 1.905 -0.635 90)
 			(layer "F.SilkS")
 			(uuid "5205f2d3-3ffb-4292-8322-59e3f4899db3")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.1)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "resistor:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
@@ -32256,14 +32268,15 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 6.35 0 90)
+			(at 4.445 0.038 90)
 			(layer "F.SilkS")
 			(uuid "6cc137f4-6305-4feb-8eaf-04319206a22f")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.1)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "resistor:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
@@ -33616,7 +33629,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 43 "AUDIO_RX")
-			(pinfunction "RX")
+			(pinfunction "AUDIO_TX")
 			(pintype "output")
 			(uuid "fb6e33e3-86b9-4f32-853f-a8ad8ee46f75")
 		)
@@ -33627,7 +33640,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 17 "AUDIO_TX")
-			(pinfunction "TX")
+			(pinfunction "AUDIO_RX")
 			(pintype "input")
 			(uuid "28402b88-c4a3-4c1b-81a6-ba5a1e069897")
 		)
@@ -33639,7 +33652,7 @@
 			(remove_unused_layers no)
 			(net 1 "GND")
 			(pinfunction "GND")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "9999bf90-9e2c-41cc-9167-5035835515a1")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x03_P2.54mm_Vertical.wrl"
@@ -33899,7 +33912,7 @@
 		(descr "SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, open")
 		(tags "solder jumper open")
 		(property "Reference" "JP2"
-			(at -2.54 0 0)
+			(at -2.413 0 0)
 			(layer "B.SilkS")
 			(uuid "5445b0c1-49c7-4154-a462-282cc8a87bec")
 			(effects
@@ -34072,7 +34085,7 @@
 		(descr "SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, open")
 		(tags "solder jumper open")
 		(property "Reference" "JP13"
-			(at -2.54 0 -90)
+			(at 0.015 2.032 0)
 			(layer "B.SilkS")
 			(uuid "62906a03-2d81-458e-88cb-feb1f2837f7e")
 			(effects
@@ -34084,7 +34097,7 @@
 			)
 		)
 		(property "Value" "BYPASS"
-			(at 0 1.905 180)
+			(at 2.301 0.635 -90)
 			(layer "B.SilkS")
 			(uuid "fc3b3e00-9a9c-40bc-ae3b-afd49c9f2b13")
 			(effects
@@ -34442,6 +34455,30 @@
 			(justify mirror)
 		)
 	)
+	(gr_text "Link JP13 if not\ninstalling U4"
+		(at 109.22 84.455 0)
+		(layer "B.SilkS")
+		(uuid "afacf66a-7c94-4cc3-aeb2-d47cfd82d7db")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+			(justify left mirror)
+		)
+	)
+	(gr_text "Link JP2 if not\ninstalling K1"
+		(at 75.565 81.407 90)
+		(layer "B.SilkS")
+		(uuid "c709bd53-122b-469d-ae1a-207ae2ecb0a9")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+			(justify left mirror)
+		)
+	)
 	(gr_text "Licensed under\nCERN OHL v.1.2"
 		(at 100.965 76.2 0)
 		(layer "F.SilkS")
@@ -34451,6 +34488,30 @@
 				(size 1 1)
 				(thickness 0.1)
 			)
+		)
+	)
+	(gr_text "RI"
+		(at 154.432 132.715 90)
+		(layer "F.SilkS")
+		(uuid "082639e4-bb21-41f1-8e59-bfed56cb04e3")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+			(justify left)
+		)
+	)
+	(gr_text "RX"
+		(at 97.155 136.525 0)
+		(layer "F.SilkS")
+		(uuid "0c6f073c-86ae-4630-9248-486245010d5e")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+			(justify left)
 		)
 	)
 	(gr_text "A2"
@@ -34476,6 +34537,102 @@
 			)
 		)
 	)
+	(gr_text "C64"
+		(at 158.242 132.715 90)
+		(layer "F.SilkS")
+		(uuid "400951d9-3e23-4d3f-9718-0d4c3be48bdc")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+			(justify left)
+		)
+	)
+	(gr_text "TX"
+		(at 84.455 136.525 0)
+		(layer "F.SilkS")
+		(uuid "4ccad3c5-456e-4b2b-a082-2b796bf51d70")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+			(justify left)
+		)
+	)
+	(gr_text "RS232"
+		(at 150.495 132.715 90)
+		(layer "F.SilkS")
+		(uuid "511f759f-e15c-4c54-a6d6-7e9759cb36e8")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+			(justify left)
+		)
+	)
+	(gr_text "Power"
+		(at 76.2 133.985 90)
+		(layer "F.SilkS")
+		(uuid "634584a1-dc0d-4103-9e83-a09c3f2b77a3")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+			(justify left)
+		)
+	)
+	(gr_text "Do not\ninstall"
+		(at 153.162 67.31 0)
+		(layer "F.SilkS")
+		(uuid "6b804be4-8f3d-497e-ae13-2b9da5f4c93c")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+			(justify left)
+		)
+	)
+	(gr_text "RTS"
+		(at 109.855 136.525 0)
+		(layer "F.SilkS")
+		(uuid "862a2da6-16e6-4835-a7b8-cc19236b10b8")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+			(justify left)
+		)
+	)
+	(gr_text "Standby"
+		(at 73.025 133.985 90)
+		(layer "F.SilkS")
+		(uuid "865fc153-0fb3-4779-9b96-4385c52df64e")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+			(justify left)
+		)
+	)
+	(gr_text "DCD"
+		(at 135.255 136.525 0)
+		(layer "F.SilkS")
+		(uuid "a43c5be5-46a5-4b91-bb97-6feae7e3beac")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+			(justify left)
+		)
+	)
 	(gr_text "WayWayWay"
 		(at 102.235 55.88 0)
 		(layer "F.SilkS")
@@ -34487,6 +34644,18 @@
 			)
 		)
 	)
+	(gr_text "CTS"
+		(at 122.555 136.525 0)
+		(layer "F.SilkS")
+		(uuid "eba13448-e4f1-4b6d-be6f-9f32134a0178")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+			(justify left)
+		)
+	)
 	(gr_text "Module (rev. E)\ngithub.com/tebl"
 		(at 95.25 131.445 0)
 		(layer "F.SilkS")
@@ -34496,6 +34665,18 @@
 				(size 1.5 1.5)
 				(thickness 0.15)
 			)
+		)
+	)
+	(gr_text "Standby"
+		(at 84.455 90.17 90)
+		(layer "F.SilkS")
+		(uuid "f1863f4d-a373-4b31-96ae-9a8596fc124a")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+			(justify left)
 		)
 	)
 	(gr_text "JLCJLCJLCJLC"
