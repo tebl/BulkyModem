@@ -1112,7 +1112,7 @@
 				)
 			)
 		)
-		(property "Value" "C64_Modem_IDC"
+		(property "Value" "C64_Modem_OUT"
 			(at 150.1648 90.5764 0)
 			(effects
 				(font

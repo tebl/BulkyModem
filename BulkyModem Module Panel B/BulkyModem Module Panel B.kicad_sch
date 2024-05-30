@@ -3781,7 +3781,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x21, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 236.22 100.33 0)
 			(effects
 				(font
@@ -3907,7 +3907,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01"
 			(at 273.05 15.24 0)
 			(effects
 				(font
@@ -3973,7 +3973,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01"
 			(at 275.59 15.24 0)
 			(effects
 				(font
@@ -4039,7 +4039,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01"
 			(at 279.4 15.24 0)
 			(effects
 				(font
@@ -4105,7 +4105,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01"
 			(at 281.94 15.24 0)
 			(effects
 				(font
@@ -4121,71 +4121,6 @@
 			(project "BulkyModem Module Panel B"
 				(path "/58c96d50-4af1-49e2-a74b-f2634bfd128f"
 					(reference "M4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 228.6 129.54 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00006282785a")
-		(property "Reference" "#PWR0101"
-			(at 228.6 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 228.727 133.9342 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 228.6 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 228.6 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 228.6 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0f399ee7-cae7-440b-a87b-af0ad27f00fe")
-		)
-		(instances
-			(project "BulkyModem Module Panel B"
-				(path "/58c96d50-4af1-49e2-a74b-f2634bfd128f"
-					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -4210,7 +4145,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 226.441 67.9958 0)
+			(at 226.06 68.834 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4235,7 +4170,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 226.06 72.39 0)
 			(effects
 				(font
@@ -4275,7 +4210,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 282.067 27.2542 0)
+			(at 281.94 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4300,7 +4235,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 281.94 22.86 0)
 			(effects
 				(font
@@ -4340,7 +4275,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 228.6 70.5358 0)
+			(at 228.6 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4366,7 +4301,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Special symbol for telling ERC where power comes from"
 			(at 228.6 74.93 0)
 			(effects
 				(font
@@ -4432,7 +4367,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 80.01 59.69 0)
 			(effects
 				(font
@@ -4475,7 +4410,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 80.391 51.4858 0)
+			(at 80.01 52.324 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4500,7 +4435,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 80.01 55.88 0)
 			(effects
 				(font
@@ -4566,7 +4501,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 90.17 59.69 0)
 			(effects
 				(font
@@ -4609,7 +4544,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 90.551 51.4858 0)
+			(at 90.17 52.324 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4634,7 +4569,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 90.17 55.88 0)
 			(effects
 				(font
@@ -4700,7 +4635,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 134.62 59.69 0)
 			(effects
 				(font
@@ -4743,7 +4678,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 135.001 51.4858 0)
+			(at 134.62 52.324 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4768,7 +4703,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 134.62 55.88 0)
 			(effects
 				(font
@@ -4834,7 +4769,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 124.46 59.69 0)
 			(effects
 				(font
@@ -4877,7 +4812,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 124.841 51.4858 0)
+			(at 124.46 52.324 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4902,7 +4837,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 124.46 55.88 0)
 			(effects
 				(font
@@ -4968,7 +4903,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 154.94 59.69 0)
 			(effects
 				(font
@@ -5011,7 +4946,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 155.321 51.4858 0)
+			(at 154.94 52.324 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5036,7 +4971,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 154.94 55.88 0)
 			(effects
 				(font
@@ -5102,7 +5037,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 144.78 59.69 0)
 			(effects
 				(font
@@ -5145,7 +5080,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 145.161 51.4858 0)
+			(at 144.78 52.324 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5170,7 +5105,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 144.78 55.88 0)
 			(effects
 				(font
@@ -5210,13 +5145,11 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 225.3742 128.27 90)
+			(at 224.79 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -5237,7 +5170,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Special symbol for telling ERC where power comes from"
 			(at 228.6 128.27 0)
 			(effects
 				(font
@@ -5303,7 +5236,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 114.3 59.69 0)
 			(effects
 				(font
@@ -5346,7 +5279,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 114.681 51.4858 0)
+			(at 114.3 52.324 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5371,7 +5304,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 114.3 55.88 0)
 			(effects
 				(font
@@ -5437,7 +5370,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 104.14 59.69 0)
 			(effects
 				(font
@@ -5480,7 +5413,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 104.521 51.4858 0)
+			(at 104.14 52.324 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5505,7 +5438,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 104.14 55.88 0)
 			(effects
 				(font
@@ -5569,7 +5502,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Switch, dual pole double throw, separate symbols"
 			(at 170.18 100.33 0)
 			(effects
 				(font
@@ -5648,7 +5581,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Switch, dual pole double throw, separate symbols"
 			(at 170.18 116.84 0)
 			(effects
 				(font
@@ -5727,7 +5660,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Switch, dual pole double throw, separate symbols"
 			(at 102.87 100.33 0)
 			(effects
 				(font
@@ -5806,7 +5739,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Switch, dual pole double throw, separate symbols"
 			(at 102.87 116.84 0)
 			(effects
 				(font
@@ -5838,136 +5771,6 @@
 				(path "/58c96d50-4af1-49e2-a74b-f2634bfd128f"
 					(reference "SW2")
 					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 110.49 120.65 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000062e61dcc")
-		(property "Reference" "#PWR0112"
-			(at 110.49 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 110.617 125.0442 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 110.49 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 110.49 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 110.49 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "42c8fdb5-2522-40df-bab0-489aa23f404b")
-		)
-		(instances
-			(project "BulkyModem Module Panel B"
-				(path "/58c96d50-4af1-49e2-a74b-f2634bfd128f"
-					(reference "#PWR0112")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 177.8 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000062e7fc92")
-		(property "Reference" "#PWR0113"
-			(at 177.8 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 177.927 109.8042 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 177.8 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 177.8 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 177.8 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3ccf98bc-279d-4168-8440-dc6f70ddbac1")
-		)
-		(instances
-			(project "BulkyModem Module Panel B"
-				(path "/58c96d50-4af1-49e2-a74b-f2634bfd128f"
-					(reference "#PWR0113")
-					(unit 1)
 				)
 			)
 		)
@@ -6017,7 +5820,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED, red/green/blue/cathode"
 			(at 43.18 86.36 0)
 			(effects
 				(font
@@ -6048,71 +5851,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 43.18 91.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00006434dd71")
-		(property "Reference" "#PWR0109"
-			(at 43.18 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 43.307 95.8342 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 43.18 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 43.18 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 43.18 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "85d01b27-022f-4d4d-990b-76339a2af65d")
-		)
-		(instances
-			(project "BulkyModem Module Panel B"
-				(path "/58c96d50-4af1-49e2-a74b-f2634bfd128f"
-					(reference "#PWR0109")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VCC")
 		(at 35.56 55.88 0)
 		(unit 1)
@@ -6131,7 +5869,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 35.941 51.4858 0)
+			(at 35.56 52.324 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6156,7 +5894,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 35.56 55.88 0)
 			(effects
 				(font
@@ -6223,7 +5961,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 35.56 73.66 0)
 			(effects
 				(font
@@ -6292,7 +6030,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 46.99 73.66 0)
 			(effects
 				(font
@@ -6361,7 +6099,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 35.56 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 35.56 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 35.56 62.23 0)
 			(effects
 				(font
@@ -6428,7 +6184,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 40.64 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 40.64 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 40.64 67.31 0)
 			(effects
 				(font
@@ -6447,6 +6221,273 @@
 			(project "BulkyModem Module Panel B"
 				(path "/58c96d50-4af1-49e2-a74b-f2634bfd128f"
 					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 177.8 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "39cd1730-fadf-4c42-9dfa-606224c8ac6a")
+		(property "Reference" "#PWR04"
+			(at 177.8 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 180.34 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 177.8 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ee7b6bef-07e0-480b-9592-c9fbb6cc8aec")
+		)
+		(instances
+			(project "BulkyModem Module Panel B"
+				(path "/58c96d50-4af1-49e2-a74b-f2634bfd128f"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 110.49 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6239d337-51e4-49cd-b945-bc1d6f747338")
+		(property "Reference" "#PWR03"
+			(at 110.49 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 113.03 121.9199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 110.49 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fbd574ec-55ee-4d62-9203-b51d0578120b")
+		)
+		(instances
+			(project "BulkyModem Module Panel B"
+				(path "/58c96d50-4af1-49e2-a74b-f2634bfd128f"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 228.6 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b81889e4-7f24-4e06-b204-f5f9fbec7c42")
+		(property "Reference" "#PWR05"
+			(at 228.6 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 231.14 130.8099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 228.6 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1b6c5c42-6ba9-4bf5-af85-a28bd0128403")
+		)
+		(instances
+			(project "BulkyModem Module Panel B"
+				(path "/58c96d50-4af1-49e2-a74b-f2634bfd128f"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 43.18 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "baaeb466-b6af-4e44-b6f0-232297abdedd")
+		(property "Reference" "#PWR02"
+			(at 43.18 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 43.18 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 43.18 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "81eb6d82-9a95-4031-9559-ea3583d0438f")
+		)
+		(instances
+			(project "BulkyModem Module Panel B"
+				(path "/58c96d50-4af1-49e2-a74b-f2634bfd128f"
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
