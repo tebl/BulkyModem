@@ -43,7 +43,7 @@
 			)
 		)
 		(property "Description" "9-pin female D-SUB connector"
-			(at 0 0 0)
+			(at 0 -17.018 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -840,6 +840,863 @@
 				)
 			)
 			(pin input line
+				(at -7.62 -7.62 0)
+				(length 3.81)
+				(name "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "RS232_DTE"
+		(pin_names
+			(offset 1.016) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at 0 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RS232_DTE"
+			(at 0 -14.605 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" " ~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "9-pin male D-SUB connector"
+			(at 0 -17.018 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "connector female D-SUB"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "DSUB*Female*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "RS232_DTE_0_0"
+			(text "DSR"
+				(at 15.875 7.62 0)
+				(effects
+					(font
+						(size 0.9906 0.9906)
+					)
+					(justify right)
+				)
+			)
+		)
+		(symbol "RS232_DTE_0_1"
+			(circle
+				(center -1.778 -10.16)
+				(radius 0.762)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -1.778 -5.08)
+				(radius 0.762)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -1.778 0)
+				(radius 0.762)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -1.778 5.08)
+				(radius 0.762)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -1.778 10.16)
+				(radius 0.762)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 -10.16) (xy -2.54 -10.16)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 -7.62) (xy 0.508 -7.62)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 -5.08) (xy -2.54 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 -2.54) (xy 0.508 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 0) (xy -2.54 0)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 2.54) (xy 0.508 2.54)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 5.08) (xy -2.54 5.08)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 7.62) (xy 0.508 7.62)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 10.16) (xy -2.54 10.16)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 13.335) (xy -3.81 -13.335) (xy 3.81 -9.525) (xy 3.81 9.525) (xy -3.81 13.335)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(circle
+				(center 1.27 -7.62)
+				(radius 0.762)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 1.27 -2.54)
+				(radius 0.762)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 1.27 2.54)
+				(radius 0.762)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 1.27 7.62)
+				(radius 0.762)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "RS232_DTE_1_1"
+			(polyline
+				(pts
+					(xy 10.16 -7.62) (xy 11.43 -7.62)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10.16 -2.54) (xy 11.43 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10.16 5.08) (xy 11.43 5.08)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10.16 7.62) (xy 11.43 7.62)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10.16 10.16) (xy 11.43 10.16)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10.795 -5.08) (xy 9.525 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10.795 0) (xy 9.525 0)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10.795 2.54) (xy 9.525 2.54)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 11.43 -10.16) (xy 9.525 -10.16)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 9.525 -7.62) (xy 10.16 -6.985) (xy 10.16 -8.255) (xy 9.525 -7.62)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 9.525 -2.54) (xy 10.16 -1.905) (xy 10.16 -3.175) (xy 9.525 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 9.525 5.08) (xy 10.16 5.715) (xy 10.16 4.445) (xy 9.525 5.08)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 9.525 7.62) (xy 10.16 8.255) (xy 10.16 6.985) (xy 9.525 7.62)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 9.525 10.16) (xy 10.16 10.795) (xy 10.16 9.525) (xy 9.525 10.16)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 11.43 -5.08) (xy 10.795 -5.715) (xy 10.795 -4.445) (xy 11.43 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 11.43 0) (xy 10.795 -0.635) (xy 10.795 0.635) (xy 11.43 0)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 11.43 2.54) (xy 10.795 1.905) (xy 10.795 3.175) (xy 11.43 2.54)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "(DCE)"
+				(at 15.875 12.7 0)
+				(effects
+					(font
+						(size 0.9906 0.9906)
+					)
+					(justify right)
+				)
+			)
+			(text "(DTE)"
+				(at 7.62 12.7 0)
+				(effects
+					(font
+						(size 0.9906 0.9906)
+					)
+					(justify right)
+				)
+			)
+			(text "CTS"
+				(at 7.62 -2.54 0)
+				(effects
+					(font
+						(size 0.9906 0.9906)
+					)
+					(justify right)
+				)
+			)
+			(text "CTS"
+				(at 15.875 2.54 0)
+				(effects
+					(font
+						(size 0.9906 0.9906)
+					)
+					(justify right)
+				)
+			)
+			(text "DCD"
+				(at 7.62 10.16 0)
+				(effects
+					(font
+						(size 0.9906 0.9906)
+					)
+					(justify right)
+				)
+			)
+			(text "DCD"
+				(at 15.875 10.16 0)
+				(effects
+					(font
+						(size 0.9906 0.9906)
+					)
+					(justify right)
+				)
+			)
+			(text "DSR"
+				(at 7.62 7.62 0)
+				(effects
+					(font
+						(size 0.9906 0.9906)
+					)
+					(justify right)
+				)
+			)
+			(text "DTR"
+				(at 7.62 -5.08 0)
+				(effects
+					(font
+						(size 0.9906 0.9906)
+					)
+					(justify right)
+				)
+			)
+			(text "DTR"
+				(at 15.875 -5.08 0)
+				(effects
+					(font
+						(size 0.9906 0.9906)
+					)
+					(justify right)
+				)
+			)
+			(text "GND"
+				(at 7.62 -10.16 0)
+				(effects
+					(font
+						(size 0.9906 0.9906)
+					)
+					(justify right)
+				)
+			)
+			(text "GND"
+				(at 15.875 -10.16 0)
+				(effects
+					(font
+						(size 0.9906 0.9906)
+					)
+					(justify right)
+				)
+			)
+			(text "MODEM"
+				(at 15.875 14.605 0)
+				(effects
+					(font
+						(size 0.9906 0.9906)
+					)
+					(justify right)
+				)
+			)
+			(text "PC"
+				(at 7.62 14.605 0)
+				(effects
+					(font
+						(size 0.9906 0.9906)
+					)
+					(justify right)
+				)
+			)
+			(text "RI"
+				(at 7.62 -7.62 0)
+				(effects
+					(font
+						(size 0.9906 0.9906)
+					)
+					(justify right)
+				)
+			)
+			(text "RI"
+				(at 15.875 -7.62 0)
+				(effects
+					(font
+						(size 0.9906 0.9906)
+					)
+					(justify right)
+				)
+			)
+			(text "RTS"
+				(at 7.62 2.54 0)
+				(effects
+					(font
+						(size 0.9906 0.9906)
+					)
+					(justify right)
+				)
+			)
+			(text "RTS"
+				(at 15.875 -2.54 0)
+				(effects
+					(font
+						(size 0.9906 0.9906)
+					)
+					(justify right)
+				)
+			)
+			(text "RxD"
+				(at 7.62 5.08 0)
+				(effects
+					(font
+						(size 0.9906 0.9906)
+					)
+					(justify right)
+				)
+			)
+			(text "RxD"
+				(at 15.875 0 0)
+				(effects
+					(font
+						(size 0.9906 0.9906)
+					)
+					(justify right)
+				)
+			)
+			(text "TxD"
+				(at 7.62 0 0)
+				(effects
+					(font
+						(size 0.9906 0.9906)
+					)
+					(justify right)
+				)
+			)
+			(text "TxD"
+				(at 15.875 5.08 0)
+				(effects
+					(font
+						(size 0.9906 0.9906)
+					)
+					(justify right)
+				)
+			)
+			(pin output line
+				(at -7.62 10.16 0)
+				(length 3.81)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -7.62 5.08 0)
+				(length 3.81)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -7.62 0 0)
+				(length 3.81)
+				(name "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -7.62 -5.08 0)
+				(length 3.81)
+				(name "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -7.62 -10.16 0)
+				(length 3.81)
+				(name "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -7.62 7.62 0)
+				(length 3.81)
+				(name "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -7.62 2.54 0)
+				(length 3.81)
+				(name "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -7.62 -2.54 0)
+				(length 3.81)
+				(name "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
 				(at -7.62 -7.62 0)
 				(length 3.81)
 				(name "9"
