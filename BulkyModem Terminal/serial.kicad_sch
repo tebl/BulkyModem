@@ -2811,16 +2811,6 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 160.02) (xy 121.92 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b69174b-e37b-40d1-842b-195482515180")
-	)
-	(wire
-		(pts
 			(xy 260.35 81.28) (xy 260.35 82.55)
 		)
 		(stroke
@@ -2828,16 +2818,6 @@
 			(type default)
 		)
 		(uuid "0c1ea301-8baf-460c-9da6-74ca09f16edf")
-	)
-	(wire
-		(pts
-			(xy 161.29 36.83) (xy 165.1 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c7ad618-96c1-451b-9334-6b4bdff3c370")
 	)
 	(wire
 		(pts
@@ -2851,6 +2831,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 154.94) (xy 189.23 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14c0bb0c-9962-4ba3-94f1-a905a2910130")
+	)
+	(wire
+		(pts
 			(xy 147.32 147.32) (xy 151.13 147.32)
 		)
 		(stroke
@@ -2858,26 +2848,6 @@
 			(type default)
 		)
 		(uuid "197640b1-3b92-40bd-b894-268a47475e79")
-	)
-	(wire
-		(pts
-			(xy 149.86 48.26) (xy 165.1 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f108b1c-2e2f-4d10-938b-132467c9730a")
-	)
-	(wire
-		(pts
-			(xy 149.86 41.91) (xy 149.86 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "237ecd56-cadd-475c-8c21-0605abeb5ba3")
 	)
 	(wire
 		(pts
@@ -2971,16 +2941,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 34.29) (xy 138.43 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3fff692e-b6cb-4e2f-941a-241e90ab0708")
-	)
-	(wire
-		(pts
 			(xy 116.84 144.78) (xy 121.92 144.78)
 		)
 		(stroke
@@ -2991,13 +2951,33 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 36.83) (xy 153.67 36.83)
+			(xy 83.82 157.48) (xy 87.63 157.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4cbbc7c2-fe13-464a-b85b-d198a240628e")
+		(uuid "567ec523-fbe3-4ba1-a315-96ff3c08c13c")
+	)
+	(wire
+		(pts
+			(xy 130.81 41.91) (xy 140.97 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57a90260-b522-498a-b59c-652da3f8e211")
+	)
+	(wire
+		(pts
+			(xy 130.81 34.29) (xy 140.97 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ebae68f-5727-490d-8f36-8cf02afc96e1")
 	)
 	(wire
 		(pts
@@ -3031,6 +3011,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 157.48) (xy 121.92 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67fb5aba-065e-45bb-b9c9-445f3ea8cb73")
+	)
+	(wire
+		(pts
 			(xy 147.32 142.24) (xy 165.1 142.24)
 		)
 		(stroke
@@ -3038,16 +3028,6 @@
 			(type default)
 		)
 		(uuid "688d05b2-68b5-4a09-a68f-cef778087222")
-	)
-	(wire
-		(pts
-			(xy 146.05 34.29) (xy 149.86 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d21b3b0-4e2f-42ff-b769-824df3e0fa6f")
 	)
 	(wire
 		(pts
@@ -3071,23 +3051,13 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 154.94) (xy 165.1 154.94)
+			(xy 147.32 154.94) (xy 177.8 154.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "75cd1e40-afee-4b33-85c4-f1059c90e7d5")
-	)
-	(wire
-		(pts
-			(xy 149.86 34.29) (xy 149.86 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "769b4e78-5c49-43e8-b41c-d883e69b6b8f")
 	)
 	(wire
 		(pts
@@ -3108,16 +3078,6 @@
 			(type default)
 		)
 		(uuid "78293c1d-f567-4d9d-b1fa-717c999353a1")
-	)
-	(wire
-		(pts
-			(xy 130.81 39.37) (xy 153.67 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79807392-754d-4e18-99df-6970daf1bd2b")
 	)
 	(wire
 		(pts
@@ -3151,7 +3111,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 152.4) (xy 165.1 152.4)
+			(xy 147.32 152.4) (xy 177.8 152.4)
 		)
 		(stroke
 			(width 0)
@@ -3168,16 +3128,6 @@
 			(type default)
 		)
 		(uuid "99669f55-fb3a-4581-8c74-65167986e89d")
-	)
-	(wire
-		(pts
-			(xy 161.29 39.37) (xy 165.1 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0c21398-11eb-4b24-bf9f-c78b124a909c")
 	)
 	(wire
 		(pts
@@ -3251,13 +3201,13 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 157.48) (xy 121.92 157.48)
+			(xy 185.42 152.4) (xy 189.23 152.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b8eee004-3d0b-4b27-b2af-c78d965b5568")
+		(uuid "bacc28ac-2bf6-4c66-94b4-3509040c075a")
 	)
 	(wire
 		(pts
@@ -3268,16 +3218,6 @@
 			(type default)
 		)
 		(uuid "bd686456-3a41-4d1f-9794-7ed93ba2320c")
-	)
-	(wire
-		(pts
-			(xy 146.05 41.91) (xy 149.86 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c402cc05-c27d-44de-9686-4b4f3c422c0e")
 	)
 	(wire
 		(pts
@@ -3431,6 +3371,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 160.02) (xy 121.92 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5c203fd-673f-48cc-be88-91e4c20e09e3")
+	)
+	(wire
+		(pts
 			(xy 260.35 82.55) (xy 256.54 82.55)
 		)
 		(stroke
@@ -3461,13 +3411,23 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 41.91) (xy 138.43 41.91)
+			(xy 130.81 39.37) (xy 140.97 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fa049374-c3b1-4a03-b90e-69c18da44334")
+		(uuid "f817b53d-8d94-4300-aa52-1dee8b4ee1fc")
+	)
+	(wire
+		(pts
+			(xy 130.81 36.83) (xy 140.97 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f908a338-cf61-47fa-b58e-f3e128442d3e")
 	)
 	(wire
 		(pts
@@ -3481,13 +3441,13 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 27.94) (xy 165.1 27.94)
+			(xy 83.82 160.02) (xy 87.63 160.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ff9b7beb-fc60-4809-8b32-93509c0cf37b")
+		(uuid "fc38ee16-6d03-4341-83ab-5fef69ceafd6")
 	)
 	(text "C2-C5 must be electrolytic 1uF when using\nolder or cheaper MAX232 variants, these\ncan be replaced with standard 100nF\nwhen used along with MAX232A variant."
 		(exclude_from_sim no)
@@ -3499,6 +3459,46 @@
 			(justify left bottom)
 		)
 		(uuid "18f00755-0fa2-4337-9173-a5c13073aa5f")
+	)
+	(text "RTS"
+		(exclude_from_sim no)
+		(at 137.16 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "862f3a3a-38eb-4e97-815e-a7d0fe1a54aa")
+	)
+	(text "TxD"
+		(exclude_from_sim no)
+		(at 137.16 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8b5cd039-9983-4dfd-8e8c-11d255937839")
+	)
+	(text "CTS"
+		(exclude_from_sim no)
+		(at 137.16 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "99309ce4-5acb-43fe-9780-6adbdd38fd09")
+	)
+	(text "RxD"
+		(exclude_from_sim no)
+		(at 137.16 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "abe2786a-5df8-454c-9987-9bcacbca13c9")
 	)
 	(label "DTE.RTS"
 		(at 134.62 82.55 0)
@@ -3566,7 +3566,7 @@
 	)
 	(global_label "TTL.CTS"
 		(shape input)
-		(at 111.76 160.02 180)
+		(at 83.82 160.02 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3576,7 +3576,7 @@
 		)
 		(uuid "063617ed-b4e6-4cf6-880e-54d9f2564fb9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 102.4138 160.02 0)
+			(at 74.4738 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3670,50 +3670,6 @@
 			)
 		)
 	)
-	(global_label "TTL.RTS"
-		(shape input)
-		(at 165.1 48.26 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "46d051ac-365b-436b-bf80-61edbdb5eb51")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.4462 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "TTL.CTS"
-		(shape output)
-		(at 165.1 39.37 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5330d8c3-96ef-4fc9-afa8-5bbc09581857")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.4462 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "MODE_TTL"
 		(shape input)
 		(at 111.76 167.64 180)
@@ -3730,6 +3686,50 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TTL.CTS"
+		(shape output)
+		(at 140.97 39.37 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "662e169f-70da-4943-9a1c-e574984f5edf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 150.3162 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TTL.RxD"
+		(shape output)
+		(at 140.97 34.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6f677ea6-6601-4930-98d0-ddddf51cf5a6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 150.4372 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -3822,7 +3822,7 @@
 	)
 	(global_label "TTL.RxD"
 		(shape input)
-		(at 111.76 157.48 180)
+		(at 83.82 157.48 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3832,7 +3832,7 @@
 		)
 		(uuid "91f7b786-1002-4bc2-b568-6e322ad05139")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 102.2928 157.48 0)
+			(at 74.3528 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3844,7 +3844,7 @@
 	)
 	(global_label "TTL.TxD"
 		(shape output)
-		(at 165.1 152.4 0)
+		(at 189.23 152.4 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3854,7 +3854,29 @@
 		)
 		(uuid "96c9e232-ecf7-4705-93e8-edbce336f80d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.2648 152.4 0)
+			(at 198.3948 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TTL.TxD"
+		(shape input)
+		(at 140.97 36.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "97a62e38-53e3-4cd0-a208-b81ffecfaed2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 150.1348 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3906,9 +3928,9 @@
 			)
 		)
 	)
-	(global_label "TTL.RxD"
-		(shape output)
-		(at 165.1 27.94 0)
+	(global_label "TTL.RTS"
+		(shape input)
+		(at 140.97 41.91 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3916,9 +3938,9 @@
 			)
 			(justify left)
 		)
-		(uuid "c5c62c27-4d31-4b47-bd2d-175f3de4335b")
+		(uuid "bfd2fb06-36af-4f91-9716-85fcc425ec0c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.5672 27.94 0)
+			(at 150.3162 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3952,7 +3974,7 @@
 	)
 	(global_label "TTL.RTS"
 		(shape output)
-		(at 165.1 154.94 0)
+		(at 189.23 154.94 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3962,29 +3984,7 @@
 		)
 		(uuid "e4199436-862d-40fb-be30-9c560e7e8b6b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.4462 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "TTL.TxD"
-		(shape input)
-		(at 165.1 36.83 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e5406259-4399-4f97-899b-f0a87fe19e15")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.2648 36.83 0)
+			(at 198.5762 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4885,7 +4885,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 142.24 34.29 270)
+		(at 91.44 157.48 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4893,7 +4893,7 @@
 		(dnp no)
 		(uuid "3f6d0c78-3616-4153-abf7-c8f812465ead")
 		(property "Reference" "R15"
-			(at 142.24 29.21 90)
+			(at 91.44 152.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4901,7 +4901,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 142.24 31.75 90)
+			(at 91.44 154.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4909,7 +4909,7 @@
 			)
 		)
 		(property "Footprint" "resistor:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 142.24 32.512 90)
+			(at 91.44 155.702 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4918,7 +4918,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 142.24 34.29 0)
+			(at 91.44 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4927,7 +4927,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 142.24 34.29 0)
+			(at 91.44 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4952,16 +4952,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 142.24 41.91 270)
-		(mirror x)
+		(at 181.61 152.4 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "83903446-cc93-4d9a-a419-74a2f5f9b288")
-		(property "Reference" "R16"
-			(at 142.24 44.45 90)
+		(uuid "4eace841-e0bd-4596-8293-bf90a4287785")
+		(property "Reference" "R20"
+			(at 181.61 147.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4969,7 +4968,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 142.24 46.99 90)
+			(at 181.61 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4977,7 +4976,7 @@
 			)
 		)
 		(property "Footprint" "resistor:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 142.24 43.688 90)
+			(at 181.61 150.622 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4986,7 +4985,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 142.24 41.91 0)
+			(at 181.61 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4995,7 +4994,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 142.24 41.91 0)
+			(at 181.61 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5004,15 +5003,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "83d72be5-0146-445f-b7f7-efaa62b37eae")
+			(uuid "42c4086a-b1c2-4195-bcfa-5b0cec9c80ff")
 		)
 		(pin "1"
-			(uuid "52195d42-41f4-4421-8bcf-de8edf1b8946")
+			(uuid "0ff02850-2b69-4e93-9072-2604b103d76b")
 		)
 		(instances
 			(project "BulkyModem Terminal"
 				(path "/cd9da885-84b5-47eb-b16d-d4099ea4358c/00000000-0000-0000-0000-00006379233a"
-					(reference "R16")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -5079,6 +5078,142 @@
 			(project "BulkyModem Terminal"
 				(path "/cd9da885-84b5-47eb-b16d-d4099ea4358c/00000000-0000-0000-0000-00006379233a"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 91.44 160.02 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "92f5d78e-b0e8-419c-86ba-e68d60fc46b6")
+		(property "Reference" "R21"
+			(at 91.44 162.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 91.44 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "resistor:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 91.44 161.798 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 91.44 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3596d0b2-e0e6-44f0-b554-74a841be93c9")
+		)
+		(pin "1"
+			(uuid "4e619e7e-6513-424b-b964-34592d63094e")
+		)
+		(instances
+			(project "BulkyModem Terminal"
+				(path "/cd9da885-84b5-47eb-b16d-d4099ea4358c/00000000-0000-0000-0000-00006379233a"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 181.61 154.94 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "950cdaf1-1f6d-4b5c-ba54-67e7801cd729")
+		(property "Reference" "R16"
+			(at 181.61 157.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 181.61 160.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "resistor:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 181.61 156.718 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 181.61 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 181.61 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3911684d-84d2-4281-a4bb-9d57eb673d5c")
+		)
+		(pin "1"
+			(uuid "fe849ec8-caa7-462b-a32b-184f418831ee")
+		)
+		(instances
+			(project "BulkyModem Terminal"
+				(path "/cd9da885-84b5-47eb-b16d-d4099ea4358c/00000000-0000-0000-0000-00006379233a"
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -5411,141 +5546,6 @@
 			(project "BulkyModem Terminal"
 				(path "/cd9da885-84b5-47eb-b16d-d4099ea4358c/00000000-0000-0000-0000-00006379233a"
 					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 157.48 39.37 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ed9f858d-0a7f-4c30-92f3-b416781200da")
-		(property "Reference" "R21"
-			(at 157.48 41.91 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100"
-			(at 157.48 44.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "resistor:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 157.48 41.148 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 157.48 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 157.48 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7514314e-e5c9-4789-a4a4-53ef4544a5da")
-		)
-		(pin "1"
-			(uuid "d77cfbab-3bbd-473e-9a6f-6c04f1dd7ece")
-		)
-		(instances
-			(project "BulkyModem Terminal"
-				(path "/cd9da885-84b5-47eb-b16d-d4099ea4358c/00000000-0000-0000-0000-00006379233a"
-					(reference "R21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 157.48 36.83 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f653f159-2386-4d9b-b7d4-0858814ff77f")
-		(property "Reference" "R20"
-			(at 157.48 31.75 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100"
-			(at 157.48 34.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "resistor:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 157.48 35.052 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 157.48 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 157.48 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5d287604-846f-4abf-849f-f0b7dd867a22")
-		)
-		(pin "1"
-			(uuid "c184a4d7-8780-46b3-ae55-ed455cbc5333")
-		)
-		(instances
-			(project "BulkyModem Terminal"
-				(path "/cd9da885-84b5-47eb-b16d-d4099ea4358c/00000000-0000-0000-0000-00006379233a"
-					(reference "R20")
 					(unit 1)
 				)
 			)

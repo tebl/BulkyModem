@@ -6,7 +6,7 @@
         "apply_defaults_to_fp_fields": false,
         "apply_defaults_to_fp_shapes": false,
         "apply_defaults_to_fp_text": false,
-        "board_outline_line_width": 0.15,
+        "board_outline_line_width": 0.05,
         "copper_line_width": 0.2,
         "copper_text_italic": false,
         "copper_text_size_h": 1.5,
@@ -37,11 +37,11 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 3.048,
-          "height": 4.0,
-          "width": 4.0
+          "drill": 0.762,
+          "height": 1.524,
+          "width": 1.524
         },
-        "silk_line_width": 0.15,
+        "silk_line_width": 0.12,
         "silk_text_italic": false,
         "silk_text_size_h": 1.0,
         "silk_text_size_v": 1.0,
@@ -52,7 +52,9 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "text_thickness|158235000|131104000|b6564fb7-3cc2-4b9c-931f-714b84f0a65a|00000000-0000-0000-0000-000000000000"
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -90,9 +92,9 @@
         "padstack": "warning",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_edge_clearance": "ignore",
+        "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
@@ -111,12 +113,10 @@
       "rule_severitieslegacy_courtyards_overlap": false,
       "rule_severitieslegacy_no_courtyard_defined": false,
       "rules": {
-        "allow_blind_buried_vias": false,
-        "allow_microvias": false,
         "max_error": 0.005,
         "min_clearance": 0.0,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.075,
+        "min_copper_edge_clearance": 0.025,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
@@ -129,11 +129,7 @@
         "min_track_width": 0.2,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.4,
-        "solder_mask_clearance": 0.0,
-        "solder_mask_min_width": 0.0,
         "solder_mask_to_copper_clearance": 0.0,
-        "solder_paste_clearance": 0.0,
-        "solder_paste_margin_ratio": -0.0,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -179,10 +175,7 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [
-        0.0,
-        0.381
-      ],
+      "track_widths": [],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -209,16 +202,7 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [
-        {
-          "diameter": 0.0,
-          "drill": 0.0
-        },
-        {
-          "diameter": 1.0,
-          "drill": 0.4
-        }
-      ],
+      "via_dimensions": [],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -451,7 +435,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "BulkyModem Terminal.kicad_pro",
+    "filename": "BulkyModem Terminal FP3.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -469,7 +453,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
-        "via_diameter": 0.6,
+        "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6
       },
@@ -482,11 +466,11 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "Power",
+        "name": "PWR",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.381,
-        "via_diameter": 1.0,
+        "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6
       }
@@ -498,344 +482,8 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "Default",
-        "pattern": "/232_CTS"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/232_RTS"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/232_RX"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/232_TX"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/C64_CTS"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/C64_RTS"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/C64_RX"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/C64_TX"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/ESP_DSR"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/ESP_DTR"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/Front panel/LED_C64"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/Front panel/LED_CTS"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/Front panel/LED_DCD"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/Front panel/LED_POW"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/Front panel/LED_RI"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/Front panel/LED_RS232"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/Front panel/LED_RTS"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/Front panel/LED_RX"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/Front panel/LED_STB"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/Front panel/LED_TX"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/RS-232/DCE_CTS"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/RS-232/DCE_RTS"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/RS-232/DCE_RxD"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/RS-232/DCE_TxD"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/RS-232/SER_CTS"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/RS-232/SER_DCD"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/RS-232/SER_RI"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/RS-232/SER_RTS"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/RS-232/SER_RxD"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/RS-232/SER_TxD"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/TX_FILTER"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "ESP_CTS"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "ESP_DCD"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "ESP_RI"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "ESP_RTS"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "ESP_RX"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "ESP_TX"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "MODE_232"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "MODE_C64"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "MODE_SEL"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(A1-Pad18)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(A1-Pad19)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(A1-Pad20)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(A1-Pad23)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(A1-Pad26)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(A1-Pad29)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(A1-Pad30)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(C12-Pad1)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(C13-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(C14-Pad1)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(C14-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(C15-Pad1)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(C15-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(C2-Pad1)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(C3-Pad1)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(C3-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(C4-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(C5-Pad1)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(C5-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(D12-Pad1)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(J2-Pad4)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(JP10-Pad1)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(JP10-Pad3)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(JP11-Pad1)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(JP11-Pad3)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(JP12-Pad1)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(JP12-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(JP14-Pad1)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(JP14-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(JP15-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(JP8-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(JP8-Pad3)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(JP9-Pad1)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(JP9-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(R12-Pad1)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(R14-Pad1)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(R2-Pad1)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(R25-Pad1)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "PWR_EN"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "+3V3"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "+5V"
-      },
-      {
-        "netclass": "Power",
+        "netclass": "PWR",
         "pattern": "GND"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "Net-(D11-Pad2)"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "VIN"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "VSB"
       }
     ]
   },
@@ -843,7 +491,7 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "BulkyModem Module.net",
+      "netlist": "BulkyModem Module Panel.net",
       "plot": "export/",
       "pos_files": "",
       "specctra_dsn": "",
@@ -904,35 +552,11 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
-        },
-        {
-          "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Device",
-          "name": "Sim.Device",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Pins",
-          "name": "Sim.Pins",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Description",
-          "name": "Description",
-          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "",
+      "name": "Grouped By Value",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -965,7 +589,7 @@
     },
     "net_format_name": "Pcbnew",
     "page_layout_descr_file": "",
-    "plot_directory": "../documentation/schematic/",
+    "plot_directory": "../../documentation/schematic/faceplates/",
     "spice_adjust_passive_values": false,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
@@ -978,32 +602,8 @@
   },
   "sheets": [
     [
-      "cd9da885-84b5-47eb-b16d-d4099ea4358c",
+      "7d1c5d90-76e9-4eed-88d7-b688de928396",
       "Root"
-    ],
-    [
-      "00000000-0000-0000-0000-00006379233a",
-      "Serial"
-    ],
-    [
-      "00000000-0000-0000-0000-000063d786e4",
-      "Power"
-    ],
-    [
-      "00000000-0000-0000-0000-00006390ae73",
-      "Front Panel"
-    ],
-    [
-      "edc5dbbc-2e49-4226-bf03-547d6ad01970",
-      "VGA"
-    ],
-    [
-      "98747fdf-7c4d-4edf-9dfd-b4aa685b88c7",
-      "Buzzer"
-    ],
-    [
-      "9a71b807-0525-43f8-99f2-ebe3b84965c0",
-      "PS2 Keyboard"
     ]
   ],
   "text_variables": {}

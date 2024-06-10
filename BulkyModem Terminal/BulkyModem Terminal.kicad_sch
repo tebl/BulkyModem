@@ -298,6 +298,151 @@
 				)
 			)
 		)
+		(symbol "Switch:SW_Push"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "mounting:Mounting_Pin"
 			(pin_numbers hide)
 			(pin_names
@@ -1631,6 +1776,12 @@
 		(uuid "5ca879e2-7e94-4cbb-a884-0a778b6d8237")
 	)
 	(junction
+		(at 232.41 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6341fe20-a9ee-4625-9bec-41eb6e84be51")
+	)
+	(junction
 		(at 193.04 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1873,6 +2024,16 @@
 			(type default)
 		)
 		(uuid "38057924-830b-4cfc-b51b-31b5301894b9")
+	)
+	(wire
+		(pts
+			(xy 246.38 123.19) (xy 250.19 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f94dab0-fb02-42f3-9f14-53eab4599ad1")
 	)
 	(wire
 		(pts
@@ -2126,6 +2287,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 133.35) (xy 250.19 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d4f9fcd-8feb-44aa-8aad-c242a1c32427")
+	)
+	(wire
+		(pts
 			(xy 175.26 59.69) (xy 175.26 73.66)
 		)
 		(stroke
@@ -2143,6 +2314,16 @@
 			(type default)
 		)
 		(uuid "8f99102f-fa19-44ca-853f-5cdb82a7e9a1")
+	)
+	(wire
+		(pts
+			(xy 236.22 123.19) (xy 232.41 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "911e8ae6-ae1d-496c-b709-eb7aaef993ee")
 	)
 	(wire
 		(pts
@@ -2193,6 +2374,16 @@
 			(type default)
 		)
 		(uuid "a215e0dd-f267-4d8c-bd2e-66e54e377891")
+	)
+	(wire
+		(pts
+			(xy 232.41 133.35) (xy 232.41 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7625999-f95d-415d-a408-66e68d297b08")
 	)
 	(wire
 		(pts
@@ -2306,6 +2497,16 @@
 	)
 	(wire
 		(pts
+			(xy 232.41 123.19) (xy 232.41 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e30b67d6-62a8-4522-a50e-45c25ed018fb")
+	)
+	(wire
+		(pts
 			(xy 121.92 88.9) (xy 129.54 88.9)
 		)
 		(stroke
@@ -2333,6 +2534,16 @@
 			(type default)
 		)
 		(uuid "e60f2be8-85eb-4b42-96f4-fe5aefc6ece9")
+	)
+	(wire
+		(pts
+			(xy 232.41 133.35) (xy 236.22 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6c7805d-9bdc-4e99-8b58-ae9d06cb8eb4")
 	)
 	(wire
 		(pts
@@ -2404,6 +2615,16 @@
 		)
 		(uuid "f876cd27-12aa-4c5b-b679-0e522f1f5cda")
 	)
+	(text "These switches are duplicated on\nthe front panel. While no harm will\ncome from installing both, you only\nneed one set."
+		(exclude_from_sim no)
+		(at 256.54 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "68907c5a-22de-4d6b-90bb-dabb2f4e6e66")
+	)
 	(text "R31 pulls down HDMI detect, mainly\nbecause we don't actually have one."
 		(exclude_from_sim no)
 		(at 234.95 87.63 0)
@@ -2433,6 +2654,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DEFAULTS"
+		(shape output)
+		(at 250.19 133.35 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1772d477-4780-4662-93bf-67764261e1d0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 261.6529 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -2499,6 +2742,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RESET"
+		(shape output)
+		(at 250.19 123.19 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3e29ac96-bcef-49cf-8e68-bb5b4ab24bac")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 258.2661 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -3624,6 +3889,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 241.3 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9c5e2fae-12b4-431e-b2c7-dedf5fc56629")
+		(property "Reference" "SW1"
+			(at 241.3 115.951 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RESET"
+			(at 241.3 118.2624 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx39-2LFS"
+			(at 241.3 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 241.3 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 241.3 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "db869710-1b1d-4d2c-95c3-ec5590978d45")
+		)
+		(pin "2"
+			(uuid "ef1220fc-6bb4-40f1-8d9d-30eb098722c9")
+		)
+		(instances
+			(project "BulkyModem Terminal"
+				(path "/cd9da885-84b5-47eb-b16d-d4099ea4358c"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 187.96 72.39 0)
 		(unit 1)
@@ -4013,6 +4345,139 @@
 			(project "BulkyModem Terminal"
 				(path "/cd9da885-84b5-47eb-b16d-d4099ea4358c"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 241.3 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d3abdde3-4b7c-442b-b4be-57c555fe11a1")
+		(property "Reference" "SW2"
+			(at 241.3 126.111 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DEFAULTS"
+			(at 241.3 128.4224 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx39-2LFS"
+			(at 241.3 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 241.3 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 241.3 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8f4b6b02-22bd-4d0e-a69e-fb8ce0a270bb")
+		)
+		(pin "2"
+			(uuid "7c9d7a61-33dd-4d59-9e1d-b7256800e3fc")
+		)
+		(instances
+			(project "BulkyModem Terminal"
+				(path "/cd9da885-84b5-47eb-b16d-d4099ea4358c"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 232.41 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee17ca5e-fbc3-460e-bedd-11a470e822f5")
+		(property "Reference" "#PWR035"
+			(at 232.41 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 232.41 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 232.41 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 232.41 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1a2a63c5-6801-43e4-bcba-872888d31259")
+		)
+		(instances
+			(project "BulkyModem Terminal"
+				(path "/cd9da885-84b5-47eb-b16d-d4099ea4358c"
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)

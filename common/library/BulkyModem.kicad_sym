@@ -2193,7 +2193,7 @@
 		(symbol "Terminal_Panel_0_0"
 			(polyline
 				(pts
-					(xy 10.795 -3.81) (xy 10.795 5.08)
+					(xy 10.795 1.27) (xy 10.795 5.08)
 				)
 				(stroke
 					(width 0)
@@ -2250,7 +2250,7 @@
 			)
 			(polyline
 				(pts
-					(xy 11.43 -3.81) (xy 10.16 -3.81)
+					(xy 11.43 1.27) (xy 10.16 1.27)
 				)
 				(stroke
 					(width 0)
@@ -2511,10 +2511,10 @@
 					)
 				)
 			)
-			(pin no_connect line
+			(pin passive line
 				(at -5.08 2.54 0)
 				(length 3.81)
-				(name "N.C."
+				(name "EN_TTL"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2532,7 +2532,7 @@
 			(pin passive line
 				(at -5.08 0 0)
 				(length 3.81)
-				(name "232"
+				(name "N.C."
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2550,7 +2550,7 @@
 			(pin passive line
 				(at -5.08 -2.54 0)
 				(length 3.81)
-				(name "TTL"
+				(name "N.C."
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2565,7 +2565,7 @@
 					)
 				)
 			)
-			(pin no_connect line
+			(pin passive line
 				(at -5.08 -5.08 0)
 				(length 3.81)
 				(name "N.C."
@@ -2583,7 +2583,7 @@
 					)
 				)
 			)
-			(pin no_connect line
+			(pin passive line
 				(at -5.08 -7.62 0)
 				(length 3.81)
 				(name "N.C."
@@ -2673,7 +2673,7 @@
 					)
 				)
 			)
-			(pin no_connect line
+			(pin passive line
 				(at -5.08 -20.32 0)
 				(length 3.81)
 				(name "N.C."
@@ -2748,7 +2748,7 @@
 			(pin passive line
 				(at -5.08 20.32 0)
 				(length 3.81)
-				(name "LED_5v"
+				(name "LED_POW"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2766,7 +2766,7 @@
 			(pin passive line
 				(at -5.08 17.78 0)
 				(length 3.81)
-				(name "LED_3v3"
+				(name "N.C."
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2853,10 +2853,10 @@
 					)
 				)
 			)
-			(pin no_connect line
+			(pin passive line
 				(at -5.08 5.08 0)
 				(length 3.81)
-				(name "N.C."
+				(name "EN_232"
 					(effects
 						(font
 							(size 1.27 1.27)

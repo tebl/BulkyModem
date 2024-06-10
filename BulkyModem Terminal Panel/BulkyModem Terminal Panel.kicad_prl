@@ -2,7 +2,7 @@
   "board": {
     "active_layer": 0,
     "active_layer_preset": "",
-    "auto_track_width": false,
+    "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [],
     "high_contrast_mode": 0,
@@ -64,9 +64,10 @@
       34,
       35,
       36,
+      39,
       40
     ],
-    "visible_layers": "ffcffff_ffffffff",
+    "visible_layers": "002ffff_80000001",
     "zone_display_mode": 0
   },
   "git": {
@@ -76,7 +77,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "BulkyModem Terminal.kicad_prl",
+    "filename": "BulkyModem Terminal Panel.kicad_prl",
     "version": 3
   },
   "project": {

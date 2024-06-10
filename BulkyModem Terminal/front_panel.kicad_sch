@@ -506,7 +506,7 @@
 			(symbol "Terminal_Panel_0_0"
 				(polyline
 					(pts
-						(xy 10.795 -3.81) (xy 10.795 5.08)
+						(xy 10.795 1.27) (xy 10.795 5.08)
 					)
 					(stroke
 						(width 0)
@@ -563,7 +563,7 @@
 				)
 				(polyline
 					(pts
-						(xy 11.43 -3.81) (xy 10.16 -3.81)
+						(xy 11.43 1.27) (xy 10.16 1.27)
 					)
 					(stroke
 						(width 0)
@@ -824,10 +824,10 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at -5.08 2.54 0)
 					(length 3.81)
-					(name "N.C."
+					(name "EN_TTL"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -845,7 +845,7 @@
 				(pin passive line
 					(at -5.08 0 0)
 					(length 3.81)
-					(name "232"
+					(name "N.C."
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -863,7 +863,7 @@
 				(pin passive line
 					(at -5.08 -2.54 0)
 					(length 3.81)
-					(name "TTL"
+					(name "N.C."
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -878,7 +878,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at -5.08 -5.08 0)
 					(length 3.81)
 					(name "N.C."
@@ -896,7 +896,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at -5.08 -7.62 0)
 					(length 3.81)
 					(name "N.C."
@@ -986,7 +986,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at -5.08 -20.32 0)
 					(length 3.81)
 					(name "N.C."
@@ -1061,7 +1061,7 @@
 				(pin passive line
 					(at -5.08 20.32 0)
 					(length 3.81)
-					(name "LED_5v"
+					(name "LED_POW"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1079,7 +1079,7 @@
 				(pin passive line
 					(at -5.08 17.78 0)
 					(length 3.81)
-					(name "LED_3v3"
+					(name "N.C."
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1166,10 +1166,10 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at -5.08 5.08 0)
 					(length 3.81)
-					(name "N.C."
+					(name "EN_232"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1728,126 +1728,6 @@
 				)
 			)
 		)
-		(symbol "power:+3.3V"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+3.3V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+3.3V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3.3V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:+5V"
 			(power)
 			(pin_numbers hide)
@@ -2084,12 +1964,6 @@
 		(uuid "440b3057-414b-4e71-8e7d-f35810dafffa")
 	)
 	(junction
-		(at 76.2 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5045443b-f0bf-4ba9-8678-3a27002a91de")
-	)
-	(junction
 		(at 111.76 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2120,12 +1994,6 @@
 		(uuid "68e0f020-e07b-460f-9d3f-6f84c6273f87")
 	)
 	(junction
-		(at 53.34 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6fef5b83-41af-4038-a135-493cbbe78edb")
-	)
-	(junction
 		(at 213.36 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2136,6 +2004,26 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b3fb34f3-ee2f-4b8f-bf91-42d579fe27ee")
+	)
+	(no_connect
+		(at 158.75 36.83)
+		(uuid "0ed1efad-0761-49c4-b716-5366d386acf8")
+	)
+	(no_connect
+		(at 158.75 62.23)
+		(uuid "387ea209-74fd-46eb-8ff7-02956a361577")
+	)
+	(no_connect
+		(at 158.75 59.69)
+		(uuid "7c043241-1eb6-4980-bb56-0c0d346c1aad")
+	)
+	(no_connect
+		(at 158.75 57.15)
+		(uuid "804bfbc0-6b98-41a8-9fa3-32efd5ffe9b1")
+	)
+	(no_connect
+		(at 158.75 54.61)
+		(uuid "c366ecf2-d435-4129-81eb-6aa9f98a1de1")
 	)
 	(bus_entry
 		(at 182.88 49.53)
@@ -2165,16 +2053,7 @@
 		(uuid "593f4454-e07e-43ac-a191-0d57d58186db")
 	)
 	(bus_entry
-		(at 182.88 39.37)
-		(size -2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d095c39-c29a-4ca7-bca5-e6cfb866dc06")
-	)
-	(bus_entry
-		(at 182.88 57.15)
+		(at 182.88 52.07)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -2192,7 +2071,7 @@
 		(uuid "86f15b71-054e-4caa-9979-8cbaaeead692")
 	)
 	(bus_entry
-		(at 182.88 59.69)
+		(at 182.88 54.61)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -2253,15 +2132,6 @@
 			(type default)
 		)
 		(uuid "c787262e-0339-4727-8e46-f33ebbb9d23b")
-	)
-	(bus_entry
-		(at 43.18 60.96)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c95f6b2f-80d7-4fe0-8ad3-1b5a1363ab52")
 	)
 	(bus_entry
 		(at 182.88 46.99)
@@ -2333,7 +2203,7 @@
 	)
 	(bus
 		(pts
-			(xy 36.83 60.96) (xy 43.18 60.96)
+			(xy 36.83 60.96) (xy 67.31 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2350,6 +2220,16 @@
 			(type default)
 		)
 		(uuid "092c1dbc-9fd5-4c59-899d-2adba2c93e81")
+	)
+	(bus
+		(pts
+			(xy 182.88 52.07) (xy 182.88 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a29e37a-6dcd-43de-92b9-9e92cbef4499")
 	)
 	(wire
 		(pts
@@ -2420,16 +2300,6 @@
 			(type default)
 		)
 		(uuid "1ba098b4-cbf5-4491-a653-03b7ba5ee81a")
-	)
-	(wire
-		(pts
-			(xy 76.2 76.2) (xy 76.2 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20248933-04e6-40da-88cb-0099dcca9573")
 	)
 	(wire
 		(pts
@@ -2533,16 +2403,6 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 36.83) (xy 180.34 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ba40ba5-8897-408c-8017-15529622157e")
-	)
-	(wire
-		(pts
 			(xy 115.57 78.74) (xy 115.57 63.5)
 		)
 		(stroke
@@ -2611,16 +2471,6 @@
 		)
 		(uuid "487cebeb-83f4-4d67-b272-bcb154e90317")
 	)
-	(bus
-		(pts
-			(xy 182.88 57.15) (xy 182.88 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f8ce88e-8dd9-4cef-9a3e-5b93e0babbde")
-	)
 	(wire
 		(pts
 			(xy 266.7 44.45) (xy 266.7 52.07)
@@ -2643,16 +2493,6 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 78.74) (xy 76.2 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55f2bd81-9fa9-4dff-9173-bb89194b860f")
-	)
-	(wire
-		(pts
 			(xy 237.49 52.07) (xy 238.76 52.07)
 		)
 		(stroke
@@ -2663,7 +2503,7 @@
 	)
 	(bus
 		(pts
-			(xy 182.88 39.37) (xy 182.88 41.91)
+			(xy 182.88 36.83) (xy 182.88 41.91)
 		)
 		(stroke
 			(width 0)
@@ -2681,26 +2521,6 @@
 		)
 		(uuid "622bc710-748c-40f4-9b72-025d1d2281cc")
 	)
-	(wire
-		(pts
-			(xy 53.34 87.63) (xy 53.34 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62845cc6-dfe8-44cd-9adb-b1bdd9e7c581")
-	)
-	(wire
-		(pts
-			(xy 45.72 78.74) (xy 53.34 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "655414ee-cc0a-40df-bbf5-6d63538d2e99")
-	)
 	(bus
 		(pts
 			(xy 182.88 44.45) (xy 182.88 46.99)
@@ -2713,7 +2533,7 @@
 	)
 	(bus
 		(pts
-			(xy 182.88 59.69) (xy 182.88 111.76)
+			(xy 182.88 54.61) (xy 182.88 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2761,19 +2581,9 @@
 		)
 		(uuid "75184520-4b0d-4ca7-b401-478b4019a186")
 	)
-	(bus
-		(pts
-			(xy 43.18 60.96) (xy 67.31 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77fee69c-3df0-4085-b958-501026c7889f")
-	)
 	(wire
 		(pts
-			(xy 158.75 57.15) (xy 180.34 57.15)
+			(xy 158.75 52.07) (xy 180.34 52.07)
 		)
 		(stroke
 			(width 0)
@@ -2843,7 +2653,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 87.63) (xy 76.2 90.17)
+			(xy 69.85 87.63) (xy 69.85 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2933,16 +2743,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 78.74) (xy 53.34 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab4b1e92-a34b-4da4-ac24-2b39a5eb0989")
-	)
-	(wire
-		(pts
 			(xy 64.77 154.94) (xy 64.77 157.48)
 		)
 		(stroke
@@ -2961,19 +2761,9 @@
 		)
 		(uuid "ad1d102f-609b-4872-af15-c2352254f7bc")
 	)
-	(wire
-		(pts
-			(xy 53.34 76.2) (xy 53.34 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ade332f2-d7e0-4fed-9f57-4cd3db6427a9")
-	)
 	(bus
 		(pts
-			(xy 182.88 49.53) (xy 182.88 57.15)
+			(xy 182.88 49.53) (xy 182.88 52.07)
 		)
 		(stroke
 			(width 0)
@@ -2990,16 +2780,6 @@
 			(type default)
 		)
 		(uuid "b257511b-ab7b-4c5e-a7ba-6ca038887fe6")
-	)
-	(bus
-		(pts
-			(xy 182.88 36.83) (xy 182.88 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4163e1a-1826-4521-96c0-45914f18b3de")
 	)
 	(wire
 		(pts
@@ -3043,7 +2823,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 78.74) (xy 69.85 63.5)
+			(xy 69.85 63.5) (xy 69.85 80.01)
 		)
 		(stroke
 			(width 0)
@@ -3090,26 +2870,6 @@
 			(type default)
 		)
 		(uuid "d759757d-d6a6-44a8-8547-89b3171a4c23")
-	)
-	(wire
-		(pts
-			(xy 45.72 78.74) (xy 45.72 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7981d99-f9cd-4ed7-85f5-43dc70afab74")
-	)
-	(wire
-		(pts
-			(xy 76.2 78.74) (xy 76.2 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8204e14-6d86-4cfe-81d6-c3477b42a397")
 	)
 	(wire
 		(pts
@@ -3203,24 +2963,13 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 54.61) (xy 180.34 54.61)
+			(xy 158.75 49.53) (xy 180.34 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f27835c6-3d14-4837-845a-7d795234d9eb")
-	)
-	(text "* Resistors may have functionally\nbeen replaced on front panel B."
-		(exclude_from_sim no)
-		(at 48.26 102.87 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1d6e94a7-d9f0-4a6f-b1b4-fdfd4784cb22")
 	)
 	(text "JP7 is intended as a way of enabling\n*one* of the two modes when a front\npanel has not been installed, jumpering\nit will override the switches on the panel."
 		(exclude_from_sim no)
@@ -3232,17 +2981,6 @@
 			(justify left bottom)
 		)
 		(uuid "92cb482e-16fc-4f81-a74a-b151686c70e4")
-	)
-	(label "LED.3V3"
-		(at 171.45 36.83 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "13e7f188-d4a8-4ff3-be2f-3e9024759fcb")
 	)
 	(label "LED.RTS"
 		(at 81.28 114.3 270)
@@ -3311,7 +3049,7 @@
 		(uuid "5df76a31-599f-4d99-8ab0-87b940a2d1cc")
 	)
 	(label "LED.TTL"
-		(at 171.45 57.15 0)
+		(at 171.45 52.07 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3321,7 +3059,7 @@
 		)
 		(uuid "70114986-ea4c-4730-96ac-82dd58a59f1c")
 	)
-	(label "LED.5V"
+	(label "LED.POW"
 		(at 171.45 34.29 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3331,17 +3069,6 @@
 			(justify left bottom)
 		)
 		(uuid "70b4b383-a7be-44b1-81c7-dac020ab37e7")
-	)
-	(label "LED.3V3"
-		(at 45.72 64.77 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "bf2d1434-e058-49da-a23f-75f94bc76f45")
 	)
 	(label "LED.TX"
 		(at 171.45 39.37 0)
@@ -3365,7 +3092,7 @@
 		)
 		(uuid "d4059996-384c-4fed-a2be-d311d850f221")
 	)
-	(label "LED.5V"
+	(label "LED.POW"
 		(at 69.85 64.77 270)
 		(fields_autoplaced yes)
 		(effects
@@ -3410,7 +3137,7 @@
 		(uuid "e79c9af2-0f7f-4e93-81a2-6410bf7034dd")
 	)
 	(label "LED.232"
-		(at 171.45 54.61 0)
+		(at 171.45 49.53 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3690,7 +3417,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BulkyModem:Module_Panel"
+		(property "Footprint" "BulkyModem:Terminal_Panel"
 			(at 153.67 54.61 0)
 			(effects
 				(font
@@ -3921,7 +3648,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 76.2 90.17 0)
+		(at 69.85 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3929,7 +3656,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000063b6f353")
 		(property "Reference" "#PWR0121"
-			(at 76.2 96.52 0)
+			(at 69.85 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3938,7 +3665,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 76.327 94.5642 0)
+			(at 69.977 94.5642 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3946,7 +3673,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 90.17 0)
+			(at 69.85 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3955,7 +3682,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 90.17 0)
+			(at 69.85 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3964,7 +3691,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 76.2 90.17 0)
+			(at 69.85 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3986,7 +3713,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 76.2 83.82 180)
+		(at 69.85 83.82 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3994,15 +3721,15 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000063b6f359")
 		(property "Reference" "R4"
-			(at 81.4578 83.82 90)
+			(at 75.1078 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "2k2*"
-			(at 79.1464 83.82 90)
+		(property "Value" "2k2"
+			(at 72.7964 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4010,7 +3737,7 @@
 			)
 		)
 		(property "Footprint" "resistor:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 77.978 83.82 90)
+			(at 71.628 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4019,7 +3746,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 76.2 83.82 0)
+			(at 69.85 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4028,7 +3755,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 76.2 83.82 0)
+			(at 69.85 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4046,138 +3773,6 @@
 			(project "BulkyModem Terminal"
 				(path "/cd9da885-84b5-47eb-b16d-d4099ea4358c/00000000-0000-0000-0000-00006390ae73"
 					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 76.2 72.39 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000063b6f361")
-		(property "Reference" "D2"
-			(at 82.677 72.5678 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_5V"
-			(at 80.3656 72.5678 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_THT:LED_D3.0mm"
-			(at 76.2 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 76.2 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 76.2 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f8c2c739-81dd-45ef-9a2a-d25c260e7ebd")
-		)
-		(pin "2"
-			(uuid "dc37d341-a1c3-4f52-8847-37e4f94d67f9")
-		)
-		(instances
-			(project "BulkyModem Terminal"
-				(path "/cd9da885-84b5-47eb-b16d-d4099ea4358c/00000000-0000-0000-0000-00006390ae73"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 76.2 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000063b6f367")
-		(property "Reference" "#PWR0122"
-			(at 76.2 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 76.2 64.135 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 76.2 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 76.2 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 76.2 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6be5cd5e-84d7-402d-98d7-a992eec18c70")
-		)
-		(instances
-			(project "BulkyModem Terminal"
-				(path "/cd9da885-84b5-47eb-b16d-d4099ea4358c/00000000-0000-0000-0000-00006390ae73"
-					(reference "#PWR0122")
 					(unit 1)
 				)
 			)
@@ -5130,205 +4725,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 53.34 72.39 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000064bb4f12")
-		(property "Reference" "D13"
-			(at 59.817 72.5678 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_3V3"
-			(at 57.5056 72.5678 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_THT:LED_D3.0mm"
-			(at 53.34 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 53.34 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 53.34 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0349b0d1-7409-43b7-92c6-92b16cfa5e17")
-		)
-		(pin "2"
-			(uuid "d9c49e4c-0222-41bd-934a-8ce1a6ed785a")
-		)
-		(instances
-			(project "BulkyModem Terminal"
-				(path "/cd9da885-84b5-47eb-b16d-d4099ea4358c/00000000-0000-0000-0000-00006390ae73"
-					(reference "D13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 53.34 83.82 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000064bb4f1e")
-		(property "Reference" "R3"
-			(at 58.5978 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2k2"
-			(at 56.2864 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "resistor:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 55.118 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 53.34 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 53.34 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a420bc05-e130-473c-b6bf-4d0a80bbce3f")
-		)
-		(pin "1"
-			(uuid "8d95f162-af11-424e-865a-48134a0e4b69")
-		)
-		(instances
-			(project "BulkyModem Terminal"
-				(path "/cd9da885-84b5-47eb-b16d-d4099ea4358c/00000000-0000-0000-0000-00006390ae73"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 53.34 90.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000064bbda77")
-		(property "Reference" "#PWR0109"
-			(at 53.34 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 53.467 94.5642 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 53.34 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 53.34 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4c7339d4-1a30-48fc-8f7c-69e4adb0d5f1")
-		)
-		(instances
-			(project "BulkyModem Terminal"
-				(path "/cd9da885-84b5-47eb-b16d-d4099ea4358c/00000000-0000-0000-0000-00006390ae73"
-					(reference "#PWR0109")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 121.92 83.82 180)
 		(unit 1)
@@ -6061,71 +5457,6 @@
 			(project "BulkyModem Terminal"
 				(path "/cd9da885-84b5-47eb-b16d-d4099ea4358c/00000000-0000-0000-0000-00006390ae73"
 					(reference "D9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 53.34 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bde65d5d-c02b-4554-b76e-1cf700ad7aaa")
-		(property "Reference" "#PWR04"
-			(at 53.34 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 53.721 64.1858 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 53.34 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 53.34 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f9667d59-e003-48f0-bf0a-4e439de3fb69")
-		)
-		(instances
-			(project "BulkyModem Terminal"
-				(path "/cd9da885-84b5-47eb-b16d-d4099ea4358c/00000000-0000-0000-0000-00006390ae73"
-					(reference "#PWR04")
 					(unit 1)
 				)
 			)
