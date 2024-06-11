@@ -2010,6 +2010,10 @@
 		(uuid "0ed1efad-0761-49c4-b716-5366d386acf8")
 	)
 	(no_connect
+		(at 158.75 74.93)
+		(uuid "0f5e34f5-98fe-4f8a-bfd9-414acc6dfd03")
+	)
+	(no_connect
 		(at 158.75 62.23)
 		(uuid "387ea209-74fd-46eb-8ff7-02956a361577")
 	)
@@ -3125,7 +3129,7 @@
 		)
 		(uuid "e3d76533-24a2-4a88-9fcb-24981d9f945c")
 	)
-	(label "LED{5V 3V3 TX RX RTS CTS 232 TTL}"
+	(label "LED{POW TX RX RTS CTS 232 TTL}"
 		(at 39.37 111.76 0)
 		(fields_autoplaced yes)
 		(effects
