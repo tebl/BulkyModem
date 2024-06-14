@@ -2352,9 +2352,8 @@
 		(descr "9-pin D-Sub connector, horizontal/angled (90 deg), THT-mount, male, pitch 2.77x2.84mm, pin-PCB-offset 7.699999999999999mm, distance of mounting holes 25mm, distance of mounting holes to PCB edge 9.12mm, see https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf")
 		(tags "9-pin D-Sub connector horizontal angled 90deg THT male pitch 2.77x2.84mm pin-PCB-offset 7.699999999999999mm mounting-holes-distance 25mm mounting-hole-offset 25mm")
 		(property "Reference" "J2"
-			(at 5.54 -2.8 180)
+			(at 18.065 5.08 180)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "f3c8173e-12b5-4365-bd6c-7467e2b5f08e")
 			(effects
 				(font
@@ -14784,7 +14783,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R28"
-			(at 3.175 0 -90)
+			(at 6.985 0 -90)
 			(layer "F.SilkS")
 			(uuid "6bd2971f-cfa8-4e44-bf45-421014e7c207")
 			(effects
@@ -14795,7 +14794,7 @@
 			)
 		)
 		(property "Value" "2k"
-			(at 6.35 0 180)
+			(at 3.81 0 180)
 			(layer "F.SilkS")
 			(uuid "ad908995-765f-4bcc-a598-4c16e9fdd128")
 			(effects
@@ -15328,7 +15327,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R30"
-			(at 3.175 0 -90)
+			(at 6.985 0 -90)
 			(layer "F.SilkS")
 			(uuid "fb3456c9-e774-4667-92a4-3d63e071dfe9")
 			(effects
@@ -15339,7 +15338,7 @@
 			)
 		)
 		(property "Value" "120"
-			(at 6.35 0 180)
+			(at 3.81 0 180)
 			(layer "F.SilkS")
 			(uuid "2bbc061d-222d-4c9e-bf49-0277b9d7006d")
 			(effects
@@ -15883,14 +15882,15 @@
 			)
 		)
 		(property "Value" "2k2"
-			(at 6.35 0 90)
+			(at 6.985 0.635 90)
 			(layer "F.SilkS")
 			(uuid "9c6ad753-d640-44ff-b7bf-bdcde5d42085")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.1)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "resistor:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
@@ -16427,14 +16427,15 @@
 			)
 		)
 		(property "Value" "2k2"
-			(at 6.35 0 90)
+			(at 6.985 0.635 90)
 			(layer "F.SilkS")
 			(uuid "2b3bc9a8-7d51-41f1-9951-7bbf40b5be48")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.1)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "resistor:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
@@ -17676,7 +17677,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R27"
-			(at 3.175 0 -90)
+			(at 6.985 0 -90)
 			(layer "F.SilkS")
 			(uuid "e7f15eee-e560-4057-9a5c-74e05dc44042")
 			(effects
@@ -17687,7 +17688,7 @@
 			)
 		)
 		(property "Value" "2k"
-			(at 6.35 0 180)
+			(at 3.81 0 180)
 			(layer "F.SilkS")
 			(uuid "73760858-09ec-48e5-b6ea-1d8006b5bfd7")
 			(effects
@@ -18890,8 +18891,8 @@
 			(uuid "b770e4f9-81b6-416c-997c-a95dfd829e9a")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -20250,13 +20251,13 @@
 			)
 		)
 		(property "Value" "RESET"
-			(at 2.25 5.38988 -90)
-			(layer "F.Fab")
+			(at 7.64 0.9225 0)
+			(layer "F.SilkS")
 			(uuid "1cc721d5-b699-4e7a-856c-794e55533f54")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -22271,7 +22272,7 @@
 		(descr "15-pin D-Sub connector, horizontal/angled (90 deg), THT-mount, female, pitch 2.29x1.98mm, pin-PCB-offset 3.0300000000000002mm, distance of mounting holes 25mm, distance of mounting holes to PCB edge 4.9399999999999995mm, see https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf")
 		(tags "15-pin D-Sub connector horizontal angled 90deg THT female pitch 2.29x1.98mm pin-PCB-offset 3.0300000000000002mm mounting-holes-distance 25mm mounting-hole-offset 25mm")
 		(property "Reference" "J4"
-			(at 10.2 17.43 180)
+			(at -12.581 7.874 180)
 			(layer "F.SilkS")
 			(uuid "a5af6306-f413-4baf-98e9-5734104b0d38")
 			(effects
@@ -23661,14 +23662,15 @@
 			)
 		)
 		(property "Value" "2k2"
-			(at 6.35 0 90)
+			(at 6.985 0.635 90)
 			(layer "F.SilkS")
 			(uuid "be6db104-c1d6-46e7-aa12-f48a8648189e")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.1)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "resistor:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
@@ -25098,13 +25100,13 @@
 			)
 		)
 		(property "Value" "DEFAULTS"
-			(at 2.25 5.38988 -90)
-			(layer "F.Fab")
+			(at -3.155 0.9225 0)
+			(layer "F.SilkS")
 			(uuid "85b20888-726e-4b86-be65-1565e82513ea")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -25496,7 +25498,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R25"
-			(at 3.175 0 0)
+			(at 6.985 0 0)
 			(layer "F.SilkS")
 			(uuid "818bfc2b-ddbe-4f31-addb-473ddf64fe25")
 			(effects
@@ -25507,7 +25509,7 @@
 			)
 		)
 		(property "Value" "680"
-			(at 6.35 0 -90)
+			(at 3.81 0 -90)
 			(layer "F.SilkS")
 			(uuid "ebeb9642-791e-48e0-bab2-f32259842616")
 			(effects
@@ -25779,14 +25781,15 @@
 			)
 		)
 		(property "Value" "2k2"
-			(at 6.35 0 90)
+			(at 6.985 0.635 90)
 			(layer "F.SilkS")
 			(uuid "e82ccffd-a6dd-4d36-9670-533ffaeff334")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.1)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "resistor:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
@@ -28457,7 +28460,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R29"
-			(at 3.175 0 -90)
+			(at 6.985 0 -90)
 			(layer "F.SilkS")
 			(uuid "77c39dce-4237-46e8-ac78-cc670a16f9a2")
 			(effects
@@ -28468,7 +28471,7 @@
 			)
 		)
 		(property "Value" "120"
-			(at 6.35 0 180)
+			(at 3.81 0 180)
 			(layer "F.SilkS")
 			(uuid "17954a43-3990-460d-849e-3a2e4e5268f8")
 			(effects
@@ -31939,7 +31942,7 @@
 		)
 	)
 	(gr_text "TX"
-		(at 114.3 131.445 0)
+		(at 113.03 131.445 0)
 		(layer "F.SilkS")
 		(uuid "4ccad3c5-456e-4b2b-a082-2b796bf51d70")
 		(effects
@@ -32000,10 +32003,10 @@
 			(justify left)
 		)
 	)
-	(gr_text "Standby"
-		(at 67.31 133.985 90)
+	(gr_text "5V"
+		(at 163.83 123.19 90)
 		(layer "F.SilkS")
-		(uuid "865fc153-0fb3-4779-9b96-4385c52df64e")
+		(uuid "8e993543-9356-4e7a-b6ff-1efe94ec8eca")
 		(effects
 			(font
 				(size 0.8 0.8)
@@ -32036,7 +32039,7 @@
 		)
 	)
 	(gr_text "POW"
-		(at 100.965 131.445 0)
+		(at 100.33 131.445 0)
 		(layer "F.SilkS")
 		(uuid "b865ad54-05a3-48d1-80a5-f23677546bd2")
 		(effects
@@ -32101,6 +32104,42 @@
 		(at 84.455 90.17 90)
 		(layer "F.SilkS")
 		(uuid "f1863f4d-a373-4b31-96ae-9a8596fc124a")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+			(justify left)
+		)
+	)
+	(gr_text "TTL"
+		(at 160.02 127.635 90)
+		(layer "F.SilkS")
+		(uuid "f1eff03d-31c0-4340-b557-23acc6d93041")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+			(justify left)
+		)
+	)
+	(gr_text "3V3"
+		(at 168.275 123.19 90)
+		(layer "F.SilkS")
+		(uuid "f6cf4b5f-c723-4a3d-accf-0f78c14647ae")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+			(justify left)
+		)
+	)
+	(gr_text "232"
+		(at 156.21 127.635 90)
+		(layer "F.SilkS")
+		(uuid "f974e194-1a40-49ee-bc7e-160ea08d2fca")
 		(effects
 			(font
 				(size 0.8 0.8)
