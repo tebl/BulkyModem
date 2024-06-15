@@ -1876,7 +1876,7 @@
 				)
 			)
 			(property "Value" "RS232_DTE"
-				(at 0 -14.605 0)
+				(at 2.794 -14.986 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2552,6 +2552,24 @@
 							(size 0.9906 0.9906)
 						)
 						(justify right)
+					)
+				)
+				(pin passive line
+					(at -3.81 -17.78 90)
+					(length 5.08)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 				(pin output line
@@ -4467,6 +4485,9 @@
 		(pin "2"
 			(uuid "77cf1dfc-2e09-4555-9556-a55c26bbfd4b")
 		)
+		(pin "0"
+			(uuid "e39b014f-8da4-4c9d-9a19-78019a8fa573")
+		)
 		(instances
 			(project "BulkyModem Terminal"
 				(path "/cd9da885-84b5-47eb-b16d-d4099ea4358c/00000000-0000-0000-0000-00006379233a"
@@ -5012,6 +5033,72 @@
 			(project "BulkyModem Terminal"
 				(path "/cd9da885-84b5-47eb-b16d-d4099ea4358c/00000000-0000-0000-0000-00006379233a"
 					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 128.27 102.87 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5cac22e5-fa76-4ad9-98e7-319fc65e10a2")
+		(property "Reference" "#PWR036"
+			(at 128.27 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 128.143 107.2642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 128.27 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3cee4fc0-cbc0-4ab2-b32a-e54e8cb372f0")
+		)
+		(instances
+			(project "BulkyModem Terminal"
+				(path "/cd9da885-84b5-47eb-b16d-d4099ea4358c/00000000-0000-0000-0000-00006379233a"
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
