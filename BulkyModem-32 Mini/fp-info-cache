@@ -1,4 +1,4 @@
-23402103973162454
+23403822727577799
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -95516,6 +95516,13 @@ BulkyModem_small
 0
 esp32_dev_board
 ESP32-WROOM-32D_30
+
+
+0
+30
+30
+esp32_dev_board
+ESP32-WROOM-32D_30_Alternate
 
 
 0

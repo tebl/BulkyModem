@@ -5,7 +5,7 @@
 	(uuid "f0e777b2-adb1-4354-83f5-96fd853ecc13")
 	(paper "A4")
 	(title_block
-		(title "BulkyModem Module (Power)")
+		(title "BulkyModem-32 Mini (Power)")
 	)
 	(lib_symbols
 		(symbol "74xx:74LS32"
@@ -1329,7 +1329,7 @@
 		)
 	)
 	(junction
-		(at 189.23 106.68)
+		(at 157.48 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "459b8f55-3c58-4a5f-b10a-fb56e1bb98c6")
@@ -1341,19 +1341,19 @@
 		(uuid "76ad500a-28b6-43bd-b883-7498e0019244")
 	)
 	(junction
-		(at 109.22 106.68)
+		(at 142.24 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "81ad3b9f-3e72-47c4-9868-4b66980f55b0")
 	)
 	(junction
-		(at 109.22 77.47)
+		(at 142.24 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8a14faca-7c8c-44d3-bc20-1257d23924e0")
 	)
 	(junction
-		(at 97.79 77.47)
+		(at 130.81 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e99236fd-1528-4662-bf02-0ee7513a8dc5")
@@ -1364,7 +1364,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 77.47) (xy 109.22 88.9)
+			(xy 142.24 81.28) (xy 142.24 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1374,7 +1374,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 77.47) (xy 97.79 88.9)
+			(xy 130.81 81.28) (xy 130.81 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1384,7 +1384,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 93.98) (xy 97.79 106.68)
+			(xy 130.81 97.79) (xy 130.81 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1394,7 +1394,27 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 74.93) (xy 97.79 77.47)
+			(xy 130.81 81.28) (xy 142.24 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e25c415-edb5-40b2-a2a5-993ffdc3f06f")
+	)
+	(wire
+		(pts
+			(xy 142.24 110.49) (xy 157.48 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f13e2c4-49f0-4676-85d2-a7d62405656e")
+	)
+	(wire
+		(pts
+			(xy 130.81 78.74) (xy 130.81 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1414,7 +1434,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 107.95) (xy 189.23 106.68)
+			(xy 157.48 111.76) (xy 157.48 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1434,7 +1454,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 106.68) (xy 109.22 106.68)
+			(xy 130.81 110.49) (xy 142.24 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1444,17 +1464,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 77.47) (xy 189.23 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8545f53d-7f6b-49e1-bd0f-0bea33438b59")
-	)
-	(wire
-		(pts
-			(xy 189.23 77.47) (xy 189.23 78.74)
+			(xy 157.48 81.28) (xy 157.48 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1464,23 +1474,13 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 104.14) (xy 189.23 106.68)
+			(xy 157.48 107.95) (xy 157.48 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "aec658a6-185b-4ee8-8d36-946a3c0f3ec2")
-	)
-	(wire
-		(pts
-			(xy 97.79 77.47) (xy 109.22 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b36e8241-2e30-4ae4-91a6-b31504121f3e")
 	)
 	(wire
 		(pts
@@ -1494,23 +1494,13 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 93.98) (xy 109.22 106.68)
+			(xy 142.24 97.79) (xy 142.24 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d7eaa3bc-e260-490b-84b2-d7bd14d2e173")
-	)
-	(wire
-		(pts
-			(xy 109.22 106.68) (xy 189.23 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df77e5b0-15b8-4732-8c09-b1fb74a5d7cf")
 	)
 	(wire
 		(pts
@@ -1521,6 +1511,26 @@
 			(type default)
 		)
 		(uuid "e74129a7-af9e-485a-852d-ec595ac57c8a")
+	)
+	(wire
+		(pts
+			(xy 142.24 81.28) (xy 157.48 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebedd8b6-44f1-411b-a851-77207f5c1658")
+	)
+	(text "The Mini boards are powered from USB,\nso there's not much interesting to\nactually see here."
+		(exclude_from_sim no)
+		(at 190.5 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "21c7d811-2216-4487-98e8-336d697b2cfa")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -1589,7 +1599,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 97.79 74.93 0)
+		(at 130.81 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1597,7 +1607,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000063dab492")
 		(property "Reference" "#PWR0110"
-			(at 97.79 78.74 0)
+			(at 130.81 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1606,7 +1616,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 97.79 71.374 0)
+			(at 130.81 75.184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1614,7 +1624,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 97.79 74.93 0)
+			(at 130.81 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1623,7 +1633,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 97.79 74.93 0)
+			(at 130.81 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1632,7 +1642,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 97.79 74.93 0)
+			(at 130.81 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1654,7 +1664,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 189.23 107.95 0)
+		(at 157.48 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1662,7 +1672,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000063dab499")
 		(property "Reference" "#PWR0133"
-			(at 189.23 114.3 0)
+			(at 157.48 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1671,7 +1681,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 189.357 112.3442 0)
+			(at 157.607 116.1542 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1679,7 +1689,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 189.23 107.95 0)
+			(at 157.48 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1688,7 +1698,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.23 107.95 0)
+			(at 157.48 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1697,7 +1707,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 189.23 107.95 0)
+			(at 157.48 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1719,7 +1729,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74LS32")
-		(at 189.23 91.44 0)
+		(at 157.48 95.25 0)
 		(unit 5)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1727,7 +1737,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000064571fd8")
 		(property "Reference" "U6"
-			(at 189.23 90.17 0)
+			(at 157.48 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1735,7 +1745,7 @@
 			)
 		)
 		(property "Value" "74HCT32"
-			(at 189.23 92.71 0)
+			(at 157.48 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1743,7 +1753,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
-			(at 189.23 91.44 0)
+			(at 157.48 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1752,7 +1762,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS32"
-			(at 189.23 91.44 0)
+			(at 157.48 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1761,7 +1771,7 @@
 			)
 		)
 		(property "Description" "Quad 2-input OR"
-			(at 189.23 91.44 0)
+			(at 157.48 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1814,7 +1824,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 97.79 91.44 0)
+		(at 130.81 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1822,7 +1832,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000064802b72")
 		(property "Reference" "C8"
-			(at 100.1268 90.2716 0)
+			(at 133.1468 94.0816 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1831,7 +1841,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 100.1268 92.583 0)
+			(at 133.1468 96.393 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1840,7 +1850,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm"
-			(at 97.79 91.44 0)
+			(at 130.81 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1849,7 +1859,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 97.79 91.44 0)
+			(at 130.81 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1858,7 +1868,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 97.79 91.44 0)
+			(at 130.81 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1987,7 +1997,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 109.22 91.44 0)
+		(at 142.24 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1995,7 +2005,7 @@
 		(dnp no)
 		(uuid "a4aa5459-e2d7-4eff-aaa9-a9e9bb58c1df")
 		(property "Reference" "C1"
-			(at 111.5568 90.2716 0)
+			(at 144.5768 94.0816 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2004,7 +2014,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 111.5568 92.583 0)
+			(at 144.5768 96.393 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2013,7 +2023,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm"
-			(at 109.22 91.44 0)
+			(at 142.24 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2022,7 +2032,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 109.22 91.44 0)
+			(at 142.24 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2031,7 +2041,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 109.22 91.44 0)
+			(at 142.24 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
