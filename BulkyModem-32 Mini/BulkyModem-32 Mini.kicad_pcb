@@ -1581,10 +1581,9 @@
 				)
 			)
 		)
-		(property "Value" "10k*"
+		(property "Value" "10k"
 			(at 3.81 0 270)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "6dbb492a-5673-4a15-a719-2b58e51f2ebe")
 			(effects
 				(font
@@ -1633,7 +1632,7 @@
 		(path "/00000000-0000-0000-0000-000063e2105a")
 		(sheetname "Root")
 		(sheetfile "BulkyModem-32 Mini.kicad_sch")
-		(attr through_hole dnp)
+		(attr through_hole)
 		(fp_line
 			(start 8.35 -1.37)
 			(end 1.81 -1.37)
@@ -7579,7 +7578,7 @@
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D14"
-			(at 3.81 0 90)
+			(at 4.445 0 90)
 			(layer "F.SilkS")
 			(uuid "da115ebc-635c-47e3-b716-7cae79e19fa2")
 			(effects
@@ -7971,10 +7970,9 @@
 				)
 			)
 		)
-		(property "Value" "10k*"
+		(property "Value" "10k"
 			(at 3.937 0 270)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "03ea0788-b06e-4d94-b55c-520ee54e7c9c")
 			(effects
 				(font
@@ -8023,7 +8021,7 @@
 		(path "/58649fa7-c0ca-4fea-b4d7-da5fcc914f5e")
 		(sheetname "Root")
 		(sheetfile "BulkyModem-32 Mini.kicad_sch")
-		(attr through_hole dnp)
+		(attr through_hole)
 		(fp_line
 			(start 8.35 -1.37)
 			(end 1.81 -1.37)
@@ -10238,13 +10236,13 @@
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D15"
-			(at 3.81 0 90)
+			(at 4.445 0 90)
 			(layer "F.SilkS")
 			(uuid "2b3869bc-28a2-4ab2-a879-aafa7b774837")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -12532,7 +12530,7 @@
 			(justify mirror)
 		)
 	)
-	(gr_text "ESP32 Mini Module (rev. A)"
+	(gr_text "ESP32 Mini Module (rev. B)"
 		(at 108.458 59.944 0)
 		(layer "B.SilkS")
 		(uuid "ef16993b-a0a9-483c-ab16-cc9e1204e88c")

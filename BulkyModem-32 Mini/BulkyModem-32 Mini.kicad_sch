@@ -3484,17 +3484,6 @@
 		)
 		(uuid "b72df081-deba-434a-add6-1af6356eebf7")
 	)
-	(text "* Install R5/R18 if noise is encountered,\notherwise leave unpopulated."
-		(exclude_from_sim no)
-		(at 238.76 105.41 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b8d7b6c1-45f4-47f6-83ce-dbe896935e03")
-	)
 	(text "SCK"
 		(exclude_from_sim no)
 		(at 166.37 73.66 0)
@@ -4247,7 +4236,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "00000000-0000-0000-0000-000063e2105a")
 		(property "Reference" "R18"
 			(at 244.475 75.565 0)
@@ -4258,7 +4247,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k*"
+		(property "Value" "10k"
 			(at 244.475 77.47 0)
 			(effects
 				(font
@@ -4841,7 +4830,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "58649fa7-c0ca-4fea-b4d7-da5fcc914f5e")
 		(property "Reference" "R5"
 			(at 244.475 128.905 0)
@@ -4852,7 +4841,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k*"
+		(property "Value" "10k"
 			(at 244.475 130.81 0)
 			(effects
 				(font
