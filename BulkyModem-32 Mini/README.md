@@ -22,7 +22,7 @@ The LEDs can be any colour of your choice as long as you adjust the resistors us
 
 ![Completed unit](https://raw.githubusercontent.com/tebl/BulkyModem/main/gallery/build/mini32_rs232/010.jpg)
 
-I recommend installing the sketch onto the ESP-32 while it is disconnected from the rest of the unit, but beyond that I'm not going to go into programming it here - for that information, see the [setting it up](https://github.com/tebl/BulkyModem/blob/main/documentation/setting_it_up.md) guide.
+I recommend installing the sketch onto the ESP-32 while it is disconnected from the rest of the unit, but beyond that I'm not going to go into programming it here - for that information, see the [setting it up](https://github.com/tebl/BulkyModem/blob/main/documentation/setting_it_up_mini_rs232.md) guide.
 
 # 2> Schematic
 The supplied KiCad files should be sufficient as both a schematic and as a  starting point for ordering PCBs (basically you could just zip the contents of the export folder and upload that on a fabrication site), the schematic is also available in [PDF-format](https://github.com/tebl/BulkyModem/tree/main/documentation/schematic) and this is what you'll need to print and work your way through when things fail to work as expected.
