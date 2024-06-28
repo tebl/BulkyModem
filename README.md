@@ -15,6 +15,8 @@ As for going all the way in order to not change any part of the firmware, I did 
 
 - [1> Modules](#1-modules)
   - [1.1> BulkyModem](#11-bulkymodem)
+  - [1.3> BulkyModem-32](#12-bulkymodem-32)
+  - [1.4> BulkyModem-32 (Mini RS-232)](#14-bulkymodem-32-mini-rs-232)
 - [2> Adapters](#2-adapters)
 - [3> Acknowledgements](#3-acknowledgements)
 
@@ -22,10 +24,11 @@ As for going all the way in order to not change any part of the firmware, I did 
 # 1> Modules
 For the technical details as well as information regarding the devices included in this specific github project, consult the table below to jump to that particular section. Note that in order to successfully use this along with a Commodore 64, you also need the *User Port*-adapter found in the [adapters](#2-adapters)-section.
 
-| Module                            | Description                                      |
-| --------------------------------- | ------------------------------------------------ | 
-| [BulkyModem](#11-bulkymodem)      | Main *BulkyModem*-module based on ESP8266.
-| BulkyModem-32                     | Possible *BulkyModem*-variant based on ESP32.
+| Module                             | Description                                      |
+| ---------------------------------- | ------------------------------------------------ | 
+| [BulkyModem](#11-bulkymodem)       | Main *BulkyModem*-module based on ESP8266.
+| [BulkyModem-32](#13-bulkymodem-32) | Possible *BulkyModem*-variant based on ESP32.
+| [BulkyModem-32 (Mini RS-232)](#14-bulkymodem-32-mini-rs-232) | "Mini"-version of the BulkyModem-32 with an RS-232 interface.
 
 ## 1.1> BulkyModem
 ![BulkyModem](https://raw.githubusercontent.com/tebl/BulkyModem/main/gallery/20240531_021749.jpg)
@@ -43,6 +46,16 @@ This is the main module of the project, if you came here looking to build an ESP
 | [BulkyModem Top/bottom faceplate (FA1)](https://github.com/tebl/BulkyModem/tree/main/faceplates/BulkyModem%20FA1) | Recommended | Decorative faceplate used on the top of the device, can also be used on the bottom in combination with front faceplate [FP3](https://github.com/tebl/BulkyModem/tree/main/faceplates/BulkyModem%20FP3). | [Documentation](https://github.com/tebl/BulkyModem/tree/main/faceplates/BulkyModem%20FA1) | PCBWay
 
 **NB!** Make sure to follow the links for each of the modules, especially when you're looking into ordering the parts needed to complete the device that you want to build. Those modules are listed with their own link to a BOM, or at least what I would call one. Also keep in mind that to use this with a Commodore 64, you need the *User Port*-adapter that's found in the [adapters](#2-adapters)-section.
+
+## 1.4> BulkyModem-32 (Mini RS-232)
+![BulkyModem-32 (Mini RS-232)](https://raw.githubusercontent.com/tebl/BulkyModem/main/gallery/20240628_032119.jpg)
+**Status:** Work in progress
+
+Working on the ESP-32 version of the BulkyModem, that's the one called BulkyModem-32, I had quite a few questions of how some of the features were meant to function. So in order to start development in a more sensible place than what I'm known for, I set out to make a smaller "Mini"-version with the core functionality before trying to add anything else to it. The ESP32-version has more functionality available to it in the Zimodem-firmware, that you'll have available to you when hooking it up to your vintage computers over RS-232. The connection is a 5-wire setup, using RTS/CTS as hardware flow control.
+
+| Module                 | Required    | Description                        | Documentation                      | Order      |
+| ---------------------- | ----------- | ---------------------------------- | ---------------------------------- | ---------- |
+| [BulkyModem-32 (Mini RS-232)](https://github.com/tebl/BulkyModem/tree/main/BulkyModem-32%20Mini) | Yes | Main module | [Documentation](https://github.com/tebl/BulkyModem/tree/main/BulkyModem-32%20Mini), [BOM](https://github.com/tebl/BulkyModem/tree/main/BulkyModem-32%20Mini/README.md#3-bom), [Setting it up](https://github.com/tebl/BulkyModem/blob/main/documentation/setting_it_up_32_rs232.md), [Getting started](https://github.com/tebl/BulkyModem/blob/main/documentation/getting_started.md) | [PCBWay](https://www.pcbway.com/project/shareproject/BulkyModem_32_Mini_RS_232_e6ccfb60.html)
 
 # 2> Adapters
 Separate from the main modules are several adapters, designed for use with the *BulkyModem* in combination of various systems. The repository also includes a folder for [schematics](https://github.com/tebl/BulkyModem/tree/main/documentation/schematic) in PDF-format, these will be needed in order to track down any faults you encounter when building up and testing the adapters.
