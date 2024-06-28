@@ -47,3 +47,8 @@ At this point the modem switches speeds, but our terminal software doesn't know 
 > connect
 
 At this point, both ends should be communicating as 9600 baud. Both the modem and computer should be able to talk at even faster rates than that, but it's a place to start.
+
+## 2.1.2> Terminal type
+Kermit is a powerful package, but it wasn't created with BBSes in mind - instead it was intended to replace hardware terminals such as the VT102 and so on. Generally the way you would interface with mainframes. That doesn't mean that it doesn't work, it just means that it might not be running in a mode that'd be able to display BBS graphics the way it was intended. While this certainly would vary depending on the places that you tell the modem to connect to, but the one that I've had the most luck with is named *ANSI*. You can switch to it while in command mode.
+
+> set term type ansi

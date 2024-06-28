@@ -1,7 +1,7 @@
 # BulkyModem
 Back in the old days I, like many others, had a modem. Wasn't old enough that it had an acoustic coupler on it, but old enough that it made exciting clicks when connecting up to things. Also had the standard shrieking noises when trying to to call someone while it was being used. The *BulkyModem* doesn't do all of those things, but it does allow me to have a go at dialling a *BBS* from my old PC again. It doesn't do that over an analog phone line because; A) Those no longer exist, and B) We're living in the far distant future and we now have Wi-FI!
 
-![BulkyModem](https://raw.githubusercontent.com/tebl/BulkyModem/main/gallery/20240411_021045.jpg)
+![BulkyModem](https://raw.githubusercontent.com/tebl/BulkyModem/main/gallery/20240628_021238.jpg)
 
 There are many modems out there that do these, there's a bunch of them that are being hand-assembled and sold as *Retro WiFi modems* in most corners of the world - because everywhere that you find an aging *nerd* tinkering away on their old computer, theirs probably one that's already there or in the mail somewhere. So where does my little project fit into all of this? It fits a very specific spot on my desk.
 
