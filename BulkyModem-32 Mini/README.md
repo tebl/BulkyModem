@@ -13,11 +13,11 @@ Building the device should be a straight-forward affair, you just solder the mea
 
 ![Bare boards](https://raw.githubusercontent.com/tebl/BulkyModem/main/gallery/build/mini32_rs232/001.jpg)
 
-Components should be installed in the order of their physical height, but beyond the choice of a specific variant of the MAX232-chip used there's not all that much that can go wrong beyond making things harder for yourself to put it together. While cheaper variants such as the old MAX232 (no letter) and the MAX232**C** requires electrolytic capacitors (polarized), I recommend using a MAX232**A** as that simply uses ceramic 100nF capacitors instead. There are provisions for both options, but the combination need to match up with another. There are also two diodes, these have a stripe that needs to be matched correctly to the markings.
+Components should be installed in the order of their physical height, but beyond the choice of a specific variant of the MAX232-chip used there's not all that much that can go wrong beyond making things harder for yourself to put it together. While cheaper variants such as the old *MAX232* (no letter) and the MAX232**C** requires electrolytic capacitors (polarized), I recommend using a MAX232**A** as that simply uses ceramic 100nF capacitors instead. There are provisions for both options, but the combination need to match up with another. There are also two diodes, these have a stripe that needs to be matched correctly to the markings.
 
-Most components will be hidden under the 30-pin variants of the ESP-32 that we'll be using, the ones I'm using in the pictures was listed on marketing sites as *ESP-32 development board / ESP32-WROOM-32D*. The module itself needs to be lifted above the rest of the components by using female pin headers, then we can insert the module on top of that. I recommend soldering a pin on each side, then check if the alignment is suitable to actually get the module in there before soldering the rest.
+![ESP32 development board](https://raw.githubusercontent.com/tebl/BulkyModem/main/gallery/esp32.jpg)
 
-**NB!** Don't insert the module all the way onto the pin headers until they've been soldered in, mostly to avoid accidentally pulling out the pins from the pin header.
+Most components will be hidden under the 30-pin variants of the ESP32 that we'll be using, the ones I'm using in the pictures was listed on marketing sites as *ESP32 development board / ESP32-WROOM-32D*. The module itself needs to be lifted above the rest of the components by using female pin headers, then we can insert the module on top of that. I recommend soldering a pin on each side, then check if the alignment is suitable to actually get the module in there before soldering the rest.
 
 The LEDs can be any colour of your choice as long as you adjust the resistors used with them, for that reason each footprint will have a text describing what they are connected to. The suggested value is just a starting point for a modern bright LED, but for the older type with a coloured plastic body - you need to pick something else. Usually a value from 330 ohm up to 1k ohm may be more suitable. Check out [LED Series Resistor Calculator](https://www.digikey.com/en/resources/conversion-calculators/conversion-calculator-led-series-resistor) if you need to find the "correct" value, fill in 5v and something like 10mA as a starting point - forward voltage will normally be dictated by the LED colour used.
 
@@ -26,7 +26,7 @@ The LEDs can be any colour of your choice as long as you adjust the resistors us
 I recommend installing the sketch onto the ESP-32 while it is disconnected from the rest of the unit, but beyond that I'm not going to go into programming it here - for that information, see the [setting it up](https://github.com/tebl/BulkyModem/blob/main/documentation/setting_it_up_mini_rs232.md) guide.
 
 ## 1.1> SD-card
-The ESP32-based devices such as the *BulkyModem-32 (Mini RS-232)* include some additional features not found on those based on the ESP8266, among them is the ability to use SD-cards with the modem. While I won't even attempt to pretend to understand what everything found within Zimodem should be used for, an SD-card seems to be an attractive expansion that can be added onto it via the header at the bottom (marked *J1*). The pin order was matched to a widely available module for use with ESP32, two of them are shown in the picture below.
+The ESP32-based devices such as the *BulkyModem-32 (Mini RS-232)* include some additional features not found on those based on the ESP8266, among them is the ability to use SD-cards with the modem. While I won't even attempt to pretend to understand what everything found within Zimodem should be used for, an SD-card seems to be an attractive expansion that can be added onto it via the header at the bottom (marked *J1*). The pin order was matched to a widely available module for use with *ESP32*, two of them are shown in the picture below.
 
 ![SD-module](https://raw.githubusercontent.com/tebl/BulkyModem/main/gallery/build/mini32_rs232/020.jpg)
 ![Installed module](https://raw.githubusercontent.com/tebl/BulkyModem/main/gallery/build/mini32_rs232/021.jpg)
@@ -46,21 +46,21 @@ The supplied KiCad files should be sufficient as both a schematic and as a  star
 # 3> BOM
 Most parts should be easy to get a hold of from your favourite local electronic component shop, but given that I don't have access to such shops where I live so everything was based on whatever I could get cheapest from eBay/AliExpress (free shipping, but plan on waiting 3-4 weeks for delivery). As I expect that most will build this adapter solely for MIDI-output, the values required for the MIDI input have been listed in parenthesis.
 
-| Reference      | Item                                                  | Count | Order  |
-| ---------------| ----------------------------------------------------- | ----- | ------ |
-| Faceplate PCB  | Fabricate using Gerber files                          |     1 | PCBWay
-| A1             | ESP32-WROOM-32D development board, 30-pin             |     1 |
-|                | 15-pin female pin header                              |     2 |
-| C1,C8          | 100nF (104) ceramic capacitor (5mm)                   |     2 |
-| C2-C5 *1       | 1uF electrolytic capacitor (2mm pin spacing)          |     4 |
-| D1-D5          | 3mm LED                                               |     5 |
-| D14,D15        | 1N4148N small signal diode (DO-35)                    |     2 |
-| J1 *2          | Micro Mini SD Storage Expansion Board Mini            |    (1)|
-| J2             | Female DB9, panel mount connector                     |     1 |
-| R1-R4,R6 *3    | 2k2 ohm resistor                                      |     5 |
-| R5,R18         | 10k ohm resistor                                      |     2 |
-| U3 *1          | MAX232 (DIP-16), preferably MAX232A                   |     1 |
-| U6             | 74HCT32 (DIP-14)                                      |     1 |
+| Reference      | Item                                                           | Count | Order  |
+| ---------------| -------------------------------------------------------------- | ----- | ------ |
+| Faceplate PCB  | Fabricate using Gerber files                                   |     1 | [PCBWay](https://www.pcbway.com/project/shareproject/BulkyModem_32_Mini_RS_232_e6ccfb60.html)
+| A1             | ESP32-WROOM-32D development board, 30-pin                      |     1 |
+|                | 15-pin female pin header                                       |     2 |
+| C1,C8          | 100nF (104) ceramic capacitor (5mm)                            |     2 |
+| C2-C5 *1       | 1uF electrolytic capacitor (2mm pin spacing), or 100nF ceramic |     4 |
+| D1-D5          | 3mm LED                                                        |     5 |
+| D14,D15        | 1N4148N small signal diode (DO-35)                             |     2 |
+| J1 *2          | Micro Mini SD Storage Expansion Board Mini                     |    (1)|
+| J2             | Female DB9, panel mount connector                              |     1 |
+| R1-R4,R6 *3    | 2k2 ohm resistor                                               |     5 |
+| R5,R18         | 10k ohm resistor                                               |     2 |
+| U3 *1          | MAX232 (DIP-16), preferably MAX232A                            |     1 |
+| U6             | 74HCT32 (DIP-14)                                               |     1 |
 
 1) You need to install 1uF electrolytic capacitors here if you're using one of the cheaper MAX232-variants, usually marked MAX232**C** or without any letters at all. If you have one that's marked MAX232**A**, then you should install 100nF capacitors here instead - this is also the recommended configuration. If there are more letters than those on the chip, just look at the first one.
 2) This is more or less the magical search string that got what I wanted on AliExpress, check the section on [building](#11-sd-card) it for pictures of what it actually looks like. Anything else and you would probably need to figure out how to wire it correctly, see [schematic](#2-schematic) for pin names.
