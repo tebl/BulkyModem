@@ -42,36 +42,39 @@ As mentioned in the previous chapter, we now need to start communicating with th
 
 If you're not familiar with it, it's the top right icon that looks like a magnifying glass. The modem itself needs some very specific settings in order to work - ensure that the first dropdown is set to *newline* and baud rate is set to *1200*. Hit the *RST* button on the module and you should get some information about the modem software that we installed along with any stored network settings. Commands are entered into the box at the top, hitting *enter* to send them.
 
-> C64Net WiFi Firmware v3.7.1
-> sdk=2.2.2-dev(38a443e) chipid=1458270 cpu@80
-> totsize=4096k ssize=379k fsize=1907k speed=40m
-> INITIALIZED
-> READY.
+```
+C64Net WiFi Firmware v3.7.1
+sdk=2.2.2-dev(38a443e) chipid=1458270 cpu@80
+totsize=4096k ssize=379k fsize=1907k speed=40m
+INITIALIZED
+READY.
+```
 
 It may take some getting used to, but it is very intuitive when you get into it. The first command you need to send is *"at+config"*, it should repeat the command sent and reply with *OK* similar to the following. If at this point the ESP8266 appears to crash and give you a stack trace instead of anything sensible, then you probably used the wrong version of the board definitions as described in the previous section.
 
-> at+config
-> OK
-> 
-> Main Menu
-> [HOST] name: 
-> [WIFI] connection: Not connected
-> [FLOW] control: DISABLED
-> [ECHO] keystrokes: ON
-> [BBS] host: DISABLED
-> [PRINT] spec: 
-> [PETSCII] translation: OFF
-> [ADD] new phonebook entry
-> 
-> Enter command or entry or ENTER to exit: wifi
->
-> WiFi Networks:
-> [1] WiFi AP (-84)*
->
->Enter number to connect, or ENTER: 1
->
-> Enter your WiFi Password: Test12345
->
+```
+at+config
+OK
+ 
+Main Menu
+[HOST] name: 
+[WIFI] connection: Not connected
+[FLOW] control: DISABLED
+[ECHO] keystrokes: ON
+[BBS] host: DISABLED
+[PRINT] spec: 
+[PETSCII] translation: OFF
+[ADD] new phonebook entry
+ 
+Enter command or entry or ENTER to exit: wifi
+
+WiFi Networks:
+[1] WiFi AP (-84)*
+
+Enter number to connect, or ENTER: 1
+
+Enter your WiFi Password: Test12345
+```
 
 This gives you a listing of the relevant options, the following command is the part that is capitalized. So in order to configure *WiFi* you would send "*wifi*", then - once it responds with list of seen wireless networks you point one out using the digit in front of it. Note that the ESP8266 only supports 2.4 Ghz wireless networks, so those are the only ones that you'd see. Just follow the prompts and it should make sense.
 
