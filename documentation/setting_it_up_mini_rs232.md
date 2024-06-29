@@ -24,9 +24,11 @@ Select the specific board by going to *Tools* &rarr; *Board <selected board name
 
 The *BulkyModem-32 (Mini RS-232)* has been wired up for a 5-wire serial setup, meaning that we're using hardware-based flow control (RTS/CTS) in addition to TX, RX and a shared ground. You can configure this from the software itself using the command-line interface, but if you want to ensure that it is set up correctly from the start - you can search for the first line shown below (*"INCLUDE_PING true"*), and then add the two other lines directly below it.
 
-> \# define INCLUDE_PING true
-> \# undef DEFAULT_FCT
-> \# define DEFAULT_FCT FCT_RTSCTS
+```
+# define INCLUDE_PING true
+# undef DEFAULT_FCT
+# define DEFAULT_FCT FCT_RTSCTS
+```
 
 With all of that out of the way, hit *Verify* and watch everything compile before your eyes. If something fails, doublecheck all of the steps covered so far. Connect up your ESP-32 to your computer via a USB-cable, ideally it should not be plugged into the *BulkyModem-32 (Mini RS-232)* during this step - mostly because you never know what kind of sketch was originally put on it. Usually it's a *blink*-sketch if it came fresh out of the package, but if it's something you've played around with earlier then it's always a good idea to play it safe. As far as I understand, the new *Arduino IDE* is supposed to be able to select the correct serial port for you, but if it doesn't work - then check it from *Tools* &rarr; *Port*.
 
@@ -49,28 +51,29 @@ Once into the main program, select *Setup* &rarr; *Serial port...* and you shoul
 
 If you hit the physical *EN*-button on the ESP32-module, it should reboot and offer up a startup message such as the one shown above. You should now be able to type in commands and have it respond back to you, but before going through the initial setup we won't be doing very much with it. The first command you need to send is *"at+config"*, it should repeat the command sent and reply with *OK* similar to the following. 
 
-> at+config
-> OK
-> 
-> Main Menu
-> [HOST] name: 
-> [WIFI] connection: Not connected
-> [FLOW] control: DISABLED
-> [ECHO] keystrokes: ON
-> [BBS] host: DISABLED
-> [PRINT] spec: 
-> [PETSCII] translation: OFF
-> [ADD] new phonebook entry
-> 
-> Enter command or entry or ENTER to exit: wifi
->
-> WiFi Networks:
-> [1] WiFi AP (-84)*
->
->Enter number to connect, or ENTER: 1
->
-> Enter your WiFi Password: Test12345
->
+```
+at+config
+OK
+ 
+Main Menu
+[HOST] name: 
+[WIFI] connection: Not connected
+[FLOW] control: DISABLED
+[ECHO] keystrokes: ON
+[BBS] host: DISABLED
+[PRINT] spec: 
+[PETSCII] translation: OFF
+[ADD] new phonebook entry
+ 
+Enter command or entry or ENTER to exit: wifi
+
+WiFi Networks:
+[1] WiFi AP (-84)*
+
+Enter number to connect, or ENTER: 1
+
+Enter your WiFi Password: Test12345
+```
 
 This gives you a listing of the relevant options, the following command is the part that is capitalized. So in order to configure *WiFi* you would send **wifi**, then - once it responds with list of seen wireless networks you point one out using the digit in front of it. Note that the ESP8266 only supports 2.4 Ghz wireless networks, so those are the only ones that you'd see. Just follow the prompts and it should start to make sense.
 
