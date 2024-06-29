@@ -9,7 +9,7 @@ Which brings me to the modem itself, and while it is perfectly capable of suppor
 
 This is by no means meant to be an exhaustive source of information for all things related to using modems on any vintage computer, the purpose is simply to provide you with some form of a starting point. I always recommend starting with the guide for a modern system on a newly built modem, mainly so that you don't blow up something that can't be replaced, at least not as easily as swiping a credit card. When you're suitably sure that everything works as it was supposed to, only then should you consider connecting it to a vintage system of your own choosing.
 
-- [1> Getting started](#1-getting-started)
+- 1> Getting started
     - [1.1> Modern system](https://github.com/tebl/BulkyModem/blob/main/documentation/getting_started_modern.md)
     - [1.2> Commodore 64](https://github.com/tebl/BulkyModem/blob/main/documentation/getting_started_c64.md)
     - [1.3> MS-DOS](https://github.com/tebl/BulkyModem/blob/main/documentation/getting_started_msdos.md)
