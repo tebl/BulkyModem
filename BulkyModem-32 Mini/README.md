@@ -34,9 +34,11 @@ The ESP32-based devices such as the *BulkyModem-32 (Mini RS-232)* include some a
 Given that I wanted the *BulkyModem-32 (Mini RS-232)* to be somewhat "mini", at least compared to the full device, there probably isn't an ideal way of installing it. You can have it installed using wires, soldered directly above or even below the main board - you just need to ensure that the pads with the square is matched up with another. Installing it above the board requires that the ICs are installed without sockets, the module will then be pointed towards the inside of the device and we'll need to unplug the ESP32 to replace the memory card. Other options means having it pointing to the outside, or stuck to the underside with something in between to avoid shorting. Essentially, pick something you're comfortable living with.
 
 With an SD-card installed you'll have access to another set up tools, including the ability to have the ESP32 retrieve files over http or ftp (unfortunately, no SSL support) and store them to the card. Files can be transferred between the modem and your vintage system using the XMODEM-protocol. The following commands should be all you need to get started using it:
-> at+shell
-> OK
-> /> help
+```
+at+shell
+OK
+/> help
+```
 
 # 2> Schematic
 The supplied KiCad files should be sufficient as both a schematic and as a  starting point for ordering PCBs (basically you could just zip the contents of the export folder and upload that on a fabrication site), the schematic is also available in [PDF-format](https://github.com/tebl/BulkyModem/tree/main/documentation/schematic) and this is what you'll need to print and work your way through when things fail to work as expected.
