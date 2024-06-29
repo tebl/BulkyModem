@@ -32,7 +32,7 @@ For the technical details as well as information regarding the devices included 
 
 ## 1.1> BulkyModem
 ![BulkyModem](https://raw.githubusercontent.com/tebl/BulkyModem/main/gallery/20240531_021749.jpg)
-**Status:** Work in progress
+**Status:** Documentation missing
 
 This is the main module of the project, if you came here looking to build an ESP8266-based retro modem then you've come to the right place. You have the option of going the cheaper route of just building things up on the basic module by itself, consisting only of the main module and nothing else. Alternatively, and this is probably the only reason to build a *BulkyModem* - and that's to build the whole thing as shown above. Note that the list below will include alternate versions of boards, so you need to decide which of them you'll need based on their description.
 
@@ -49,7 +49,7 @@ This is the main module of the project, if you came here looking to build an ESP
 
 ## 1.4> BulkyModem-32 (Mini RS-232)
 ![BulkyModem-32 (Mini RS-232)](https://raw.githubusercontent.com/tebl/BulkyModem/main/gallery/20240628_032119.jpg)
-**Status:** Work in progress
+**Status:** Completed
 
 Working on the ESP-32 version of the BulkyModem, that's the one called BulkyModem-32, I had quite a few questions of how some of the features were meant to function. So in order to start development in a more sensible place than what I'm known for, I set out to make a smaller "Mini"-version with the core functionality before trying to add anything else to it. The ESP32-version has more functionality available to it in the Zimodem-firmware, that you'll have available to you when hooking it up to your vintage computers over RS-232. The connection is a 5-wire setup, using RTS/CTS as hardware flow control.
 
