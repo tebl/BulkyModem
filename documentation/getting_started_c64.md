@@ -23,12 +23,15 @@ If for some reason you haven't completed the initial setup of your *BulkyModem*,
 At this point you should be up and running with CCGMS Future, and from that point on I expect you'll want to dial your first BBS. I won't go into much more detail about the program as most other details will be shared between all systems, because after all; you're talking to a Hayes-modem (in an emulated *fashion* at least). For information about which commands the Zimodem understands, check out its main [README](https://github.com/bozimmerman/Zimodem) for that information.
 
 To end with something specific, here's the command to dial a specific BBS (replace address details as needed):
-> ATD"cottonwoodbbs.dyndns.org:6502"
+
+```
+ATD"cottonwoodbbs.dyndns.org:6502"
+```
 
 ## 2.1> UP9600
 Sometime in 1997, someone found out how to communicate with serial-attached devices at devices exceeding 1200-baud - all the way up to a blistering 9600 baud! This requires some changes to the way your *Commodore 64* communicates over serial, in fact it does so using some timers that had not previously been used on the machine - for all of the exciting details on how this is done, set the article [UP9600: How to Bit-Bang 9600 Baud RS-232 on the C64](https://www.pagetable.com/?p=1656).
 
-> Note that this mode of communication isn't possible on the Commodore 128. This is because the timers are being used in order to implement burst mode when communicating with 1571 disk drives. As far as I know, even connecting a UP9600-enabled device to the computer will cause it to not start up properly. 
+> Note that this specific - albeit faster - mode of communication simply isn't possible on the Commodore 128. This is because of the timers that were previously unused on the Commodore 64, have now been put to use in order to implement "burst"-mode on the 128. While the hardware is only explicitly used when communicating with 1571 disk drives, it is there in the firmware and you will encounter problems due to it. As far as I know, even connecting a UP9600-enabled device to the computer will cause it to not start up properly. So if you have a 128, don't enable UP9600 - the modem itself will still work, just at the original 1200 baud. 
 
 ![UP9600-jumpers](https://raw.githubusercontent.com/tebl/BulkyModem/main/gallery/ccgms_up9600_a.jpg)
 
@@ -38,6 +41,8 @@ In order to enable this mode for use with on a *Commodore 64*, you first need to
 
 Which means that back in CCGMS you should still see it connected at 1200 baud, in order to increase the rate of transfer you can issue the command *atb9600* in order to tell your modem to switch over to 9600 baud. There'll be some weird characters in response on your terminal when doing so, this is because your terminal is no longer matches that of the new modem setting. To fix that you only have to press *F7*, and from there you set modem type to *UP9600 / EZ232*, set baud rate to 9600 and exit out again to have everything talking together again. This does sound quite a bit convoluted, but please consider that while you can issue commands to have a modem temporarily switch to a faster speed - you won't be able to send a command to a modem running at speeds faster that your computer can transmit!
 
-> ATB9600
+```
+ATB9600
+```
 
 One thing I would recommend is that you do **not** save changes on your modem after changing baud rate, that's the *at&w* command by the way. It might sound like a painful way to do things, especially since you'd need to do this every step the modem is powered on. That is however the way it was done back in the day. The reason for this requirement is that while you can happily issue new commands to have a modem temporarily switch to a faster speed, the other direction might not be quite as easy. It's surprisingly hard to tell a device to slow down, especially if it's already running at speeds faster than what your vintage computer is capable of communicating at.
