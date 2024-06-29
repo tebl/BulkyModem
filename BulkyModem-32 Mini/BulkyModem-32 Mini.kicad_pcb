@@ -1582,7 +1582,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 3.81 0 270)
+			(at 3.81 0 -90)
 			(layer "F.SilkS")
 			(uuid "6dbb492a-5673-4a15-a719-2b58e51f2ebe")
 			(effects
@@ -7971,7 +7971,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 3.937 0 270)
+			(at 3.937 0 -90)
 			(layer "F.SilkS")
 			(uuid "03ea0788-b06e-4d94-b55c-520ee54e7c9c")
 			(effects
@@ -12519,7 +12519,7 @@
 		(uuid "bd31b35a-071b-40b0-9ff8-8f1660045030")
 	)
 	(gr_text "Licensed under\nCERN OHL v.1.2"
-		(at 100.584 121.666 -0)
+		(at 108.458 73.66 0)
 		(layer "B.SilkS")
 		(uuid "00000000-0000-0000-0000-000064347ee6")
 		(effects
@@ -12543,7 +12543,7 @@
 		)
 	)
 	(gr_text "github.com/tebl"
-		(at 108.458 67.564 0)
+		(at 108.458 67.945 0)
 		(layer "B.SilkS")
 		(uuid "fe91b7f9-b8be-40fb-995e-8740b61874f3")
 		(effects
