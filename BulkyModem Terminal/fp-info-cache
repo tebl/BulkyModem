@@ -1,4 +1,4 @@
-23406848860304333
+23408684553301652
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -398,6 +398,13 @@ Diode DO-41_SOD81 series Axial Horizontal pin pitch 10.16mm  length 5.2mm diamet
 0
 2
 2
+BulkyModem
+ESP32_SD_Module
+
+
+0
+6
+6
 BulkyModem
 Module_Panel
 Alps rotary encoder, EC12E... with switch, vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
@@ -94703,8 +94710,8 @@ igbt diode module
 25
 25
 VGA_DSUB
-DSUB-15-L77HDE15SD1CH4F
-15-pin D-Sub connector, horizontal/angled (90 deg), THT-mount, female, pitch 2.29x1.98mm, pin-PCB-offset 3.0300000000000002mm, distance of mounting holes 25mm, distance of mounting holes to PCB edge 4.9399999999999995mm, see https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf
+DSUB-15
+15-pin D-Sub connector, horizontal/angled (90 deg), THT-mount, female
 15-pin D-Sub connector horizontal angled 90deg THT female pitch 2.29x1.98mm pin-PCB-offset 3.0300000000000002mm mounting-holes-distance 25mm mounting-hole-offset 25mm
 0
 17

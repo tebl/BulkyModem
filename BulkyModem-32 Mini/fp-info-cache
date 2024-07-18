@@ -1,4 +1,4 @@
-23403822727577799
+23405543994256010
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -398,6 +398,13 @@ Diode DO-41_SOD81 series Axial Horizontal pin pitch 10.16mm  length 5.2mm diamet
 0
 2
 2
+BulkyModem
+ESP32_SD_Module
+
+
+0
+6
+6
 BulkyModem
 Module_Panel
 Alps rotary encoder, EC12E... with switch, vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
