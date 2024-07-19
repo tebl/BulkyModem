@@ -3358,7 +3358,7 @@
 				)
 			)
 		)
-		(property "Value" "1n4148"
+		(property "Value" "1N4148"
 			(at 199.39 82.55 0)
 			(effects
 				(font
@@ -3973,7 +3973,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "1k"
 			(at 184.15 73.66 0)
 			(effects
 				(font
@@ -4299,7 +4299,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "1k"
 			(at 189.23 73.66 0)
 			(effects
 				(font
@@ -4501,7 +4501,7 @@
 				)
 			)
 		)
-		(property "Value" "1n4148"
+		(property "Value" "1N4148"
 			(at 199.39 92.71 0)
 			(effects
 				(font
