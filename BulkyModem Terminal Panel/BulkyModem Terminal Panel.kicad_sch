@@ -1863,6 +1863,12 @@
 		(uuid "14d143da-31c5-42e3-82fc-8da89ce51948")
 	)
 	(junction
+		(at 111.76 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2d8042e2-5bc8-4525-9147-19c2bc54eb0e")
+	)
+	(junction
 		(at 48.26 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1893,10 +1899,22 @@
 		(uuid "84a8e16f-4f45-4ae5-8c6e-69a214c0ba73")
 	)
 	(junction
+		(at 121.92 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "890d8279-ac64-48b0-8d42-68160e4cf564")
+	)
+	(junction
 		(at 48.26 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8c47d942-105d-4bca-83c5-f8c08208a151")
+	)
+	(junction
+		(at 101.6 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b08a68ca-a1e6-4e1f-b346-aad50534357e")
 	)
 	(junction
 		(at 279.4 20.32)
@@ -2172,6 +2190,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 34.29) (xy 121.92 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14e371e4-924f-412c-ab4a-157d0b79b687")
+	)
+	(wire
+		(pts
 			(xy 219.71 111.76) (xy 233.68 111.76)
 		)
 		(stroke
@@ -2262,6 +2290,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 45.72) (xy 91.44 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30f05aed-ab30-4c8e-acf3-7cdfc2c98c14")
+	)
+	(wire
+		(pts
 			(xy 223.52 127) (xy 223.52 128.27)
 		)
 		(stroke
@@ -2322,6 +2360,26 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 34.29) (xy 111.76 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41e135a8-edae-43c7-ad16-d659961b6ec1")
+	)
+	(wire
+		(pts
+			(xy 132.08 34.29) (xy 132.08 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44c4a3dd-982b-4f92-929a-3d0fce3dd1f7")
+	)
+	(wire
+		(pts
 			(xy 279.4 20.32) (xy 281.94 20.32)
 		)
 		(stroke
@@ -2339,6 +2397,16 @@
 			(type default)
 		)
 		(uuid "4a7d4eea-2b9d-4873-be9d-503c36389124")
+	)
+	(wire
+		(pts
+			(xy 101.6 34.29) (xy 101.6 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c468a53-fb42-4c8c-acdc-3eadf5e1409f")
 	)
 	(bus
 		(pts
@@ -2542,6 +2610,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 34.29) (xy 101.6 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8872ddc3-b29a-48db-b2c9-42c21cd180bd")
+	)
+	(wire
+		(pts
 			(xy 209.55 86.36) (xy 233.68 86.36)
 		)
 		(stroke
@@ -2722,6 +2800,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 34.29) (xy 121.92 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d229c12d-bfbb-4424-a62e-be10d9ed55a4")
+	)
+	(wire
+		(pts
 			(xy 154.94 58.42) (xy 154.94 45.72)
 		)
 		(stroke
@@ -2729,6 +2817,16 @@
 			(type default)
 		)
 		(uuid "d58d08eb-a5a7-4285-9038-e6d914707d58")
+	)
+	(wire
+		(pts
+			(xy 101.6 34.29) (xy 111.76 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db0e27d9-7da9-4f65-92dd-c8cf932b4b5e")
 	)
 	(wire
 		(pts
@@ -2759,6 +2857,16 @@
 			(type default)
 		)
 		(uuid "e1eae43b-2b2b-44f8-ab23-7e2ee012211e")
+	)
+	(wire
+		(pts
+			(xy 121.92 34.29) (xy 132.08 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e30d04f4-e1bc-476c-9382-68d0b8225082")
 	)
 	(wire
 		(pts
@@ -3982,7 +4090,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 111.76 41.91 90)
+		(at 111.76 41.91 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3990,7 +4098,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00006287672f")
 		(property "Reference" "D12"
-			(at 114.7572 40.9194 90)
+			(at 108.7628 42.9006 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3999,7 +4107,7 @@
 			)
 		)
 		(property "Value" "RTS"
-			(at 114.7572 43.2308 90)
+			(at 108.7628 40.5892 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4050,73 +4158,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 111.76 38.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000062876735")
-		(property "Reference" "#PWR0105"
-			(at 111.76 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 112.141 33.7058 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 111.76 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 111.76 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 111.76 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3addf86f-d3f9-4b6b-bd33-83e0056d384d")
-		)
-		(instances
-			(project "BulkyModem Terminal Panel"
-				(path "/7b4de8d6-7710-4eb8-89a2-0ee75653ca93"
-					(reference "#PWR0105")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
-		(at 101.6 41.91 90)
+		(at 101.6 41.91 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4124,7 +4167,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00006287673d")
 		(property "Reference" "D13"
-			(at 104.5972 40.9194 90)
+			(at 98.6028 42.9006 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4133,7 +4176,7 @@
 			)
 		)
 		(property "Value" "CTS"
-			(at 104.5972 43.2308 90)
+			(at 98.6028 40.5892 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4184,73 +4227,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 101.6 38.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000062876743")
-		(property "Reference" "#PWR0106"
-			(at 101.6 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 101.981 33.7058 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 101.6 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 101.6 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ef4104bb-0aad-4429-961e-99d0999d7951")
-		)
-		(instances
-			(project "BulkyModem Terminal Panel"
-				(path "/7b4de8d6-7710-4eb8-89a2-0ee75653ca93"
-					(reference "#PWR0106")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
-		(at 132.08 41.91 90)
+		(at 132.08 41.91 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4258,7 +4236,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00006287674b")
 		(property "Reference" "D14"
-			(at 135.0772 40.9194 90)
+			(at 129.0828 42.9006 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4267,7 +4245,7 @@
 			)
 		)
 		(property "Value" "TX"
-			(at 135.0772 43.2308 90)
+			(at 129.0828 40.5892 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4318,73 +4296,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 132.08 38.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000062876751")
-		(property "Reference" "#PWR0107"
-			(at 132.08 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 132.461 33.7058 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 132.08 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.08 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 132.08 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2db4ff12-dc18-433f-92b7-ed470fb74fc9")
-		)
-		(instances
-			(project "BulkyModem Terminal Panel"
-				(path "/7b4de8d6-7710-4eb8-89a2-0ee75653ca93"
-					(reference "#PWR0107")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
-		(at 121.92 41.91 90)
+		(at 121.92 41.91 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4392,7 +4305,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000062876759")
 		(property "Reference" "D15"
-			(at 124.9172 40.9194 90)
+			(at 118.9228 42.9006 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4401,7 +4314,7 @@
 			)
 		)
 		(property "Value" "RX"
-			(at 124.9172 43.2308 90)
+			(at 118.9228 40.5892 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4446,71 +4359,6 @@
 			(project "BulkyModem Terminal Panel"
 				(path "/7b4de8d6-7710-4eb8-89a2-0ee75653ca93"
 					(reference "D15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 121.92 38.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00006287675f")
-		(property "Reference" "#PWR0108"
-			(at 121.92 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 122.301 33.7058 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 121.92 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 121.92 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 121.92 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "30f3058c-f0da-4763-8ba1-e1b6864f4fa5")
-		)
-		(instances
-			(project "BulkyModem Terminal Panel"
-				(path "/7b4de8d6-7710-4eb8-89a2-0ee75653ca93"
-					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
@@ -5160,6 +5008,71 @@
 			(project "BulkyModem Terminal Panel"
 				(path "/7b4de8d6-7710-4eb8-89a2-0ee75653ca93"
 					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 91.44 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4182dfdb-9f65-4236-9474-e1b26881fb1a")
+		(property "Reference" "#PWR05"
+			(at 91.44 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 91.567 50.1142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5b78a787-020d-4545-81f1-4dda3089ad80")
+		)
+		(instances
+			(project "BulkyModem Terminal Panel"
+				(path "/7b4de8d6-7710-4eb8-89a2-0ee75653ca93"
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
