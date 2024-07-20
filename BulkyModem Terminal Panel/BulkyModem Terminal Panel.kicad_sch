@@ -2908,7 +2908,7 @@
 		)
 		(uuid "29f5dd23-26ad-4135-abef-2a20bdaa51fd")
 	)
-	(label "LED.POW"
+	(label "LED.5V"
 		(at 210.82 78.74 0)
 		(fields_autoplaced yes)
 		(effects

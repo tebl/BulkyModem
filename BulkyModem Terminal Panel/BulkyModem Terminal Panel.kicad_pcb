@@ -97,7 +97,6 @@
 	(net 23 "unconnected-(J1-N.C.-Pad12)")
 	(net 24 "unconnected-(J1-N.C.-Pad14)")
 	(net 25 "unconnected-(J1-N.C.-Pad11)")
-	(net 26 "/LED.POW")
 	(footprint "mounting:M3_pin"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-00006282a424")
@@ -6536,7 +6535,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 26 "/LED.POW")
+			(net 9 "/LED.5V")
 			(pinfunction "LED_POW")
 			(pintype "passive")
 			(uuid "da8210dc-9289-41e2-ab27-d90ed7c5fcb1")
@@ -6971,7 +6970,7 @@
 		(layer "Edge.Cuts")
 		(uuid "faf305f0-578a-4d48-b424-ee993a6a4ae1")
 	)
-	(gr_text "BulkyModem\nTerminal Panel (rev. A)\ngithub.com/tebl"
+	(gr_text "BulkyModem\nTerminal Panel (rev. B)\ngithub.com/tebl"
 		(at 94.1 122.849 270)
 		(layer "B.SilkS")
 		(uuid "00000000-0000-0000-0000-00006286d3c9")
@@ -7046,6 +7045,14 @@
 		(layer "F.Cu")
 		(net 2)
 		(uuid "667d999f-0d53-4965-9e28-bd64a0d055cd")
+	)
+	(segment
+		(start 108.07 121.325)
+		(end 99.815 121.325)
+		(width 0.381)
+		(layer "F.Cu")
+		(net 2)
+		(uuid "6a901749-a074-441f-ac9b-5160fae06aaa")
 	)
 	(segment
 		(start 117.595 121.325)
