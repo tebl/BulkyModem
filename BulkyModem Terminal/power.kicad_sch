@@ -2337,7 +2337,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 104.14) (xy 214.63 106.68)
+			(xy 226.06 104.14) (xy 226.06 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2457,7 +2457,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 92.71) (xy 214.63 96.52)
+			(xy 226.06 92.71) (xy 226.06 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2557,6 +2557,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 92.71) (xy 213.36 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c16ec2fa-8232-4672-ab95-653f8e291202")
+	)
+	(wire
+		(pts
 			(xy 173.99 93.98) (xy 167.64 93.98)
 		)
 		(stroke
@@ -2564,6 +2574,16 @@
 			(type default)
 		)
 		(uuid "c4eb8634-40a2-4ac2-87bc-bbf043142e8b")
+	)
+	(wire
+		(pts
+			(xy 213.36 104.14) (xy 213.36 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6285ca9-52bc-49ea-a9a5-525509aee162")
 	)
 	(wire
 		(pts
@@ -2635,6 +2655,16 @@
 			(justify top)
 		)
 		(uuid "1ec5604b-8555-4698-9651-451f15256732")
+	)
+	(text "The second 5V LED (D10) is on the\nunderside, ideally lighting up\nthe cutouts one the bottom of the\nfront panel. It's dumb. I know."
+		(exclude_from_sim no)
+		(at 213.36 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3012f049-4942-4b69-ab1c-87cc0d59c8bb")
 	)
 	(symbol
 		(lib_id "Device:C_Small")
@@ -3641,7 +3671,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 214.63 85.09 0)
+		(at 226.06 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3649,7 +3679,7 @@
 		(dnp no)
 		(uuid "42fb7932-f8c2-4a12-81de-21e08723c480")
 		(property "Reference" "#PWR032"
-			(at 214.63 88.9 0)
+			(at 226.06 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3658,7 +3688,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 214.63 80.01 0)
+			(at 226.06 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3666,7 +3696,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 214.63 85.09 0)
+			(at 226.06 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3675,7 +3705,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 214.63 85.09 0)
+			(at 226.06 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3684,7 +3714,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 214.63 85.09 0)
+			(at 226.06 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3706,7 +3736,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 214.63 100.33 180)
+		(at 226.06 100.33 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3714,7 +3744,7 @@
 		(dnp no)
 		(uuid "43844c02-7af8-478c-9f43-729e3ee42129")
 		(property "Reference" "R32"
-			(at 219.8878 100.33 90)
+			(at 231.3178 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3722,7 +3752,7 @@
 			)
 		)
 		(property "Value" "2k2"
-			(at 217.5764 100.33 90)
+			(at 229.0064 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3730,7 +3760,7 @@
 			)
 		)
 		(property "Footprint" "resistor:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 216.408 100.33 90)
+			(at 227.838 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3739,7 +3769,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 214.63 100.33 0)
+			(at 226.06 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3748,7 +3778,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 214.63 100.33 0)
+			(at 226.06 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3766,6 +3796,138 @@
 			(project "BulkyModem Terminal"
 				(path "/cd9da885-84b5-47eb-b16d-d4099ea4358c/00000000-0000-0000-0000-000063d786e4"
 					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 213.36 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6b81c2b6-6707-464e-a1e4-f41164e7fde2")
+		(property "Reference" "#PWR039"
+			(at 213.36 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 213.487 111.0742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 213.36 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 213.36 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d6c63488-56b0-40ab-a732-8b8d7055c234")
+		)
+		(instances
+			(project "BulkyModem Terminal"
+				(path "/cd9da885-84b5-47eb-b16d-d4099ea4358c/00000000-0000-0000-0000-000063d786e4"
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 213.36 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7a6aa121-06cf-433d-944d-9edde6481752")
+		(property "Reference" "D10"
+			(at 219.837 89.0778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5V"
+			(at 217.5256 89.0778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D3.0mm_Horizontal_O1.27mm_Z2.0mm"
+			(at 213.36 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 213.36 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 213.36 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4703d54e-9819-4799-a740-58ee04b41bea")
+		)
+		(pin "2"
+			(uuid "b8a079c2-860a-4c15-a96f-f117f5ecdd22")
+		)
+		(instances
+			(project "BulkyModem Terminal"
+				(path "/cd9da885-84b5-47eb-b16d-d4099ea4358c/00000000-0000-0000-0000-000063d786e4"
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -4034,6 +4196,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 213.36 100.33 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c81ae1f1-a9d6-43aa-a95b-e2ac1ce48009")
+		(property "Reference" "R33"
+			(at 218.6178 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2k2"
+			(at 216.3064 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "resistor:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 215.138 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 213.36 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 213.36 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b4f16cf1-b6d4-4820-bee5-3c12cd3664ce")
+		)
+		(pin "1"
+			(uuid "a23ca449-e326-4846-9759-12799efd5652")
+		)
+		(instances
+			(project "BulkyModem Terminal"
+				(path "/cd9da885-84b5-47eb-b16d-d4099ea4358c/00000000-0000-0000-0000-000063d786e4"
+					(reference "R33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 60.96 149.86 0)
 		(unit 1)
@@ -4099,8 +4328,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 213.36 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d1a47328-be46-409c-aba1-31350d72ec4f")
+		(property "Reference" "#PWR038"
+			(at 213.36 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 213.36 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 213.36 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 213.36 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c32369ee-9529-41f8-9701-bb57e08c83c6")
+		)
+		(instances
+			(project "BulkyModem Terminal"
+				(path "/cd9da885-84b5-47eb-b16d-d4099ea4358c/00000000-0000-0000-0000-000063d786e4"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
-		(at 214.63 88.9 90)
+		(at 226.06 88.9 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4108,7 +4402,7 @@
 		(dnp no)
 		(uuid "d572a9b2-4d8b-4e6b-b694-755f0740eaab")
 		(property "Reference" "D13"
-			(at 221.107 89.0778 0)
+			(at 232.537 89.0778 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4116,7 +4410,7 @@
 			)
 		)
 		(property "Value" "3V3"
-			(at 218.7956 89.0778 0)
+			(at 230.2256 89.0778 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4124,7 +4418,7 @@
 			)
 		)
 		(property "Footprint" "LED_THT:LED_D3.0mm"
-			(at 214.63 88.9 0)
+			(at 226.06 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4133,7 +4427,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 214.63 88.9 0)
+			(at 226.06 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4142,7 +4436,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 214.63 88.9 0)
+			(at 226.06 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4167,7 +4461,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 214.63 106.68 0)
+		(at 226.06 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4175,7 +4469,7 @@
 		(dnp no)
 		(uuid "da796116-f00a-44a6-9f6d-50dc8ee08aa8")
 		(property "Reference" "#PWR033"
-			(at 214.63 113.03 0)
+			(at 226.06 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4184,7 +4478,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 214.757 111.0742 0)
+			(at 226.187 111.0742 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4192,7 +4486,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 214.63 106.68 0)
+			(at 226.06 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4201,7 +4495,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 214.63 106.68 0)
+			(at 226.06 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4210,7 +4504,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 214.63 106.68 0)
+			(at 226.06 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)

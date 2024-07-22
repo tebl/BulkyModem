@@ -5,9 +5,9 @@
 	(uuid "7d1c5d90-76e9-4eed-88d7-b688de928396")
 	(paper "A4")
 	(title_block
-		(title "BulkyModem Front Plate (FP3)")
+		(title "BulkyModem Terminal (FP3)")
 		(rev "A")
-		(comment 2 "Faceplate that extends down past the main board.")
+		(comment 2 "Faceplate that extends down past the main board, specific for the terminal.")
 		(comment 4 "A cosmetic plate to go on the front of the device.")
 	)
 	(lib_symbols
@@ -475,7 +475,7 @@
 			(uuid "f00cd26b-56e5-486b-837c-0253334de50e")
 		)
 		(instances
-			(project "BulkyModem FP3"
+			(project "BulkyModem Terminal FP3"
 				(path "/7d1c5d90-76e9-4eed-88d7-b688de928396"
 					(reference "M1")
 					(unit 1)
@@ -541,7 +541,7 @@
 			(uuid "1ec1c3b6-1c12-4cac-93c7-d4b7461c95b5")
 		)
 		(instances
-			(project "BulkyModem FP3"
+			(project "BulkyModem Terminal FP3"
 				(path "/7d1c5d90-76e9-4eed-88d7-b688de928396"
 					(reference "M2")
 					(unit 1)
@@ -607,7 +607,7 @@
 			(uuid "547afb4b-f25a-4557-bc89-3b9d106b4f7d")
 		)
 		(instances
-			(project "BulkyModem FP3"
+			(project "BulkyModem Terminal FP3"
 				(path "/7d1c5d90-76e9-4eed-88d7-b688de928396"
 					(reference "M3")
 					(unit 1)
@@ -673,7 +673,7 @@
 			(uuid "3ffa6187-f594-469a-bd15-531b2fa7956d")
 		)
 		(instances
-			(project "BulkyModem FP3"
+			(project "BulkyModem Terminal FP3"
 				(path "/7d1c5d90-76e9-4eed-88d7-b688de928396"
 					(reference "M4")
 					(unit 1)
@@ -738,7 +738,7 @@
 			(uuid "108655cd-0506-4f82-8eec-b5da2ff586e5")
 		)
 		(instances
-			(project "BulkyModem FP3"
+			(project "BulkyModem Terminal FP3"
 				(path "/7d1c5d90-76e9-4eed-88d7-b688de928396"
 					(reference "#PWR0111")
 					(unit 1)
@@ -804,7 +804,7 @@
 			(uuid "fdd0aaa2-4628-4987-bbd5-14ebc8466dc1")
 		)
 		(instances
-			(project "BulkyModem FP3"
+			(project "BulkyModem Terminal FP3"
 				(path "/7d1c5d90-76e9-4eed-88d7-b688de928396"
 					(reference "#FLG?")
 					(unit 1)
