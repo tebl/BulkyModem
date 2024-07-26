@@ -74,6 +74,7 @@
         "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
         "hole_near_hole": "error",
+        "holes_co_located": "warning",
         "invalid_outline": "error",
         "isolated_copper": "warning",
         "item_on_disabled_layer": "error",
@@ -445,7 +446,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "BulkyModem FA1.kicad_pro",
+    "filename": "BulkyModem Terminal FA1.kicad_pro",
     "version": 1
   },
   "net_settings": {
