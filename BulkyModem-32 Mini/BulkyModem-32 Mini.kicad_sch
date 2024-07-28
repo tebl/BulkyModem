@@ -2847,8 +2847,18 @@
 		(uuid "e13e4da5-36c5-485c-9df3-e26641190a3c")
 	)
 	(no_connect
-		(at 125.73 71.12)
-		(uuid "faa1914a-2c3a-4c7d-837d-cb785ed29be6")
+		(at 120.65 71.12)
+		(uuid "fad6511b-231a-4cfb-aa64-8e5ab3bb117b")
+	)
+	(wire
+		(pts
+			(xy 120.65 71.12) (xy 125.73 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0151e3dc-a4f9-45b1-8a90-ec263567b733")
 	)
 	(wire
 		(pts
@@ -3464,23 +3474,34 @@
 	)
 	(text "SND"
 		(exclude_from_sim no)
-		(at 125.73 76.2 0)
+		(at 121.92 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "86b45d4e-1253-4165-afdf-360a200b9345")
 	)
-	(text "DSR"
+	(text "RI"
 		(exclude_from_sim no)
-		(at 124.46 86.36 0)
+		(at 121.92 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
+		)
+		(uuid "86e90294-0780-45e8-b377-71fdd11c4bad")
+	)
+	(text "DSR"
+		(exclude_from_sim no)
+		(at 121.92 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
 		)
 		(uuid "b72df081-deba-434a-add6-1af6356eebf7")
 	)
@@ -3497,12 +3518,12 @@
 	)
 	(text "DTR"
 		(exclude_from_sim no)
-		(at 124.46 81.28 0)
+		(at 121.92 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "ea6f7beb-75ca-482f-ac9e-d3275e39f5ab")
 	)
