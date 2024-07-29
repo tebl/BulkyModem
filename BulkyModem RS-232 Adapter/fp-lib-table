@@ -1,0 +1,10 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "C64_User_Port")(type "KiCad")(uri "$KIPRJMOD/../common/modules/C64_User_Port.pretty")(options "")(descr ""))
+  (lib (name "mounting")(type "KiCad")(uri "$KIPRJMOD/../common/modules/mounting.pretty")(options "")(descr ""))
+  (lib (name "solder_bridge")(type "KiCad")(uri "$KIPRJMOD/../common/modules/solder_bridge.pretty")(options "")(descr ""))
+  (lib (name "BulkyModem")(type "KiCad")(uri "$KIPRJMOD/../common/modules/BulkyModem.pretty")(options "")(descr ""))
+  (lib (name "artwork")(type "KiCad")(uri "$KIPRJMOD/../common/modules/artwork.pretty")(options "")(descr ""))
+  (lib (name "resistor")(type "KiCad")(uri "$KIPRJMOD/../common/modules/resistor.pretty")(options "")(descr ""))
+  (lib (name "RND_DSUB")(type "KiCad")(uri "$KIPRJMOD/../common/modules/RND_DSUB.pretty")(options "")(descr ""))
+)

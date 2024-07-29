@@ -1,0 +1,5790 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "c8afca12-48ba-4f97-9ab5-3fed097fb30c")
+	(paper "A4")
+	(lib_symbols
+		(symbol "74xx:74HCT04"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "74HCT04"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Hex Inverter"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "HCTMOS not inv"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "DIP*W7.62mm* SSOP?14* TSSOP?14*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "74HCT04_1_0"
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74HCT04_2_0"
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74HCT04_3_0"
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74HCT04_4_0"
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74HCT04_5_0"
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74HCT04_6_0"
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74HCT04_7_0"
+				(pin power_in line
+					(at 0 12.7 270)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -12.7 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74HCT04_7_1"
+				(rectangle
+					(start -5.08 7.62)
+					(end 5.08 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+		)
+		(symbol "Device:C_Polarized_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized_Small"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Polarized capacitor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Polarized_Small_0_1"
+				(rectangle
+					(start -1.524 -0.3048)
+					(end 1.524 -0.6858)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.524 0.6858)
+					(end 1.524 0.3048)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.524) (xy -0.762 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.27) (xy -1.016 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Polarized_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.8542)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.8542)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Interface_UART:MAX232"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -2.54 28.575 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "MAX232"
+				(at -2.54 26.67 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.27 -26.67 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/max232.pdf"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Dual RS232 driver/receiver, 5V supply, 120kb/s, 0C-70C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "rs232 uart transceiver line-driver"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*P1.27mm* DIP*W7.62mm* TSSOP*4.4x5mm*P0.65mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MAX232_0_0"
+				(text "LOGIC"
+					(at -11.43 -22.86 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "RS232"
+					(at 11.43 -22.86 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(symbol "MAX232_0_1"
+				(rectangle
+					(start -15.24 -25.4)
+					(end 15.24 25.4)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -2.54 -17.78)
+					(radius 0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.54 -12.7)
+					(radius 0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -7.62) (xy -8.255 -7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -2.54) (xy -8.255 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 -17.78) (xy -8.255 -17.78)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 -12.7) (xy -8.255 -12.7)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -7.62) (xy 6.35 -7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 6.35 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 -17.78) (xy 6.35 -17.78)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 -12.7) (xy 6.35 -12.7)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -5.715) (xy -3.81 -9.525) (xy 0 -7.62) (xy -3.81 -5.715)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -0.635) (xy -3.81 -4.445) (xy 0 -2.54) (xy -3.81 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 -15.875) (xy 1.905 -19.685) (xy -1.905 -17.78) (xy 1.905 -15.875)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 -10.795) (xy 1.905 -14.605) (xy -1.905 -12.7) (xy 1.905 -10.795)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0.635 -7.62)
+					(radius 0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0.635 -2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MAX232_1_1"
+				(pin passive line
+					(at -20.32 22.86 0)
+					(length 5.08)
+					(name "C1+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 -7.62 0)
+					(length 5.08)
+					(name "T2IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 -2.54 0)
+					(length 5.08)
+					(name "T1IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -20.32 -12.7 0)
+					(length 5.08)
+					(name "R1OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 -12.7 180)
+					(length 5.08)
+					(name "R1IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 -2.54 180)
+					(length 5.08)
+					(name "T1OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -30.48 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 30.48 270)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 20.32 10.16 180)
+					(length 5.08)
+					(name "VS+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -20.32 15.24 0)
+					(length 5.08)
+					(name "C1-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 22.86 180)
+					(length 5.08)
+					(name "C2+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 15.24 180)
+					(length 5.08)
+					(name "C2-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 20.32 2.54 180)
+					(length 5.08)
+					(name "VS-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 -7.62 180)
+					(length 5.08)
+					(name "T2OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 -17.78 180)
+					(length 5.08)
+					(name "R2IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -20.32 -17.78 0)
+					(length 5.08)
+					(name "R2OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Jumper:Jumper_2_Open"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jumper_2_Open"
+				(at 0 -2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Jumper, 2-pole, open"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Jumper_2_Open_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Open_0_1"
+				(arc
+					(start 1.524 1.27)
+					(mid 0 1.778)
+					(end -1.524 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Open_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Jumper:Jumper_3_Bridged12"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at -2.54 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jumper_3_Bridged12"
+				(at 0 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Jumper, 3-pole, pins 1+2 closed/bridged"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Jumper SPDT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*3Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Jumper_3_Bridged12_0_0"
+				(circle
+					(center -3.302 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.302 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_3_Bridged12_0_1"
+				(arc
+					(start -0.254 0.508)
+					(mid -1.651 0.9912)
+					(end -3.048 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_3_Bridged12_1_1"
+				(pin passive line
+					(at -6.35 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:+5V"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "rs232_port:RS232_DTE"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "RS232_DTE"
+				(at 2.794 -14.986 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" " ~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "9-pin male D-SUB connector"
+				(at 0 -17.018 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector female D-SUB"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "DSUB*Female*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RS232_DTE_0_0"
+				(text "DSR"
+					(at 15.875 7.62 0)
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+						(justify right)
+					)
+				)
+			)
+			(symbol "RS232_DTE_0_1"
+				(circle
+					(center -1.778 -10.16)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.778 -5.08)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.778 0)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.778 5.08)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.778 10.16)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -10.16) (xy -2.54 -10.16)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -7.62) (xy 0.508 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -5.08) (xy -2.54 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -2.54) (xy 0.508 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 2.54) (xy 0.508 2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 5.08) (xy -2.54 5.08)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 7.62) (xy 0.508 7.62)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 10.16) (xy -2.54 10.16)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 13.335) (xy -3.81 -13.335) (xy 3.81 -9.525) (xy 3.81 9.525) (xy -3.81 13.335)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center 1.27 -7.62)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 -2.54)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 2.54)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 7.62)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "RS232_DTE_1_1"
+				(polyline
+					(pts
+						(xy 10.16 -7.62) (xy 11.43 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.54) (xy 11.43 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 5.08) (xy 11.43 5.08)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 7.62) (xy 11.43 7.62)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 10.16) (xy 11.43 10.16)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.795 -5.08) (xy 9.525 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.795 0) (xy 9.525 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.795 2.54) (xy 9.525 2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 11.43 -10.16) (xy 9.525 -10.16)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 9.525 -7.62) (xy 10.16 -6.985) (xy 10.16 -8.255) (xy 9.525 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 9.525 -2.54) (xy 10.16 -1.905) (xy 10.16 -3.175) (xy 9.525 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 9.525 5.08) (xy 10.16 5.715) (xy 10.16 4.445) (xy 9.525 5.08)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 9.525 7.62) (xy 10.16 8.255) (xy 10.16 6.985) (xy 9.525 7.62)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 9.525 10.16) (xy 10.16 10.795) (xy 10.16 9.525) (xy 9.525 10.16)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 11.43 -5.08) (xy 10.795 -5.715) (xy 10.795 -4.445) (xy 11.43 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 11.43 0) (xy 10.795 -0.635) (xy 10.795 0.635) (xy 11.43 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 11.43 2.54) (xy 10.795 1.905) (xy 10.795 3.175) (xy 11.43 2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "(DCE)"
+					(at 15.875 12.7 0)
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+						(justify right)
+					)
+				)
+				(text "(DTE)"
+					(at 7.62 12.7 0)
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+						(justify right)
+					)
+				)
+				(text "CTS"
+					(at 7.62 -2.54 0)
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+						(justify right)
+					)
+				)
+				(text "CTS"
+					(at 15.875 2.54 0)
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+						(justify right)
+					)
+				)
+				(text "DCD"
+					(at 7.62 10.16 0)
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+						(justify right)
+					)
+				)
+				(text "DCD"
+					(at 15.875 10.16 0)
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+						(justify right)
+					)
+				)
+				(text "DSR"
+					(at 7.62 7.62 0)
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+						(justify right)
+					)
+				)
+				(text "DTR"
+					(at 7.62 -5.08 0)
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+						(justify right)
+					)
+				)
+				(text "DTR"
+					(at 15.875 -5.08 0)
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+						(justify right)
+					)
+				)
+				(text "GND"
+					(at 7.62 -10.16 0)
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+						(justify right)
+					)
+				)
+				(text "GND"
+					(at 15.875 -10.16 0)
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+						(justify right)
+					)
+				)
+				(text "MODEM"
+					(at 15.875 14.605 0)
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+						(justify right)
+					)
+				)
+				(text "PC"
+					(at 7.62 14.605 0)
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+						(justify right)
+					)
+				)
+				(text "RI"
+					(at 7.62 -7.62 0)
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+						(justify right)
+					)
+				)
+				(text "RI"
+					(at 15.875 -7.62 0)
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+						(justify right)
+					)
+				)
+				(text "RTS"
+					(at 7.62 2.54 0)
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+						(justify right)
+					)
+				)
+				(text "RTS"
+					(at 15.875 -2.54 0)
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+						(justify right)
+					)
+				)
+				(text "RxD"
+					(at 7.62 5.08 0)
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+						(justify right)
+					)
+				)
+				(text "RxD"
+					(at 15.875 0 0)
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+						(justify right)
+					)
+				)
+				(text "TxD"
+					(at 7.62 0 0)
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+						(justify right)
+					)
+				)
+				(text "TxD"
+					(at 15.875 5.08 0)
+					(effects
+						(font
+							(size 0.9906 0.9906)
+						)
+						(justify right)
+					)
+				)
+				(pin passive line
+					(at -3.81 -17.78 90)
+					(length 5.08)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -7.62 10.16 0)
+					(length 3.81)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -7.62 5.08 0)
+					(length 3.81)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -5.08 0)
+					(length 3.81)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -10.16 0)
+					(length 3.81)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -7.62 7.62 0)
+					(length 3.81)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 3.81)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -7.62 -2.54 0)
+					(length 3.81)
+					(name "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -7.62 -7.62 0)
+					(length 3.81)
+					(name "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 81.28 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3fedb745-361c-483d-aa35-5c93555cc33b")
+	)
+	(junction
+		(at 200.66 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f8ac0c66-5a9a-404d-8c98-46a3f247f81b")
+	)
+	(no_connect
+		(at 156.21 58.42)
+		(uuid "d011dd96-974d-435d-abb2-03519cce8c35")
+	)
+	(no_connect
+		(at 156.21 53.34)
+		(uuid "f2ff071d-be23-466a-b98d-55c30f25bda9")
+	)
+	(wire
+		(pts
+			(xy 97.79 63.5) (xy 156.21 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "025e8987-04de-4351-85a4-41788ec01519")
+	)
+	(wire
+		(pts
+			(xy 200.66 81.28) (xy 200.66 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "039f3fb9-c2ea-478d-b3e9-e426f97bf512")
+	)
+	(wire
+		(pts
+			(xy 215.9 125.73) (xy 212.09 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07554983-0db5-478e-83fc-2249628adbe3")
+	)
+	(wire
+		(pts
+			(xy 109.22 146.05) (xy 109.22 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a818285-4509-4777-b1ac-37eb79d15064")
+	)
+	(wire
+		(pts
+			(xy 63.5 63.5) (xy 63.5 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a8d1cab-01d2-4f3f-a883-3eefd2b92ebf")
+	)
+	(wire
+		(pts
+			(xy 113.03 135.89) (xy 113.03 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b005f74-e5f8-462f-8d30-4d949104c83e")
+	)
+	(wire
+		(pts
+			(xy 151.13 113.03) (xy 156.21 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bf3e770-112c-4379-bfaa-9e7e959d8db6")
+	)
+	(wire
+		(pts
+			(xy 200.66 105.41) (xy 200.66 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cfb3773-1b62-4c8c-b477-cadc5bf09f56")
+	)
+	(wire
+		(pts
+			(xy 151.13 27.94) (xy 156.21 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e8e7de3-4141-467f-b5a4-17593482d8ad")
+	)
+	(wire
+		(pts
+			(xy 234.95 58.42) (xy 234.95 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1232f2d8-4b24-4c1f-9109-8b7d5468f922")
+	)
+	(wire
+		(pts
+			(xy 151.13 111.76) (xy 151.13 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13bb3439-8377-42df-8cf8-232be6aff1ff")
+	)
+	(wire
+		(pts
+			(xy 151.13 125.73) (xy 151.13 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1710e365-0f6a-453e-85b0-25093c7854f3")
+	)
+	(wire
+		(pts
+			(xy 200.66 27.94) (xy 200.66 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "190b9930-dcd3-497a-bd45-c50065b52b8e")
+	)
+	(wire
+		(pts
+			(xy 120.65 140.97) (xy 156.21 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "193b95a2-3707-4100-a02c-d6348d1ebb23")
+	)
+	(wire
+		(pts
+			(xy 116.84 130.81) (xy 156.21 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c5b6493-edc5-4d36-93cc-cbc631e0654e")
+	)
+	(wire
+		(pts
+			(xy 231.14 151.13) (xy 234.95 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e4745d2-5d90-499b-bd06-ecd62a1dd6a8")
+	)
+	(wire
+		(pts
+			(xy 156.21 135.89) (xy 113.03 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "223eb670-7f23-48a4-9416-15a67acd3e15")
+	)
+	(wire
+		(pts
+			(xy 77.47 63.5) (xy 81.28 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27045f52-ef54-40a4-94dd-a17d2e884459")
+	)
+	(wire
+		(pts
+			(xy 212.09 146.05) (xy 212.09 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27b0099b-9428-49f6-b89d-5d8f7e462d4d")
+	)
+	(wire
+		(pts
+			(xy 212.09 58.42) (xy 212.09 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c676947-e957-4dcf-98df-a10a85805ace")
+	)
+	(wire
+		(pts
+			(xy 234.95 68.58) (xy 234.95 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d63b65e-47da-4ceb-9853-cfce1f15b67e")
+	)
+	(wire
+		(pts
+			(xy 59.69 105.41) (xy 91.44 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f382970-6cc0-48ca-a343-86b6efe0378c")
+	)
+	(wire
+		(pts
+			(xy 151.13 125.73) (xy 156.21 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "311783e1-7144-4a2d-9744-5f28c1a330c8")
+	)
+	(wire
+		(pts
+			(xy 196.85 140.97) (xy 238.76 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "321e274c-155d-40f5-94f1-a0c890153b1d")
+	)
+	(wire
+		(pts
+			(xy 140.97 118.11) (xy 156.21 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35a7fc7e-4b9e-46ef-8085-57be9dbd3bc4")
+	)
+	(wire
+		(pts
+			(xy 234.95 125.73) (xy 234.95 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d59ca3a-f4cc-4c4f-9593-347d6dc876c2")
+	)
+	(wire
+		(pts
+			(xy 212.09 151.13) (xy 215.9 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3df5c2dd-0af8-458c-838d-4f27f0b7d444")
+	)
+	(wire
+		(pts
+			(xy 62.23 125.73) (xy 62.23 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "432bd2c4-54c8-4eac-bad8-e723a7619a1e")
+	)
+	(wire
+		(pts
+			(xy 234.95 146.05) (xy 234.95 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43b7f9e1-ccfe-43d8-be66-3a8b59c60264")
+	)
+	(wire
+		(pts
+			(xy 59.69 125.73) (xy 62.23 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52b68ab1-5e96-4021-a65f-29a6c869837b")
+	)
+	(wire
+		(pts
+			(xy 231.14 58.42) (xy 234.95 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56607d4d-6884-434f-ae6d-bda595e456a4")
+	)
+	(wire
+		(pts
+			(xy 196.85 68.58) (xy 212.09 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5807cac2-add1-48d9-9621-4c4a31c82030")
+	)
+	(wire
+		(pts
+			(xy 67.31 63.5) (xy 63.5 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59a76e40-2e9d-4c56-b404-9bc639eaf916")
+	)
+	(wire
+		(pts
+			(xy 105.41 68.58) (xy 156.21 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f3d4e87-c915-4c2f-8ff4-7acbf9c10c5e")
+	)
+	(wire
+		(pts
+			(xy 85.09 63.5) (xy 81.28 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61da03f1-049f-4d04-b2f8-8b234c65711a")
+	)
+	(wire
+		(pts
+			(xy 234.95 146.05) (xy 238.76 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a4f0c1a-01f2-45d3-b4c9-4566244565b6")
+	)
+	(wire
+		(pts
+			(xy 59.69 113.03) (xy 116.84 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70df38f9-4e07-4ec4-ad32-f2d50702258c")
+	)
+	(wire
+		(pts
+			(xy 212.09 68.58) (xy 212.09 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7343191f-35db-4128-8df9-203fe2f0c300")
+	)
+	(wire
+		(pts
+			(xy 200.66 35.56) (xy 196.85 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a85f91e-d800-4b3a-89b4-ba2968c22be7")
+	)
+	(wire
+		(pts
+			(xy 200.66 27.94) (xy 196.85 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b7fa0b6-772e-4afd-82e3-d5759d52ebda")
+	)
+	(wire
+		(pts
+			(xy 59.69 118.11) (xy 109.22 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e434ee3-e98f-41cc-8d9d-972adf118e3c")
+	)
+	(wire
+		(pts
+			(xy 151.13 35.56) (xy 156.21 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e5fd75b-3f1a-4d98-acf2-5bcf5833ba29")
+	)
+	(wire
+		(pts
+			(xy 120.65 110.49) (xy 120.65 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "868aff96-e47d-4cf9-a6fa-4bc7d57f24ae")
+	)
+	(wire
+		(pts
+			(xy 59.69 120.65) (xy 81.28 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bb10c91-d0d9-4802-a8d1-6b8217784e5e")
+	)
+	(wire
+		(pts
+			(xy 212.09 73.66) (xy 215.9 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cd9b81e-fea5-4c84-86c1-04743abdac06")
+	)
+	(wire
+		(pts
+			(xy 200.66 111.76) (xy 200.66 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f0652ae-1cdb-4be1-b294-d4cde1005e9c")
+	)
+	(wire
+		(pts
+			(xy 231.14 73.66) (xy 234.95 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96077a3a-14df-4181-b965-662bcbdfedf3")
+	)
+	(wire
+		(pts
+			(xy 200.66 53.34) (xy 196.85 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "966899ed-5019-4d31-a68d-3ce89d120033")
+	)
+	(wire
+		(pts
+			(xy 140.97 111.76) (xy 140.97 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9868bb5a-d06f-4c3c-b668-8e4ea875e8a1")
+	)
+	(wire
+		(pts
+			(xy 151.13 48.26) (xy 151.13 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a2f47a1-45cc-4715-a3fa-3df897bd177c")
+	)
+	(wire
+		(pts
+			(xy 200.66 105.41) (xy 196.85 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b1e01f1-31c4-4e59-9ff5-cf5110fba5ed")
+	)
+	(wire
+		(pts
+			(xy 140.97 34.29) (xy 140.97 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4651009-92c8-40ec-b229-013bf3aa5a59")
+	)
+	(wire
+		(pts
+			(xy 234.95 68.58) (xy 238.76 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a544412b-0690-4beb-9437-ce3c54429c01")
+	)
+	(wire
+		(pts
+			(xy 151.13 105.41) (xy 151.13 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a55fd865-c7c9-43fc-9848-bb8c20de2a60")
+	)
+	(wire
+		(pts
+			(xy 105.41 68.58) (xy 105.41 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad971f68-06a6-4411-bee4-3f5168e8b341")
+	)
+	(wire
+		(pts
+			(xy 81.28 63.5) (xy 81.28 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af56e0c6-5d7c-410f-90c7-61b8f39ec618")
+	)
+	(wire
+		(pts
+			(xy 231.14 125.73) (xy 234.95 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afde986c-2c22-46b1-bcfb-58cc7d35fe89")
+	)
+	(wire
+		(pts
+			(xy 151.13 34.29) (xy 151.13 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6513ae2-a140-400c-8245-954f18ee7299")
+	)
+	(wire
+		(pts
+			(xy 200.66 113.03) (xy 196.85 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7d21851-594e-4a11-85e1-522ae471b8d1")
+	)
+	(wire
+		(pts
+			(xy 151.13 27.94) (xy 151.13 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8bdad04-9f51-4185-a355-b50d50923195")
+	)
+	(wire
+		(pts
+			(xy 91.44 67.31) (xy 91.44 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc20d319-a65a-4242-9b10-a6b6aeea4987")
+	)
+	(wire
+		(pts
+			(xy 196.85 146.05) (xy 212.09 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcb64a78-6a9a-494e-9e32-5faf4ce8e1b4")
+	)
+	(wire
+		(pts
+			(xy 59.69 110.49) (xy 120.65 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c03f96b0-f5dd-4465-be36-ae62ddccfc33")
+	)
+	(wire
+		(pts
+			(xy 196.85 130.81) (xy 212.09 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2e930fc-7d02-4a42-b86e-31185d7dc4c2")
+	)
+	(wire
+		(pts
+			(xy 196.85 135.89) (xy 238.76 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c353f066-c0c4-4f05-a2c2-0a46cd473433")
+	)
+	(wire
+		(pts
+			(xy 215.9 58.42) (xy 212.09 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cafbec6a-168e-42fc-9d90-41ad38ef7d3b")
+	)
+	(wire
+		(pts
+			(xy 234.95 130.81) (xy 238.76 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbb8e6b4-41ad-4ba7-bd3f-e09a01e2a02d")
+	)
+	(wire
+		(pts
+			(xy 196.85 63.5) (xy 212.09 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d07b5ccf-f1fb-43fd-bc5c-99823d17d5cf")
+	)
+	(wire
+		(pts
+			(xy 200.66 58.42) (xy 196.85 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d08566fb-a649-46aa-bb14-6a8a6f6576a1")
+	)
+	(wire
+		(pts
+			(xy 156.21 146.05) (xy 109.22 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d423bc05-823c-4412-b75a-7dfd9be993b1")
+	)
+	(wire
+		(pts
+			(xy 151.13 48.26) (xy 156.21 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd920ea9-6b22-480f-ab84-b47e016bafe9")
+	)
+	(wire
+		(pts
+			(xy 59.69 107.95) (xy 63.5 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e275e995-c879-4f05-be0a-4bf5f7004ade")
+	)
+	(wire
+		(pts
+			(xy 212.09 125.73) (xy 212.09 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2e6bc78-700d-455c-bcd7-1f90a8abe217")
+	)
+	(wire
+		(pts
+			(xy 200.66 58.42) (xy 200.66 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5e89106-640a-49c5-baec-eceaa29e283b")
+	)
+	(wire
+		(pts
+			(xy 140.97 40.64) (xy 156.21 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8d42be4-99e1-437b-b4ca-c1a0f373b7ba")
+	)
+	(wire
+		(pts
+			(xy 234.95 63.5) (xy 238.76 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0c44a03-b555-4783-acfa-f01d7584ce85")
+	)
+	(wire
+		(pts
+			(xy 59.69 123.19) (xy 105.41 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1eee777-98d9-4f79-9df1-e70dabebd070")
+	)
+	(wire
+		(pts
+			(xy 200.66 34.29) (xy 200.66 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f384baa6-b129-4864-8729-74575db23404")
+	)
+	(wire
+		(pts
+			(xy 59.69 115.57) (xy 113.03 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3c2cd77-1da8-4d15-80bb-3480ab7b7370")
+	)
+	(wire
+		(pts
+			(xy 116.84 113.03) (xy 116.84 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7a4f43e-fe48-4073-8e80-5b742f3b775e")
+	)
+	(wire
+		(pts
+			(xy 151.13 105.41) (xy 156.21 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "faf35eac-ce80-489c-870a-63088ce615d6")
+	)
+	(text "C1-C4 must be electrolytic 1uF when using\nolder or cheaper MAX232 variants, these\ncan be replaced with standard 100nF\nwhen used along with MAX232A variant."
+		(exclude_from_sim no)
+		(at 209.55 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9bb0c6b3-14e8-4106-a1b0-8a1bb3e95868")
+	)
+	(text "C5-C8 must be electrolytic 1uF when using\nolder or cheaper MAX232 variants, these\ncan be replaced with standard 100nF\nwhen used along with MAX232A variant."
+		(exclude_from_sim no)
+		(at 209.55 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c28e0e7a-af8b-46b2-9a01-eea83ceafcde")
+	)
+	(text "JP3/JP4 can be used to fake some of the signals,\nin particular we probably need to fake DSR. As\nfor DCD you can either have it coming from U2,\nor we can fake it as well (possibly leaving U2\nuninstalled)."
+		(exclude_from_sim no)
+		(at 63.5 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c83a7d00-bb22-48cd-b72b-96a4db77ea6b")
+	)
+	(label "DTE.RxD"
+		(at 147.32 140.97 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2f33fe14-0779-47d5-9ec1-e4bbac3bac6b")
+	)
+	(label "DTE.RI"
+		(at 147.32 68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3d45ba75-73dc-4c87-84ed-e64d6a491dbb")
+	)
+	(label "DTE.RTS"
+		(at 147.32 130.81 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5c875fa0-ee69-4f76-87ef-5bc146625b4d")
+	)
+	(label "DTE.CTS"
+		(at 147.32 146.05 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5e2bd2f4-a74b-413c-aabb-6ab14081a983")
+	)
+	(label "DTE.TxD"
+		(at 147.32 135.89 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "966bde58-f600-427b-b388-3a7ab24bc6d7")
+	)
+	(label "DTE.DCD"
+		(at 147.32 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cd344deb-17b8-4966-9ab8-d68bfa333336")
+	)
+	(global_label "C64.RI"
+		(shape output)
+		(at 238.76 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a20a6c46-d56d-4194-bac6-00c5346b24e9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 247.2596 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C64.DCD"
+		(shape output)
+		(at 238.76 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a599ae48-4a8f-48aa-9239-1644e83322bd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 249.1948 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C64.TXD"
+		(shape input)
+		(at 238.76 135.89 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b408a7dd-172c-49d3-9be5-25a44ae1eac2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 248.8319 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C64.RXD"
+		(shape output)
+		(at 238.76 140.97 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e48755ee-df65-443d-b88d-cdd52e51aa4f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 249.1343 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C64.RTS"
+		(shape input)
+		(at 238.76 130.81 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e698245d-4692-4e14-b7b5-617dd987b232")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 248.8319 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C64.CTS"
+		(shape output)
+		(at 238.76 146.05 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e8a138fc-ae77-40df-8875-a3687a468fa1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 248.8319 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 176.53 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "06e541aa-83c1-4454-8a6a-3d4d0c873c05")
+		(property "Reference" "#PWR07"
+			(at 176.53 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 176.53 94.234 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 176.53 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a53bc458-00e4-4690-b9e1-607ccd3b59da")
+		)
+		(instances
+			(project "BulkyModem RS-232 Adapter"
+				(path "/64998014-ce0c-479a-b7fa-62fb0232fe84/357753b2-1cb0-41cf-b196-8077f05f807e"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_Small")
+		(at 151.13 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "07e75dba-e2eb-42ed-bfe6-914202718a38")
+		(property "Reference" "C2"
+			(at 153.3652 108.0516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 153.3652 110.363 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BulkyModem:CP_Radial_D4.0mm_P2.00mm_Custom"
+			(at 151.13 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.13 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor, small symbol"
+			(at 151.13 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "87546f63-8e1c-4cfb-a00e-4847d02f6bfb")
+		)
+		(pin "2"
+			(uuid "9dad0ae6-55b7-458a-94a1-36f339a64e77")
+		)
+		(instances
+			(project "BulkyModem RS-232 Adapter"
+				(path "/64998014-ce0c-479a-b7fa-62fb0232fe84/357753b2-1cb0-41cf-b196-8077f05f807e"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 151.13 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "096e7050-993e-4d1c-b8dc-6c675f7b80a8")
+		(property "Reference" "#PWR06"
+			(at 151.13 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 151.257 163.1442 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 151.13 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f5822a76-903f-4745-896c-77857dfab90c")
+		)
+		(instances
+			(project "BulkyModem RS-232 Adapter"
+				(path "/64998014-ce0c-479a-b7fa-62fb0232fe84/357753b2-1cb0-41cf-b196-8077f05f807e"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 62.23 127 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0a3a17fa-9020-4b7b-9e3d-ca3e2c0a5f70")
+		(property "Reference" "#PWR04"
+			(at 62.23 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 62.103 131.3942 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 62.23 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "36c09729-5689-4dbd-b6f7-d6c7c17367bb")
+		)
+		(instances
+			(project "BulkyModem RS-232 Adapter"
+				(path "/64998014-ce0c-479a-b7fa-62fb0232fe84/357753b2-1cb0-41cf-b196-8077f05f807e"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74HCT04")
+		(at 223.52 73.66 0)
+		(mirror x)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "26f955b2-3b4d-46ab-a0f8-bcf9fd4d9146")
+		(property "Reference" "U3"
+			(at 223.52 81.7118 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74HCT04"
+			(at 223.52 79.4004 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+			(at 223.52 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf"
+			(at 223.52 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hex Inverter"
+			(at 223.52 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "11"
+			(uuid "b919a48e-5062-4c4f-afd8-d60b6c7ef0d0")
+		)
+		(pin "12"
+			(uuid "3c750132-c00f-4094-858f-56299d807664")
+		)
+		(pin "4"
+			(uuid "ba9f02e0-ad0d-417c-8735-57ad460ea53f")
+		)
+		(pin "13"
+			(uuid "ca233658-e39e-48e4-a66c-aac3a8e715fa")
+		)
+		(pin "14"
+			(uuid "88546ff0-c8d1-4083-872a-1f5364538092")
+		)
+		(pin "7"
+			(uuid "c179805b-eb79-4d41-b987-507811c94bef")
+		)
+		(pin "9"
+			(uuid "b112a905-8ec9-4086-ac3f-c5abe3302de8")
+		)
+		(pin "10"
+			(uuid "d2498720-7cc4-44e9-a11c-fd9c6c4c11dc")
+		)
+		(pin "1"
+			(uuid "b4f1336b-df66-4087-a018-ed59b754fdb9")
+		)
+		(pin "3"
+			(uuid "009c0122-f10e-4da3-b7de-4aa143357a8d")
+		)
+		(pin "2"
+			(uuid "dddc5bc7-96a3-4a08-af3e-b7c24bfde99b")
+		)
+		(pin "5"
+			(uuid "2bcf3c71-171e-44eb-a4ec-4488803fad20")
+		)
+		(pin "8"
+			(uuid "876f7805-e8d4-4356-b6a9-c8c6d9f11ee7")
+		)
+		(pin "6"
+			(uuid "159d977d-70f9-4917-9065-43cf7dc63db4")
+		)
+		(instances
+			(project "BulkyModem RS-232 Adapter"
+				(path "/64998014-ce0c-479a-b7fa-62fb0232fe84/357753b2-1cb0-41cf-b196-8077f05f807e"
+					(reference "U3")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74HCT04")
+		(at 223.52 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2b409da3-0e76-4b22-b813-e0150e3daef1")
+		(property "Reference" "U3"
+			(at 223.52 50.3682 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74HCT04"
+			(at 223.52 52.6796 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+			(at 223.52 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf"
+			(at 223.52 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hex Inverter"
+			(at 223.52 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "5253af45-9c81-4946-a3f8-ab5a24329c84")
+		)
+		(pin "2"
+			(uuid "8f9597ac-458c-438a-af8c-7e7b32eccb6c")
+		)
+		(pin "1"
+			(uuid "b8f96316-d315-4467-ba73-9fc51cbd9059")
+		)
+		(pin "8"
+			(uuid "7d2ba609-9404-4c96-94c1-c14ae0f5d977")
+		)
+		(pin "6"
+			(uuid "815e5a9f-19c2-4c43-8a7f-819489a3cbf7")
+		)
+		(pin "9"
+			(uuid "10c6a03b-62f8-44cc-a944-445818c0bd38")
+		)
+		(pin "7"
+			(uuid "a47bc638-6258-4087-8947-71fd52459b46")
+		)
+		(pin "4"
+			(uuid "9e37c73d-b12e-4f78-b17a-d264d4cf2bf8")
+		)
+		(pin "11"
+			(uuid "3369fbd9-6a0d-4fbc-ab6a-0caac1f50621")
+		)
+		(pin "13"
+			(uuid "906a5fe1-b9c8-4e91-ab58-ede0a7a72031")
+		)
+		(pin "14"
+			(uuid "fcef7bf3-91ea-41ea-88da-0cca360fcd71")
+		)
+		(pin "5"
+			(uuid "0a8c2c17-6494-4201-a5ce-1e058a94aa6c")
+		)
+		(pin "12"
+			(uuid "01e7d4e5-e587-4a41-b9ec-8b29fcdd24ba")
+		)
+		(pin "10"
+			(uuid "7b14ccd1-3159-4dbb-8112-97e34ae5baee")
+		)
+		(instances
+			(project "BulkyModem RS-232 Adapter"
+				(path "/64998014-ce0c-479a-b7fa-62fb0232fe84/357753b2-1cb0-41cf-b196-8077f05f807e"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 176.53 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "45d018fc-75e9-4fcf-a569-01af52fc0941")
+		(property "Reference" "#PWR013"
+			(at 176.53 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 176.657 85.6742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 176.53 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c6af1eef-7ac8-40ef-91a0-235758568b4d")
+		)
+		(instances
+			(project "BulkyModem RS-232 Adapter"
+				(path "/64998014-ce0c-479a-b7fa-62fb0232fe84/357753b2-1cb0-41cf-b196-8077f05f807e"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 176.53 20.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5ced4a8f-8599-4753-85a7-4d1f6e40836a")
+		(property "Reference" "#PWR012"
+			(at 176.53 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 176.53 16.764 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 176.53 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8f900734-dc04-4618-bfa4-b7e8bad61a01")
+		)
+		(instances
+			(project "BulkyModem RS-232 Adapter"
+				(path "/64998014-ce0c-479a-b7fa-62fb0232fe84/357753b2-1cb0-41cf-b196-8077f05f807e"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74HCT04")
+		(at 223.52 151.13 0)
+		(mirror x)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5efc8eb9-35f1-465a-abc7-e65515fb3693")
+		(property "Reference" "U3"
+			(at 223.52 159.1818 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74HCT04"
+			(at 223.52 156.8704 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+			(at 223.52 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf"
+			(at 223.52 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hex Inverter"
+			(at 223.52 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "14"
+			(uuid "f5b35a05-bde2-4fc1-95fd-6a3c92e95122")
+		)
+		(pin "8"
+			(uuid "be2461e3-2279-4c76-bfe5-20bf86c9cdcc")
+		)
+		(pin "6"
+			(uuid "92edb708-c34e-4116-be76-9d209021135d")
+		)
+		(pin "5"
+			(uuid "1244f7ed-7636-4c84-aef1-53dca5619d8f")
+		)
+		(pin "4"
+			(uuid "410d2ac2-ac9e-42dd-be49-7f9c433cf037")
+		)
+		(pin "13"
+			(uuid "c40938c4-0092-47fc-9e78-749c555564f8")
+		)
+		(pin "1"
+			(uuid "1834e09c-aff6-4ab5-b2c8-d4dac1888a60")
+		)
+		(pin "2"
+			(uuid "81049719-2bc8-4f85-b899-08155b0c4a78")
+		)
+		(pin "9"
+			(uuid "2c1d06c5-21c2-4681-bfad-28445fb8407c")
+		)
+		(pin "10"
+			(uuid "ed0c10c4-98b4-4b98-8cb4-2f3501336c74")
+		)
+		(pin "11"
+			(uuid "89110b02-1619-4141-b435-b1ea4db8da84")
+		)
+		(pin "12"
+			(uuid "615adeda-d662-42cd-81f0-a4122a7ee1c6")
+		)
+		(pin "3"
+			(uuid "52d2a282-c502-4862-b556-67b9a417f441")
+		)
+		(pin "7"
+			(uuid "d7863585-25fa-4e0a-97b2-39921000e0be")
+		)
+		(instances
+			(project "BulkyModem RS-232 Adapter"
+				(path "/64998014-ce0c-479a-b7fa-62fb0232fe84/357753b2-1cb0-41cf-b196-8077f05f807e"
+					(reference "U3")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_Small")
+		(at 151.13 78.74 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "617cde38-7b89-4d64-9f6e-01935d7c97b8")
+		(property "Reference" "C7"
+			(at 153.3652 77.5716 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1uF"
+			(at 153.3652 79.883 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "BulkyModem:CP_Radial_D4.0mm_P2.00mm_Custom"
+			(at 151.13 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.13 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor, small symbol"
+			(at 151.13 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3069cf61-911c-4de9-817b-4dd33eaa4cdf")
+		)
+		(pin "2"
+			(uuid "1ec445b4-35a2-4e5f-98be-80dce7e7e78a")
+		)
+		(instances
+			(project "BulkyModem RS-232 Adapter"
+				(path "/64998014-ce0c-479a-b7fa-62fb0232fe84/357753b2-1cb0-41cf-b196-8077f05f807e"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 200.66 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "67bb2fc4-1cbb-49bf-b520-cc4ee9403394")
+		(property "Reference" "#PWR014"
+			(at 200.66 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 200.787 85.6742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 200.66 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "debafc61-0f76-40a3-adac-4aae7ecb9b65")
+		)
+		(instances
+			(project "BulkyModem RS-232 Adapter"
+				(path "/64998014-ce0c-479a-b7fa-62fb0232fe84/357753b2-1cb0-41cf-b196-8077f05f807e"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_Small")
+		(at 200.66 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "743f850e-ad67-4234-896d-2f55f5254b63")
+		(property "Reference" "C4"
+			(at 202.8952 108.0516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 202.8952 110.363 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BulkyModem:CP_Radial_D4.0mm_P2.00mm_Custom"
+			(at 200.66 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 200.66 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor, small symbol"
+			(at 200.66 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9d0753a9-ece5-47f2-9754-be45306b60b7")
+		)
+		(pin "2"
+			(uuid "ec3c96cf-82aa-4848-b5d2-933eaa5ba7db")
+		)
+		(instances
+			(project "BulkyModem RS-232 Adapter"
+				(path "/64998014-ce0c-479a-b7fa-62fb0232fe84/357753b2-1cb0-41cf-b196-8077f05f807e"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 55.88 133.35 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7ef681fb-a427-4bf2-b32e-74915fc6dead")
+		(property "Reference" "#PWR03"
+			(at 55.88 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 55.753 137.7442 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 55.88 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bb795bc0-6552-434f-8073-51334ed53796")
+		)
+		(instances
+			(project "BulkyModem RS-232 Adapter"
+				(path "/64998014-ce0c-479a-b7fa-62fb0232fe84/357753b2-1cb0-41cf-b196-8077f05f807e"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_3_Bridged12")
+		(at 91.44 63.5 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "80a6bc02-99e0-4b4d-ac36-adc0d9f49ee9")
+		(property "Reference" "JP3"
+			(at 91.44 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FAKE_DCD"
+			(at 91.44 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 91.44 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 3-pole, pins 1+2 closed/bridged"
+			(at 91.44 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "8443c1a9-407d-488e-9e40-c62b7cde303d")
+		)
+		(pin "1"
+			(uuid "927634ce-bef9-45ed-9dc5-f9ccd735e8b7")
+		)
+		(pin "2"
+			(uuid "88fdb3f1-2846-4556-a3f7-ef30633f2f45")
+		)
+		(instances
+			(project ""
+				(path "/64998014-ce0c-479a-b7fa-62fb0232fe84/357753b2-1cb0-41cf-b196-8077f05f807e"
+					(reference "JP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74HCT04")
+		(at 223.52 125.73 180)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8ca4c932-cd60-433d-bdd6-76d12dfede5e")
+		(property "Reference" "U3"
+			(at 223.52 133.7818 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74HCT04"
+			(at 223.52 131.4704 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+			(at 223.52 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf"
+			(at 223.52 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hex Inverter"
+			(at 223.52 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "0d061ef3-4a7e-4f6b-9a66-bac227990a8b")
+		)
+		(pin "14"
+			(uuid "fb4bffe2-dcef-4479-9eb2-bfc116f4c3cc")
+		)
+		(pin "3"
+			(uuid "c5d4822f-9e43-4163-a10b-36c24a6df539")
+		)
+		(pin "2"
+			(uuid "a31bb0ab-751c-443d-a606-345178a37065")
+		)
+		(pin "11"
+			(uuid "eb35c21e-4caf-4ea4-964f-5520b94ae21b")
+		)
+		(pin "6"
+			(uuid "f6fc3f68-0d01-4f5b-933d-efee233e60b2")
+		)
+		(pin "8"
+			(uuid "806e96d2-6f0b-4ecf-b0f7-f18abf770705")
+		)
+		(pin "10"
+			(uuid "79e0f8bf-754c-4723-b583-1191b9ebb156")
+		)
+		(pin "12"
+			(uuid "dd07003c-e300-4a64-aab0-98f4b827d0db")
+		)
+		(pin "13"
+			(uuid "3a63ccb6-ef0e-49cb-b673-db9292f06026")
+		)
+		(pin "1"
+			(uuid "4ca28c78-0f7f-444e-a0b7-3c818c90e810")
+		)
+		(pin "4"
+			(uuid "0083f167-22b9-4308-9d24-c73528fae0b6")
+		)
+		(pin "5"
+			(uuid "28b6f0f2-a1dd-449d-920a-d1c6b7fff153")
+		)
+		(pin "9"
+			(uuid "c1fc9dae-e82c-4078-b137-4d6dfae5b203")
+		)
+		(instances
+			(project "BulkyModem RS-232 Adapter"
+				(path "/64998014-ce0c-479a-b7fa-62fb0232fe84/357753b2-1cb0-41cf-b196-8077f05f807e"
+					(reference "U3")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_Small")
+		(at 151.13 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8d618721-aea2-4aeb-9ace-c268e31137a0")
+		(property "Reference" "C6"
+			(at 153.3652 30.5816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 153.3652 32.893 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BulkyModem:CP_Radial_D4.0mm_P2.00mm_Custom"
+			(at 151.13 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.13 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor, small symbol"
+			(at 151.13 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c81537cf-06e1-4693-a07f-805f5cf7bc41")
+		)
+		(pin "2"
+			(uuid "74c46414-15a1-4fab-9a4d-ea077e6a357c")
+		)
+		(instances
+			(project "BulkyModem RS-232 Adapter"
+				(path "/64998014-ce0c-479a-b7fa-62fb0232fe84/357753b2-1cb0-41cf-b196-8077f05f807e"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 140.97 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a5ffd37e-40f1-444c-b255-02a92503b18a")
+		(property "Reference" "#PWR05"
+			(at 140.97 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 140.97 103.124 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 140.97 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5445e2ee-8eaf-489c-8c57-a240884160d0")
+		)
+		(instances
+			(project "BulkyModem RS-232 Adapter"
+				(path "/64998014-ce0c-479a-b7fa-62fb0232fe84/357753b2-1cb0-41cf-b196-8077f05f807e"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Interface_UART:MAX232")
+		(at 176.53 50.8 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b68e2a02-b040-49b6-b204-2802fef639ff")
+		(property "Reference" "U2"
+			(at 176.53 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MAX232"
+			(at 176.53 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_Socket_LongPads"
+			(at 175.26 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/max232.pdf"
+			(at 176.53 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual RS232 driver/receiver, 5V supply, 120kb/s, 0C-70C"
+			(at 176.53 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "ff691a17-58d3-4e8e-8834-c033ba3e081d")
+		)
+		(pin "4"
+			(uuid "871ccf6e-e240-4657-af7d-46abd08a7e6d")
+		)
+		(pin "3"
+			(uuid "0ad4c701-161f-45d4-bb40-3165faf32c30")
+		)
+		(pin "1"
+			(uuid "6e79d9ab-f287-4f32-b3f6-6b15feee4d71")
+		)
+		(pin "2"
+			(uuid "3132963d-89f9-4db5-9dbf-04ad7b88820a")
+		)
+		(pin "7"
+			(uuid "57e21ec2-936e-4e1d-8e78-e0cd2a9eb92c")
+		)
+		(pin "6"
+			(uuid "c4195e52-3b52-42f2-aa1f-c8d736d31ca8")
+		)
+		(pin "16"
+			(uuid "079e64bd-308a-4a76-9d39-89d05854b2f7")
+		)
+		(pin "5"
+			(uuid "d08cdb7b-0b89-45c9-b875-ba4502be5266")
+		)
+		(pin "10"
+			(uuid "f38bed74-a493-4a77-b8a8-a523a6281aef")
+		)
+		(pin "9"
+			(uuid "4766f1b1-40be-488b-a36d-2ebcfa9faa2a")
+		)
+		(pin "11"
+			(uuid "5c95c188-4633-4a19-a0aa-b7767ab29939")
+		)
+		(pin "12"
+			(uuid "7bfd77c8-4a69-4a3b-8a42-8ce02e96cfcd")
+		)
+		(pin "13"
+			(uuid "ee57ba78-dc4b-42f8-8fef-657621bd1bd6")
+		)
+		(pin "14"
+			(uuid "b8383359-ad4e-4077-a5b7-ca7694a49bd1")
+		)
+		(pin "15"
+			(uuid "9226aa67-06e8-48d3-9f98-99ea51886a95")
+		)
+		(instances
+			(project "BulkyModem RS-232 Adapter"
+				(path "/64998014-ce0c-479a-b7fa-62fb0232fe84/357753b2-1cb0-41cf-b196-8077f05f807e"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_Small")
+		(at 151.13 156.21 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bc855606-0801-4f8b-a675-cbf64bcea481")
+		(property "Reference" "C3"
+			(at 153.3652 155.0416 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1uF"
+			(at 153.3652 157.353 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "BulkyModem:CP_Radial_D4.0mm_P2.00mm_Custom"
+			(at 151.13 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.13 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor, small symbol"
+			(at 151.13 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f3a9d381-1031-4da4-b3fb-46c7eacf07ec")
+		)
+		(pin "2"
+			(uuid "3bab068f-e426-47f1-839f-b8974569ec47")
+		)
+		(instances
+			(project "BulkyModem RS-232 Adapter"
+				(path "/64998014-ce0c-479a-b7fa-62fb0232fe84/357753b2-1cb0-41cf-b196-8077f05f807e"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "rs232_port:RS232_DTE")
+		(at 52.07 115.57 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c0b049c9-42b7-4e8b-b585-94e63c4db28b")
+		(property "Reference" "J2"
+			(at 52.3748 97.9932 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RS-232"
+			(at 52.3748 100.3046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "RND_DSUB:DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm"
+			(at 52.07 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" " ~"
+			(at 52.07 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "9-pin male D-SUB connector"
+			(at 52.07 132.588 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "ed941275-fb84-47e2-b75a-714224c933ab")
+		)
+		(pin "7"
+			(uuid "46b4c2fe-2642-4afe-9a34-8ad27f5d8bc2")
+		)
+		(pin "5"
+			(uuid "8d8d5e62-79ac-44e4-a7d5-5dd4f4307c06")
+		)
+		(pin "8"
+			(uuid "856ab6e7-2322-4285-96aa-6738a22d024b")
+		)
+		(pin "3"
+			(uuid "7e59ca05-4b91-456a-ba46-60701c71b640")
+		)
+		(pin "6"
+			(uuid "7e404b08-9377-4109-9231-ad70aaa1b150")
+		)
+		(pin "9"
+			(uuid "d25a8bf5-69ad-48b2-abba-11fd6d8d2d93")
+		)
+		(pin "1"
+			(uuid "6c0d056d-361b-4909-b07b-7e8e05953120")
+		)
+		(pin "2"
+			(uuid "77d969cf-2b4d-4edb-bd10-ee8fb83a4a05")
+		)
+		(pin "0"
+			(uuid "b498b163-f4be-4c6e-b5f1-83b1c9d55d64")
+		)
+		(instances
+			(project "BulkyModem RS-232 Adapter"
+				(path "/64998014-ce0c-479a-b7fa-62fb0232fe84/357753b2-1cb0-41cf-b196-8077f05f807e"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Open")
+		(at 72.39 63.5 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c5ccf809-e100-4678-9a3f-b2132da23216")
+		(property "Reference" "JP4"
+			(at 72.39 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DTR_DSR"
+			(at 72.39 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 72.39 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 72.39 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, open"
+			(at 72.39 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9a297544-fc68-434f-a3ac-d7c6d6ba329e")
+		)
+		(pin "1"
+			(uuid "c9bef11c-574e-4223-85d5-3d83622cf2d6")
+		)
+		(instances
+			(project ""
+				(path "/64998014-ce0c-479a-b7fa-62fb0232fe84/357753b2-1cb0-41cf-b196-8077f05f807e"
+					(reference "JP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 140.97 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cb03a2e1-4373-4d05-bae7-2ba0796b192f")
+		(property "Reference" "#PWR010"
+			(at 140.97 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 140.97 25.654 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 140.97 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9d28842b-1570-48d8-8a12-df8edebc0202")
+		)
+		(instances
+			(project "BulkyModem RS-232 Adapter"
+				(path "/64998014-ce0c-479a-b7fa-62fb0232fe84/357753b2-1cb0-41cf-b196-8077f05f807e"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_Small")
+		(at 200.66 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cf139abd-d604-4301-9b33-08f127b518c6")
+		(property "Reference" "C8"
+			(at 202.8952 30.5816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 202.8952 32.893 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BulkyModem:CP_Radial_D4.0mm_P2.00mm_Custom"
+			(at 200.66 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 200.66 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor, small symbol"
+			(at 200.66 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "00748c75-233a-4016-92b5-ee5d1ba71dc2")
+		)
+		(pin "2"
+			(uuid "b7781f0f-8422-4726-8280-f76a9bd6a54b")
+		)
+		(instances
+			(project "BulkyModem RS-232 Adapter"
+				(path "/64998014-ce0c-479a-b7fa-62fb0232fe84/357753b2-1cb0-41cf-b196-8077f05f807e"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 176.53 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d229cab2-3d16-4320-8fb6-0ad289c9754f")
+		(property "Reference" "#PWR09"
+			(at 176.53 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 176.657 163.1442 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 176.53 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9aca28c1-e697-4597-b6ff-bd11ebaef5e7")
+		)
+		(instances
+			(project "BulkyModem RS-232 Adapter"
+				(path "/64998014-ce0c-479a-b7fa-62fb0232fe84/357753b2-1cb0-41cf-b196-8077f05f807e"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Interface_UART:MAX232")
+		(at 176.53 128.27 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "df1a2c40-83ec-4493-8349-23237125b338")
+		(property "Reference" "U1"
+			(at 176.53 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MAX232"
+			(at 176.53 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_Socket_LongPads"
+			(at 175.26 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/max232.pdf"
+			(at 176.53 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual RS232 driver/receiver, 5V supply, 120kb/s, 0C-70C"
+			(at 176.53 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "643ebffc-4b96-4e92-840d-7395ce7a90df")
+		)
+		(pin "4"
+			(uuid "ae66d6c1-946c-44fd-acd1-01e0445eadc7")
+		)
+		(pin "3"
+			(uuid "03d8874d-a5eb-4161-8410-a1c1ab707e27")
+		)
+		(pin "1"
+			(uuid "bbf14bf5-d2e1-4c0e-bc50-21c8d8d63a67")
+		)
+		(pin "2"
+			(uuid "abba7b43-406e-416c-af20-2e69d905fe57")
+		)
+		(pin "7"
+			(uuid "71619d66-80ce-4b14-b1b0-827e874dcdac")
+		)
+		(pin "6"
+			(uuid "3806cdc2-0c3d-441e-9979-6e136a0dfc00")
+		)
+		(pin "16"
+			(uuid "65b69691-d54d-4fa3-8ba8-d3137dee0e92")
+		)
+		(pin "5"
+			(uuid "8d993ea9-b679-4037-98f8-8ef2827c2e55")
+		)
+		(pin "10"
+			(uuid "09fd2759-422f-4a5b-b56a-ff388b88a003")
+		)
+		(pin "9"
+			(uuid "05bf1a92-9187-438d-960a-0c3d4b06baf3")
+		)
+		(pin "11"
+			(uuid "d0d858c3-b813-4ca2-80a4-55d871b5d1f2")
+		)
+		(pin "12"
+			(uuid "10a7170e-239c-43fd-aa5e-59f3ffc7cc04")
+		)
+		(pin "13"
+			(uuid "ac5c7855-3746-4dd6-abe7-e916b6842b95")
+		)
+		(pin "14"
+			(uuid "be81c086-6369-4616-8a7b-a6b460b1909d")
+		)
+		(pin "15"
+			(uuid "93b74f3a-4abf-453d-85dd-0295ffb75bc4")
+		)
+		(instances
+			(project "BulkyModem RS-232 Adapter"
+				(path "/64998014-ce0c-479a-b7fa-62fb0232fe84/357753b2-1cb0-41cf-b196-8077f05f807e"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 151.13 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e529846c-151e-408e-b78c-c93c89c4d1b4")
+		(property "Reference" "#PWR011"
+			(at 151.13 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 151.257 85.6742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 151.13 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1b3b6de1-97da-41ce-b52c-d0b012e7caaa")
+		)
+		(instances
+			(project "BulkyModem RS-232 Adapter"
+				(path "/64998014-ce0c-479a-b7fa-62fb0232fe84/357753b2-1cb0-41cf-b196-8077f05f807e"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_Small")
+		(at 140.97 109.22 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e81fe446-7662-4b9d-97a3-369641681923")
+		(property "Reference" "C1"
+			(at 143.2052 108.0516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1uF"
+			(at 143.2052 110.363 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "BulkyModem:CP_Radial_D4.0mm_P2.00mm_Custom"
+			(at 140.97 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor, small symbol"
+			(at 140.97 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "abcc79a9-153f-4483-9167-ed327f3f4c72")
+		)
+		(pin "1"
+			(uuid "4966afd6-db28-4927-be5c-315a1b4008d6")
+		)
+		(instances
+			(project "BulkyModem RS-232 Adapter"
+				(path "/64998014-ce0c-479a-b7fa-62fb0232fe84/357753b2-1cb0-41cf-b196-8077f05f807e"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_Small")
+		(at 140.97 31.75 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f3fc536a-c133-43f9-9dfb-0a3c0ef10001")
+		(property "Reference" "C5"
+			(at 143.2052 30.5816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1uF"
+			(at 143.2052 32.893 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "BulkyModem:CP_Radial_D4.0mm_P2.00mm_Custom"
+			(at 140.97 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor, small symbol"
+			(at 140.97 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4ff12dde-c31a-404b-a5e8-d8bb4dbf58e8")
+		)
+		(pin "1"
+			(uuid "66e02755-3e58-4e8a-b46b-c81ec19a8d3c")
+		)
+		(instances
+			(project "BulkyModem RS-232 Adapter"
+				(path "/64998014-ce0c-479a-b7fa-62fb0232fe84/357753b2-1cb0-41cf-b196-8077f05f807e"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
