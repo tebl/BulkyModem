@@ -1,0 +1,13 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "mounting")(type "KiCad")(uri "$KIPRJMOD/../common/modules/mounting.pretty")(options "")(descr ""))
+  (lib (name "artwork")(type "KiCad")(uri "$KIPRJMOD/../common/modules/artwork.pretty")(options "")(descr ""))
+  (lib (name "BulkyModem")(type "KiCad")(uri "$KIPRJMOD/../common/modules/BulkyModem.pretty")(options "")(descr ""))
+  (lib (name "RND_DSUB")(type "KiCad")(uri "$KIPRJMOD/../common/modules/RND_DSUB.pretty")(options "")(descr ""))
+  (lib (name "HK19F-DC")(type "KiCad")(uri "$KIPRJMOD/../common/modules/HK19F-DC.pretty")(options "")(descr ""))
+  (lib (name "resistor")(type "KiCad")(uri "$KIPRJMOD/../common/modules/resistor.pretty")(options "")(descr ""))
+  (lib (name "nodemcu_v3")(type "KiCad")(uri "$KIPRJMOD/../common/modules/nodemcu_v3.pretty")(options "")(descr ""))
+  (lib (name "switch_cutout")(type "KiCad")(uri "$KIPRJMOD/../common/modules/switch_cutout.pretty")(options "")(descr ""))
+  (lib (name "solder_bridge")(type "KiCad")(uri "$KIPRJMOD/../common/modules/solder_bridge.pretty")(options "")(descr ""))
+  (lib (name "esp32_dev_board")(type "KiCad")(uri "D:/ownCloud/Documents/Projects/BulkyModem/common/modules/esp32_dev_board.pretty")(options "")(descr ""))
+)
