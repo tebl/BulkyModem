@@ -5156,7 +5156,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1n4148"
+		(property "Value" "1N4148"
 			(at 166.37 93.98 90)
 			(effects
 				(font
@@ -5174,7 +5174,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
 			(at 175.26 93.98 0)
 			(effects
 				(font
