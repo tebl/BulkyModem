@@ -62,11 +62,11 @@ ATB9600
 
 At this point the modem switches speeds, but our terminal software doesn't know this - and neither does it understand the *OK* message that it received in return. This might be displayed as garbage on the screen, or nothing at all - that's a limitation of serial as it was back then, and as it is now. To update the terminal, hit ALT+X to get back to *kermit*s command-line and these commands to change speeds and return to talking to the modem:
 
-'''
+```
 set speed 9600
 
 connect
-'''
+```
 
 At this point, both ends should be communicating as 9600 baud. Both the modem and computer should be able to talk at even faster rates than that, but it's a place to start.
 
