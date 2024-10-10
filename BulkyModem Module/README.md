@@ -1,4 +1,4 @@
-# BulkyModem
+# BulkyModem Module
 This it it! This is the project that defined this repository! Confusingly having the same name, in a repository that to this date includes several other devices that do the same thing subtly different ways. As all of them, it's a modem for vintage computers. And if you want more details about what this is really about, check out the [root of this repository](https://github.com/tebl/BulkyModem) before continuing.
 
 ![BulkyModem](https://raw.githubusercontent.com/tebl/BulkyModem/refs/heads/main/gallery/build/module/041.jpg)
