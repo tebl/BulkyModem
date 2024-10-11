@@ -51,7 +51,7 @@ Next step is to add a couple of 1N4148 small signal diodes, making sure that the
 
 ![Build 005](https://raw.githubusercontent.com/tebl/BulkyModem/refs/heads/main/gallery/build/module/005.jpg)
 
-Sockets should be installed for the ICs needed for the completed unit. While you could possibly manage without them, they're cheap and you could probably afford to be quite as *cheap*.  To install I usually solder opposing corners into place, then reheat and push flush against the board before soldering the remaining pins. Note the indent that would indicate *pin 1*, the silkscreen on your PCB should have something similar on that you need to match it up to.
+Sockets should be installed for the ICs needed for the completed unit. While you could possibly manage without them, they're cheap and you could probably afford to not be quite as *cheap*.  To install I usually solder opposing corners into place, then reheat and push flush against the board before soldering the remaining pins. Note the indent that would indicate *pin 1*, the silkscreen on your PCB should have something similar on that you need to match it up to.
 
 ![Build 006](https://raw.githubusercontent.com/tebl/BulkyModem/refs/heads/main/gallery/build/module/006.jpg)
 
@@ -157,6 +157,7 @@ Most parts should be easy to get a hold of from your favourite local electronic 
 | D11			                   | 1N5819 Schottky diode (DO-41)                                           |     1 |
 | J1                               | 2.1mm x 5.5mm barrel plug                                               |     1 |
 | J2                               | Right-angle female DB9 connector (PCB mount)                            |     1 |
+| J5                               | 2x8 pin, 2.54mm IDC male box header connector                           |     1 |
 | JP1,JP7 *3                       | 1x2 straight pin header, with jumper cap                                |    (2)|
 | K1                               | HK19F-DC 5V-relay                                                       |     1 |
 | R1-R4,R8,R10-R12,R14-R16,R25 *4  | 2k2 (2200) ohm resistor                                                 |    11 |
