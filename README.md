@@ -35,8 +35,8 @@ For the technical details as well as information regarding the devices included 
 | [BulkyModem Terminal](#15-bulkymodem-terminal) | An instant-on video terminal based on [VersaTerm](https://github.com/dhansel/VersaTerm)
 
 ## 1.1> BulkyModem
-![BulkyModem](https://raw.githubusercontent.com/tebl/BulkyModem/main/gallery/20240629_234654.jpg)
-**Status:** Documentation missing
+![BulkyModem](https://raw.githubusercontent.com/tebl/BulkyModem/refs/heads/main/gallery/build/module/041.jpg)
+**Status:** Completed
 
 This is the main module of the project, if you came here looking to build an ESP8266-based retro modem then you've come to the right place. You have the option of going the cheaper route of just building things up on the basic module by itself, consisting only of the main module and nothing else. Alternatively, and this is probably the only reason to build a *BulkyModem* - and that's to build the whole thing as shown above. Note that the list below will include alternate versions of boards, so you need to decide which of them you'll need based on their description.
 
@@ -54,7 +54,7 @@ This is the main module of the project, if you came here looking to build an ESP
 
 ## 1.3> BulkyModem-32
 ![BulkyModem](https://raw.githubusercontent.com/tebl/BulkyModem/main/gallery/20240629_234654.jpg)
-**Status:** Documentation missing
+**Status:** Working, documentation missing
 
 The *BulkyModem-32* is a variant of the modem based on the ESP32, offering some additional features when compared to the [BulkyModem](#11-bulkymodem) that was based on the older and more limited ESP8266. More specifically you'll have access to several additional commands and protocols when using this variant, it also includes an SD-card slot so that you can transfer files between the computer and the modem.
 
@@ -85,7 +85,7 @@ Working on the ESP-32 version of the BulkyModem, that's the one called BulkyMode
 
 ## 1.5> BulkyModem Terminal
 ![BulkyModem](https://raw.githubusercontent.com/tebl/BulkyModem/main/gallery/20240808_032922.jpg)
-**Status:** Documentation missing
+**Status:** Working, documentation missing
 
 Building a modem comes with its own set of rewards, and in terms of *RS-232* these are what we will define as being *Data Communications Equipment (DCE)*. The other end, normally what we would think of as a computer, is instead labelled as *Data Terminal Equipment (DTE)*. With *RS-232* we have different wires serving different purposes, so one would have different names on each of these two ends - quite possibly being the reason why this kind of information naturally slides off my brain like water off a duck's back. So naturally I wanted to climb that mountain anyway.
 
