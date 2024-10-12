@@ -286,7 +286,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "BulkyModem Module Panel.net",
-      "plot": "",
+      "plot": "export/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
