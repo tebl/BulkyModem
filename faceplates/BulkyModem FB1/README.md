@@ -10,3 +10,4 @@ This is a faceplate, an inherently optional part of any build as it does not act
 
 It currently looks like this:
 ![Preview](https://raw.githubusercontent.com/tebl/BulkyModem/main/gallery/BulkyModem%20FB1.png)
+![Preview](https://raw.githubusercontent.com/tebl/BulkyModem/main/gallery/BulkyModem%20FB1_B.png)
