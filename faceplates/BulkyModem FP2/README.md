@@ -6,4 +6,4 @@ This is a faceplate, an inherently optional part of any build as it does not act
 It currently looks like this:
 ![Preview](https://raw.githubusercontent.com/tebl/BulkyModem/main/gallery/BulkyModem%20FP2.png)
 
-[^1]: This means that it extends below the main PCB when installed, any faceplates installed on the **bottom** of device will be covered up by it. [Faceplate FP1](https://github.com/tebl/BulkyModem/tree/main/faceplates/BulkyModem%20FP2) is the shorter version of it.
+[^1]: This means that it extends below the main PCB when installed, any faceplates installed on the **bottom** of device will be covered up by it. [Faceplate FP1](https://github.com/tebl/BulkyModem/tree/main/faceplates/BulkyModem%20FP1) is the shorter version of it.
