@@ -147,7 +147,7 @@ Most parts should be easy to get a hold of from your favourite local electronic 
 
 | Reference                        | Item                                                                    | Count | Order  |
 | -------------------------------- | ----------------------------------------------------------------------- | ----- | ------ |
-| Faceplate PCB                    | Fabricate using Gerber files                                            |     1 | PCBWay
+| Faceplate PCB                    | Fabricate using Gerber files                                            |     1 | [PCBWay](https://www.pcbway.com/project/shareproject/BulkyModem_e6d2ed59.html)
 | A1                               | ESP8266 development board                                               |     1 |
 | C1                               | 470uF electrolytic capacitor (3.5mm pin spacing)                        |     1 |
 | C2-C5,C12-C15 *1                 | 100nF capacitor (5mm pin spacing, or 1uF electrolytic (2mm pin spacing) |     8 |

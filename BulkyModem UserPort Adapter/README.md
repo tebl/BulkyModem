@@ -1,5 +1,5 @@
 # BulkyModem C64/128 UserPort Adapter
-This is an adapter for connecting up the *BulkyModem*, alternatively the functionally similar *BulkyModem-32*, up to everyone's favourite 8-bit system that's not the NES. Commodore 64! The answer is Commodore 64! Got that? Yes, it's also compatible with the Commodore 128 if that's what you were thinking about. It currently looks like this:
+This is an adapter for connecting up the *BulkyModem*, alternatively the functionally similar *BulkyModem-32*, up to everyone's favorite 8-bit system that's not the NES. Commodore 64! The answer is Commodore 64! Got that? Yes, it's also compatible with the Commodore 128 if that's what you were thinking about. It currently looks like this:
 
 ![BulkyModem Adapter](https://raw.githubusercontent.com/tebl/BulkyModem/main/gallery/build/adapter/012.jpg)
 
@@ -85,11 +85,11 @@ The supplied KiCad files should be sufficient as both a schematic and as a  star
 
 
 # 3> BOM
-Most parts should be easy to get a hold of from your favourite local electronic component shop, but given that I don't have access to such shops where I live so everything was based on whatever I could get cheapest from eBay/AliExpress (free shipping, but plan on waiting 3-4 weeks for delivery).
+Most parts should be easy to get a hold of from your favorite local electronic component shop, but given that I don't have access to such shops where I live so everything was based on whatever I could get cheapest from eBay/AliExpress (free shipping, but plan on waiting 3-4 weeks for delivery).
 
 | Reference             | Item                                                                    | Count | Order  |
 | --------------------- | ----------------------------------------------------------------------- | ----- | ------ |
-| Panel PCB             | Fabricate using Gerber files                                            |     1 | PCBWay
+| Panel PCB             | Fabricate using Gerber files                                            |     1 | [PCBWay](https://www.pcbway.com/project/shareproject/BulkyModem_Commodore_64_128_UserPort_Adapter_a84c7ef6.html)
 | C1                    | 100nF capacitor (5mm pin spacing, or 1uF electrolytic (2mm pin spacing) |     1 |
 | C2                    | Not needed.                                                             |     0 |
 | D1,D4                 | 1N4731A Zener diode (DO-41)                                             |     2 |

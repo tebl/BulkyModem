@@ -67,7 +67,7 @@ Most parts should be easy to get a hold of from your favourite local electronic 
 
 | Reference             | Item                                                              | Count | Order  |
 | --------------------- | ----------------------------------------------------------------- | ----- | ------ |
-| Panel PCB             | Fabricate using Gerber files                                      |     1 | PCBWay
+| Panel PCB             | Fabricate using Gerber files                                      |     1 | [PCBWay](https://www.pcbway.com/project/shareproject/BulkyModem_Panel_a5862704.html)
 | D1,D2,D10-D15,D17 *1  | 5mm LEDs                                                          |     9 |
 | J1                    | Breakable right-angle pin header                                  |     1 |
 | SW1,SW2               | 6pin 8.5mm x 8.5mm latching switch (including keycap)             |     2 |
